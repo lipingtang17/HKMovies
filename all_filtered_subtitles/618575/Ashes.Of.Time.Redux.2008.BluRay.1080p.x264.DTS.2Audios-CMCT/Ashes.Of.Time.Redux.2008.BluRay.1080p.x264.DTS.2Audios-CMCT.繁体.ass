@@ -1,0 +1,804 @@
+﻿[Script Info]
+;SrtEdit 6.2.2012.322
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: YYeTs
+Original Script: YYeTs
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 1
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,STKaiti,20,&H00E0E0E0,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,1,1,8,1
+Style: 注释,SimHei,14,&H00E0E0E0,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,1,1,8,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.99,0:00:05.00,Default,,0,0,1,,{\fn华文楷体\fs16\1c&H3CF1F3&\b0}--==本影片由 {\1c&HFF8000&\b1}CMCT 团队{\fn华文楷体\1c&H3CF1F3&\b0} 荣誉出品==--\N更多精彩影视 访问 {\fnCronos Pro Subhead\1c&HFF00FF&\b1}http://www.cmct.tv{\r}
+Dialogue: 0,0:00:05.00,0:00:08.00,Default,,0,0,8,,{\blur3\fn华文楷体\fs18}影片压制：风潇潇　字幕调校：风潇潇　招募Q号：76846146{\r}
+Dialogue: 0,0:01:41.31,0:01:45.73,Default,NTP,0,0,0,,{\blur3}今年因為五黃臨太歲 周圍都有旱災{\r}
+Dialogue: 0,0:01:45.81,0:01:47.98,Default,NTP,0,0,0,,{\blur3}有旱災的地方就有麻煩{\r}
+Dialogue: 0,0:01:48.07,0:01:50.86,Default,NTP,0,0,0,,{\blur3}有麻煩 我就有生意{\r}
+Dialogue: 0,0:01:50.94,0:01:53.20,Default,NTP,0,0,0,,{\blur3}我是西域白駝山人士{\r}
+Dialogue: 0,0:01:53.28,0:01:55.28,Default,NTP,0,0,0,,{\blur3}我名叫歐陽峰{\r}
+Dialogue: 0,0:01:55.36,0:01:57.87,Default,NTP,0,0,0,,{\blur3}我的職業 就是幫人解決麻煩{\r}
+Dialogue: 0,0:01:59.08,0:02:02.16,Default,NTP,0,0,0,,{\blur3}看來你的年紀應該四十出頭{\r}
+Dialogue: 0,0:02:04.42,0:02:06.46,Default,NTP,0,0,0,,{\blur3}這四十幾年來{\r}
+Dialogue: 0,0:02:06.54,0:02:11.00,Default,NTP,0,0,0,,{\blur3}你應該有些事是不想再提 或是有些人你不想再見{\r}
+Dialogue: 0,0:02:11.76,0:02:13.59,Default,NTP,0,0,0,,{\blur3}有的人曾經對不住你{\r}
+Dialogue: 0,0:02:14.47,0:02:18.68,Default,NTP,0,0,0,,{\blur3}或者你想過 想殺了他們{\r}
+Dialogue: 0,0:02:22.02,0:02:24.27,Default,NTP,0,0,0,,{\blur3}不過你不敢{\r}
+Dialogue: 0,0:02:26.85,0:02:29.27,Default,NTP,0,0,0,,{\blur3}又或者你覺得不值得{\r}
+Dialogue: 0,0:02:32.44,0:02:36.45,Default,NTP,0,0,0,,{\blur3}其實殺人 好容易的{\r}
+Dialogue: 0,0:02:38.12,0:02:41.62,Default,NTP,0,0,0,,{\blur3}我有個朋友 他的武功非常好{\r}
+Dialogue: 0,0:02:41.74,0:02:44.62,Default,NTP,0,0,0,,{\blur3}不過最近生活有點問題{\r}
+Dialogue: 0,0:02:44.71,0:02:50.42,Default,NTP,0,0,0,,{\blur3}只要你隨便給他一點銀兩 他一定可以幫你殺了那個人{\r}
+Dialogue: 0,0:02:53.46,0:02:55.30,Default,NTP,0,0,0,,{\blur3}你儘管考慮一下{\r}
+Dialogue: 0,0:02:55.84,0:02:58.18,Default,NTP,0,0,0,,{\blur3}其實殺一個不是很容易{\r}
+Dialogue: 0,0:02:59.14,0:03:01.14,Default,NTP,0,0,0,,{\blur3}不過為了生活{\r}
+Dialogue: 0,0:03:01.26,0:03:03.64,Default,NTP,0,0,0,,{\blur3}好多人都會冒這個險{\r}
+Dialogue: 0,0:03:03.77,0:03:05.64,Default,NTP,0,0,0,,{\blur3}離開了白駝山之後{\r}
+Dialogue: 0,0:03:05.77,0:03:07.44,Default,NTP,0,0,0,,{\blur3}我去了一個沙漠{\r}
+Dialogue: 0,0:03:07.52,0:03:09.35,Default,NTP,0,0,0,,{\blur3}開始另外一種生活{\r}
+Dialogue: 0,0:03:18.86,0:03:21.58,Default,NTP,0,0,0,,{\blur3}初六日 驚蟄{\r}
+Dialogue: 0,0:03:21.66,0:03:25.45,Default,NTP,0,0,0,,{\blur3}每年這個時候 都會有一個人來找我喝酒{\r}
+Dialogue: 0,0:03:25.54,0:03:27.79,Default,NTP,0,0,0,,{\blur3}他的名叫黃藥師{\r}
+Dialogue: 0,0:03:27.87,0:03:29.87,Default,NTP,0,0,0,,{\blur3}這個人好古怪{\r}
+Dialogue: 0,0:03:29.96,0:03:32.34,Default,NTP,0,0,0,,{\blur3}每次都是由東邊來{\r}
+Dialogue: 0,0:03:32.42,0:03:35.76,Default,NTP,0,0,0,,{\blur3}這個習慣已經維持了好多年{\r}
+Dialogue: 0,0:03:35.84,0:03:38.59,Default,NTP,0,0,0,,{\blur3}今年 他帶了一份手信給我{\r}
+Dialogue: 0,0:03:43.51,0:03:45.68,Default,NTP,0,0,0,,{\blur3}不久之前 我遇到一個人{\r}
+Dialogue: 0,0:03:47.85,0:03:50.27,Default,NTP,0,0,0,,{\blur3}她送一罈酒給我{\r}
+Dialogue: 0,0:03:52.52,0:03:56.07,Default,NTP,0,0,0,,{\blur3}她說叫"醉生夢死"{\r}
+Dialogue: 0,0:03:57.19,0:04:01.78,Default,NTP,0,0,0,,{\blur3}人喝了之後 無論以前做過的什麼都可以忘記{\r}
+Dialogue: 0,0:04:03.74,0:04:05.62,Default,NTP,0,0,0,,{\blur3}我好奇怪{\r}
+Dialogue: 0,0:04:06.50,0:04:08.75,Default,NTP,0,0,0,,{\blur3}為什麼有壇這樣的酒{\r}
+Dialogue: 0,0:04:10.75,0:04:15.50,Default,NTP,0,0,0,,{\blur3}她說 人最大的煩惱{\r}
+Dialogue: 0,0:04:16.71,0:04:19.13,Default,NTP,0,0,0,,{\blur3}就是記性太好{\r}
+Dialogue: 0,0:04:19.51,0:04:21.64,Default,NTP,0,0,0,,{\blur3}如果可以所有的事都忘記{\r}
+Dialogue: 0,0:04:21.72,0:04:25.39,Default,NTP,0,0,0,,{\blur3}以後的每一日都有個新的開始{\r}
+Dialogue: 0,0:04:25.47,0:04:27.47,Default,NTP,0,0,0,,{\blur3}那你說這有多開心{\r}
+Dialogue: 0,0:04:31.35,0:04:34.73,Default,NTP,0,0,0,,{\blur3}這罈酒本來打算帶來送給你的{\r}
+Dialogue: 0,0:04:36.69,0:04:39.19,Default,NTP,0,0,0,,{\blur3}看上來{\r}
+Dialogue: 0,0:04:40.86,0:04:42.53,Default,NTP,0,0,0,,{\blur3}我們要分來喝{\r}
+Dialogue: 0,0:04:45.87,0:04:49.25,Default,NTP,0,0,0,,{\blur3}對於太古怪的東西 我向來很難接受{\r}
+Dialogue: 0,0:04:51.42,0:04:54.42,Default,NTP,0,0,0,,{\blur3}所以這一壇"醉生夢死" 我始終都沒喝到{\r}
+Dialogue: 0,0:04:57.92,0:04:59.84,Default,NTP,0,0,0,,{\blur3}或者真是有效{\r}
+Dialogue: 0,0:05:01.76,0:05:05.01,Default,NTP,0,0,0,,{\blur3}那晚黃藥師 開始不記得好多事情{\r}
+Dialogue: 0,0:05:10.31,0:05:12.85,Default,NTP,0,0,0,,{\blur3}你還記不記得我們是怎樣認識的{\r}
+Dialogue: 0,0:05:14.11,0:05:18.61,Default,NTP,0,0,0,,{\blur3}我 不是好記得{\r}
+Dialogue: 0,0:05:20.61,0:05:22.99,Default,NTP,0,0,0,,{\blur3}那你還記不記得你是怎樣來這裏的{\r}
+Dialogue: 0,0:05:23.07,0:05:25.57,Default,NTP,0,0,0,,{\blur3}我都不是好記得{\r}
+Dialogue: 0,0:05:27.24,0:05:29.95,Default,NTP,0,0,0,,{\blur3}為什麼你老望著那鳥籠{\r}
+Dialogue: 0,0:05:30.75,0:05:35.17,Default,NTP,0,0,0,,{\blur3}因為 很眼熟{\r}
+Dialogue: 0,0:06:37.52,0:06:39.86,Default,NTP,0,0,0,,{\blur3}可能他喝得太醉{\r}
+Dialogue: 0,0:06:39.98,0:06:42.11,Default,NTP,0,0,0,,{\blur3}第二天清早就走了{\r}
+Dialogue: 0,0:06:42.19,0:06:44.78,Default,NTP,0,0,0,,{\blur3}我不知他有什麼煩惱{\r}
+Dialogue: 0,0:06:44.86,0:06:47.86,Default,NTP,0,0,0,,{\blur3}可能同一個女人有關係{\r}
+Dialogue: 0,0:06:52.87,0:06:57.21,Default,NTP,0,0,0,,{\blur3}一個月之後 黃藥師去了一個好遠的地方{\r}
+Dialogue: 0,0:06:58.46,0:07:00.79,Default,NTP,0,0,0,,{\blur3}那裏是他一個好朋友的故鄉{\r}
+Dialogue: 0,0:07:03.34,0:07:05.22,Default,NTP,0,0,0,,{\blur3}他的朋友結婚那年{\r}
+Dialogue: 0,0:07:05.34,0:07:07.72,Default,NTP,0,0,0,,{\blur3}黃藥師曾經在那兒住過一段時間{\r}
+Dialogue: 0,0:07:08.72,0:07:11.81,Default,NTP,0,0,0,,{\blur3}沒多久 他朋友離開了家裏{\r}
+Dialogue: 0,0:07:13.85,0:07:18.23,Default,NTP,0,0,0,,{\blur3}那次以後 黃藥師也都沒再回過那個地方{\r}
+Dialogue: 0,0:09:28.61,0:09:30.69,Default,NTP,0,0,0,,{\blur3}不介意請你喝杯酒吧{\r}
+Dialogue: 0,0:09:30.78,0:09:33.20,Default,NTP,0,0,0,,{\blur3}我今晚只是想喝水{\r}
+Dialogue: 0,0:09:54.72,0:09:57.05,Default,NTP,0,0,0,,{\blur3}我們以前有沒見過{\r}
+Dialogue: 0,0:09:59.81,0:10:01.77,Default,NTP,0,0,0,,{\blur3}不止見過{\r}
+Dialogue: 0,0:10:02.89,0:10:05.44,Default,NTP,0,0,0,,{\blur3}你曾經是我最好的朋友{\r}
+Dialogue: 0,0:10:06.77,0:10:08.48,Default,NTP,0,0,0,,{\blur3}不過現在已經不是了{\r}
+Dialogue: 0,0:10:14.57,0:10:16.24,Default,NTP,0,0,0,,{\blur3}你來這兒做什麼{\r}
+Dialogue: 0,0:10:18.45,0:10:20.62,Default,NTP,0,0,0,,{\blur3}之前我碰到一個人{\r}
+Dialogue: 0,0:10:22.16,0:10:24.58,Default,NTP,0,0,0,,{\blur3}她送一罈酒給我{\r}
+Dialogue: 0,0:10:25.08,0:10:29.29,Default,NTP,0,0,0,,{\blur3}她說喝了之後 無論以前做過什麼都會不記得{\r}
+Dialogue: 0,0:10:31.30,0:10:32.76,Default,NTP,0,0,0,,{\blur3}我試過{\r}
+Dialogue: 0,0:10:33.67,0:10:35.17,Default,NTP,0,0,0,,{\blur3}很有效{\r}
+Dialogue: 0,0:10:36.09,0:10:38.09,Default,NTP,0,0,0,,{\blur3}不知你有沒有興趣試哈{\r}
+Dialogue: 0,0:10:41.14,0:10:44.56,Default,NTP,0,0,0,,{\blur3}知不知喝酒跟喝水的分別{\r}
+Dialogue: 0,0:10:46.35,0:10:48.52,Default,NTP,0,0,0,,{\blur3}酒會越喝越暖{\r}
+Dialogue: 0,0:10:50.69,0:10:52.82,Default,NTP,0,0,0,,{\blur3}水會越喝越寒{\r}
+Dialogue: 0,0:11:03.04,0:11:05.41,Default,NTP,0,0,0,,{\blur3}還會不會在這裏見到你{\r}
+Dialogue: 0,0:11:05.91,0:11:07.00,Default,NTP,0,0,0,,{\blur3}不會{\r}
+Dialogue: 0,0:11:09.79,0:11:14.05,Default,NTP,0,0,0,,{\blur3}我曾經發過誓 如果再讓我見到這個人{\r}
+Dialogue: 0,0:11:14.05,0:11:15.55,Default,NTP,0,0,0,,{\blur3}我一定會殺了他{\r}
+Dialogue: 0,0:11:16.55,0:11:18.76,Default,NTP,0,0,0,,{\blur3}但是我沒這樣做{\r}
+Dialogue: 0,0:11:19.72,0:11:23.10,Default,NTP,0,0,0,,{\blur3}因為我見他的時候 眼睛已經看不見東西{\r}
+Dialogue: 0,0:11:23.39,0:11:25.60,Default,NTP,0,0,0,,{\blur3}你到底是男還是女{\r}
+Dialogue: 0,0:11:31.27,0:11:34.07,Default,NTP,0,0,0,,{\blur3}堂堂大燕國的公主{\r}
+Dialogue: 0,0:11:34.15,0:11:36.24,Default,NTP,0,0,0,,{\blur3}慕容家的小姐{\r}
+Dialogue: 0,0:11:37.40,0:11:39.95,Default,NTP,0,0,0,,{\blur3}你竟敢如此冒犯我{\r}
+Dialogue: 0,0:11:40.99,0:11:43.53,Default,NTP,0,0,0,,{\blur3}信不信我殺了你{\r}
+Dialogue: 0,0:11:50.96,0:11:52.50,Default,NTP,0,0,0,,{\blur3}你喝醉了{\r}
+Dialogue: 0,0:12:42.30,0:12:46.47,Default,NTP,0,0,0,,{\blur3}年青時候的黃藥師 是一個放蕩不羈的人{\r}
+Dialogue: 0,0:12:47.27,0:12:51.39,Default,NTP,0,0,0,,{\blur3}他很容易讓人家喜歡他 也很容易傷害到人{\r}
+Dialogue: 0,0:12:53.11,0:12:57.19,Default,NTP,0,0,0,,{\blur3}那晚 黃藥師差點死在一個人的手上邊{\r}
+Dialogue: 0,0:13:10.71,0:13:14.17,Default,NTP,0,0,0,,{\blur3}每年總有幾個月 人們好像不願死似的{\r}
+Dialogue: 0,0:13:14.25,0:13:17.46,Default,NTP,0,0,0,,{\blur3}去年立春之後 我一直沒開過張{\r}
+Dialogue: 0,0:13:17.55,0:13:20.26,Default,NTP,0,0,0,,{\blur3}整個月 只有一個人來找我{\r}
+Dialogue: 0,0:13:21.55,0:13:24.26,Default,NTP,0,0,0,,{\blur3}我想要你幫我殺一個人{\r}
+Dialogue: 0,0:13:24.34,0:13:27.10,Default,NTP,0,0,0,,{\blur3}他的名字叫黃藥師{\r}
+Dialogue: 0,0:13:28.02,0:13:30.35,Default,NTP,0,0,0,,{\blur3}他是當今數一數二的劍客{\r}
+Dialogue: 0,0:13:30.43,0:13:32.94,Default,NTP,0,0,0,,{\blur3}我怕不是很容易殺死他{\r}
+Dialogue: 0,0:13:33.02,0:13:36.40,Default,NTP,0,0,0,,{\blur3}只要可以殺了他 我不惜任何代價{\r}
+Dialogue: 0,0:13:37.44,0:13:39.28,Default,NTP,0,0,0,,{\blur3}不過我有個條件{\r}
+Dialogue: 0,0:13:39.36,0:13:41.53,Default,NTP,0,0,0,,{\blur3}他一定要死在我手上{\r}
+Dialogue: 0,0:13:41.61,0:13:44.41,Default,NTP,0,0,0,,{\blur3}而且是最痛苦的死法{\r}
+Dialogue: 0,0:13:44.49,0:13:46.82,Default,NTP,0,0,0,,{\blur3}為什麼你跟他這麼大仇怨{\r}
+Dialogue: 0,0:13:53.17,0:13:55.33,Default,NTP,0,0,0,,{\blur3}因為一個女人{\r}
+Dialogue: 0,0:13:56.08,0:13:57.88,Default,NTP,0,0,0,,{\blur3}他拋棄了我的妹妹{\r}
+Dialogue: 0,0:14:00.42,0:14:05.18,Default,NTP,0,0,0,,{\blur3}他的名叫名叫做慕容燕 他自稱是慕容公子的後人{\r}
+Dialogue: 0,0:14:05.26,0:14:09.31,Default,NTP,0,0,0,,{\blur3}她同黃藥師在姑蘇城外的桃花林一見如故{\r}
+Dialogue: 0,0:14:09.39,0:14:11.97,Default,NTP,0,0,0,,{\blur3}那天是 初四 立春{\r}
+Dialogue: 0,0:14:12.06,0:14:13.68,Default,NTP,0,0,0,,{\blur3}黃歷上面寫著{\r}
+Dialogue: 0,0:14:13.77,0:14:15.44,Default,NTP,0,0,0,,{\blur3}"東風解凍"{\r}
+Dialogue: 0,0:14:15.52,0:14:17.73,Default,NTP,0,0,0,,{\blur3}就是說 是一個新的開始{\r}
+Dialogue: 0,0:14:18.52,0:14:22.40,Default,NTP,0,0,0,,{\blur3}有一晚 黃藥師跟他開了一個玩笑{\r}
+Dialogue: 0,0:15:04.19,0:15:06.15,Default,NTP,0,0,0,,{\blur3}如果你有個妹妹{\r}
+Dialogue: 0,0:15:06.86,0:15:08.86,Default,NTP,0,0,0,,{\blur3}我一定會娶她為妻{\r}
+Dialogue: 0,0:15:21.88,0:15:23.71,Default,NTP,0,0,0,,{\blur3}好{\r}
+Dialogue: 0,0:15:23.80,0:15:26.13,Default,NTP,0,0,0,,{\blur3}那我們就一言為定{\r}
+Dialogue: 0,0:15:26.55,0:15:29.30,Default,NTP,0,0,0,,{\blur3}你千萬別後悔{\r}
+Dialogue: 0,0:15:29.39,0:15:31.80,Default,NTP,0,0,0,,{\blur3}如果你後悔的話{\r}
+Dialogue: 0,0:15:32.81,0:15:34.47,Default,NTP,0,0,0,,{\blur3}我一定會殺了你{\r}
+Dialogue: 0,0:15:37.06,0:15:41.06,Default,NTP,0,0,0,,{\blur3}之後 他們定了個日子 約在一個地方見面{\r}
+Dialogue: 0,0:15:42.40,0:15:44.73,Default,NTP,0,0,0,,{\blur3}結果黃藥師沒去{\r}
+Dialogue: 0,0:16:44.75,0:16:47.09,Default,NTP,0,0,0,,{\blur3}我哥哥是不是來找過你{\r}
+Dialogue: 0,0:16:47.59,0:16:49.34,Default,NTP,0,0,0,,{\blur3}你哥哥是哪位{\r}
+Dialogue: 0,0:16:50.80,0:16:53.47,Default,NTP,0,0,0,,{\blur3}他的名字叫慕容燕{\r}
+Dialogue: 0,0:16:53.97,0:16:55.85,Default,NTP,0,0,0,,{\blur3}他好像來過{\r}
+Dialogue: 0,0:16:56.60,0:16:58.77,Default,NTP,0,0,0,,{\blur3}他是不是要你幫他殺一個人{\r}
+Dialogue: 0,0:16:59.27,0:17:00.85,Default,NTP,0,0,0,,{\blur3}不記得了{\r}
+Dialogue: 0,0:17:01.14,0:17:03.65,Default,NTP,0,0,0,,{\blur3}如果你真敢殺了他{\r}
+Dialogue: 0,0:17:04.65,0:17:07.36,Default,NTP,0,0,0,,{\blur3}我一定會要你死{\r}
+Dialogue: 0,0:17:09.65,0:17:11.86,Default,NTP,0,0,0,,{\blur3}你哥哥出手闊綽{\r}
+Dialogue: 0,0:17:12.78,0:17:15.66,Default,NTP,0,0,0,,{\blur3}不答應他 是不小的損失{\r}
+Dialogue: 0,0:17:17.66,0:17:20.70,Default,NTP,0,0,0,,{\blur3}這個年頭 這麼捨得花錢殺人的人 不是很多哦{\r}
+Dialogue: 0,0:17:21.83,0:17:24.00,Default,NTP,0,0,0,,{\blur3}只要你不答應他{\r}
+Dialogue: 0,0:17:24.13,0:17:27.34,Default,NTP,0,0,0,,{\blur3}我可以付你雙倍來補償你的損失{\r}
+Dialogue: 0,0:17:28.05,0:17:31.63,Default,NTP,0,0,0,,{\blur3}不過 我有一個條件{\r}
+Dialogue: 0,0:17:32.55,0:17:34.72,Default,NTP,0,0,0,,{\blur3}你要你幫我殺一個人{\r}
+Dialogue: 0,0:17:34.85,0:17:37.05,Default,NTP,0,0,0,,{\blur3}他就是我哥哥 慕容燕{\r}
+Dialogue: 0,0:17:39.68,0:17:42.18,Default,NTP,0,0,0,,{\blur3}你兩兄妹的感情真是好怪{\r}
+Dialogue: 0,0:17:43.85,0:17:45.69,Default,NTP,0,0,0,,{\blur3}你真的這麼憎恨你哥哥{\r}
+Dialogue: 0,0:17:45.81,0:17:46.90,Default,NTP,0,0,0,,{\blur3}對{\r}
+Dialogue: 0,0:17:48.36,0:17:51.03,Default,NTP,0,0,0,,{\blur3}因為他不讓我和黃藥師在一起{\r}
+Dialogue: 0,0:17:51.82,0:17:54.28,Default,NTP,0,0,0,,{\blur3}他覺得我是屬於他的{\r}
+Dialogue: 0,0:17:54.36,0:17:56.32,Default,NTP,0,0,0,,{\blur3}所以 他一定要死{\r}
+Dialogue: 0,0:18:08.17,0:18:10.55,Default,NTP,0,0,0,,{\blur3}我妹妹是不是來找過你{\r}
+Dialogue: 0,0:18:11.38,0:18:12.51,Default,NTP,0,0,0,,{\blur3}是{\r}
+Dialogue: 0,0:18:13.05,0:18:15.55,Default,NTP,0,0,0,,{\blur3}不要對她有非份之想{\r}
+Dialogue: 0,0:18:15.68,0:18:17.76,Default,NTP,0,0,0,,{\blur3}否則我連你都殺了{\r}
+Dialogue: 0,0:18:17.89,0:18:19.97,Default,NTP,0,0,0,,{\blur3}你都挺關心你妹妹的{\r}
+Dialogue: 0,0:18:20.06,0:18:22.06,Default,NTP,0,0,0,,{\blur3}她是我唯一的親人{\r}
+Dialogue: 0,0:18:22.14,0:18:24.27,Default,NTP,0,0,0,,{\blur3}我只不過是想保護她{\r}
+Dialogue: 0,0:18:24.39,0:18:25.69,Default,NTP,0,0,0,,{\blur3}她來找你做什麼{\r}
+Dialogue: 0,0:18:25.77,0:18:27.90,Default,NTP,0,0,0,,{\blur3}她叫我幫她殺一個人{\r}
+Dialogue: 0,0:18:31.32,0:18:33.49,Default,NTP,0,0,0,,{\blur3}他名叫慕容燕{\r}
+Dialogue: 0,0:18:37.57,0:18:39.87,Default,NTP,0,0,0,,{\blur3}一定是黃藥師教她這樣做的{\r}
+Dialogue: 0,0:18:39.95,0:18:42.75,Default,NTP,0,0,0,,{\blur3}就算沒黃藥師 她都會這樣做{\r}
+Dialogue: 0,0:18:43.79,0:18:45.62,Default,NTP,0,0,0,,{\blur3}她要離開你{\r}
+Dialogue: 0,0:18:45.75,0:18:47.96,Default,NTP,0,0,0,,{\blur3}我不會讓她離開我的{\r}
+Dialogue: 0,0:18:48.08,0:18:50.09,Default,NTP,0,0,0,,{\blur3}除非我死了{\r}
+Dialogue: 0,0:19:11.94,0:19:14.61,Default,NTP,0,0,0,,{\blur3}你今天去見過我哥哥{\r}
+Dialogue: 0,0:19:17.82,0:19:19.28,Default,NTP,0,0,0,,{\blur3}他告訴你聽的{\r}
+Dialogue: 0,0:19:20.95,0:19:22.79,Default,NTP,0,0,0,,{\blur3}為什麼還不動手{\r}
+Dialogue: 0,0:19:25.54,0:19:27.62,Default,NTP,0,0,0,,{\blur3}我怕我收不到錢{\r}
+Dialogue: 0,0:19:29.71,0:19:31.92,Default,NTP,0,0,0,,{\blur3}其實殺你哥 是一件好易的事{\r}
+Dialogue: 0,0:19:32.00,0:19:34.30,Default,NTP,0,0,0,,{\blur3}因為他有弱點{\r}
+Dialogue: 0,0:19:34.38,0:19:36.30,Default,NTP,0,0,0,,{\blur3}你知道是什麼嗎{\r}
+Dialogue: 0,0:19:37.18,0:19:38.51,Default,NTP,0,0,0,,{\blur3}就是你{\r}
+Dialogue: 0,0:19:44.47,0:19:48.85,Default,NTP,0,0,0,,{\blur3}我告訴他 要殺他的人是你 就是想看一下他的反應{\r}
+Dialogue: 0,0:19:49.65,0:19:53.57,Default,NTP,0,0,0,,{\blur3}既然他反對你和黃藥師在一起{\r}
+Dialogue: 0,0:19:53.65,0:19:56.28,Default,NTP,0,0,0,,{\blur3}可能因為他喜歡你{\r}
+Dialogue: 0,0:19:56.36,0:19:58.78,Default,NTP,0,0,0,,{\blur3}如果是的話{\r}
+Dialogue: 0,0:19:58.86,0:20:01.28,Default,NTP,0,0,0,,{\blur3}喜歡你到什麼程度{\r}
+Dialogue: 0,0:20:01.37,0:20:03.83,Default,NTP,0,0,0,,{\blur3}他要我一生一世跟他在一起{\r}
+Dialogue: 0,0:20:04.66,0:20:06.29,Default,NTP,0,0,0,,{\blur3}那他真的喜歡你{\r}
+Dialogue: 0,0:20:06.37,0:20:08.25,Default,NTP,0,0,0,,{\blur3}我知道他很喜歡我{\r}
+Dialogue: 0,0:20:08.83,0:20:11.04,Default,NTP,0,0,0,,{\blur3}可惜我不喜歡他{\r}
+Dialogue: 0,0:20:11.63,0:20:13.88,Default,NTP,0,0,0,,{\blur3}我喜歡的人是黃藥師{\r}
+Dialogue: 0,0:20:15.17,0:20:16.88,Default,NTP,0,0,0,,{\blur3}那他不是很傷心{\r}
+Dialogue: 0,0:20:16.97,0:20:18.92,Default,NTP,0,0,0,,{\blur3}就讓他傷心去吧{\r}
+Dialogue: 0,0:20:19.43,0:20:21.76,Default,NTP,0,0,0,,{\blur3}既然我這麼不開心{\r}
+Dialogue: 0,0:20:21.85,0:20:24.43,Default,NTP,0,0,0,,{\blur3}為什麼不找一個人陪我呢{\r}
+Dialogue: 0,0:20:25.35,0:20:29.81,Default,NTP,0,0,0,,{\blur3}我就是要他嘗嘗得不到一個人的滋味{\r}
+Dialogue: 0,0:20:29.89,0:20:32.27,Default,NTP,0,0,0,,{\blur3}你都很殘忍{\r}
+Dialogue: 0,0:20:32.36,0:20:33.73,Default,NTP,0,0,0,,{\blur3}你不怕他死嗎{\r}
+Dialogue: 0,0:20:33.82,0:20:35.65,Default,NTP,0,0,0,,{\blur3}我就是要他死{\r}
+Dialogue: 0,0:20:38.57,0:20:40.95,Default,NTP,0,0,0,,{\blur3}為什麼你會跟我說這些{\r}
+Dialogue: 0,0:20:42.37,0:20:44.03,Default,NTP,0,0,0,,{\blur3}你哥哥問過我一個問題{\r}
+Dialogue: 0,0:20:44.12,0:20:47.41,Default,NTP,0,0,0,,{\blur3}我想了很久 終於被我想到了{\r}
+Dialogue: 0,0:20:48.41,0:20:50.46,Default,NTP,0,0,0,,{\blur3}要一個人死 最痛苦的方法{\r}
+Dialogue: 0,0:20:50.54,0:20:53.50,Default,NTP,0,0,0,,{\blur3}就是先殺了他最喜歡的人{\r}
+Dialogue: 0,0:20:54.25,0:20:56.09,Default,NTP,0,0,0,,{\blur3}但是我不可以這樣做{\r}
+Dialogue: 0,0:20:56.17,0:20:58.05,Default,NTP,0,0,0,,{\blur3}如果我殺了你{\r}
+Dialogue: 0,0:20:58.13,0:21:00.05,Default,NTP,0,0,0,,{\blur3}我找誰收錢{\r}
+Dialogue: 0,0:21:04.93,0:21:06.14,Default,NTP,0,0,0,,{\blur3}是不是{\r}
+Dialogue: 0,0:21:38.55,0:21:40.80,Default,NTP,0,0,0,,{\blur3}有人要追殺我{\r}
+Dialogue: 0,0:21:45.10,0:21:47.30,Default,NTP,0,0,0,,{\blur3}無緣無故 為什麼會有人追殺你{\r}
+Dialogue: 0,0:21:50.35,0:21:53.94,Default,NTP,0,0,0,,{\blur3}他們說我是黃藥師最喜歡的女人{\r}
+Dialogue: 0,0:21:56.94,0:21:58.44,Default,NTP,0,0,0,,{\blur3}不要讓他們殺了我{\r}
+Dialogue: 0,0:22:00.32,0:22:02.90,Default,NTP,0,0,0,,{\blur3}那晚 那個女人一直都不肯走{\r}
+Dialogue: 0,0:22:03.61,0:22:07.37,Default,NTP,0,0,0,,{\blur3}我看見她這麼驚慌 就給她喝了一點酒{\r}
+Dialogue: 0,0:22:07.95,0:22:10.79,Default,NTP,0,0,0,,{\blur3}之後 她就睡著了{\r}
+Dialogue: 0,0:22:14.33,0:22:16.63,Default,NTP,0,0,0,,{\blur3}你把我妹妹藏到哪裏去了{\r}
+Dialogue: 0,0:22:16.71,0:22:18.84,Default,NTP,0,0,0,,{\blur3}為什麼你這麼肯定我收留了她{\r}
+Dialogue: 0,0:22:19.75,0:22:22.55,Default,NTP,0,0,0,,{\blur3}我知道她曾經來找過你{\r}
+Dialogue: 0,0:22:22.63,0:22:25.01,Default,NTP,0,0,0,,{\blur3}之後就沒有人再見過她{\r}
+Dialogue: 0,0:22:27.39,0:22:29.18,Default,NTP,0,0,0,,{\blur3}有一晚 她來找我{\r}
+Dialogue: 0,0:22:29.26,0:22:31.89,Default,NTP,0,0,0,,{\blur3}她說她被追殺 叫我收留她{\r}
+Dialogue: 0,0:22:31.98,0:22:34.06,Default,NTP,0,0,0,,{\blur3}之後就走了{\r}
+Dialogue: 0,0:22:34.64,0:22:36.48,Default,NTP,0,0,0,,{\blur3}她不是回了家嗎{\r}
+Dialogue: 0,0:22:37.11,0:22:39.57,Default,NTP,0,0,0,,{\blur3}我妹妹跟人無仇無怨{\r}
+Dialogue: 0,0:22:40.11,0:22:43.32,Default,NTP,0,0,0,,{\blur3}無緣無故怎麼會有人要追殺她呢{\r}
+Dialogue: 0,0:22:43.40,0:22:47.99,Default,NTP,0,0,0,,{\blur3}好像說 因為她是黃藥師最愛的女人{\r}
+Dialogue: 0,0:22:48.07,0:22:49.95,Default,NTP,0,0,0,,{\blur3}笑話{\r}
+Dialogue: 0,0:22:50.03,0:22:51.62,Default,NTP,0,0,0,,{\blur3}他要是喜歡她的話{\r}
+Dialogue: 0,0:22:51.70,0:22:53.66,Default,NTP,0,0,0,,{\blur3}為什麼要離開她呢{\r}
+Dialogue: 0,0:22:59.21,0:23:01.34,Default,NTP,0,0,0,,{\blur3}有些人是離開後{\r}
+Dialogue: 0,0:23:01.42,0:23:04.21,Default,NTP,0,0,0,,{\blur3}才會發覺那個人是最喜歡的{\r}
+Dialogue: 0,0:23:07.59,0:23:09.64,Default,NTP,0,0,0,,{\blur3}也許黃藥師就是這種人呢{\r}
+Dialogue: 0,0:23:10.35,0:23:11.68,Default,NTP,0,0,0,,{\blur3}他不是{\r}
+Dialogue: 0,0:23:13.14,0:23:15.14,Default,NTP,0,0,0,,{\blur3}你為什麼這麼肯定{\r}
+Dialogue: 0,0:23:21.40,0:23:24.28,Default,NTP,0,0,0,,{\blur3}因為他已經喜歡上另外一個女人{\r}
+Dialogue: 0,0:23:26.99,0:23:31.78,Default,NTP,0,0,0,,{\blur3}一個人受到挫折 或多或少會找個借口來掩飾自己{\r}
+Dialogue: 0,0:23:32.99,0:23:38.96,Default,NTP,0,0,0,,{\blur3}其實慕容燕 慕容嫣 只不過是一個人的兩個身份{\r}
+Dialogue: 0,0:23:39.04,0:23:43.05,Default,NTP,0,0,0,,{\blur3}在這兩個身份的後面 躲藏著一個受了傷的人{\r}
+Dialogue: 0,0:23:43.71,0:23:45.88,Default,NTP,0,0,0,,{\blur3}你喝醉了 慕容兄{\r}
+Dialogue: 0,0:23:45.97,0:23:47.67,Default,NTP,0,0,0,,{\blur3}慕容兄{\r}
+Dialogue: 0,0:23:51.39,0:23:53.14,Default,NTP,0,0,0,,{\blur3}你認錯人了{\r}
+Dialogue: 0,0:23:54.14,0:23:56.39,Default,NTP,0,0,0,,{\blur3}我不是什麼慕容兄{\r}
+Dialogue: 0,0:23:57.35,0:23:59.90,Default,NTP,0,0,0,,{\blur3}我乃是堂堂大燕國的公主{\r}
+Dialogue: 0,0:24:01.06,0:24:03.90,Default,NTP,0,0,0,,{\blur3}慕容家的小姐{\r}
+Dialogue: 0,0:24:03.98,0:24:05.90,Default,NTP,0,0,0,,{\blur3}我的名字叫慕容嫣{\r}
+Dialogue: 0,0:24:08.57,0:24:10.45,Default,NTP,0,0,0,,{\blur3}你究竟是什麼人{\r}
+Dialogue: 0,0:24:11.62,0:24:13.58,Default,NTP,0,0,0,,{\blur3}你不認得我了嗎{\r}
+Dialogue: 0,0:24:24.17,0:24:26.76,Default,NTP,0,0,0,,{\blur3}你曾經說過要娶我為妻{\r}
+Dialogue: 0,0:24:27.67,0:24:29.68,Default,NTP,0,0,0,,{\blur3}我又怎麼會不認得呢{\r}
+Dialogue: 0,0:24:32.72,0:24:34.97,Default,NTP,0,0,0,,{\blur3}我有說過這樣的話嗎{\r}
+Dialogue: 0,0:24:35.06,0:24:37.81,Default,NTP,0,0,0,,{\blur3}當日你作客姑蘇{\r}
+Dialogue: 0,0:24:38.69,0:24:41.60,Default,NTP,0,0,0,,{\blur3}我和你在桃花樹下飲酒{\r}
+Dialogue: 0,0:24:42.61,0:24:45.82,Default,NTP,0,0,0,,{\blur3}你借醉 摸著我的臉{\r}
+Dialogue: 0,0:24:46.57,0:24:47.78,Default,NTP,0,0,0,,{\blur3}說{\r}
+Dialogue: 0,0:24:47.86,0:24:49.95,Default,NTP,0,0,0,,{\blur3}如果我有個妹妹{\r}
+Dialogue: 0,0:24:50.03,0:24:51.70,Default,NTP,0,0,0,,{\blur3}你一定娶她為妻{\r}
+Dialogue: 0,0:24:55.12,0:24:57.74,Default,NTP,0,0,0,,{\blur3}你明知道我是女兒之身{\r}
+Dialogue: 0,0:24:57.83,0:24:59.79,Default,NTP,0,0,0,,{\blur3}為什麼要這樣做{\r}
+Dialogue: 0,0:25:02.75,0:25:05.54,Default,NTP,0,0,0,,{\blur3}喝醉之後說的話{\r}
+Dialogue: 0,0:25:05.63,0:25:07.71,Default,NTP,0,0,0,,{\blur3}你又怎可以這麼認真呢{\r}
+Dialogue: 0,0:25:10.38,0:25:12.59,Default,NTP,0,0,0,,{\blur3}因為你的一句話{\r}
+Dialogue: 0,0:25:12.68,0:25:15.60,Default,NTP,0,0,0,,{\blur3}我一直等到現在{\r}
+Dialogue: 0,0:25:16.60,0:25:19.14,Default,NTP,0,0,0,,{\blur3}我曾經要你帶我走{\r}
+Dialogue: 0,0:25:19.81,0:25:21.48,Default,NTP,0,0,0,,{\blur3}但是你沒有這樣做{\r}
+Dialogue: 0,0:25:23.06,0:25:26.19,Default,NTP,0,0,0,,{\blur3}你說 你不能同時喜歡兩個人{\r}
+Dialogue: 0,0:25:26.82,0:25:29.40,Default,NTP,0,0,0,,{\blur3}你喜歡的那女人是慕容嫣{\r}
+Dialogue: 0,0:25:29.49,0:25:32.36,Default,NTP,0,0,0,,{\blur3}那你為什麼又喜歡另外一個女人{\r}
+Dialogue: 0,0:25:37.33,0:25:40.12,Default,NTP,0,0,0,,{\blur3}你知不知道我曾經去找過那個女人{\r}
+Dialogue: 0,0:25:47.96,0:25:51.38,Default,NTP,0,0,0,,{\blur3}因為有人說你最喜歡的女人是她{\r}
+Dialogue: 0,0:25:52.59,0:25:54.89,Default,NTP,0,0,0,,{\blur3}我本來想殺了她{\r}
+Dialogue: 0,0:25:54.97,0:25:57.51,Default,NTP,0,0,0,,{\blur3}後來我沒有這樣做{\r}
+Dialogue: 0,0:25:57.60,0:26:00.56,Default,NTP,0,0,0,,{\blur3}因為我不想證明她就是{\r}
+Dialogue: 0,0:26:06.36,0:26:08.98,Default,NTP,0,0,0,,{\blur3}我曾經問過自己{\r}
+Dialogue: 0,0:26:09.07,0:26:11.69,Default,NTP,0,0,0,,{\blur3}你最喜歡的女人是不是我{\r}
+Dialogue: 0,0:26:15.91,0:26:18.20,Default,NTP,0,0,0,,{\blur3}現在我已經不想再知道{\r}
+Dialogue: 0,0:26:21.25,0:26:24.00,Default,NTP,0,0,0,,{\blur3}如果有一天我忍不住問起{\r}
+Dialogue: 0,0:26:24.08,0:26:25.58,Default,NTP,0,0,0,,{\blur3}你一定要騙我{\r}
+Dialogue: 0,0:26:26.92,0:26:28.96,Default,NTP,0,0,0,,{\blur3}就算你的心有多麼不願意{\r}
+Dialogue: 0,0:26:29.05,0:26:32.17,Default,NTP,0,0,0,,{\blur3}也不要告訴我你最喜歡的人不是我{\r}
+Dialogue: 0,0:26:43.77,0:26:46.31,Default,NTP,0,0,0,,{\blur3}那晚過得特別長{\r}
+Dialogue: 0,0:26:46.40,0:26:50.15,Default,NTP,0,0,0,,{\blur3}因為我好像同時在跟兩個人說話{\r}
+Dialogue: 0,0:26:50.23,0:26:52.69,Default,NTP,0,0,0,,{\blur3}我也分不清{\r}
+Dialogue: 0,0:26:52.78,0:26:54.53,Default,NTP,0,0,0,,{\blur3}到底是慕容燕{\r}
+Dialogue: 0,0:26:54.61,0:26:56.28,Default,NTP,0,0,0,,{\blur3}還是慕容嫣{\r}
+Dialogue: 0,0:27:06.79,0:27:08.21,Default,NTP,0,0,0,,{\blur3}慕容燕{\r}
+Dialogue: 0,0:27:12.01,0:27:13.46,Default,NTP,0,0,0,,{\blur3}慕容嫣{\r}
+Dialogue: 0,0:27:16.30,0:27:18.34,Default,NTP,0,0,0,,{\blur3}告訴我{\r}
+Dialogue: 0,0:27:19.22,0:27:21.43,Default,NTP,0,0,0,,{\blur3}你最喜歡的女人是哪一位{\r}
+Dialogue: 0,0:27:27.27,0:27:29.56,Default,NTP,0,0,0,,{\blur3}不就是你咯{\r}
+Dialogue: 0,0:27:29.65,0:27:32.36,Default,NTP,0,0,0,,{\blur3}以前也有人這樣問過我{\r}
+Dialogue: 0,0:27:32.44,0:27:35.03,Default,NTP,0,0,0,,{\blur3}但是我沒有回答{\r}
+Dialogue: 0,0:27:35.11,0:27:36.95,Default,NTP,0,0,0,,{\blur3}換了是黃藥師的身份{\r}
+Dialogue: 0,0:27:37.03,0:27:40.32,Default,NTP,0,0,0,,{\blur3}我覺得這幾個字 原來並不是很難說出口{\r}
+Dialogue: 0,0:27:54.76,0:27:56.84,Default,NTP,0,0,0,,{\blur3}那晚睡覺的時候{\r}
+Dialogue: 0,0:27:56.92,0:27:58.97,Default,NTP,0,0,0,,{\blur3}我又感覺到有人摸我{\r}
+Dialogue: 0,0:29:27.01,0:29:30.06,Default,NTP,0,0,0,,{\blur3}我知道她想摸的人不是我{\r}
+Dialogue: 0,0:29:31.85,0:29:36.06,Default,NTP,0,0,0,,{\blur3}她只不過當我是另外一個人{\r}
+Dialogue: 0,0:29:36.15,0:29:38.86,Default,NTP,0,0,0,,{\blur3}其實我又何嘗不是{\r}
+Dialogue: 0,0:29:40.74,0:29:42.99,Default,NTP,0,0,0,,{\blur3}她的手很暖{\r}
+Dialogue: 0,0:29:44.16,0:29:46.74,Default,NTP,0,0,0,,{\blur3}就跟我大嫂的手一樣{\r}
+Dialogue: 0,0:30:50.31,0:30:55.81,Default,NTP,0,0,0,,{\blur3}由那晚開始 就再沒人見過慕容燕或是慕容嫣{\r}
+Dialogue: 0,0:30:56.40,0:31:00.98,Default,NTP,0,0,0,,{\blur3}幾年之後 在江湖出現了好奇怪的劍客{\r}
+Dialogue: 0,0:31:01.11,0:31:02.82,Default,NTP,0,0,0,,{\blur3}沒人知道他的來歷{\r}
+Dialogue: 0,0:31:02.94,0:31:06.66,Default,NTP,0,0,0,,{\blur3}只是知道 他喜歡對著自己的倒影練劍{\r}
+Dialogue: 0,0:31:06.78,0:31:09.62,Default,NTP,0,0,0,,{\blur3}他有一個特別的名 叫獨孤求敗{\r}
+Dialogue: 0,0:32:16.56,0:32:18.35,Default,NTP,0,0,0,,{\blur3}你找我{\r}
+Dialogue: 0,0:32:19.94,0:32:22.56,Default,NTP,0,0,0,,{\blur3}我想找個人幫我弟弟報仇{\r}
+Dialogue: 0,0:32:23.69,0:32:25.57,Default,NTP,0,0,0,,{\blur3}他發生了什麼事{\r}
+Dialogue: 0,0:32:27.70,0:32:30.91,Default,NTP,0,0,0,,{\blur3}幾日前 有一班刀客經過我家門口{\r}
+Dialogue: 0,0:32:32.24,0:32:36.12,Default,NTP,0,0,0,,{\blur3}我弟弟他年少無知 得罪了其中一個人{\r}
+Dialogue: 0,0:32:38.37,0:32:40.25,Default,NTP,0,0,0,,{\blur3}他們就將他殺死了{\r}
+Dialogue: 0,0:32:43.38,0:32:46.09,Default,NTP,0,0,0,,{\blur3}官府不管嗎{\r}
+Dialogue: 0,0:32:47.63,0:32:50.38,Default,NTP,0,0,0,,{\blur3}因為他們是太尉府的刀客{\r}
+Dialogue: 0,0:32:50.47,0:32:53.39,Default,NTP,0,0,0,,{\blur3}官府都不敢追究{\r}
+Dialogue: 0,0:32:56.77,0:32:58.64,Default,NTP,0,0,0,,{\blur3}那你出得起多少錢{\r}
+Dialogue: 0,0:32:59.64,0:33:03.56,Default,NTP,0,0,0,,{\blur3}我家裏很窮 根本就沒有什麼多餘的錢{\r}
+Dialogue: 0,0:33:05.94,0:33:09.49,Default,NTP,0,0,0,,{\blur3}只剩下這籃雞蛋 同一隻驢子{\r}
+Dialogue: 0,0:33:12.99,0:33:16.62,Default,NTP,0,0,0,,{\blur3}這隻驢子 是我娘生前留給我的嫁妝{\r}
+Dialogue: 0,0:33:20.83,0:33:23.50,Default,NTP,0,0,0,,{\blur3}如果你真有心為你弟弟報仇的話{\r}
+Dialogue: 0,0:33:24.92,0:33:26.46,Default,NTP,0,0,0,,{\blur3}我勸你籌一筆錢{\r}
+Dialogue: 0,0:33:28.92,0:33:32.47,Default,NTP,0,0,0,,{\blur3}沒有人會為了一隻驢子 得罪太尉府的刀客{\r}
+Dialogue: 0,0:33:33.68,0:33:35.64,Default,NTP,0,0,0,,{\blur3}報仇也要代價{\r}
+Dialogue: 0,0:33:37.97,0:33:40.14,Default,NTP,0,0,0,,{\blur3}要是你長得難看{\r}
+Dialogue: 0,0:33:40.81,0:33:43.35,Default,NTP,0,0,0,,{\blur3}我勸你死了這條心{\r}
+Dialogue: 0,0:33:45.15,0:33:47.86,Default,NTP,0,0,0,,{\blur3}你千萬不要以為我對你有什麼企圖{\r}
+Dialogue: 0,0:33:47.98,0:33:50.94,Default,NTP,0,0,0,,{\blur3}我只是想告訴你 如果要賣{\r}
+Dialogue: 0,0:33:52.70,0:33:55.62,Default,NTP,0,0,0,,{\blur3}你會比那驢更加值錢{\r}
+Dialogue: 0,0:33:56.70,0:33:58.28,Default,NTP,0,0,0,,{\blur3}你明白我的意思嗎{\r}
+Dialogue: 0,0:34:00.66,0:34:02.83,Default,NTP,0,0,0,,{\blur3}我不會這樣做的{\r}
+Dialogue: 0,0:34:02.96,0:34:05.58,Default,NTP,0,0,0,,{\blur3}如果你嫌錢少{\r}
+Dialogue: 0,0:34:05.67,0:34:07.84,Default,NTP,0,0,0,,{\blur3}我會一直在這等{\r}
+Dialogue: 0,0:34:07.96,0:34:10.46,Default,NTP,0,0,0,,{\blur3}我想一定會有人肯幫我的{\r}
+Dialogue: 0,0:34:18.14,0:34:20.64,Default,NTP,0,0,0,,{\blur3}我不知道她是不是真的要為弟弟報仇{\r}
+Dialogue: 0,0:34:20.72,0:34:23.48,Default,NTP,0,0,0,,{\blur3}還是沒事可幹{\r}
+Dialogue: 0,0:34:36.03,0:34:38.24,Default,NTP,0,0,0,,{\blur3}從這裏看下去 她好像一個人{\r}
+Dialogue: 0,0:35:09.90,0:35:12.19,Default,NTP,0,0,0,,{\blur3}接著的幾晚{\r}
+Dialogue: 0,0:35:12.28,0:35:14.36,Default,NTP,0,0,0,,{\blur3}我都做了同一個夢{\r}
+Dialogue: 0,0:35:16.24,0:35:19.45,Default,NTP,0,0,0,,{\blur3}我夢見我家鄉的桃花開了{\r}
+Dialogue: 0,0:35:20.91,0:35:22.70,Default,NTP,0,0,0,,{\blur3}我忽然間想起{\r}
+Dialogue: 0,0:35:22.79,0:35:26.58,Default,NTP,0,0,0,,{\blur3}原來我已經有好多年 沒回去過白駝山了{\r}
+Dialogue: 0,0:36:03.87,0:36:06.29,Default,NTP,0,0,0,,{\blur3}你的眼睛有事嗎{\r}
+Dialogue: 0,0:36:07.62,0:36:10.67,Default,NTP,0,0,0,,{\blur3}自小我的眼睛就不好{\r}
+Dialogue: 0,0:36:10.79,0:36:13.34,Default,NTP,0,0,0,,{\blur3}大夫說我三十歲就會看不見東西{\r}
+Dialogue: 0,0:36:14.17,0:36:16.59,Default,NTP,0,0,0,,{\blur3}那你今年貴庚{\r}
+Dialogue: 0,0:36:16.67,0:36:18.30,Default,NTP,0,0,0,,{\blur3}剛剛三十歲{\r}
+Dialogue: 0,0:36:21.22,0:36:23.14,Default,NTP,0,0,0,,{\blur3}那你還來幹什麼{\r}
+Dialogue: 0,0:36:25.14,0:36:28.81,Default,NTP,0,0,0,,{\blur3}每年的春天 家鄉的桃花都會開得很燦爛{\r}
+Dialogue: 0,0:36:29.85,0:36:33.40,Default,NTP,0,0,0,,{\blur3}我想在我失明之前 回去再看一次{\r}
+Dialogue: 0,0:36:34.15,0:36:37.19,Default,NTP,0,0,0,,{\blur3}可惜身上的盤纏已經用完了{\r}
+Dialogue: 0,0:36:37.32,0:36:39.65,Default,NTP,0,0,0,,{\blur3}聽人講 你專門幫別人解決麻煩{\r}
+Dialogue: 0,0:36:39.74,0:36:41.41,Default,NTP,0,0,0,,{\blur3}不知可不可以幫到我{\r}
+Dialogue: 0,0:36:43.08,0:36:47.16,Default,NTP,0,0,0,,{\blur3}幾個月之前 我有個朋友在這裏殺了一批馬賊{\r}
+Dialogue: 0,0:36:48.50,0:36:51.92,Default,NTP,0,0,0,,{\blur3}聽說馬賊的兄弟最近會回來找他報仇{\r}
+Dialogue: 0,0:36:52.00,0:36:53.71,Default,NTP,0,0,0,,{\blur3}可惜我那個朋友已經走了{\r}
+Dialogue: 0,0:36:55.55,0:36:58.05,Default,NTP,0,0,0,,{\blur3}附近的人擔心會殃及池魚{\r}
+Dialogue: 0,0:36:58.17,0:37:01.51,Default,NTP,0,0,0,,{\blur3}所以願拿一筆錢出來 找個高手殺了他們{\r}
+Dialogue: 0,0:37:06.02,0:37:09.18,Default,NTP,0,0,0,,{\blur3}聽說這一帶有一個人的刀很快{\r}
+Dialogue: 0,0:37:09.85,0:37:11.48,Default,NTP,0,0,0,,{\blur3}不知道他在不在{\r}
+Dialogue: 0,0:37:11.56,0:37:13.35,Default,NTP,0,0,0,,{\blur3}你找他幹什麼{\r}
+Dialogue: 0,0:37:14.06,0:37:16.52,Default,NTP,0,0,0,,{\blur3}我想看看是他的刀快 還是我的劍快{\r}
+Dialogue: 0,0:37:21.20,0:37:22.95,Default,NTP,0,0,0,,{\blur3}我根本不應該來{\r}
+Dialogue: 0,0:37:23.03,0:37:24.53,Default,NTP,0,0,0,,{\blur3}太遲了{\r}
+Dialogue: 0,0:37:26.04,0:37:27.66,Default,NTP,0,0,0,,{\blur3}留只手行嗎{\r}
+Dialogue: 0,0:37:27.75,0:37:29.54,Default,NTP,0,0,0,,{\blur3}不行{\r}
+Dialogue: 0,0:37:29.62,0:37:32.87,Default,NTP,0,0,0,,{\blur3}要留 留下你的命{\r}
+Dialogue: 0,0:37:57.32,0:37:59.11,Default,NTP,0,0,0,,{\blur3}你誤會了我的意思{\r}
+Dialogue: 0,0:37:59.82,0:38:03.53,Default,NTP,0,0,0,,{\blur3}我說我不應該來 是因為你根本不是我的對手{\r}
+Dialogue: 0,0:38:03.61,0:38:05.78,Default,NTP,0,0,0,,{\blur3}我說留只手{\r}
+Dialogue: 0,0:38:05.91,0:38:08.24,Default,NTP,0,0,0,,{\blur3}誰知你卻要把命送給我{\r}
+Dialogue: 0,0:38:18.50,0:38:20.46,Default,NTP,0,0,0,,{\blur3}你可不可以幫我{\r}
+Dialogue: 0,0:38:28.60,0:38:30.93,Default,NTP,0,0,0,,{\blur3}他雖然是一個落泊的劍客{\r}
+Dialogue: 0,0:38:31.02,0:38:33.98,Default,NTP,0,0,0,,{\blur3}但他的生活很有規律{\r}
+Dialogue: 0,0:38:34.10,0:38:37.44,Default,NTP,0,0,0,,{\blur3}每天都會來這裏喝一杯酒 吃兩碗飯{\r}
+Dialogue: 0,0:38:39.48,0:38:42.15,Default,NTP,0,0,0,,{\blur3}到太陽下山的時候 他就會走{\r}
+Dialogue: 0,0:39:08.18,0:39:10.64,Default,NTP,0,0,0,,{\blur3}你為什麼老看著那個女人{\r}
+Dialogue: 0,0:39:12.64,0:39:14.81,Default,NTP,0,0,0,,{\blur3}因為她使我想起另一個人{\r}
+Dialogue: 0,0:39:15.31,0:39:16.64,Default,NTP,0,0,0,,{\blur3}你老婆{\r}
+Dialogue: 0,0:39:22.15,0:39:24.03,Default,NTP,0,0,0,,{\blur3}既然這麼想她{\r}
+Dialogue: 0,0:39:24.15,0:39:26.49,Default,NTP,0,0,0,,{\blur3}又何必四處飄泊呢{\r}
+Dialogue: 0,0:39:30.24,0:39:32.70,Default,NTP,0,0,0,,{\blur3}她愛上了我最好的朋友{\r}
+Dialogue: 0,0:39:38.33,0:39:40.84,Default,NTP,0,0,0,,{\blur3}不知那幫馬賊什麼時候到{\r}
+Dialogue: 0,0:39:43.17,0:39:45.59,Default,NTP,0,0,0,,{\blur3}大概就這一兩天{\r}
+Dialogue: 0,0:39:47.68,0:39:49.68,Default,NTP,0,0,0,,{\blur3}希望他們快點到{\r}
+Dialogue: 0,0:39:50.89,0:39:53.85,Default,NTP,0,0,0,,{\blur3}要是太遲回去的話 桃花都謝了{\r}
+Dialogue: 0,0:40:12.62,0:40:14.95,Default,NTP,0,0,0,,{\blur3}花什麼時候開是有季節的{\r}
+Dialogue: 0,0:40:16.16,0:40:18.71,Default,NTP,0,0,0,,{\blur3}馬賊什麼時候到 卻沒有人知{\r}
+Dialogue: 0,0:40:20.33,0:40:23.04,Default,NTP,0,0,0,,{\blur3}他每天在城外等{\r}
+Dialogue: 0,0:40:23.13,0:40:25.59,Default,NTP,0,0,0,,{\blur3}我發現他越等越晚{\r}
+Dialogue: 0,0:40:31.47,0:40:34.06,Default,NTP,0,0,0,,{\blur3}雖然他晚晚都點一盞油燈{\r}
+Dialogue: 0,0:40:34.14,0:40:37.68,Default,NTP,0,0,0,,{\blur3}但我知道 他夜晚是看不見東西的{\r}
+Dialogue: 0,0:41:12.30,0:41:14.22,Default,NTP,0,0,0,,{\blur3}你是不是不喜歡我{\r}
+Dialogue: 0,0:41:22.56,0:41:24.44,Default,NTP,0,0,0,,{\blur3}你很想回家鄉去嗎{\r}
+Dialogue: 0,0:41:28.15,0:41:29.32,Default,NTP,0,0,0,,{\blur3}是{\r}
+Dialogue: 0,0:41:30.61,0:41:32.28,Default,NTP,0,0,0,,{\blur3}你結婚沒{\r}
+Dialogue: 0,0:41:33.62,0:41:34.74,Default,NTP,0,0,0,,{\blur3}為什麼這麼問{\r}
+Dialogue: 0,0:41:36.45,0:41:39.04,Default,NTP,0,0,0,,{\blur3}我猜你一定很喜歡你老婆{\r}
+Dialogue: 0,0:41:40.50,0:41:42.33,Default,NTP,0,0,0,,{\blur3}可以這麼說{\r}
+Dialogue: 0,0:41:42.42,0:41:45.29,Default,NTP,0,0,0,,{\blur3}既然這樣 為什麼不留在她身邊{\r}
+Dialogue: 0,0:42:11.70,0:42:14.20,Default,NTP,0,0,0,,{\blur3}可以再請我喝碗酒嗎{\r}
+Dialogue: 0,0:42:26.59,0:42:29.09,Default,NTP,0,0,0,,{\blur3}你今晚這麼有興致{\r}
+Dialogue: 0,0:42:33.97,0:42:36.30,Default,NTP,0,0,0,,{\blur3}我怕明天晚上沒機會再喝了{\r}
+Dialogue: 0,0:42:43.14,0:42:45.02,Default,NTP,0,0,0,,{\blur3}我想他們{\r}
+Dialogue: 0,0:42:45.10,0:42:46.56,Default,NTP,0,0,0,,{\blur3}天亮時才會到{\r}
+Dialogue: 0,0:42:48.48,0:42:50.48,Default,NTP,0,0,0,,{\blur3}我幫你準備好了燈籠{\r}
+Dialogue: 0,0:42:51.15,0:42:53.32,Default,NTP,0,0,0,,{\blur3}現在有沒有燈籠 對我來講根本不重要{\r}
+Dialogue: 0,0:42:57.28,0:42:59.66,Default,NTP,0,0,0,,{\blur3}你已經看不到東西了{\r}
+Dialogue: 0,0:43:00.83,0:43:03.25,Default,NTP,0,0,0,,{\blur3}太陽猛烈還能看見{\r}
+Dialogue: 0,0:43:04.00,0:43:06.12,Default,NTP,0,0,0,,{\blur3}希望明天天氣會好一點{\r}
+Dialogue: 0,0:43:08.04,0:43:10.63,Default,NTP,0,0,0,,{\blur3}如果日落後還不見我回來{\r}
+Dialogue: 0,0:43:10.71,0:43:13.30,Default,NTP,0,0,0,,{\blur3}麻煩你幫我找一個人{\r}
+Dialogue: 0,0:43:13.38,0:43:15.68,Default,NTP,0,0,0,,{\blur3}他的名字叫黃藥師{\r}
+Dialogue: 0,0:43:18.47,0:43:21.47,Default,NTP,0,0,0,,{\blur3}告訴他我家鄉還有一個人在等他{\r}
+Dialogue: 0,0:44:10.40,0:44:12.94,Default,NTP,0,0,0,,{\blur3}我不知道為什麼會這樣做{\r}
+Dialogue: 0,0:44:13.03,0:44:15.15,Default,NTP,0,0,0,,{\blur3}但我控制不了自己{\r}
+Dialogue: 0,0:44:16.61,0:44:18.07,Default,NTP,0,0,0,,{\blur3}我走的時候{\r}
+Dialogue: 0,0:44:18.16,0:44:21.24,Default,NTP,0,0,0,,{\blur3}那女人的眼淚在我臉上慢慢干了{\r}
+Dialogue: 0,0:44:32.71,0:44:35.21,Default,NTP,0,0,0,,{\blur3}不知道那個女人會不會為我流淚呢{\r}
+Dialogue: 0,0:49:39.10,0:49:41.35,Default,NTP,0,0,0,,{\blur3}我以前聽人講 如果刀夠快{\r}
+Dialogue: 0,0:49:41.44,0:49:45.23,Default,NTP,0,0,0,,{\blur3}血從傷口噴出來的時候 像風聲一樣 好好聽{\r}
+Dialogue: 0,0:49:47.53,0:49:49.44,Default,NTP,0,0,0,,{\blur3}想不到第一次聽到的{\r}
+Dialogue: 0,0:49:49.53,0:49:52.03,Default,NTP,0,0,0,,{\blur3}是我自己流出來的血{\r}
+Dialogue: 0,0:50:50.34,0:50:52.51,Default,NTP,0,0,0,,{\blur3}這人的名字叫洪七{\r}
+Dialogue: 0,0:50:52.63,0:50:55.18,Default,NTP,0,0,0,,{\blur3}他的刀很快{\r}
+Dialogue: 0,0:50:55.26,0:50:57.26,Default,NTP,0,0,0,,{\blur3}但他不喜歡穿鞋{\r}
+Dialogue: 0,0:50:57.35,0:50:59.68,Default,NTP,0,0,0,,{\blur3}我知道他可以幫我賺很多錢{\r}
+Dialogue: 0,0:50:59.76,0:51:02.18,Default,NTP,0,0,0,,{\blur3}但是我一直都不喜歡這個人{\r}
+Dialogue: 0,0:51:02.31,0:51:04.52,Default,NTP,0,0,0,,{\blur3}因為我命書中有一句話{\r}
+Dialogue: 0,0:51:04.60,0:51:08.19,Default,NTP,0,0,0,,{\blur3}尤忌七數 是以命終{\r}
+Dialogue: 0,0:51:09.15,0:51:12.48,Default,NTP,0,0,0,,{\blur3}我第一次見到他時 他剛從鄉下出來{\r}
+Dialogue: 0,0:51:16.87,0:51:19.53,Default,NTP,0,0,0,,{\blur3}知不知道為什麼我請你吃飯{\r}
+Dialogue: 0,0:51:19.66,0:51:21.29,Default,NTP,0,0,0,,{\blur3}不知{\r}
+Dialogue: 0,0:51:21.37,0:51:23.29,Default,NTP,0,0,0,,{\blur3}因為我知道你肚子餓{\r}
+Dialogue: 0,0:51:25.00,0:51:27.79,Default,NTP,0,0,0,,{\blur3}其實我注意你很久了{\r}
+Dialogue: 0,0:51:27.88,0:51:31.71,Default,NTP,0,0,0,,{\blur3}我看見你蹲在那座破牆下半天也沒動過{\r}
+Dialogue: 0,0:51:31.80,0:51:33.84,Default,NTP,0,0,0,,{\blur3}看你又不像是生病{\r}
+Dialogue: 0,0:51:34.88,0:51:37.89,Default,NTP,0,0,0,,{\blur3}你這種年青人我見的多了{\r}
+Dialogue: 0,0:51:38.01,0:51:41.64,Default,NTP,0,0,0,,{\blur3}懂一點武功就以為可以橫行天下{\r}
+Dialogue: 0,0:51:43.14,0:51:45.64,Default,NTP,0,0,0,,{\blur3}其實行走江湖是一件很痛苦的事{\r}
+Dialogue: 0,0:51:46.73,0:51:49.98,Default,NTP,0,0,0,,{\blur3}會武功 有很多事不能做{\r}
+Dialogue: 0,0:51:50.73,0:51:52.57,Default,NTP,0,0,0,,{\blur3}你不想耕田{\r}
+Dialogue: 0,0:51:52.69,0:51:54.74,Default,NTP,0,0,0,,{\blur3}又不恥去打劫{\r}
+Dialogue: 0,0:51:54.82,0:51:57.49,Default,NTP,0,0,0,,{\blur3}更加不想拋頭露面在街頭賣藝{\r}
+Dialogue: 0,0:51:57.57,0:51:59.82,Default,NTP,0,0,0,,{\blur3}那你怎麼生活{\r}
+Dialogue: 0,0:52:01.08,0:52:03.66,Default,NTP,0,0,0,,{\blur3}武功高強都要吃飯的{\r}
+Dialogue: 0,0:52:04.50,0:52:07.00,Default,NTP,0,0,0,,{\blur3}其實有一種職業很適合你{\r}
+Dialogue: 0,0:52:07.08,0:52:09.75,Default,NTP,0,0,0,,{\blur3}既可以幫你賺點銀兩{\r}
+Dialogue: 0,0:52:09.83,0:52:12.92,Default,NTP,0,0,0,,{\blur3}又可以行俠仗義 不知你有沒有興趣{\r}
+Dialogue: 0,0:52:13.76,0:52:15.26,Default,NTP,0,0,0,,{\blur3}就這樣吧{\r}
+Dialogue: 0,0:52:15.34,0:52:17.26,Default,NTP,0,0,0,,{\blur3}儘管考慮一下 不過要快哦{\r}
+Dialogue: 0,0:52:17.38,0:52:20.68,Default,NTP,0,0,0,,{\blur3}你知道 肚子很快就會餓的{\r}
+Dialogue: 0,0:52:36.44,0:52:38.03,Default,NTP,0,0,0,,{\blur3}洪七來了沒多久{\r}
+Dialogue: 0,0:52:38.11,0:52:40.45,Default,NTP,0,0,0,,{\blur3}上次那群馬賊又回來了{\r}
+Dialogue: 0,0:52:41.24,0:52:43.95,Default,NTP,0,0,0,,{\blur3}在我帶他去見那群村民之前{\r}
+Dialogue: 0,0:52:44.04,0:52:46.45,Default,NTP,0,0,0,,{\blur3}我幫他買了一雙鞋{\r}
+Dialogue: 0,0:52:46.54,0:52:51.54,Default,NTP,0,0,0,,{\blur3}因為有穿鞋的和不穿鞋的刀客 價錢相差很遠{\r}
+Dialogue: 0,0:52:58.63,0:53:01.80,Default,NTP,0,0,0,,{\blur3}怎麼 你們覺得十兩銀子這價錢很貴嗎{\r}
+Dialogue: 0,0:53:06.27,0:53:08.39,Default,NTP,0,0,0,,{\blur3}那麼你們可以找幾個便宜的{\r}
+Dialogue: 0,0:53:08.48,0:53:10.64,Default,NTP,0,0,0,,{\blur3}那邊有幾個{\r}
+Dialogue: 0,0:53:10.77,0:53:12.23,Default,NTP,0,0,0,,{\blur3}沒穿鞋子的{\r}
+Dialogue: 0,0:53:12.31,0:53:15.23,Default,NTP,0,0,0,,{\blur3}你給他幾兩銀子 他們都很開心{\r}
+Dialogue: 0,0:53:18.11,0:53:20.61,Default,NTP,0,0,0,,{\blur3}但如果這個人連鞋都沒有穿{\r}
+Dialogue: 0,0:53:21.45,0:53:23.66,Default,NTP,0,0,0,,{\blur3}你對他有信心嗎{\r}
+Dialogue: 0,0:53:32.08,0:53:34.42,Default,NTP,0,0,0,,{\blur3}萬一他們失手了{\r}
+Dialogue: 0,0:53:34.50,0:53:37.34,Default,NTP,0,0,0,,{\blur3}讓那幫馬賊知道是你們指使的{\r}
+Dialogue: 0,0:53:38.51,0:53:40.92,Default,NTP,0,0,0,,{\blur3}你想那幫馬賊會怎麼對付你{\r}
+Dialogue: 0,0:53:43.34,0:53:47.35,Default,NTP,0,0,0,,{\blur3}我不敢說我這位朋友 武功比他們都好{\r}
+Dialogue: 0,0:53:47.43,0:53:49.37,Default,NTP,0,0,0,,{\blur3}我現在跟你們說的{\r}
+Dialogue: 0,0:53:49.37,0:53:52.48,Default,NTP,0,0,0,,{\blur3}是你們一家大小二十多條人命的安全{\r}
+Dialogue: 0,0:53:53.61,0:53:55.61,Default,NTP,0,0,0,,{\blur3}至少在這方面{\r}
+Dialogue: 0,0:53:55.69,0:53:58.78,Default,NTP,0,0,0,,{\blur3}你們該信一個穿鞋的人的人 是不是{\r}
+Dialogue: 0,0:53:58.86,0:54:01.11,Default,NTP,0,0,0,,{\blur3}為了不想重蹈覆轍{\r}
+Dialogue: 0,0:54:01.20,0:54:03.70,Default,NTP,0,0,0,,{\blur3}我帶洪七去了一個地方{\r}
+Dialogue: 0,0:54:03.78,0:54:05.53,Default,NTP,0,0,0,,{\blur3}你帶我看死屍幹什麼{\r}
+Dialogue: 0,0:54:05.62,0:54:07.53,Default,NTP,0,0,0,,{\blur3}因為死屍會說話的{\r}
+Dialogue: 0,0:54:07.62,0:54:11.29,Default,NTP,0,0,0,,{\blur3}兩天前 他想在這裏伏擊馬賊{\r}
+Dialogue: 0,0:54:11.37,0:54:13.96,Default,NTP,0,0,0,,{\blur3}以為可以殺光他們{\r}
+Dialogue: 0,0:54:14.04,0:54:16.38,Default,NTP,0,0,0,,{\blur3}誰知死的是他自己{\r}
+Dialogue: 0,0:54:16.50,0:54:19.88,Default,NTP,0,0,0,,{\blur3}取他性命的 是這一刀{\r}
+Dialogue: 0,0:54:21.22,0:54:24.34,Default,NTP,0,0,0,,{\blur3}很明顯跟其它傷痕很不同{\r}
+Dialogue: 0,0:54:24.43,0:54:26.39,Default,NTP,0,0,0,,{\blur3}是從右至左{\r}
+Dialogue: 0,0:54:27.22,0:54:28.76,Default,NTP,0,0,0,,{\blur3}他全身只有一個刀傷{\r}
+Dialogue: 0,0:54:28.89,0:54:34.23,Default,NTP,0,0,0,,{\blur3}也就是說 其中有一個人 只不過出了一刀{\r}
+Dialogue: 0,0:54:34.60,0:54:36.77,Default,NTP,0,0,0,,{\blur3}就是這一刀 要了他的命{\r}
+Dialogue: 0,0:54:39.94,0:54:42.57,Default,NTP,0,0,0,,{\blur3}所以你對付這群馬賊{\r}
+Dialogue: 0,0:54:42.70,0:54:45.07,Default,NTP,0,0,0,,{\blur3}要留意一個人{\r}
+Dialogue: 0,0:54:45.20,0:54:47.41,Default,NTP,0,0,0,,{\blur3}一個用左手拿刀的人{\r}
+Dialogue: 0,0:54:51.25,0:54:53.75,Default,NTP,0,0,0,,{\blur3}如果我死了 你不用帶人來看我{\r}
+Dialogue: 0,0:54:55.25,0:54:57.29,Default,NTP,0,0,0,,{\blur3}我不想做一條會說話的死屍{\r}
+Dialogue: 0,0:54:58.04,0:55:02.17,Default,NTP,0,0,0,,{\blur3}十五日 晴 有風{\r}
+Dialogue: 0,0:55:02.26,0:55:05.59,Default,NTP,0,0,0,,{\blur3}地官降下 定人間善惡{\r}
+Dialogue: 0,0:55:05.72,0:55:08.39,Default,NTP,0,0,0,,{\blur3}有血光 忌遠行{\r}
+Dialogue: 0,0:55:08.47,0:55:10.93,Default,NTP,0,0,0,,{\blur3}宜誦經解災{\r}
+Dialogue: 0,0:57:24.40,0:57:27.28,Default,NTP,0,0,0,,{\blur3}通常拿了錢看也不看 就收起來的人{\r}
+Dialogue: 0,0:57:27.40,0:57:29.40,Default,NTP,0,0,0,,{\blur3}他們的錢很快就會花光{\r}
+Dialogue: 0,0:57:32.41,0:57:35.03,Default,NTP,0,0,0,,{\blur3}但洪七他數得很仔細{\r}
+Dialogue: 0,0:57:35.12,0:57:38.41,Default,NTP,0,0,0,,{\blur3}這種人 我知道 不會留在我身邊太久{\r}
+Dialogue: 0,0:57:45.75,0:57:49.84,Default,NTP,0,0,0,,{\blur3}初十日 立秋 晴{\r}
+Dialogue: 0,0:57:49.92,0:57:53.47,Default,NTP,0,0,0,,{\blur3}涼風至 宜出行{\r}
+Dialogue: 0,0:57:53.59,0:57:55.80,Default,NTP,0,0,0,,{\blur3}會友 忌新船下水{\r}
+Dialogue: 0,0:57:57.43,0:57:58.93,Default,NTP,0,0,0,,{\blur3}洪七{\r}
+Dialogue: 0,0:57:59.27,0:58:01.10,Default,NTP,0,0,0,,{\blur3}他走了{\r}
+Dialogue: 0,0:58:03.56,0:58:05.69,Default,NTP,0,0,0,,{\blur3}我想他不會回來了{\r}
+Dialogue: 0,0:58:05.77,0:58:07.94,Default,NTP,0,0,0,,{\blur3}不如你到別的地方找他吧{\r}
+Dialogue: 0,0:58:22.79,0:58:24.25,Default,NTP,0,0,0,,{\blur3}你明不明白我說什麼{\r}
+Dialogue: 0,0:58:34.14,0:58:37.35,Default,NTP,0,0,0,,{\blur3}別以為要欺騙一個女人是很容易的事{\r}
+Dialogue: 0,0:58:37.47,0:58:40.89,Default,NTP,0,0,0,,{\blur3}越是單純的女人就越直接{\r}
+Dialogue: 0,0:58:40.98,0:58:44.19,Default,NTP,0,0,0,,{\blur3}她知道她丈夫根本沒有離開{\r}
+Dialogue: 0,0:58:44.31,0:58:47.48,Default,NTP,0,0,0,,{\blur3}因為洪七是不會拋下他的駱駝不理的{\r}
+Dialogue: 0,0:58:57.66,0:59:00.33,Default,NTP,0,0,0,,{\blur3}我叫你在鄉下等我{\r}
+Dialogue: 0,0:59:00.41,0:59:03.16,Default,NTP,0,0,0,,{\blur3}你老跟著我幹啥 啊{\r}
+Dialogue: 0,0:59:04.00,0:59:05.71,Default,NTP,0,0,0,,{\blur3}回克{\r}
+Dialogue: 0,0:59:05.83,0:59:06.88,Default,NTP,0,0,0,,{\blur3}回克{\r}
+Dialogue: 0,0:59:09.42,0:59:10.67,Default,NTP,0,0,0,,{\blur3}我不回克{\r}
+Dialogue: 0,0:59:11.67,0:59:14.09,Default,NTP,0,0,0,,{\blur3}你回克吧 回克{\r}
+Dialogue: 0,0:59:15.51,0:59:16.89,Default,NTP,0,0,0,,{\blur3}回克{\r}
+Dialogue: 0,0:59:21.85,0:59:23.35,Default,NTP,0,0,0,,{\blur3}走{\r}
+Dialogue: 0,0:59:23.43,0:59:26.06,Default,NTP,0,0,0,,{\blur3}趕快走 走{\r}
+Dialogue: 0,0:59:44.21,0:59:46.67,Default,NTP,0,0,0,,{\blur3}那個女人在外面等了你好幾天了{\r}
+Dialogue: 0,0:59:46.75,0:59:49.67,Default,NTP,0,0,0,,{\blur3}趕她走她都不肯走 我有什麼辦法呢{\r}
+Dialogue: 0,0:59:49.75,0:59:52.71,Default,NTP,0,0,0,,{\blur3}難道要我帶著老婆闖蕩江湖{\r}
+Dialogue: 0,0:59:54.63,0:59:56.68,Default,NTP,0,0,0,,{\blur3}沒說不行啊{\r}
+Dialogue: 0,0:59:56.76,0:59:59.39,Default,NTP,0,0,0,,{\blur3}事在人為嘛{\r}
+Dialogue: 0,1:00:05.43,1:00:07.64,Default,NTP,0,0,0,,{\blur3}我曾經好像你一樣{\r}
+Dialogue: 0,1:00:08.48,1:00:10.81,Default,NTP,0,0,0,,{\blur3}一心打天下{\r}
+Dialogue: 0,1:00:10.90,1:00:13.11,Default,NTP,0,0,0,,{\blur3}以為能拋下自己的女人{\r}
+Dialogue: 0,1:00:16.82,1:00:19.99,Default,NTP,0,0,0,,{\blur3}誰知等我回到家 才發覺{\r}
+Dialogue: 0,1:00:21.78,1:00:24.41,Default,NTP,0,0,0,,{\blur3}她變成我大嫂了{\r}
+Dialogue: 0,1:00:34.55,1:00:36.67,Default,NTP,0,0,0,,{\blur3}你天天來找我也沒用{\r}
+Dialogue: 0,1:00:38.55,1:00:41.34,Default,NTP,0,0,0,,{\blur3}你沒錢 我也幫不了你{\r}
+Dialogue: 0,1:00:42.10,1:00:44.18,Default,NTP,0,0,0,,{\blur3}你還是回去 想想別的辦法吧{\r}
+Dialogue: 0,1:00:47.18,1:00:48.98,Default,NTP,0,0,0,,{\blur3}我求求你了{\r}
+Dialogue: 0,1:00:49.06,1:00:50.85,Default,NTP,0,0,0,,{\blur3}你求我沒用{\r}
+Dialogue: 0,1:00:52.23,1:00:54.15,Default,NTP,0,0,0,,{\blur3}我只不過是一個中間人{\r}
+Dialogue: 0,1:00:55.57,1:00:58.65,Default,NTP,0,0,0,,{\blur3}要求的人 是你自己{\r}
+Dialogue: 0,1:01:12.42,1:01:15.46,Default,NTP,0,0,0,,{\blur3}每個人都會為一些東西而堅持{\r}
+Dialogue: 0,1:01:15.55,1:01:17.92,Default,NTP,0,0,0,,{\blur3}其他人會覺得是浪費時間{\r}
+Dialogue: 0,1:01:18.01,1:01:21.13,Default,NTP,0,0,0,,{\blur3}但對這個人來講 卻很重要{\r}
+Dialogue: 0,1:01:33.23,1:01:36.02,Default,NTP,0,0,0,,{\blur3}十五 有雨{\r}
+Dialogue: 0,1:01:36.11,1:01:38.23,Default,NTP,0,0,0,,{\blur3}土黃用時{\r}
+Dialogue: 0,1:01:38.32,1:01:40.03,Default,NTP,0,0,0,,{\blur3}曲星{\r}
+Dialogue: 0,1:01:40.11,1:01:42.86,Default,NTP,0,0,0,,{\blur3}宜沐浴 忌出行{\r}
+Dialogue: 0,1:01:42.95,1:01:45.24,Default,NTP,0,0,0,,{\blur3}沖龍煞北{\r}
+Dialogue: 0,1:03:06.41,1:03:08.74,Default,NTP,0,0,0,,{\blur3}如果我是那群太尉府的刀客{\r}
+Dialogue: 0,1:03:08.83,1:03:11.12,Default,NTP,0,0,0,,{\blur3}我一定會死不瞑目{\r}
+Dialogue: 0,1:03:11.20,1:03:14.29,Default,NTP,0,0,0,,{\blur3}原來這麼多條命加起來 只不過值一個雞蛋{\r}
+Dialogue: 0,1:03:14.87,1:03:18.46,Default,NTP,0,0,0,,{\blur3}為了一個雞蛋而失去了一隻手指 值得嗎{\r}
+Dialogue: 0,1:03:24.63,1:03:26.18,Default,NTP,0,0,0,,{\blur3}不值得{\r}
+Dialogue: 0,1:03:29.01,1:03:30.72,Default,NTP,0,0,0,,{\blur3}但我覺得痛快{\r}
+Dialogue: 0,1:03:32.18,1:03:34.02,Default,NTP,0,0,0,,{\blur3}這才是我自己{\r}
+Dialogue: 0,1:03:39.44,1:03:41.82,Default,NTP,0,0,0,,{\blur3}本來我應該沒事{\r}
+Dialogue: 0,1:03:43.57,1:03:45.99,Default,NTP,0,0,0,,{\blur3}但是我的刀沒以前快{\r}
+Dialogue: 0,1:03:48.87,1:03:51.87,Default,NTP,0,0,0,,{\blur3}我以前快是因為我直接{\r}
+Dialogue: 0,1:03:51.95,1:03:54.20,Default,NTP,0,0,0,,{\blur3}覺得對就去做{\r}
+Dialogue: 0,1:03:54.29,1:03:57.12,Default,NTP,0,0,0,,{\blur3}從來不會想什麼代價{\r}
+Dialogue: 0,1:03:59.88,1:04:02.59,Default,NTP,0,0,0,,{\blur3}我以為我這一輩子都不會變{\r}
+Dialogue: 0,1:04:03.88,1:04:06.76,Default,NTP,0,0,0,,{\blur3}直到那個女孩來求我{\r}
+Dialogue: 0,1:04:08.14,1:04:11.55,Default,NTP,0,0,0,,{\blur3}我才發覺我自己完全變了{\r}
+Dialogue: 0,1:04:13.18,1:04:16.10,Default,NTP,0,0,0,,{\blur3}我竟然沒有答應她{\r}
+Dialogue: 0,1:04:18.27,1:04:20.81,Default,NTP,0,0,0,,{\blur3}因為我知道你一定不會答應{\r}
+Dialogue: 0,1:04:25.69,1:04:27.61,Default,NTP,0,0,0,,{\blur3}那天 我好失望{\r}
+Dialogue: 0,1:04:31.24,1:04:34.66,Default,NTP,0,0,0,,{\blur3}我覺得我自己和你混在一起 變成一個人{\r}
+Dialogue: 0,1:04:36.12,1:04:38.04,Default,NTP,0,0,0,,{\blur3}沒有了自己{\r}
+Dialogue: 0,1:04:41.09,1:04:43.25,Default,NTP,0,0,0,,{\blur3}我不想跟你一樣{\r}
+Dialogue: 0,1:04:49.68,1:04:51.80,Default,NTP,0,0,0,,{\blur3}因為我知道歐陽峰{\r}
+Dialogue: 0,1:04:51.89,1:04:55.52,Default,NTP,0,0,0,,{\blur3}絕對不會因為一個雞蛋去冒險{\r}
+Dialogue: 0,1:04:57.35,1:05:00.31,Default,NTP,0,0,0,,{\blur3}這是我和你的分別{\r}
+Dialogue: 0,1:05:23.92,1:05:25.75,Default,NTP,0,0,0,,{\blur3}你能不能救救洪七{\r}
+Dialogue: 0,1:05:32.01,1:05:34.10,Default,NTP,0,0,0,,{\blur3}聽說他病得很厲害{\r}
+Dialogue: 0,1:05:35.97,1:05:38.18,Default,NTP,0,0,0,,{\blur3}能不能請個大夫 看看他{\r}
+Dialogue: 0,1:05:38.27,1:05:39.81,Default,NTP,0,0,0,,{\blur3}請大夫{\r}
+Dialogue: 0,1:05:39.89,1:05:41.60,Default,NTP,0,0,0,,{\blur3}要錢的{\r}
+Dialogue: 0,1:05:43.44,1:05:45.36,Default,NTP,0,0,0,,{\blur3}可惜我家沒有雞蛋{\r}
+Dialogue: 0,1:05:45.44,1:05:48.53,Default,NTP,0,0,0,,{\blur3}如果有 我可以給你幾隻{\r}
+Dialogue: 0,1:05:48.61,1:05:52.20,Default,NTP,0,0,0,,{\blur3}你知道 你最擅長用雞蛋請人做事的{\r}
+Dialogue: 0,1:06:03.79,1:06:05.67,Default,NTP,0,0,0,,{\blur3}我是不會救他的{\r}
+Dialogue: 0,1:06:06.21,1:06:08.59,Default,NTP,0,0,0,,{\blur3}因為他不聽我的話{\r}
+Dialogue: 0,1:06:09.67,1:06:11.92,Default,NTP,0,0,0,,{\blur3}其實 他搞成這樣 都是因為你{\r}
+Dialogue: 0,1:06:13.43,1:06:15.09,Default,NTP,0,0,0,,{\blur3}不如你去救他{\r}
+Dialogue: 0,1:06:18.85,1:06:21.98,Default,NTP,0,0,0,,{\blur3}我知道你不到山窮水儘是不會來求我的{\r}
+Dialogue: 0,1:06:23.35,1:06:25.73,Default,NTP,0,0,0,,{\blur3}我在這兒等著你來求我{\r}
+Dialogue: 0,1:06:27.65,1:06:31.61,Default,NTP,0,0,0,,{\blur3}我記得你講過 你說不願意為別人犧牲自己{\r}
+Dialogue: 0,1:06:32.78,1:06:36.57,Default,NTP,0,0,0,,{\blur3}我看你這次 會不會講得出做得到{\r}
+Dialogue: 0,1:06:44.88,1:06:46.17,Default,NTP,0,0,0,,{\blur3}你在想什麼{\r}
+Dialogue: 0,1:06:46.25,1:06:47.54,Default,NTP,0,0,0,,{\blur3}沒什麼{\r}
+Dialogue: 0,1:06:51.51,1:06:54.22,Default,NTP,0,0,0,,{\blur3}不要為我做任何事{\r}
+Dialogue: 0,1:06:55.84,1:06:57.85,Default,NTP,0,0,0,,{\blur3}如果我這次真的死了{\r}
+Dialogue: 0,1:07:00.72,1:07:03.14,Default,NTP,0,0,0,,{\blur3}我也會死的好開心{\r}
+Dialogue: 0,1:07:08.02,1:07:10.44,Default,NTP,0,0,0,,{\blur3}我幫你是為了那雞蛋{\r}
+Dialogue: 0,1:07:12.86,1:07:14.78,Default,NTP,0,0,0,,{\blur3}雞蛋我已經吃了{\r}
+Dialogue: 0,1:07:17.49,1:07:19.74,Default,NTP,0,0,0,,{\blur3}你沒欠我什麼{\r}
+Dialogue: 0,1:07:21.16,1:07:24.87,Default,NTP,0,0,0,,{\blur3}記住 別做傻事{\r}
+Dialogue: 0,1:07:30.67,1:07:32.21,Default,NTP,0,0,0,,{\blur3}之後{\r}
+Dialogue: 0,1:07:32.30,1:07:35.47,Default,NTP,0,0,0,,{\blur3}我就沒再見過那個女人{\r}
+Dialogue: 0,1:08:00.03,1:08:02.74,Default,NTP,0,0,0,,{\blur3}可能我以後不會再用刀吃飯了{\r}
+Dialogue: 0,1:08:05.87,1:08:08.37,Default,NTP,0,0,0,,{\blur3}不一定要用刀{\r}
+Dialogue: 0,1:08:08.88,1:08:10.92,Default,NTP,0,0,0,,{\blur3}赤手空拳都可以殺死人的{\r}
+Dialogue: 0,1:08:12.42,1:08:15.88,Default,NTP,0,0,0,,{\blur3}你不過是少了根手指 這也沒什麼{\r}
+Dialogue: 0,1:08:15.97,1:08:18.76,Default,NTP,0,0,0,,{\blur3}好歹還有份差事{\r}
+Dialogue: 0,1:08:18.84,1:08:20.26,Default,NTP,0,0,0,,{\blur3}怎麼{\r}
+Dialogue: 0,1:08:20.35,1:08:21.97,Default,NTP,0,0,0,,{\blur3}想回家鄉{\r}
+Dialogue: 0,1:08:22.06,1:08:24.43,Default,NTP,0,0,0,,{\blur3}如果你這樣就想著回家鄉{\r}
+Dialogue: 0,1:08:24.52,1:08:26.85,Default,NTP,0,0,0,,{\blur3}為什麼當初你又要出來{\r}
+Dialogue: 0,1:08:28.44,1:08:30.81,Default,NTP,0,0,0,,{\blur3}不知過了這個沙漠 後面是什麼地方{\r}
+Dialogue: 0,1:08:30.90,1:08:32.52,Default,NTP,0,0,0,,{\blur3}還不就是另外一個沙漠{\r}
+Dialogue: 0,1:08:34.53,1:08:37.20,Default,NTP,0,0,0,,{\blur3}每個人都會經過這個階段{\r}
+Dialogue: 0,1:08:37.28,1:08:41.12,Default,NTP,0,0,0,,{\blur3}見到一座山 就想知道山後面是什麼{\r}
+Dialogue: 0,1:08:41.74,1:08:43.24,Default,NTP,0,0,0,,{\blur3}我很想告訴他{\r}
+Dialogue: 0,1:08:43.33,1:08:46.20,Default,NTP,0,0,0,,{\blur3}可能翻過去 你會發覺沒什麼特別{\r}
+Dialogue: 0,1:08:46.29,1:08:47.96,Default,NTP,0,0,0,,{\blur3}再翻過來{\r}
+Dialogue: 0,1:08:48.04,1:08:50.50,Default,NTP,0,0,0,,{\blur3}會覺得這邊更好{\r}
+Dialogue: 0,1:08:50.58,1:08:52.79,Default,NTP,0,0,0,,{\blur3}但我知道他不會聽{\r}
+Dialogue: 0,1:08:52.88,1:08:54.34,Default,NTP,0,0,0,,{\blur3}以他的性格{\r}
+Dialogue: 0,1:08:54.42,1:08:57.38,Default,NTP,0,0,0,,{\blur3}自己不走一走 又怎麼會甘心呢{\r}
+Dialogue: 0,1:09:06.02,1:09:07.68,Default,NTP,0,0,0,,{\blur3}你打算去哪兒{\r}
+Dialogue: 0,1:09:07.77,1:09:09.23,Default,NTP,0,0,0,,{\blur3}去一個我沒去過的地方{\r}
+Dialogue: 0,1:09:09.31,1:09:10.90,Default,NTP,0,0,0,,{\blur3}希望可以闖出個名堂{\r}
+Dialogue: 0,1:09:10.98,1:09:13.61,Default,NTP,0,0,0,,{\blur3}如果你以後在江湖上聽說一個九指英雄{\r}
+Dialogue: 0,1:09:13.69,1:09:15.11,Default,NTP,0,0,0,,{\blur3}那一定是我{\r}
+Dialogue: 0,1:09:15.19,1:09:16.78,Default,NTP,0,0,0,,{\blur3}那她呢{\r}
+Dialogue: 0,1:09:17.90,1:09:20.95,Default,NTP,0,0,0,,{\blur3}帶她一起 像你說的 事在人為嘛{\r}
+Dialogue: 0,1:09:21.03,1:09:25.33,Default,NTP,0,0,0,,{\blur3}又沒規定說不准帶老婆闖蕩江湖 對不對{\r}
+Dialogue: 0,1:09:26.91,1:09:28.16,Default,NTP,0,0,0,,{\blur3}走{\r}
+Dialogue: 0,1:09:28.91,1:09:31.92,Default,NTP,0,0,0,,{\blur3}我終於明白那個女人為什麼會喜歡洪七{\r}
+Dialogue: 0,1:09:32.00,1:09:34.79,Default,NTP,0,0,0,,{\blur3}可能是因為他夠簡單{\r}
+Dialogue: 0,1:09:36.21,1:09:38.42,Default,NTP,0,0,0,,{\blur3}看著他們走的時候{\r}
+Dialogue: 0,1:09:38.51,1:09:40.55,Default,NTP,0,0,0,,{\blur3}我的心在妒忌{\r}
+Dialogue: 0,1:09:42.18,1:09:44.22,Default,NTP,0,0,0,,{\blur3}曾經我也有過這樣的機會{\r}
+Dialogue: 0,1:09:44.30,1:09:46.31,Default,NTP,0,0,0,,{\blur3}不知為什麼{\r}
+Dialogue: 0,1:09:46.39,1:09:48.18,Default,NTP,0,0,0,,{\blur3}我卻放棄了{\r}
+Dialogue: 0,1:10:35.52,1:10:39.07,Default,NTP,0,0,0,,{\blur3}他走的那天 風是向南面吹的{\r}
+Dialogue: 0,1:10:40.61,1:10:43.45,Default,NTP,0,0,0,,{\blur3}他故意逆風而行{\r}
+Dialogue: 0,1:10:43.53,1:10:45.74,Default,NTP,0,0,0,,{\blur3}我記得那一天是十五{\r}
+Dialogue: 0,1:10:45.87,1:10:47.95,Default,NTP,0,0,0,,{\blur3}黃歷上寫著{\r}
+Dialogue: 0,1:10:48.04,1:10:52.29,Default,NTP,0,0,0,,{\blur3}失星當值 大利北方{\r}
+Dialogue: 0,1:11:09.89,1:11:13.39,Default,NTP,0,0,0,,{\blur3}洪七走了之後 天一直在下雨{\r}
+Dialogue: 0,1:11:14.10,1:11:17.10,Default,NTP,0,0,0,,{\blur3}每次下雨 我就會想起一個人{\r}
+Dialogue: 0,1:11:18.44,1:11:20.23,Default,NTP,0,0,0,,{\blur3}她曾經很喜歡我{\r}
+Dialogue: 0,1:11:23.57,1:11:26.28,Default,NTP,0,0,0,,{\blur3}不知道是不是巧合{\r}
+Dialogue: 0,1:11:26.41,1:11:28.91,Default,NTP,0,0,0,,{\blur3}每次我要離開她遠行的時候{\r}
+Dialogue: 0,1:11:29.03,1:11:30.58,Default,NTP,0,0,0,,{\blur3}天都會下雨{\r}
+Dialogue: 0,1:11:31.58,1:11:33.91,Default,NTP,0,0,0,,{\blur3}她說是因為她不高興{\r}
+Dialogue: 0,1:11:34.79,1:11:37.12,Default,NTP,0,0,0,,{\blur3}後來她嫁給了我哥哥{\r}
+Dialogue: 0,1:11:37.88,1:11:39.71,Default,NTP,0,0,0,,{\blur3}她結婚那天{\r}
+Dialogue: 0,1:11:39.80,1:11:42.09,Default,NTP,0,0,0,,{\blur3}我就離開了白駝山{\r}
+Dialogue: 0,1:12:48.86,1:12:51.95,Default,NTP,0,0,0,,{\blur3}你就算明天再問我 答案還是一樣 我不跟{\r}
+Dialogue: 0,1:12:52.03,1:12:54.70,Default,NTP,0,0,0,,{\blur3}你跟不跟我走{\r}
+Dialogue: 0,1:12:54.83,1:12:56.45,Default,NTP,0,0,0,,{\blur3}你也不會好過{\r}
+Dialogue: 0,1:12:56.54,1:13:01.29,Default,NTP,0,0,0,,{\blur3}不跟 你記住 從今天開始 我就是你嫂子{\r}
+Dialogue: 0,1:13:01.38,1:13:04.34,Default,NTP,0,0,0,,{\blur3}以後可以拉我手的人只有一個 就是你哥哥{\r}
+Dialogue: 0,1:13:04.46,1:13:06.67,Default,NTP,0,0,0,,{\blur3}其他的人沒有資格{\r}
+Dialogue: 0,1:13:43.84,1:13:46.21,Default,NTP,0,0,0,,{\blur3}你為什麼老看著我的汗巾{\r}
+Dialogue: 0,1:13:47.51,1:13:50.05,Default,NTP,0,0,0,,{\blur3}這條汗巾是我丈夫的{\r}
+Dialogue: 0,1:13:50.18,1:13:52.51,Default,NTP,0,0,0,,{\blur3}為什麼會在你這裏{\r}
+Dialogue: 0,1:14:12.24,1:14:14.03,Default,NTP,0,0,0,,{\blur3}他是不是已經死了{\r}
+Dialogue: 0,1:14:17.79,1:14:20.37,Default,NTP,0,0,0,,{\blur3}可能因為太久沒看過桃花了{\r}
+Dialogue: 0,1:14:20.46,1:14:24.42,Default,NTP,0,0,0,,{\blur3}第二年的春天 我去了那個人的家鄉{\r}
+Dialogue: 0,1:14:25.25,1:14:26.84,Default,NTP,0,0,0,,{\blur3}我很奇怪那裏{\r}
+Dialogue: 0,1:14:26.92,1:14:29.21,Default,NTP,0,0,0,,{\blur3}根本就沒桃花{\r}
+Dialogue: 0,1:14:39.10,1:14:42.02,Default,NTP,0,0,0,,{\blur3}這件東西對我來說已經沒用了{\r}
+Dialogue: 0,1:14:47.11,1:14:49.90,Default,NTP,0,0,0,,{\blur3}在我離開的時候 才知道{\r}
+Dialogue: 0,1:14:50.36,1:14:53.24,Default,NTP,0,0,0,,{\blur3}這地方根本就沒桃花{\r}
+Dialogue: 0,1:14:54.78,1:14:57.62,Default,NTP,0,0,0,,{\blur3}桃花 只不過是一個女人的名字{\r}
+Dialogue: 0,1:15:19.47,1:15:21.89,Default,NTP,0,0,0,,{\blur3}聽到那個女人的哭聲{\r}
+Dialogue: 0,1:15:21.98,1:15:26.31,Default,NTP,0,0,0,,{\blur3}我突然間明白 為什麼黃藥師每年都來探望我一次{\r}
+Dialogue: 0,1:15:38.28,1:15:40.83,Default,NTP,0,0,0,,{\blur3}你覺不覺得他好奇怪{\r}
+Dialogue: 0,1:15:41.33,1:15:43.62,Default,NTP,0,0,0,,{\blur3}也不理人{\r}
+Dialogue: 0,1:15:46.50,1:15:49.08,Default,NTP,0,0,0,,{\blur3}悄無聲息{\r}
+Dialogue: 0,1:15:49.17,1:15:52.67,Default,NTP,0,0,0,,{\blur3}分明心裏想要 嘴巴卻不肯講出來{\r}
+Dialogue: 0,1:15:55.26,1:15:57.59,Default,NTP,0,0,0,,{\blur3}一定要你送到面前才肯要{\r}
+Dialogue: 0,1:16:03.77,1:16:06.02,Default,NTP,0,0,0,,{\blur3}最初想 由著他吧{\r}
+Dialogue: 0,1:16:07.94,1:16:11.02,Default,NTP,0,0,0,,{\blur3}漸漸地也就不想遷就他了{\r}
+Dialogue: 0,1:16:11.15,1:16:15.61,Default,NTP,0,0,0,,{\blur3}雖然我很喜歡她 但是我始終都不想讓她知道{\r}
+Dialogue: 0,1:16:15.70,1:16:19.37,Default,NTP,0,0,0,,{\blur3}因為我知道 得不到的東西永遠是最好的{\r}
+Dialogue: 0,1:16:20.62,1:16:22.95,Default,NTP,0,0,0,,{\blur3}每次她凝望著那小孩子{\r}
+Dialogue: 0,1:16:23.04,1:16:25.83,Default,NTP,0,0,0,,{\blur3}我知道她心裏其實在想另一個人{\r}
+Dialogue: 0,1:16:27.00,1:16:29.21,Default,NTP,0,0,0,,{\blur3}我很妒忌歐陽峰{\r}
+Dialogue: 0,1:16:29.67,1:16:33.00,Default,NTP,0,0,0,,{\blur3}我很想知道被人喜歡的感覺是怎樣的{\r}
+Dialogue: 0,1:16:34.21,1:16:36.55,Default,NTP,0,0,0,,{\blur3}結果我傷害了很多人{\r}
+Dialogue: 0,1:16:39.18,1:16:42.30,Default,NTP,0,0,0,,{\blur3}我一直都以為你們會在一起{\r}
+Dialogue: 0,1:16:43.06,1:16:45.22,Default,NTP,0,0,0,,{\blur3}為什麼你不嫁給他{\r}
+Dialogue: 0,1:16:49.98,1:16:52.56,Default,NTP,0,0,0,,{\blur3}他從沒說過他喜歡我{\r}
+Dialogue: 0,1:16:52.65,1:16:55.36,Default,NTP,0,0,0,,{\blur3}有些話不一定要說出來的{\r}
+Dialogue: 0,1:16:57.53,1:17:00.24,Default,NTP,0,0,0,,{\blur3}我只需要他說一句話而已{\r}
+Dialogue: 0,1:17:00.70,1:17:02.87,Default,NTP,0,0,0,,{\blur3}但他都不肯說{\r}
+Dialogue: 0,1:17:04.20,1:17:09.42,Default,NTP,0,0,0,,{\blur3}他太自信了 以為我一定會嫁給他{\r}
+Dialogue: 0,1:17:10.75,1:17:13.67,Default,NTP,0,0,0,,{\blur3}誰知道我嫁給了他哥哥{\r}
+Dialogue: 0,1:17:16.92,1:17:20.68,Default,NTP,0,0,0,,{\blur3}在我們結婚那晚 他要我跟他走{\r}
+Dialogue: 0,1:17:20.76,1:17:22.55,Default,NTP,0,0,0,,{\blur3}我沒答應{\r}
+Dialogue: 0,1:17:27.43,1:17:30.73,Default,NTP,0,0,0,,{\blur3}為什麼要到失去的時候 才去爭取{\r}
+Dialogue: 0,1:17:31.86,1:17:33.61,Default,NTP,0,0,0,,{\blur3}既然是這樣{\r}
+Dialogue: 0,1:17:33.69,1:17:36.19,Default,NTP,0,0,0,,{\blur3}我不會讓他得到{\r}
+Dialogue: 0,1:17:36.28,1:17:38.44,Default,NTP,0,0,0,,{\blur3}如果感情是可以分勝負的話{\r}
+Dialogue: 0,1:17:38.57,1:17:41.11,Default,NTP,0,0,0,,{\blur3}我不知道她是不是贏了{\r}
+Dialogue: 0,1:17:41.24,1:17:43.53,Default,NTP,0,0,0,,{\blur3}但我很清楚{\r}
+Dialogue: 0,1:17:43.62,1:17:46.04,Default,NTP,0,0,0,,{\blur3}從一開始 我就是輸的那個人{\r}
+Dialogue: 0,1:17:51.96,1:17:55.04,Default,NTP,0,0,0,,{\blur3}我是因為這個女人才喜歡桃花{\r}
+Dialogue: 0,1:17:55.13,1:17:58.71,Default,NTP,0,0,0,,{\blur3}每年桃花開的時候 我都能見到她{\r}
+Dialogue: 0,1:18:00.05,1:18:02.22,Default,NTP,0,0,0,,{\blur3}我去探望歐陽峰{\r}
+Dialogue: 0,1:18:02.30,1:18:05.43,Default,NTP,0,0,0,,{\blur3}因為她想知道歐陽峰的消息{\r}
+Dialogue: 0,1:18:06.31,1:18:08.72,Default,NTP,0,0,0,,{\blur3}也因為歐陽峰{\r}
+Dialogue: 0,1:18:08.81,1:18:12.10,Default,NTP,0,0,0,,{\blur3}我每年都可以有借口去看她一次{\r}
+Dialogue: 0,1:18:12.65,1:18:17.44,Default,NTP,0,0,0,,{\blur3}你知不知道 現在對我來說什麼最重要{\r}
+Dialogue: 0,1:18:20.49,1:18:24.11,Default,NTP,0,0,0,,{\blur3}如果我沒猜錯的話 應該是你的兒子{\r}
+Dialogue: 0,1:18:26.49,1:18:28.95,Default,NTP,0,0,0,,{\blur3}我以前也是這麼想對{\r}
+Dialogue: 0,1:18:31.08,1:18:33.67,Default,NTP,0,0,0,,{\blur3}但是看著他一天天長大{\r}
+Dialogue: 0,1:18:35.75,1:18:38.17,Default,NTP,0,0,0,,{\blur3}我知道他早晚會離開我{\r}
+Dialogue: 0,1:18:43.34,1:18:45.84,Default,NTP,0,0,0,,{\blur3}所以我覺得什麼都無所謂了{\r}
+Dialogue: 0,1:18:51.52,1:18:54.69,Default,NTP,0,0,0,,{\blur3}以前我認為那句話很重要{\r}
+Dialogue: 0,1:18:57.36,1:19:02.19,Default,NTP,0,0,0,,{\blur3}因為我覺得有些話說出來 就是一生一世{\r}
+Dialogue: 0,1:19:06.37,1:19:08.12,Default,NTP,0,0,0,,{\blur3}但是現在想一想{\r}
+Dialogue: 0,1:19:10.83,1:19:13.37,Default,NTP,0,0,0,,{\blur3}其實說不說也沒有什麼分別{\r}
+Dialogue: 0,1:19:15.67,1:19:17.46,Default,NTP,0,0,0,,{\blur3}因為有些事會變的{\r}
+Dialogue: 0,1:19:27.01,1:19:29.51,Default,NTP,0,0,0,,{\blur3}我一直都以為是我自己是贏的那個{\r}
+Dialogue: 0,1:19:33.39,1:19:35.81,Default,NTP,0,0,0,,{\blur3}直到有一天看著鏡子{\r}
+Dialogue: 0,1:19:40.07,1:19:43.40,Default,NTP,0,0,0,,{\blur3}才知道自己輸了{\r}
+Dialogue: 0,1:19:45.49,1:19:48.41,Default,NTP,0,0,0,,{\blur3}因為在我最美好的時候{\r}
+Dialogue: 0,1:19:49.87,1:19:52.87,Default,NTP,0,0,0,,{\blur3}我最喜歡的人都不在我身邊{\r}
+Dialogue: 0,1:19:59.92,1:20:03.71,Default,NTP,0,0,0,,{\blur3}如果可以重新開始 那該多好啊{\r}
+Dialogue: 0,1:21:00.02,1:21:02.27,Default,NTP,0,0,0,,{\blur3}其實你跟他這麼要好{\r}
+Dialogue: 0,1:21:06.95,1:21:09.57,Default,NTP,0,0,0,,{\blur3}為什麼不告訴他我在這裏呢{\r}
+Dialogue: 0,1:21:10.95,1:21:12.82,Default,NTP,0,0,0,,{\blur3}我答應過你{\r}
+Dialogue: 0,1:21:13.28,1:21:15.99,Default,NTP,0,0,0,,{\blur3}所以我一直都沒說{\r}
+Dialogue: 0,1:21:21.50,1:21:23.25,Default,NTP,0,0,0,,{\blur3}你太老實了{\r}
+Dialogue: 0,1:23:03.06,1:23:06.23,Default,NTP,0,0,0,,{\blur3}沒多久 她就病死了{\r}
+Dialogue: 0,1:23:08.23,1:23:13.78,Default,NTP,0,0,0,,{\blur3}在她臨死之前 她交給我一罈酒 要我帶給那個人{\r}
+Dialogue: 0,1:23:15.91,1:23:19.33,Default,NTP,0,0,0,,{\blur3}她希望歐陽峰可以忘記她{\r}
+Dialogue: 0,1:23:23.29,1:23:28.09,Default,NTP,0,0,0,,{\blur3}有人說 一個人有煩惱 是因為記性太好{\r}
+Dialogue: 0,1:23:30.38,1:23:33.80,Default,NTP,0,0,0,,{\blur3}從那年開始 我忘記了很多事情{\r}
+Dialogue: 0,1:23:36.05,1:23:39.68,Default,NTP,0,0,0,,{\blur3}唯一有印象的 就是我喜歡桃花{\r}
+Dialogue: 0,1:24:08.92,1:24:12.96,Default,NTP,0,0,0,,{\blur3}立春之後 很快就又到了驚蟄{\r}
+Dialogue: 0,1:24:13.05,1:24:16.97,Default,NTP,0,0,0,,{\blur3}每年這個時候 會有位朋友來探我{\r}
+Dialogue: 0,1:24:17.05,1:24:19.47,Default,NTP,0,0,0,,{\blur3}但是他今年沒有來{\r}
+Dialogue: 0,1:24:39.32,1:24:43.66,Default,NTP,0,0,0,,{\blur3}沒多久 我收到一封白駝山來的信{\r}
+Dialogue: 0,1:24:44.75,1:24:50.08,Default,NTP,0,0,0,,{\blur3}因為一場大病 我大嫂在兩年前的冬天去世了{\r}
+Dialogue: 0,1:24:54.34,1:24:57.17,Default,NTP,0,0,0,,{\blur3}我知道黃藥師不會再來{\r}
+Dialogue: 0,1:24:57.72,1:24:59.76,Default,NTP,0,0,0,,{\blur3}可是我還繼續等{\r}
+Dialogue: 0,1:25:00.64,1:25:03.31,Default,NTP,0,0,0,,{\blur3}我在門口坐了兩天兩夜{\r}
+Dialogue: 0,1:25:03.39,1:25:07.31,Default,NTP,0,0,0,,{\blur3}看著天空在不斷的變化 我才發現{\r}
+Dialogue: 0,1:25:07.39,1:25:10.10,Default,NTP,0,0,0,,{\blur3}雖然我到這裏很久{\r}
+Dialogue: 0,1:25:10.19,1:25:13.73,Default,NTP,0,0,0,,{\blur3}但我卻從來沒看清楚過這片沙漠{\r}
+Dialogue: 0,1:25:18.53,1:25:20.41,Default,NTP,0,0,0,,{\blur3}以前看見山{\r}
+Dialogue: 0,1:25:20.49,1:25:23.41,Default,NTP,0,0,0,,{\blur3}就想知道山的後面是什麼{\r}
+Dialogue: 0,1:25:23.49,1:25:25.62,Default,NTP,0,0,0,,{\blur3}但現在 我已經不想再知道了{\r}
+Dialogue: 0,1:25:27.50,1:25:29.75,Default,NTP,0,0,0,,{\blur3}我是個孤星入命的人{\r}
+Dialogue: 0,1:25:29.83,1:25:32.29,Default,NTP,0,0,0,,{\blur3}父母很早就死了{\r}
+Dialogue: 0,1:25:32.38,1:25:35.17,Default,NTP,0,0,0,,{\blur3}只有跟哥哥相依為命{\r}
+Dialogue: 0,1:25:35.25,1:25:37.71,Default,NTP,0,0,0,,{\blur3}可能因為是孤兒{\r}
+Dialogue: 0,1:25:37.80,1:25:40.22,Default,NTP,0,0,0,,{\blur3}我很小就懂得應該怎樣去保護自己{\r}
+Dialogue: 0,1:25:41.47,1:25:45.89,Default,NTP,0,0,0,,{\blur3}我知道 如果你不想被人拒絕{\r}
+Dialogue: 0,1:25:45.97,1:25:48.14,Default,NTP,0,0,0,,{\blur3}最好的方法 就是先拒絕別人{\r}
+Dialogue: 0,1:25:49.19,1:25:51.73,Default,NTP,0,0,0,,{\blur3}因為這個原因{\r}
+Dialogue: 0,1:25:51.81,1:25:54.69,Default,NTP,0,0,0,,{\blur3}我一直都沒再回去過{\r}
+Dialogue: 0,1:25:54.77,1:25:57.03,Default,NTP,0,0,0,,{\blur3}其實那邊也不錯{\r}
+Dialogue: 0,1:25:57.11,1:25:59.44,Default,NTP,0,0,0,,{\blur3}可惜我已經不能回頭了{\r}
+Dialogue: 0,1:26:00.28,1:26:05.58,Default,NTP,0,0,0,,{\blur3}我的命書裏說 "夫妻宮 太陽化忌{\r}
+Dialogue: 0,1:26:05.83,1:26:09.91,Default,NTP,0,0,0,,{\blur3}婚姻有實無名" 想不到是真的{\r}
+Dialogue: 0,1:26:44.41,1:26:47.45,Default,NTP,0,0,0,,{\blur3}那晚 我忽然之間很想喝酒{\r}
+Dialogue: 0,1:26:47.54,1:26:50.20,Default,NTP,0,0,0,,{\blur3}結果我喝了那半壇"醉生夢死"{\r}
+Dialogue: 0,1:26:51.91,1:26:55.25,Default,NTP,0,0,0,,{\blur3}好像平常一樣 我繼續做我的生意{\r}
+Dialogue: 0,1:26:59.13,1:27:02.26,Default,NTP,0,0,0,,{\blur3}老兄 看來你已經四十出頭了{\r}
+Dialogue: 0,1:27:05.72,1:27:07.97,Default,NTP,0,0,0,,{\blur3}這四十幾年來{\r}
+Dialogue: 0,1:27:08.06,1:27:11.81,Default,NTP,0,0,0,,{\blur3}總有些事你不想再提 或有些人你不想再見{\r}
+Dialogue: 0,1:27:13.81,1:27:15.65,Default,NTP,0,0,0,,{\blur3}有個人可能很對不起你{\r}
+Dialogue: 0,1:27:17.11,1:27:19.90,Default,NTP,0,0,0,,{\blur3}或者你想過殺了他們{\r}
+Dialogue: 0,1:27:22.45,1:27:24.57,Default,NTP,0,0,0,,{\blur3}不過你不敢{\r}
+Dialogue: 0,1:27:28.87,1:27:31.33,Default,NTP,0,0,0,,{\blur3}其實 殺一個人是很容易的{\r}
+Dialogue: 0,1:27:32.12,1:27:34.21,Default,NTP,0,0,0,,{\blur3}一點也不麻煩{\r}
+Dialogue: 0,1:27:34.29,1:27:37.75,Default,NTP,0,0,0,,{\blur3}我有個朋友 他武功非常好{\r}
+Dialogue: 0,1:27:38.25,1:27:40.67,Default,NTP,0,0,0,,{\blur3}不過最近生活上有點困難{\r}
+Dialogue: 0,1:27:40.76,1:27:46.55,Default,NTP,0,0,0,,{\blur3}如果你能給他一點錢的話 他一定可以幫你殺了他{\r}
+Dialogue: 0,1:27:51.39,1:27:52.97,Default,NTP,0,0,0,,{\blur3}考慮一下{\r}
+Dialogue: 0,1:27:54.14,1:27:56.02,Default,NTP,0,0,0,,{\blur3}不過要快{\r}
+Dialogue: 0,1:27:56.10,1:27:57.65,Default,NTP,0,0,0,,{\blur3}如果不是的話…{\r}
+Dialogue: 0,1:27:59.94,1:28:04.90,Default,NTP,0,0,0,,{\blur3}沒有事的時候 我會望向白駝山{\r}
+Dialogue: 0,1:28:07.62,1:28:10.83,Default,NTP,0,0,0,,{\blur3}我清楚的記得 曾經有一個女人在那邊等著我{\r}
+Dialogue: 0,1:28:16.33,1:28:21.09,Default,NTP,0,0,0,,{\blur3}其實"醉生夢死" 只不過是她跟我開的一個玩笑{\r}
+Dialogue: 0,1:28:23.09,1:28:26.79,Default,NTP,0,0,0,,{\blur3}你越想知道自己是不是忘記的時候{\r}
+Dialogue: 0,1:28:26.79,1:28:28.76,Default,NTP,0,0,0,,{\blur3}你反而記得更加清楚{\r}
+Dialogue: 0,1:28:30.76,1:28:33.43,Default,NTP,0,0,0,,{\blur3}我曾經聽人說過{\r}
+Dialogue: 0,1:28:33.52,1:28:38.14,Default,NTP,0,0,0,,{\blur3}當你不能夠再擁有的時候 你唯一可以做的{\r}
+Dialogue: 0,1:28:39.44,1:28:41.31,Default,NTP,0,0,0,,{\blur3}就是令自己不要忘記{\r}
+Dialogue: 0,1:28:49.12,1:28:52.87,Default,NTP,0,0,0,,{\blur3}不知道為什麼 我老是做著同一個夢{\r}
+Dialogue: 0,1:28:53.70,1:28:57.37,Default,NTP,0,0,0,,{\blur3}不久 我就離開了這個地方{\r}
+Dialogue: 0,1:29:18.35,1:29:20.65,Default,NTP,0,0,0,,{\blur3}離開那天 黃歷上寫道:{\r}
+Dialogue: 0,1:29:20.73,1:29:26.15,Default,NTP,0,0,0,,{\blur3}"驛馬動 火逼金行 大利西方"{\r}

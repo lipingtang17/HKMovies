@@ -1,0 +1,1287 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,SimHei,20,&H00FFFFFF,&H00000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,2,5,5,5,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:01.01,0:00:04.01,Default,,0000,0000,0000,,{\fad(500,500)}{\fsp2}{\c&HFFFFFF&}{\fs13}{\fn楷体_GB2312}{\bord0}本作品由 {\fs18}{\fn黑体}{\fe0}{\c&H26F4FF&}NORM{\fscy100}{\fe134}{\fn楷体_GB2312}{\c&HFFFFFF&}{\fs12} 荣誉出品\N{\fs16}下载后仅供学习交流 严禁用于商业途径
+Dialogue: 0,0:00:07.02,0:00:12.02,Default,,0000,0000,0000,,{\fad(500,500)}{\fs16} {\c&H24EFFF&}{\fn黑体}{\bord0}压制：{\fs18}{\c&HFFFFFF&}KingX_Chin  {\fs16}{\c&H24EFFF&}双显&特效字幕：{\fs18}{\c&HFFFFFF&}KingX_Chin
+Dialogue: 0,0:03:36.01,0:03:37.10,Default,,0000,0000,0000,,你们谁还要咖啡呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Who still wants coffee?
+Dialogue: 0,0:03:37.25,0:03:38.18,Default,,0000,0000,0000,,谢谢 给我加一点\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Thank you I need a little
+Dialogue: 0,0:03:40.65,0:03:41.44,Default,,0000,0000,0000,,谢谢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Thank you
+Dialogue: 0,0:03:41.72,0:03:42.55,Default,,0000,0000,0000,,谢谢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Thank you
+Dialogue: 0,0:03:42.78,0:03:43.65,Default,,0000,0000,0000,,校长\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal
+Dialogue: 0,0:03:44.40,0:03:46.49,Default,,0000,0000,0000,,这群大圈 真是一流\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}These Chinese gangsters are terrific
+Dialogue: 0,0:03:46.52,0:03:50.82,Default,,0000,0000,0000,,打过仗拿过勋章 是真正的人民英雄\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}They went through wars and got medals, real heroes
+Dialogue: 0,0:03:51.49,0:03:53.43,Default,,0000,0000,0000,,这个是老大叫大兵\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is their head, Bin
+Dialogue: 0,0:03:54.60,0:03:55.72,Default,,0000,0000,0000,,这个叫阿火\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is Fire
+Dialogue: 0,0:03:59.40,0:04:02.80,Default,,0000,0000,0000,,我们再次为争取自由 而死去的勇士们\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}For those who died for freedom
+Dialogue: 0,0:04:03.30,0:04:04.74,Default,,0000,0000,0000,,默哀五分钟\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We are to remain silent for 5 minutes
+Dialogue: 0,0:04:10.08,0:04:12.88,Default,,0000,0000,0000,,校长 有个叫David Wong的 总警司想见你\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal, a Superintendent Wong wants to see you
+Dialogue: 0,0:04:17.05,0:04:19.71,Default,,0000,0000,0000,,I'am sorry 打扰你们祷告\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'm sorry to interrupt your pray
+Dialogue: 0,0:04:20.15,0:04:22.18,Default,,0000,0000,0000,,黄警司 我们很忙啊\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Officer Wong, we are very busy
+Dialogue: 0,0:04:22.29,0:04:23.35,Default,,0000,0000,0000,,我比你更忙\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I am more busy then
+Dialogue: 0,0:04:23.73,0:04:26.35,Default,,0000,0000,0000,,全香港的警察现在 二十四小时standby\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}All police are on alert 24 hours
+Dialogue: 0,0:04:26.76,0:04:28.39,Default,,0000,0000,0000,,全是你们这些无聊汉害的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}this is all brought by you!
+Dialogue: 0,0:04:29.76,0:04:31.00,Default,,0000,0000,0000,,我刚刚收到密报\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I've just received information
+Dialogue: 0,0:04:32.13,0:04:34.50,Default,,0000,0000,0000,,有些不良分子想趁着大游行捣乱\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Some gangsters want to make use of the demonstration
+Dialogue: 0,0:04:34.77,0:04:36.57,Default,,0000,0000,0000,,今天我来是想跟你商量一下\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I come today to discuss with you
+Dialogue: 0,0:04:36.70,0:04:38.17,Default,,0000,0000,0000,,沿途的保安措施\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}About the security en route
+Dialogue: 0,0:04:39.67,0:04:40.66,Default,,0000,0000,0000,,你不介意吧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You don't mind?
+Dialogue: 0,0:04:42.61,0:04:45.27,Default,,0000,0000,0000,,我想中国人不会这么没有良心吧？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I don't believe Chinese will do such things.
+Dialogue: 0,0:04:51.65,0:04:52.64,Default,,0000,0000,0000,,那是什么？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What's that?
+Dialogue: 0,0:04:52.82,0:04:54.19,Default,,0000,0000,0000,,这些全是一级通缉犯\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}They are all most wanted convicts
+Dialogue: 0,0:04:54.46,0:04:55.85,Default,,0000,0000,0000,,你拿他们的相片干什么？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why are you holding their photos?
+Dialogue: 0,0:04:56.66,0:04:58.06,Default,,0000,0000,0000,,我警告你们\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I warn you guys
+Dialogue: 0,0:04:58.26,0:05:00.92,Default,,0000,0000,0000,,你们这些读书人千万别打什么主意\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You lousy students mustn't think astray
+Dialogue: 0,0:05:01.63,0:05:04.22,Default,,0000,0000,0000,,怎么？想请雇庸兵去杀李鹏吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why, you want to hire someone to kill Li Pang?
+Dialogue: 0,0:05:05.07,0:05:07.19,Default,,0000,0000,0000,,我们想帮助警方来逮捕他们\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We just want to arrest them for you
+Dialogue: 0,0:05:07.37,0:05:08.86,Default,,0000,0000,0000,,拿个好市民奖\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And get a good Citizen Award
+Dialogue: 0,0:05:09.57,0:05:12.56,Default,,0000,0000,0000,,至于大圈帮这件案子 是我自己调查的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I've been in charge in this case
+Dialogue: 0,0:05:13.07,0:05:16.24,Default,,0000,0000,0000,,我发誓 我一定要抓到这些人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I swear to God that I must arrest them
+Dialogue: 0,0:05:16.71,0:05:19.04,Default,,0000,0000,0000,,如果让我知道你们 跟他们有联络的话\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}If I know you are related with them
+Dialogue: 0,0:05:19.11,0:05:20.60,Default,,0000,0000,0000,,我就告你们知情不报\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'll charge you of not informing me
+Dialogue: 0,0:05:20.78,0:05:21.98,Default,,0000,0000,0000,,包庇通缉犯！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And cover up for the convicts!
+Dialogue: 0,0:05:22.15,0:05:24.14,Default,,0000,0000,0000,,黄警司 你恐吓我呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Officer, are you threatening me?
+Dialogue: 0,0:05:24.22,0:05:26.69,Default,,0000,0000,0000,,我吓大的 中国人是有骨气的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I won't be the least threatened!
+Dialogue: 0,0:05:26.82,0:05:29.09,Default,,0000,0000,0000,,我连北京政府都不怕 怕你啊？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I don't even fear Peking Government, so not you!
+Dialogue: 0,0:05:29.46,0:05:30.42,Default,,0000,0000,0000,,你疯啦？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Are you crazy?
+Dialogue: 0,0:05:30.56,0:05:31.82,Default,,0000,0000,0000,,你疯啦！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Are you crazy?
+Dialogue: 0,0:05:33.73,0:05:35.75,Default,,0000,0000,0000,,校长 不要那么冲动\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal, don't act rashly
+Dialogue: 0,0:05:36.00,0:05:37.83,Default,,0000,0000,0000,,这是我衷心的话\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}From the bottom of my heart
+Dialogue: 0,0:05:38.17,0:05:39.60,Default,,0000,0000,0000,,虽然我是半个中国人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Though I'm half Chinese
+Dialogue: 0,0:05:39.97,0:05:41.66,Default,,0000,0000,0000,,可是我也很同情这些学生\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I sym0athize these students
+Dialogue: 0,0:05:44.27,0:05:45.47,Default,,0000,0000,0000,,这是我捐的！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is my donation
+Dialogue: 0,0:05:51.05,0:05:51.98,Default,,0000,0000,0000,,欢迎\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Welcome
+Dialogue: 0,0:05:54.02,0:05:55.11,Default,,0000,0000,0000,,几位呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How many are you?
+Dialogue: 0,0:06:03.83,0:06:05.52,Default,,0000,0000,0000,,哥 你说呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Brother, what do you say?
+Dialogue: 0,0:06:05.56,0:06:07.65,Default,,0000,0000,0000,,俺说 就是他\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I say, that is him.
+Dialogue: 0,0:06:21.01,0:06:21.87,Default,,0000,0000,0000,,大哥\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Boss
+Dialogue: 0,0:06:22.31,0:06:23.33,Default,,0000,0000,0000,,他才是大哥\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He is the boss.
+Dialogue: 0,0:06:23.44,0:06:24.41,Default,,0000,0000,0000,,对不起\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sorry.
+Dialogue: 0,0:06:24.95,0:06:26.57,Default,,0000,0000,0000,,大哥 我是欧阳卓\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Boss, I am Au Yiang Chek
+Dialogue: 0,0:06:27.32,0:06:29.01,Default,,0000,0000,0000,,大哥幸会\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Nice to meet you, boss.
+Dialogue: 0,0:06:30.59,0:06:32.05,Default,,0000,0000,0000,,大哥 你好吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How are you, boss?
+Dialogue: 0,0:06:35.52,0:06:38.58,Default,,0000,0000,0000,,我是欧阳卓 声援会的主席\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'm Au Yiang Chek, Chairman of Aiding Student Group
+Dialogue: 0,0:06:39.23,0:06:41.42,Default,,0000,0000,0000,,相信大家都知道这个会\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You all know this is a group
+Dialogue: 0,0:06:42.13,0:06:43.79,Default,,0000,0000,0000,,是代表全香港的市民\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Which represents all people of HK
+Dialogue: 0,0:06:44.05,0:06:46.23,Default,,0000,0000,0000,,为了解救中国千千万万的同胞\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}To save all Chinese people
+Dialogue: 0,0:06:46.40,0:06:47.99,Default,,0000,0000,0000,,争取民主自由\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And help them get democracy and freedom
+Dialogue: 0,0:06:48.30,0:06:50.33,Default,,0000,0000,0000,,欧阳校长 我们来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal, this time we come
+Dialogue: 0,0:06:50.54,0:06:52.67,Default,,0000,0000,0000,,不是要参加民主歌声献中华的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Not for the fund raising concert
+Dialogue: 0,0:06:53.17,0:06:56.04,Default,,0000,0000,0000,,对不起！所有的中国人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sorry, all Chinese people
+Dialogue: 0,0:06:56.28,0:06:59.68,Default,,0000,0000,0000,,都为了六四事件而觉得万分悲痛\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Are mournful for June 4th event
+Dialogue: 0,0:06:59.95,0:07:02.75,Default,,0000,0000,0000,,我是代表声援会呼吁几位大哥\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I now urge you fellows
+Dialogue: 0,0:07:02.92,0:07:05.55,Default,,0000,0000,0000,,伸出正义之手帮一个忙\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}To do us a favour
+Dialogue: 0,0:07:05.82,0:07:07.15,Default,,0000,0000,0000,,我们做事只谈钱\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We work only for money
+Dialogue: 0,0:07:07.36,0:07:09.35,Default,,0000,0000,0000,,要我们做些什么 直说好了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Just tell us what we are to do
+Dialogue: 0,0:07:09.66,0:07:10.65,Default,,0000,0000,0000,,不用兜圈子！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And don't beat the bush
+Dialogue: 0,0:07:10.93,0:07:12.72,Default,,0000,0000,0000,,我是希望你们到广州\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I hope you to go to Canton
+Dialogue: 0,0:07:13.03,0:07:15.96,Default,,0000,0000,0000,,去接应一批学生领袖来香港\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}To take some student leaders to HK
+Dialogue: 0,0:07:16.43,0:07:17.66,Default,,0000,0000,0000,,你们肯出多少钱？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How much will you pay?
+Dialogue: 0,0:07:18.10,0:07:19.96,Default,,0000,0000,0000,,每跑一趟二十万\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Two hundred thousand each time
+Dialogue: 0,0:07:23.37,0:07:24.34,Default,,0000,0000,0000,,现在那些学生\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}At this moment the students
+Dialogue: 0,0:07:24.54,0:07:27.03,Default,,0000,0000,0000,,被北京政府定性为反革命暴乱份子\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}All classified anti-revolutionists by Peking Government
+Dialogue: 0,0:07:27.54,0:07:29.41,Default,,0000,0000,0000,,全国八百万个公安武警\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Eight million of policemen
+Dialogue: 0,0:07:29.84,0:07:31.81,Default,,0000,0000,0000,,和那些特务到处在搜捕他们\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And agents are locating them everywhere
+Dialogue: 0,0:07:32.21,0:07:34.70,Default,,0000,0000,0000,,这件事九死一生 没什么好处\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is a dangerous task
+Dialogue: 0,0:07:35.62,0:07:37.61,Default,,0000,0000,0000,,每跑一趟 一百万\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}One million dollars each time
+Dialogue: 0,0:07:38.05,0:07:39.54,Default,,0000,0000,0000,,每次限带五个人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And 5 students only
+Dialogue: 0,0:07:39.89,0:07:42.29,Default,,0000,0000,0000,,超过五个人每人补二十万\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}$200,000 for each additional student
+Dialogue: 0,0:07:42.72,0:07:44.16,Default,,0000,0000,0000,,开支实报实销\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}on you expense too!
+Dialogue: 0,0:07:44.46,0:07:46.09,Default,,0000,0000,0000,,如果你们出得起这个价钱\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}If you can offer us this sum
+Dialogue: 0,0:07:46.29,0:07:47.52,Default,,0000,0000,0000,,我们就开始考虑\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We will start considering
+Dialogue: 0,0:07:49.73,0:07:52.03,Default,,0000,0000,0000,,起码也得要这个数啊 对不对？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}At least this sum, right.
+Dialogue: 0,0:07:52.27,0:07:54.53,Default,,0000,0000,0000,,市民们捐了两千多万出来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}People have donated 20 million dollars
+Dialogue: 0,0:07:54.67,0:07:56.64,Default,,0000,0000,0000,,不可能让他一个人吃光啊\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So we mustn't let him use it all up
+Dialogue: 0,0:07:57.17,0:07:59.97,Default,,0000,0000,0000,,这位大哥 我希望你说话要负责任\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I hope you will care about your words
+Dialogue: 0,0:08:00.51,0:08:02.27,Default,,0000,0000,0000,,我欧阳卓顶天立地\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'm a righteous man
+Dialogue: 0,0:08:02.48,0:08:04.50,Default,,0000,0000,0000,,为了民运就算倾家荡产\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}For pro-democracy campaign
+Dialogue: 0,0:08:04.75,0:08:07.98,Default,,0000,0000,0000,,抛头颅 洒热血 也在所不辞\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'm willing to pay and die too
+Dialogue: 0,0:08:08.12,0:08:10.91,Default,,0000,0000,0000,,这些捐款是作为长期斗争的经费\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This donation is for the prolonged struggle
+Dialogue: 0,0:08:10.99,0:08:13.35,Default,,0000,0000,0000,,而你们提出来的价钱是不合理的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And the sum you ask is unreasonable
+Dialogue: 0,0:08:13.62,0:08:15.99,Default,,0000,0000,0000,,我大胆的说一句这是趁火打劫\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I daresay you are robbing us
+Dialogue: 0,0:08:18.53,0:08:22.29,Default,,0000,0000,0000,,对不起！我们都是粗人 不太会讲话\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sorry, we are not learned, we don't know how to say
+Dialogue: 0,0:08:22.83,0:08:24.30,Default,,0000,0000,0000,,如果你嫌我们贵的话\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}If you think we charge too much
+Dialogue: 0,0:08:24.77,0:08:26.43,Default,,0000,0000,0000,,你可以找别人来做也一样\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You can find others to help
+Dialogue: 0,0:08:29.50,0:08:31.44,Default,,0000,0000,0000,,校长 请你不要误会\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal, you mustn't misunderstand us
+Dialogue: 0,0:08:31.67,0:08:33.61,Default,,0000,0000,0000,,试问那一个人不爱国呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We are all patriotic
+Dialogue: 0,0:08:33.71,0:08:35.51,Default,,0000,0000,0000,,阿火 我说了不做了嘛\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Fire, don't say anymore as we quit
+Dialogue: 0,0:08:35.68,0:08:36.87,Default,,0000,0000,0000,,你还啰苏什么？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why do you keep saying?
+Dialogue: 0,0:08:36.94,0:08:38.00,Default,,0000,0000,0000,,说清楚一点好\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's good to make it clear.
+Dialogue: 0,0:08:38.11,0:08:39.64,Default,,0000,0000,0000,,校长 你要明白\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal, you must know
+Dialogue: 0,0:08:39.85,0:08:41.34,Default,,0000,0000,0000,,你在资本主义社会长大\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You were brought up in capitalist world
+Dialogue: 0,0:08:41.58,0:08:43.52,Default,,0000,0000,0000,,你不知道？无产专政的恐怖\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You won't know the horror of dictatorship
+Dialogue: 0,0:08:43.68,0:08:46.24,Default,,0000,0000,0000,,实在太可怕了 随时会有人告密的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's really horrible as people will report about you Let's go.
+Dialogue: 0,0:08:46.35,0:08:47.45,Default,,0000,0000,0000,,走啦！来啦！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Let's go.
+Dialogue: 0,0:08:48.36,0:08:50.42,Default,,0000,0000,0000,,-再见 校长！  -你他妈的舌头真长\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}- Goodbye, Principal. - You are sharp tongue.
+Dialogue: 0,0:08:50.53,0:08:52.05,Default,,0000,0000,0000,,浪费口水！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You're wasting your breath only.
+Dialogue: 0,0:08:54.96,0:08:56.43,Default,,0000,0000,0000,,趴下！先帮你做后面\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Crouch down, I'll do your back first.
+Dialogue: 0,0:08:57.03,0:08:58.23,Default,,0000,0000,0000,,我不做呀！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I won't do it
+Dialogue: 0,0:08:58.37,0:09:01.73,Default,,0000,0000,0000,,你先出去 我要求你立刻离开这里\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Go out, I request you to leave here now
+Dialogue: 0,0:09:01.94,0:09:05.27,Default,,0000,0000,0000,,我想一个人静静的想点事 谢谢！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I want to think over by myself, please.
+Dialogue: 0,0:09:06.34,0:09:07.43,Default,,0000,0000,0000,,神经病！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Nut!
+Dialogue: 0,0:09:38.87,0:09:40.86,Default,,0000,0000,0000,,照上星期天的经验来看\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}From last Sunday situation
+Dialogue: 0,0:09:41.44,0:09:43.93,Default,,0000,0000,0000,,大游行的先头部队会在三点钟\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}At 3 o'clock, the first demonstration group
+Dialogue: 0,0:09:44.08,0:09:45.60,Default,,0000,0000,0000,,到达轩尼诗道\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Will reach Hennessey Road
+Dialogue: 0,0:09:46.21,0:09:49.94,Default,,0000,0000,0000,,我们应该在四点钟 准时到达力生球宝行\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And we should arrive Lison Jewellery Shop at 4 sharp
+Dialogue: 0,0:09:50.18,0:09:52.45,Default,,0000,0000,0000,,整个行动的时间只有三分钟\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And there's only 3 minutes for our action
+Dialogue: 0,0:09:52.62,0:09:54.05,Default,,0000,0000,0000,,就是说在四点零三分\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}That means at 4:03
+Dialogue: 0,0:09:54.19,0:09:55.71,Default,,0000,0000,0000,,我们必需从后门撤退\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We must retreat from the back door
+Dialogue: 0,0:09:55.92,0:09:58.65,Default,,0000,0000,0000,,经过小巷子 到达美心餐厅的后面\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And pass the lane to back door of Maxim Restaurant
+Dialogue: 0,0:09:59.03,0:10:02.12,Default,,0000,0000,0000,,然后 举起我们预先 收藏在那边的标语\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Then we will take out our flags already hidden there
+Dialogue: 0,0:10:02.33,0:10:03.76,Default,,0000,0000,0000,,转到轩尼诗道\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And turn to Hennessey Road
+Dialogue: 0,0:10:03.86,0:10:06.36,Default,,0000,0000,0000,,混入游行队伍 高叫口号\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And mix into the people, shouting slogans
+Dialogue: 0,0:10:06.63,0:10:08.97,Default,,0000,0000,0000,,爱国无罪 反对镇压\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Against suppression!...
+Dialogue: 0,0:10:09.74,0:10:11.20,Default,,0000,0000,0000,,太好了！太好了！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Terrific...
+Dialogue: 0,0:10:11.41,0:10:15.14,Default,,0000,0000,0000,,据官方估计 明天大游行 会有一百五十万人参加\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's estimated one and a half million people will show up tomorrow
+Dialogue: 0,0:10:15.91,0:10:17.57,Default,,0000,0000,0000,,像汪洋大海一样\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's like and ocean
+Dialogue: 0,0:10:17.88,0:10:20.35,Default,,0000,0000,0000,,我们像几滴小水珠融入在里面\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We'll penetrate into this big ocean
+Dialogue: 0,0:10:20.62,0:10:24.14,Default,,0000,0000,0000,,就是用电子仪器也查不出来呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}and no way to trace us anymore.
+Dialogue: 0,0:10:24.35,0:10:25.41,Default,,0000,0000,0000,,是不是？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Am I right?
+Dialogue: 0,0:10:25.92,0:10:28.01,Default,,0000,0000,0000,,这不是应了什么欧阳校长说的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Isn't this what Principal said?
+Dialogue: 0,0:10:29.12,0:10:31.02,Default,,0000,0000,0000,,什么什么趁火打劫啦！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He said we are robbing!
+Dialogue: 0,0:10:31.37,0:10:32.72,Default,,0000,0000,0000,,趁火打劫 爱国无罪！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Robbing and be patriotic!
+Dialogue: 0,0:10:33.09,0:10:34.86,Default,,0000,0000,0000,,趁火爱国 打劫无罪！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Robbing is innocent!
+Dialogue: 0,0:10:35.26,0:10:36.96,Default,,0000,0000,0000,,你懂不懂是爱国无罪呀！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Being patriotic is innocent
+Dialogue: 0,0:10:37.47,0:10:38.30,Default,,0000,0000,0000,,真笨！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Stupid!
+Dialogue: 0,0:10:38.40,0:10:39.16,Default,,0000,0000,0000,,明天的行动\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}About the action tomorrow
+Dialogue: 0,0:10:39.43,0:10:41.37,Default,,0000,0000,0000,,坦白说 不怕一万 就怕万一\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I just fear in case...
+Dialogue: 0,0:10:41.48,0:10:42.90,Default,,0000,0000,0000,,现在报告特别新闻\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Now is the special news
+Dialogue: 0,0:10:43.84,0:10:45.80,Default,,0000,0000,0000,,由于昨天晚上十二点左右\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Last night at midnight
+Dialogue: 0,0:10:46.24,0:10:50.12,Default,,0000,0000,0000,,旺角有几百个举着爱国和支援民运标志的年青人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Hundreds of people holding patriotic flags
+Dialogue: 0,0:10:50.22,0:10:51.34,Default,,0000,0000,0000,,趁机滋事破坏\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And pro-democrat slogans
+Dialogue: 0,0:10:51.61,0:10:54.98,Default,,0000,0000,0000,,最后聚集了几千人 演变成暴力事件\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Them thousands gathered on and started a rebel
+Dialogue: 0,0:10:56.27,0:10:58.84,Default,,0000,0000,0000,,警方出动了防暴部队数百人镇压\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Police had to send reinforcement to suppress
+Dialogue: 0,0:10:59.20,0:11:01.11,Default,,0000,0000,0000,,经过六小时之后才平息\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It was put down only after 6 hours
+Dialogue: 0,0:11:01.91,0:11:03.78,Default,,0000,0000,0000,,警方跟支援会商量之后\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}After meeting the Aiding Student Group (ASG)
+Dialogue: 0,0:11:03.97,0:11:07.48,Default,,0000,0000,0000,,支援会宣布 决定取消 于明天举行的大游行\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}(ASG) announced to cancel the demonstration tomorrow
+Dialogue: 0,0:11:08.76,0:11:10.56,Default,,0000,0000,0000,,这他妈一下子见财化水了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Our money is gone!
+Dialogue: 0,0:11:11.77,0:11:13.76,Default,,0000,0000,0000,,这些龟孙子真他妈的无聊啊\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Those lousy sly guys!
+Dialogue: 0,0:11:14.07,0:11:16.37,Default,,0000,0000,0000,,在国家民族面临重大危机的时候\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}At this critical moment of our country and tribe
+Dialogue: 0,0:11:16.64,0:11:18.23,Default,,0000,0000,0000,,居然还有人敢趁火打劫\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}They dare to rob at this moment?
+Dialogue: 0,0:11:18.94,0:11:20.53,Default,,0000,0000,0000,,你们说这多令人痛心疾首呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Do you feel sorry about this.
+Dialogue: 0,0:11:20.56,0:11:21.50,Default,,0000,0000,0000,,真是败类！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}They're lousy.
+Dialogue: 0,0:11:21.58,0:11:22.63,Default,,0000,0000,0000,,真是败类！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}They really are.
+Dialogue: 0,0:11:22.81,0:11:24.68,Default,,0000,0000,0000,,趁火打劫都是败类\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}All robbers now are lousy
+Dialogue: 0,0:11:27.58,0:11:29.34,Default,,0000,0000,0000,,这样呀…我考虑一下！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}In this case... I'll think over
+Dialogue: 0,0:11:31.49,0:11:33.85,Default,,0000,0000,0000,,欧阳卓找我 说愿意出到八十万！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Au Yiang Chek called me and said he'd pay $800,000
+Dialogue: 0,0:11:34.62,0:11:35.85,Default,,0000,0000,0000,,八十万？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Eight hundred thousand dollars?
+Dialogue: 0,0:11:36.29,0:11:38.78,Default,,0000,0000,0000,,一个人走起运来 这城墙都挡不住\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Nothing can stop our luck flying to us
+Dialogue: 0,0:11:38.96,0:11:40.72,Default,,0000,0000,0000,,钞票拼了命往口袋里跑！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Money keeps coming to us
+Dialogue: 0,0:11:40.90,0:11:42.26,Default,,0000,0000,0000,,对 塞翁失狗！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Right, it's good luck for us
+Dialogue: 0,0:11:42.36,0:11:44.23,Default,,0000,0000,0000,,丢了一只狗 跑来一匹马\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We lose a chance but other chances come
+Dialogue: 0,0:11:45.13,0:11:46.39,Default,,0000,0000,0000,,哥 这马比狗贵啊？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Brother, is this true?
+Dialogue: 0,0:11:46.58,0:11:47.43,Default,,0000,0000,0000,,是呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes
+Dialogue: 0,0:11:47.51,0:11:48.03,Default,,0000,0000,0000,,那当然啦！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Of course it is
+Dialogue: 0,0:11:48.94,0:11:50.80,Default,,0000,0000,0000,,我有责任提醒你们 不怕一万 就怕万一\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But I must remind you, just in case...
+Dialogue: 0,0:11:51.14,0:11:52.40,Default,,0000,0000,0000,,俺知道\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Got it.
+Dialogue: 0,0:11:54.34,0:11:56.37,Default,,0000,0000,0000,,我怕钱到手也没命花\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I fear I will die before getting the money
+Dialogue: 0,0:11:56.91,0:11:58.50,Default,,0000,0000,0000,,如果你们要去的话 你们去\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Go yourselves if you must
+Dialogue: 0,0:11:58.68,0:11:59.70,Default,,0000,0000,0000,,不要算我\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But don't count me in
+Dialogue: 0,0:12:16.46,0:12:18.43,Default,,0000,0000,0000,,走开…\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Get away
+Dialogue: 0,0:12:30.51,0:12:34.50,Default,,0000,0000,0000,,儿子 我的儿子呀！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Son! My son!
+Dialogue: 0,0:12:38.95,0:12:40.05,Default,,0000,0000,0000,,谢谢…\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Thanks
+Dialogue: 0,0:13:01.94,0:13:03.67,Default,,0000,0000,0000,,现在是新闻联播节目\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Now is the news program
+Dialogue: 0,0:13:14.52,0:13:17.25,Default,,0000,0000,0000,,我是华润公司李言德先生 介绍我来的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Mr. Li Yin Tak of China Emporium Company recommends you to me
+Dialogue: 0,0:13:17.46,0:13:18.98,Default,,0000,0000,0000,,你是来订电子零件的吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You come for electronic components?
+Dialogue: 0,0:13:19.33,0:13:22.76,Default,,0000,0000,0000,,不是 我是想订电视显像管\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}No, I want to order TV tubes.
+Dialogue: 0,0:13:24.10,0:13:25.09,Default,,0000,0000,0000,,请进！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Please come in
+Dialogue: 0,0:13:32.27,0:13:33.30,Default,,0000,0000,0000,,哪位是负责人呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Who is in charge here?
+Dialogue: 0,0:13:33.41,0:13:34.17,Default,,0000,0000,0000,,我是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I am
+Dialogue: 0,0:14:22.92,0:14:26.12,Default,,0000,0000,0000,,各位手上现在拿的是 中央传达下来的档\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You have a document from central in your hand
+Dialogue: 0,0:14:26.43,0:14:27.49,Default,,0000,0000,0000,,必需要传达\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And it is to pass on
+Dialogue: 0,0:14:27.76,0:14:29.52,Default,,0000,0000,0000,,一式三份 要传达下去\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Three to each page and must be passed on
+Dialogue: 0,0:14:30.26,0:14:31.39,Default,,0000,0000,0000,,特别是十六号\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Especially number 16
+Dialogue: 0,0:14:34.13,0:14:36.13,Default,,0000,0000,0000,,袁同志 什么时候到的？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Yuen, when did you arrive?
+Dialogue: 0,0:14:37.20,0:14:39.00,Default,,0000,0000,0000,,怎么不通知我们去接飞机呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why didn't inform me to greet you at the airport?
+Dialogue: 0,0:14:46.95,0:14:48.31,Default,,0000,0000,0000,,我来给你们介绍\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Let me introduce you
+Dialogue: 0,0:14:48.92,0:14:53.11,Default,,0000,0000,0000,,这位是政治保卫局的袁树同志\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is Comrade Yuen from Political Defence Bureau
+Dialogue: 0,0:14:59.93,0:15:01.39,Default,,0000,0000,0000,,袁同志从北京来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Yuen, as you came from peking
+Dialogue: 0,0:15:01.93,0:15:03.95,Default,,0000,0000,0000,,是不是要传达中央的最新指示？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Are you to inform us about the lastest news from Central?
+Dialogue: 0,0:15:04.30,0:15:05.46,Default,,0000,0000,0000,,黄临同志\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Wang Lin
+Dialogue: 0,0:15:05.90,0:15:08.93,Default,,0000,0000,0000,,我是奉政治局姚书记的指示来的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I was sent by Secretary Yiau of Political Division
+Dialogue: 0,0:15:09.37,0:15:11.50,Default,,0000,0000,0000,,来看看黄临你这个王八蛋\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}To come to see you bastard
+Dialogue: 0,0:15:11.94,0:15:15.24,Default,,0000,0000,0000,,你这个代公安局长到底是怎么当的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How you work as acting Chief?
+Dialogue: 0,0:15:15.88,0:15:17.54,Default,,0000,0000,0000,,大批民运份子逃到广州来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Many of the pro-democrats fleeing to Canton
+Dialogue: 0,0:15:17.65,0:15:18.81,Default,,0000,0000,0000,,你一个都抓不到\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But you fail to arrest even one!
+Dialogue: 0,0:15:18.91,0:15:20.97,Default,,0000,0000,0000,,我来看看你是不是包庇民运份子？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I come to check if you cover up for them
+Dialogue: 0,0:15:23.35,0:15:26.05,Default,,0000,0000,0000,,袁同志 请你向姚书记解释一下\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Yuen, please explain to Secretary Yiau...
+Dialogue: 0,0:15:26.15,0:15:27.98,Default,,0000,0000,0000,,我已经清楚的给你提供情报\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I've clearly supplied you with information
+Dialogue: 0,0:15:28.19,0:15:30.49,Default,,0000,0000,0000,,说明王小慧这几个反党的女学生\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}That Wang Siu Wai and other rebellious
+Dialogue: 0,0:15:30.59,0:15:32.06,Default,,0000,0000,0000,,是躲在领事馆里面嘛！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Are hiding in embassies
+Dialogue: 0,0:15:32.73,0:15:36.39,Default,,0000,0000,0000,,进领事馆抓人 会牵涉到外交纠纷的！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But it involves diplomatic affairs if we rush into embassies to make arrestment
+Dialogue: 0,0:15:37.16,0:15:39.22,Default,,0000,0000,0000,,这件事我已经向上头报告了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I've already reported to the senior
+Dialogue: 0,0:15:39.73,0:15:42.20,Default,,0000,0000,0000,,可是到现在都没有指示\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But no instruction so far.
+Dialogue: 0,0:15:42.34,0:15:43.80,Default,,0000,0000,0000,,他妈的 指示？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit, instruction?
+Dialogue: 0,0:15:43.90,0:15:45.17,Default,,0000,0000,0000,,什么他妈的指示呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What the damn instruction?
+Dialogue: 0,0:15:45.34,0:15:46.70,Default,,0000,0000,0000,,你早就应该去放火\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You should have set fire on embassies
+Dialogue: 0,0:15:46.94,0:15:48.97,Default,,0000,0000,0000,,然后假装消防员冲进去\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And disguised as firemen to rush in
+Dialogue: 0,0:15:49.14,0:15:51.67,Default,,0000,0000,0000,,趁乱的时候把她们统统给我抓起来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You can then arrest them in the mess!
+Dialogue: 0,0:15:53.41,0:15:55.64,Default,,0000,0000,0000,,那就是说 所有的领事馆 都要放火啦？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Must we set fire on all embassies?
+Dialogue: 0,0:15:55.82,0:15:56.98,Default,,0000,0000,0000,,你放的什么屁呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What shit are you talking about?
+Dialogue: 0,0:15:57.72,0:15:59.38,Default,,0000,0000,0000,,因为没有确实的情报\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We don't have the exact information
+Dialogue: 0,0:15:59.55,0:16:01.15,Default,,0000,0000,0000,,不知道他们在哪一个馆里嘛！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Wo we don't know which embassy they're in
+Dialogue: 0,0:16:01.26,0:16:04.35,Default,,0000,0000,0000,,他妈的 你不会去调查调查吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit, can't you make investigation?
+Dialogue: 0,0:16:05.89,0:16:08.73,Default,,0000,0000,0000,,黄同志 革命不是请客吃饭\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Wang, revolution is not to eat
+Dialogue: 0,0:16:09.10,0:16:10.43,Default,,0000,0000,0000,,不是绣花…\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Or to embroider...
+Dialogue: 0,0:16:11.77,0:16:14.86,Default,,0000,0000,0000,,是…非常谢谢袁同志的教导\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes... thanks for teaching us, Comrade Yuen
+Dialogue: 0,0:16:15.37,0:16:18.13,Default,,0000,0000,0000,,袁同志 你远道而来太辛苦了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You made all the way here
+Dialogue: 0,0:16:18.41,0:16:19.90,Default,,0000,0000,0000,,我们吃晚饭再聊吧！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So let's have a good dinner.
+Dialogue: 0,0:16:20.47,0:16:25.67,Default,,0000,0000,0000,,我家里…藏了一根 长白山的野山人参\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}At home... I have a superb ginseng
+Dialogue: 0,0:16:26.75,0:16:28.74,Default,,0000,0000,0000,,拿来炖果子狸很补身的！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's excellent to make a soup.
+Dialogue: 0,0:16:28.98,0:16:30.75,Default,,0000,0000,0000,,难道你不知道中央有命令下来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Haven't you received orders from the Central
+Dialogue: 0,0:16:30.85,0:16:32.72,Default,,0000,0000,0000,,不准我们大吃大喝的吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}That we mustn't spend too much on food?
+Dialogue: 0,0:16:33.39,0:16:34.82,Default,,0000,0000,0000,,这道菜值多少钱呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How much is it?
+Dialogue: 0,0:16:35.32,0:16:38.35,Default,,0000,0000,0000,,你运气好 刚好减价 才三十多块\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}$30 as there's a discount.
+Dialogue: 0,0:16:38.79,0:16:40.09,Default,,0000,0000,0000,,这就不同了！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is it.
+Dialogue: 0,0:16:40.89,0:16:42.23,Default,,0000,0000,0000,,不过既然有这道菜\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Since we have such a good dish
+Dialogue: 0,0:16:42.33,0:16:44.02,Default,,0000,0000,0000,,应该有瓶洋酒才行啊！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We should have some imported wine
+Dialogue: 0,0:16:45.50,0:16:46.69,Default,,0000,0000,0000,,有没有XO呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Is there XO?
+Dialogue: 0,0:16:47.23,0:16:48.26,Default,,0000,0000,0000,,有啊\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes.
+Dialogue: 0,0:16:58.78,0:16:59.91,Default,,0000,0000,0000,,你的证件？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Your pass?
+Dialogue: 0,0:17:00.28,0:17:01.04,Default,,0000,0000,0000,,是！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes.
+Dialogue: 0,0:17:05.09,0:17:05.85,Default,,0000,0000,0000,,进去吧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Go in.
+Dialogue: 0,0:17:06.12,0:17:06.95,Default,,0000,0000,0000,,谢谢！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Thanks.
+Dialogue: 0,0:17:19.47,0:17:20.30,Default,,0000,0000,0000,,请\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Please
+Dialogue: 0,0:17:26.87,0:17:27.84,Default,,0000,0000,0000,,请跟我来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Follow me
+Dialogue: 0,0:17:33.38,0:17:35.78,Default,,0000,0000,0000,,领使先生 你们这一次仗义援手\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Mr. Consulat, since you help us this time
+Dialogue: 0,0:17:36.18,0:17:38.62,Default,,0000,0000,0000,,让我们知道我们并不是孤立的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We know we are not isolated
+Dialogue: 0,0:17:39.12,0:17:41.52,Default,,0000,0000,0000,,世界上面还有很多爱好自由的人仕\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}There are many people who love liberty
+Dialogue: 0,0:17:41.62,0:17:42.78,Default,,0000,0000,0000,,站在我们这一边\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Standing by our side
+Dialogue: 0,0:17:43.26,0:17:45.45,Default,,0000,0000,0000,,我们一定会继续奋斗下去的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So we must keep on struggling
+Dialogue: 0,0:17:46.23,0:17:48.52,Default,,0000,0000,0000,,我再次代表所有的民运人士谢谢你\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I thank you again on behalf of all pro-democrats
+Dialogue: 0,0:17:49.13,0:17:50.53,Default,,0000,0000,0000,,谢谢你 领使先生\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Thanks. Your excellency
+Dialogue: 0,0:17:50.90,0:17:52.13,Default,,0000,0000,0000,,不用客气！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You're welcome
+Dialogue: 0,0:17:52.73,0:17:53.70,Default,,0000,0000,0000,,领使先生\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Your excellency
+Dialogue: 0,0:17:53.77,0:17:56.83,Default,,0000,0000,0000,,这位是声援会派来接应你们的 义士李文先生\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is Mr. Li Wan from ASG, he's to take you away
+Dialogue: 0,0:17:57.07,0:18:00.06,Default,,0000,0000,0000,,她们三位元相信你们在电视上见过了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I think you have seen them on TV
+Dialogue: 0,0:18:00.54,0:18:03.14,Default,,0000,0000,0000,,这位是北高联的王小慧同学\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Wang Siu Wai of Student joint Union
+Dialogue: 0,0:18:03.84,0:18:05.44,Default,,0000,0000,0000,,这位是陈英同学\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is Chen Yin
+Dialogue: 0,0:18:06.31,0:18:07.91,Default,,0000,0000,0000,,洪韵音同学\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And this is Hung Yuen Yin
+Dialogue: 0,0:18:11.15,0:18:12.12,Default,,0000,0000,0000,,谢谢你\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Thank you
+Dialogue: 0,0:18:12.25,0:18:13.41,Default,,0000,0000,0000,,别客气！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You are welcome!
+Dialogue: 0,0:18:13.62,0:18:15.68,Default,,0000,0000,0000,,在资本主义社会成长的香港人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}People from capitalist HK
+Dialogue: 0,0:18:15.96,0:18:18.55,Default,,0000,0000,0000,,过去给我的印象一向是往钱看\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Used to give me impression of pursuing for money
+Dialogue: 0,0:18:18.86,0:18:21.38,Default,,0000,0000,0000,,可是这一次你们对民运热烈的支持\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But this time you support us whole-heartedly
+Dialogue: 0,0:18:21.63,0:18:23.99,Default,,0000,0000,0000,,却改变了我对你们香港人的印象\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And changed your impression in me totally
+Dialogue: 0,0:18:24.40,0:18:27.09,Default,,0000,0000,0000,,李先生 你居然能够 冒这么大的危险\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Mr. Li, you took a risk to come here
+Dialogue: 0,0:18:27.17,0:18:28.26,Default,,0000,0000,0000,,来接应我们\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}To pick us up
+Dialogue: 0,0:18:28.67,0:18:31.19,Default,,0000,0000,0000,,我衷心的感谢你们！谢谢！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I must thank you heartily
+Dialogue: 0,0:18:33.07,0:18:35.81,Default,,0000,0000,0000,,李先生 你跟你的朋友 来做拯救工作\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Mr. Li, you and your friends are doing rescue work
+Dialogue: 0,0:18:35.91,0:18:39.27,Default,,0000,0000,0000,,真是十分英勇 我代表我国向你们致敬\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You're really brave I just salute you on behalf of my country
+Dialogue: 0,0:18:48.66,0:18:51.75,Default,,0000,0000,0000,,你们放心 有我李文在的一天\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Don't worry, as long as I live
+Dialogue: 0,0:18:51.99,0:18:55.22,Default,,0000,0000,0000,,我一定会尽量把王小慧 她们带到香港去\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'll try my best to take them to HK
+Dialogue: 0,0:18:56.23,0:18:57.70,Default,,0000,0000,0000,,谢谢你们的掌声！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Thank you for your applause
+Dialogue: 0,0:20:12.51,0:20:13.44,Default,,0000,0000,0000,,下车\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Get out!
+Dialogue: 0,0:20:13.74,0:20:14.76,Default,,0000,0000,0000,,下车！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Get out!
+Dialogue: 0,0:20:17.24,0:20:18.68,Default,,0000,0000,0000,,我们是国家安全部的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We are from National Security Bureau
+Dialogue: 0,0:20:19.21,0:20:20.41,Default,,0000,0000,0000,,把你工作证拿出来！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Show us your pass.
+Dialogue: 0,0:20:23.22,0:20:24.91,Default,,0000,0000,0000,,平常收邮件的那个人呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Where's the usual guy for post?
+Dialogue: 0,0:20:25.45,0:20:27.48,Default,,0000,0000,0000,,他病了！我来替他几天\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He's ill and I come to substitute
+Dialogue: 0,0:20:27.69,0:20:28.88,Default,,0000,0000,0000,,如果有怀疑的话\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}If you have any queries
+Dialogue: 0,0:20:29.02,0:20:30.51,Default,,0000,0000,0000,,可以打电话给我单位的领导\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You can phone my working place,
+Dialogue: 0,0:20:30.56,0:20:31.82,Default,,0000,0000,0000,,我不会啊要你教\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I don't need you to tell me what to do
+Dialogue: 0,0:20:32.29,0:20:33.85,Default,,0000,0000,0000,,怎么样啊？对六四有什么看法？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What's your opinion of June 4th?
+Dialogue: 0,0:20:34.29,0:20:36.09,Default,,0000,0000,0000,,我对这些学生一点好感都没有\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I totally dislike the students
+Dialogue: 0,0:20:36.43,0:20:37.90,Default,,0000,0000,0000,,他们破坏安定团结\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}They spoil the stability of our society
+Dialogue: 0,0:20:38.10,0:20:39.40,Default,,0000,0000,0000,,反对社会主义\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And are ante-socialism
+Dialogue: 0,0:20:39.80,0:20:41.27,Default,,0000,0000,0000,,根本就是反革命暴乱\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is indeed anti-revolution
+Dialogue: 0,0:20:41.54,0:20:42.87,Default,,0000,0000,0000,,我不但不会窝藏他们\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I won't cover them up
+Dialogue: 0,0:20:43.10,0:20:44.70,Default,,0000,0000,0000,,一发现我马上举报\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'll report once I find them.
+Dialogue: 0,0:20:45.74,0:20:47.97,Default,,0000,0000,0000,,我说过你窝藏反革命份子了吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Did I say you cover ante-revolutionists?
+Dialogue: 0,0:20:51.18,0:20:53.41,Default,,0000,0000,0000,,我们安全部大部份同事私底下\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Most of our colleagues in our bureau
+Dialogue: 0,0:20:53.48,0:20:54.57,Default,,0000,0000,0000,,每次提起民运\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Mention about the democratic campaign
+Dialogue: 0,0:20:55.05,0:20:56.88,Default,,0000,0000,0000,,就有百分之九十以上的人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I say, 90% among us
+Dialogue: 0,0:20:57.12,0:20:59.18,Default,,0000,0000,0000,,就算不赞成也表示同情\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sympathize on them even if we don't agree
+Dialogue: 0,0:20:59.89,0:21:02.05,Default,,0000,0000,0000,,可是为了饭碗 职责所在\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But for our work and duty
+Dialogue: 0,0:21:02.32,0:21:03.76,Default,,0000,0000,0000,,不得以才追捕他们的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We then run after and arrest them.
+Dialogue: 0,0:21:06.19,0:21:10.29,Default,,0000,0000,0000,,你呀 你小子刚才说话的语气\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And you! Just then you said strangely
+Dialogue: 0,0:21:11.23,0:21:13.17,Default,,0000,0000,0000,,有点过份的激动做作\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You are pretending and excited
+Dialogue: 0,0:21:14.64,0:21:16.36,Default,,0000,0000,0000,,我看你像在演戏一样\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You're acting, I'll say
+Dialogue: 0,0:21:17.60,0:21:20.33,Default,,0000,0000,0000,,心里一定有鬼 给我铐起来！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You must have done something wrong, lock him up.
+Dialogue: 0,0:21:34.66,0:21:35.99,Default,,0000,0000,0000,,你那个兄弟说错了话\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You man said something wrong
+Dialogue: 0,0:21:36.42,0:21:38.41,Default,,0000,0000,0000,,引起公安怀疑 被他们抓走了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And was arrested by the police
+Dialogue: 0,0:21:38.99,0:21:39.96,Default,,0000,0000,0000,,那怎么办？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Then?
+Dialogue: 0,0:21:40.16,0:21:41.39,Default,,0000,0000,0000,,你们要立刻出发\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You must set out this minute
+Dialogue: 0,0:21:42.16,0:21:44.29,Default,,0000,0000,0000,,那个兄弟 等我以后想办法再救他\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'll try to rescue your man later
+Dialogue: 0,0:21:44.50,0:21:46.47,Default,,0000,0000,0000,,不行 我们六个人一起出来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}No, we came here in 6
+Dialogue: 0,0:21:46.67,0:21:48.00,Default,,0000,0000,0000,,就要六个人一起回去\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So we must leave in 6
+Dialogue: 0,0:21:48.37,0:21:49.70,Default,,0000,0000,0000,,我已经买通了海关\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I've already bribed the Customs
+Dialogue: 0,0:21:49.90,0:21:52.30,Default,,0000,0000,0000,,如果去晚了 换了班就更麻烦啦！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It'll be troublesome if we arrive late and they change
+Dialogue: 0,0:21:52.67,0:21:54.27,Default,,0000,0000,0000,,王小慧 对不起\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sorry, Wang Siu Wai
+Dialogue: 0,0:21:54.57,0:21:55.68,Default,,0000,0000,0000,,希望你能够了解\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I hope you can understand
+Dialogue: 0,0:21:55.68,0:21:57.14,Default,,0000,0000,0000,,我要对我兄弟有个交待\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I must be responsible for my men
+Dialogue: 0,0:21:57.51,0:21:59.38,Default,,0000,0000,0000,,何必为了一个人牺牲那么多人呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why sacrifice so many forjust one person?
+Dialogue: 0,0:22:00.01,0:22:01.21,Default,,0000,0000,0000,,去旅行也不会等了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}No one will wait when we travel
+Dialogue: 0,0:22:01.98,0:22:03.21,Default,,0000,0000,0000,,何况是偷渡\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And this is smuggling!
+Dialogue: 0,0:22:03.52,0:22:05.71,Default,,0000,0000,0000,,万大哥 如果我们尽量赶的话\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Master Wan, if we rush all the way
+Dialogue: 0,0:22:06.02,0:22:07.58,Default,,0000,0000,0000,,可以有多少时间给我们呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How much time could we make out?
+Dialogue: 0,0:22:09.56,0:22:11.55,Default,,0000,0000,0000,,最多一个半小时\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Ninety minutes the most.
+Dialogue: 0,0:22:13.33,0:22:15.69,Default,,0000,0000,0000,,万大哥 李先生 这样好不好\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Master Wan, Mr. Li, what about this?
+Dialogue: 0,0:22:16.26,0:22:17.46,Default,,0000,0000,0000,,在这一个半钟头之内\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Within this 90 minutes
+Dialogue: 0,0:22:17.56,0:22:18.72,Default,,0000,0000,0000,,我们尽量去救你的兄弟\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We shall try our best to rescue your man
+Dialogue: 0,0:22:19.17,0:22:20.57,Default,,0000,0000,0000,,如果到时候还救不出来的话\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}If we fail even then
+Dialogue: 0,0:22:20.93,0:22:22.30,Default,,0000,0000,0000,,我们看情形再决定好吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We'll make the necessary decision
+Dialogue: 0,0:22:41.49,0:22:44.18,Default,,0000,0000,0000,,妈的 快说 说呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit, say it quick, say.
+Dialogue: 0,0:22:45.79,0:22:47.42,Default,,0000,0000,0000,,说 快说\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Say it quick.
+Dialogue: 0,0:22:49.30,0:22:50.42,Default,,0000,0000,0000,,他的脸拍好了没有？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Have you taken his picture?
+Dialogue: 0,0:22:50.60,0:22:51.62,Default,,0000,0000,0000,,拍好了！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's done.
+Dialogue: 0,0:22:52.40,0:22:53.56,Default,,0000,0000,0000,,他妈的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit
+Dialogue: 0,0:22:56.77,0:22:58.24,Default,,0000,0000,0000,,说 快说！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Say, say it quick.
+Dialogue: 0,0:22:58.81,0:22:59.93,Default,,0000,0000,0000,,我操你屁股！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I do your ass!
+Dialogue: 0,0:23:00.07,0:23:00.87,Default,,0000,0000,0000,,大声点！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Louder.
+Dialogue: 0,0:23:01.11,0:23:02.23,Default,,0000,0000,0000,,我操你屁股！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I do your ass!
+Dialogue: 0,0:23:02.41,0:23:05.17,Default,,0000,0000,0000,,他妈的！快说 混蛋\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit. Say, say it quick.
+Dialogue: 0,0:23:05.91,0:23:07.00,Default,,0000,0000,0000,,给我打\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Beat him.
+Dialogue: 0,0:23:13.69,0:23:15.12,Default,,0000,0000,0000,,这个死不悔改的顽固份子\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You lousy stubborn guy
+Dialogue: 0,0:23:15.32,0:23:16.38,Default,,0000,0000,0000,,拉到外面毙了算啦！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Take him out for execution!
+Dialogue: 0,0:23:16.46,0:23:17.42,Default,,0000,0000,0000,,是！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes.
+Dialogue: 0,0:24:18.79,0:24:20.41,Default,,0000,0000,0000,,阿火 阿火…\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Fire...
+Dialogue: 0,0:24:22.72,0:24:24.12,Default,,0000,0000,0000,,阿火 你怎么样？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Fire... How are you?
+Dialogue: 0,0:24:24.46,0:24:25.76,Default,,0000,0000,0000,,把绳子解开！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Untie him first.
+Dialogue: 0,0:24:30.03,0:24:32.06,Default,,0000,0000,0000,,黄副局长 谢谢你的帮忙！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sub-Chief, thanks for your help.
+Dialogue: 0,0:24:32.57,0:24:34.53,Default,,0000,0000,0000,,不用客气 我应该做的！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}No thanks, I should do this.
+Dialogue: 0,0:24:48.22,0:24:50.24,Default,,0000,0000,0000,,停车！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Stop!
+Dialogue: 0,0:24:55.16,0:24:56.45,Default,,0000,0000,0000,,把通行证拿出来！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Show us your pass.
+Dialogue: 0,0:24:57.22,0:24:58.42,Default,,0000,0000,0000,,你们两个到上面看看！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You two get up and see
+Dialogue: 0,0:24:58.49,0:24:59.46,Default,,0000,0000,0000,,好…\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes...
+Dialogue: 0,0:25:06.97,0:25:08.46,Default,,0000,0000,0000,,对不起 我想找洪队长\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sorry, where's Captain Hung?
+Dialogue: 0,0:25:08.60,0:25:10.43,Default,,0000,0000,0000,,找洪队长干吗？他下班了！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Captain Hung, he's off duty!
+Dialogue: 0,0:25:11.04,0:25:12.40,Default,,0000,0000,0000,,不是还有二十分钟吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He should be on duty for 20 minutes more?
+Dialogue: 0,0:25:12.54,0:25:14.44,Default,,0000,0000,0000,,-不知道 你到里面去看看吧  -好\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}- No idea, go there and find him. - Yes
+Dialogue: 0,0:25:24.85,0:25:26.51,Default,,0000,0000,0000,,洪队长…\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Captain Hung...
+Dialogue: 0,0:25:31.32,0:25:32.88,Default,,0000,0000,0000,,妈的 你怎么现在才来呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit, why do you come only now?
+Dialogue: 0,0:25:33.69,0:25:37.64,Default,,0000,0000,0000,,真对不起 路上碰了点麻烦 所以才来晚了！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sorry, there was trouble on the way So we arrive late.
+Dialogue: 0,0:25:38.02,0:25:39.19,Default,,0000,0000,0000,,对不起我也没办法\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sorry, I can't help you now
+Dialogue: 0,0:25:39.57,0:25:40.97,Default,,0000,0000,0000,,下一次你早一点\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Come early nest time
+Dialogue: 0,0:25:41.93,0:25:44.71,Default,,0000,0000,0000,,我们合作这么久了 每一次都合作愉快\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We've been in good term so far
+Dialogue: 0,0:25:45.65,0:25:47.67,Default,,0000,0000,0000,,老朋友了 麻烦你 帮帮忙嘛\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Please do me a favour, old friend!
+Dialogue: 0,0:25:47.84,0:25:48.64,Default,,0000,0000,0000,,怎么帮啊？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How can I?
+Dialogue: 0,0:25:48.71,0:25:50.87,Default,,0000,0000,0000,,难道我把你的定金交给下一班不成\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I can't take your money and give to people of next shift
+Dialogue: 0,0:25:55.75,0:25:58.38,Default,,0000,0000,0000,,这有三万块 麻烦你交给下一班\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Here is $300000, take to the next shift
+Dialogue: 0,0:25:59.12,0:26:00.35,Default,,0000,0000,0000,,帮帮忙！我尽量呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Please help me. I'll just try
+Dialogue: 0,0:26:01.02,0:26:02.75,Default,,0000,0000,0000,,不知道那家伙肯不肯买帐\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But I don't know if he accepts or not.
+Dialogue: 0,0:26:06.83,0:26:07.88,Default,,0000,0000,0000,,孔队长呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Where's Captain Hong?
+Dialogue: 0,0:26:08.83,0:26:10.02,Default,,0000,0000,0000,,撒尿去了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}In toilet.
+Dialogue: 0,0:26:11.60,0:26:12.62,Default,,0000,0000,0000,,等吧！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You can wait.
+Dialogue: 0,0:26:16.87,0:26:18.63,Default,,0000,0000,0000,,黄副局长 已经十点多啦\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sub-Chief Wang, it's 10 o'clock now
+Dialogue: 0,0:26:18.77,0:26:20.26,Default,,0000,0000,0000,,我看他不会来了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I think he won't come.
+Dialogue: 0,0:26:24.51,0:26:26.78,Default,,0000,0000,0000,,黄同志 等了很久了吧？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Wang, you've waited long?
+Dialogue: 0,0:26:27.38,0:26:29.85,Default,,0000,0000,0000,,什么话 等多久都无所谓\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's alright.
+Dialogue: 0,0:26:30.02,0:26:33.82,Default,,0000,0000,0000,,反正人参炖果子狸 炖得越久越好嘛！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}The longer time the ginseng soup better anyway
+Dialogue: 0,0:26:36.42,0:26:39.79,Default,,0000,0000,0000,,你带走那个邮包货车司机 在哪里呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Where's the driver of the post you took away?
+Dialogue: 0,0:26:40.56,0:26:43.05,Default,,0000,0000,0000,,那个司机我已经查过了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I've checked that driver
+Dialogue: 0,0:26:43.16,0:26:45.15,Default,,0000,0000,0000,,没问题 我把他放了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Nothing wrong so I freed him.
+Dialogue: 0,0:26:50.77,0:26:51.83,Default,,0000,0000,0000,,这个是二十四军\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is 24th Army
+Dialogue: 0,0:26:52.01,0:26:54.37,Default,,0000,0000,0000,,一四一特种精锐部队第八旅的标志\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}141 group 8th division logo
+Dialogue: 0,0:26:55.11,0:26:56.84,Default,,0000,0000,0000,,这个人的真名叫黄正火\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}his real name is Wang Chin Fo
+Dialogue: 0,0:26:57.24,0:26:59.80,Default,,0000,0000,0000,,他是排长 八零年退伍\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}he was sergeant and retired in 1985
+Dialogue: 0,0:26:59.95,0:27:02.61,Default,,0000,0000,0000,,他退下来当司机也没有什么不对呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}it's nothing wrong to become driver after retirement
+Dialogue: 0,0:27:02.95,0:27:06.25,Default,,0000,0000,0000,,可是他八五年偷渡到香港 结伙抢劫\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}but he went to HK in 1985 and became robber
+Dialogue: 0,0:27:06.49,0:27:08.61,Default,,0000,0000,0000,,为什么会在这个时候在广州出现？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}how come he is in Canton how?
+Dialogue: 0,0:27:08.69,0:27:10.05,Default,,0000,0000,0000,,还做替工司机？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How come he's substitute driver?
+Dialogue: 0,0:27:10.96,0:27:13.82,Default,,0000,0000,0000,,你打电话给邮政单位的那一个同志\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Which comrade of the post office did you call
+Dialogue: 0,0:27:14.26,0:27:15.63,Default,,0000,0000,0000,,调查他身份的？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}to check his identity?
+Dialogue: 0,0:27:16.23,0:27:17.79,Default,,0000,0000,0000,,不是我自己打的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I didn't make the call myself
+Dialogue: 0,0:27:18.47,0:27:19.80,Default,,0000,0000,0000,,你打给杜为东是不是？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You called up To Wai Tung, didn't you?
+Dialogue: 0,0:27:19.93,0:27:21.33,Default,,0000,0000,0000,,这个我也不清楚\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'm not sure
+Dialogue: 0,0:27:21.53,0:27:22.87,Default,,0000,0000,0000,,把杜为东带进来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Bring To Wai Tung in.
+Dialogue: 0,0:27:23.87,0:27:25.27,Default,,0000,0000,0000,,走 走呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Go, go ahead.
+Dialogue: 0,0:27:29.11,0:27:31.10,Default,,0000,0000,0000,,你一向是跟着赵紫阳工作的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You've worked with Chiu Zee Yiang
+Dialogue: 0,0:27:32.11,0:27:34.01,Default,,0000,0000,0000,,你的司机举报你\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Your chauffeur reported about you
+Dialogue: 0,0:27:34.65,0:27:36.45,Default,,0000,0000,0000,,说你在五月底跟六月初\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Saying between May and June
+Dialogue: 0,0:27:36.82,0:27:39.41,Default,,0000,0000,0000,,不断的跟那些民运份子秘密接触\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You kept contacting those pro-democrats
+Dialogue: 0,0:27:40.32,0:27:44.05,Default,,0000,0000,0000,,你在六月三号晚上 十一点四十七分\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}At 11:47 on 3 June
+Dialogue: 0,0:27:44.52,0:27:48.05,Default,,0000,0000,0000,,特地跑到白天鹅宾馆 化名李臣\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You went to White Swan Hotel and used a name Li San
+Dialogue: 0,0:27:48.70,0:27:50.99,Default,,0000,0000,0000,,打国际电话去香港\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And made a trunk call to HK
+Dialogue: 0,0:27:51.26,0:27:53.26,Default,,0000,0000,0000,,找声援会的欧阳卓 对不对？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}To Au Yiang Chek of ASG, didn't you?
+Dialogue: 0,0:27:53.40,0:27:55.43,Default,,0000,0000,0000,,黄副局长 果子狸可以上了吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sub-Chief Wang, can we serve now?
+Dialogue: 0,0:28:03.28,0:28:04.07,Default,,0000,0000,0000,,那我取消了？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shall I cancel it?
+Dialogue: 0,0:28:04.24,0:28:05.34,Default,,0000,0000,0000,,你算什么东西？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Who are you to speak?
+Dialogue: 0,0:28:05.61,0:28:06.84,Default,,0000,0000,0000,,怎么能这么挥霍？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We must be thrifty now
+Dialogue: 0,0:28:07.18,0:28:09.77,Default,,0000,0000,0000,,上面有命令下来 要过八年的苦日子\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}There's order from senior that we must lead 8 years of hard life
+Dialogue: 0,0:28:10.12,0:28:12.88,Default,,0000,0000,0000,,这么浪费 找个暖壶 把它装起来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's a waste, put it all in a hot opt.
+Dialogue: 0,0:28:12.92,0:28:13.89,Default,,0000,0000,0000,,是！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes.
+Dialogue: 0,0:28:17.69,0:28:18.89,Default,,0000,0000,0000,,XO也带走\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Take the XO too.
+Dialogue: 0,0:28:42.68,0:28:45.74,Default,,0000,0000,0000,,老孔呀 我有个朋友做点小生意\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Hong, my friend is doing a bit business
+Dialogue: 0,0:28:45.99,0:28:47.11,Default,,0000,0000,0000,,是一点点私货\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He's smuggling a bit of stuff
+Dialogue: 0,0:28:47.15,0:28:48.98,Default,,0000,0000,0000,,是些药材 天麻什么的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Something like herbal medicine
+Dialogue: 0,0:28:49.16,0:28:51.82,Default,,0000,0000,0000,,希望您老人家给点面子 高抬贵手\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I hope you will let him pass.
+Dialogue: 0,0:28:52.03,0:28:53.25,Default,,0000,0000,0000,,那部车呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Which car?
+Dialogue: 0,0:28:55.20,0:28:58.26,Default,,0000,0000,0000,,那边那辆车 正在搜的货柜\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}That one... the container being searched.
+Dialogue: 0,0:29:03.57,0:29:04.63,Default,,0000,0000,0000,,啥呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What is this?
+Dialogue: 0,0:29:04.67,0:29:06.76,Default,,0000,0000,0000,,钱呀！三千块\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Money! Three thousand dollars
+Dialogue: 0,0:29:08.24,0:29:09.97,Default,,0000,0000,0000,,你在海关十几年\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You've been in Customs for a decade
+Dialogue: 0,0:29:10.54,0:29:12.64,Default,,0000,0000,0000,,应该知道我的外号叫啥呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You should have heard my nick name
+Dialogue: 0,0:29:13.28,0:29:14.41,Default,,0000,0000,0000,,叫啥呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What is it?
+Dialogue: 0,0:29:14.65,0:29:15.84,Default,,0000,0000,0000,,黑包公嘛！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Righteous Man!
+Dialogue: 0,0:29:16.12,0:29:17.24,Default,,0000,0000,0000,,知道就行了吧！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's god you know.
+Dialogue: 0,0:29:20.49,0:29:21.58,Default,,0000,0000,0000,,老孔！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Hong!
+Dialogue: 0,0:29:25.33,0:29:27.29,Default,,0000,0000,0000,,把货都给我搬下来 快点\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Take everything down, be quick.
+Dialogue: 0,0:29:27.43,0:29:28.66,Default,,0000,0000,0000,,挨着排的给我搜\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Take it down and search carefully
+Dialogue: 0,0:29:41.01,0:29:42.34,Default,,0000,0000,0000,,你妈多大岁数啦？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How old is your mother?
+Dialogue: 0,0:29:46.95,0:29:49.94,Default,,0000,0000,0000,,上个月你是不是刚刚 给她做完九十大寿啊\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Didn't you celebrate her 90th birthday last month?
+Dialogue: 0,0:29:51.38,0:29:53.51,Default,,0000,0000,0000,,你再不说出他们从那条路逃走的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}If you don't say which route the took to escape
+Dialogue: 0,0:29:53.92,0:29:55.05,Default,,0000,0000,0000,,我就把你妈抓来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'll have your mother arrested
+Dialogue: 0,0:29:56.86,0:29:57.95,Default,,0000,0000,0000,,一个也别落下\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Don't miss any one
+Dialogue: 0,0:29:58.12,0:29:59.11,Default,,0000,0000,0000,,是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes
+Dialogue: 0,0:30:02.20,0:30:04.03,Default,,0000,0000,0000,,看啥呀 下去呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Nothing to see, go down.
+Dialogue: 0,0:30:55.52,0:30:56.71,Default,,0000,0000,0000,,你咋受的伤呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why are you injured?
+Dialogue: 0,0:30:57.92,0:31:01.11,Default,,0000,0000,0000,,我被广州那些坏份子抢劫打伤的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I was robbed and injured by gangsters in Canton
+Dialogue: 0,0:31:03.49,0:31:04.48,Default,,0000,0000,0000,,看着他\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Lay an eye on him
+Dialogue: 0,0:31:16.67,0:31:22.77,Default,,0000,0000,0000,,你妈的爸个小养子 啥药材啊天麻的乱七八糟胡雷啥\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What damn shit medicine is this?
+Dialogue: 0,0:31:22.79,0:31:23.37,Default,,0000,0000,0000,,这是啥啊？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Medicine? You mean this?
+Dialogue: 0,0:31:25.88,0:31:28.17,Default,,0000,0000,0000,,老万 你妈的爸的小羔子\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Wan, you damn bastard
+Dialogue: 0,0:31:28.27,0:31:30.48,Default,,0000,0000,0000,,你搞这里个笼来害我 你这个王八蛋\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You harm me by doing this.
+Dialogue: 0,0:31:30.85,0:31:33.18,Default,,0000,0000,0000,,我操你妈 你居然是个人贩子\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You bastard, you smuggle people? You smuggle people, bastard!
+Dialogue: 0,0:31:35.09,0:31:37.32,Default,,0000,0000,0000,,老孔 你打给谁呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Hong, who are you calling?
+Dialogue: 0,0:31:37.72,0:31:40.56,Default,,0000,0000,0000,,这事大发了 我得向领导汇报\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I must report to senior as this is a bit discovery
+Dialogue: 0,0:31:41.56,0:31:43.72,Default,,0000,0000,0000,,老孔 求你救救命\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Hong, help me
+Dialogue: 0,0:31:44.10,0:31:45.36,Default,,0000,0000,0000,,大家兄弟一场\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We are like brothers
+Dialogue: 0,0:31:45.50,0:31:47.66,Default,,0000,0000,0000,,你总不想看着老弟捱枪子儿吧？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You don't want to see me get shot, do you?
+Dialogue: 0,0:31:47.83,0:31:49.73,Default,,0000,0000,0000,,俺们一起做了十几年事\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We've worked together for a decade
+Dialogue: 0,0:31:49.90,0:31:52.70,Default,,0000,0000,0000,,没有感情也有同情呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I sympathize you I say
+Dialogue: 0,0:31:53.34,0:31:55.93,Default,,0000,0000,0000,,你这王八羔子 把我当啥呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But y9u bastard, what do you take me as?
+Dialogue: 0,0:31:56.18,0:31:58.84,Default,,0000,0000,0000,,我是要小钱的呀？三千块打发我？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You take me as a beggar by giving me only $3000!
+Dialogue: 0,0:31:59.55,0:32:00.64,Default,,0000,0000,0000,,三千块？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}$3000?
+Dialogue: 0,0:32:00.91,0:32:02.21,Default,,0000,0000,0000,,洪队长 我不是给您\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Captain Hung, didn't I give you...
+Dialogue: 0,0:32:02.28,0:32:04.58,Default,,0000,0000,0000,,我操你妈 你是贩卖人口啊\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shut up, you smuggle people
+Dialogue: 0,0:32:04.78,0:32:06.31,Default,,0000,0000,0000,,少说也得拿出五万块来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You must at least pay us 50 thousand dollars
+Dialogue: 0,0:32:07.79,0:32:10.09,Default,,0000,0000,0000,,贩卖人口呀 五万块钱才几个子啊\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Fifty thousand is good for smuggling people
+Dialogue: 0,0:32:10.39,0:32:12.96,Default,,0000,0000,0000,,可是民运份子 就是十万也不多\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But one hundred thousand is not much for smuggling pro- democrats
+Dialogue: 0,0:32:13.49,0:32:14.98,Default,,0000,0000,0000,,绝对不是民运份子\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Absolutely not pro-democrats
+Dialogue: 0,0:32:15.23,0:32:18.72,Default,,0000,0000,0000,,只不是几个乡姑娘想到香港去卖淫\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}They're country girls who want to be prostitute in HK
+Dialogue: 0,0:32:19.53,0:32:21.00,Default,,0000,0000,0000,,如今是非常时期\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's a very critical moment
+Dialogue: 0,0:32:21.13,0:32:22.66,Default,,0000,0000,0000,,就算不是我也当你是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I take they are even they are not!
+Dialogue: 0,0:32:22.87,0:32:24.60,Default,,0000,0000,0000,,叫老子去给她们验身呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Or must I take them to verify?
+Dialogue: 0,0:32:28.44,0:32:31.97,Default,,0000,0000,0000,,得…我还是别贪这小便宜了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'd better not take this bribe
+Dialogue: 0,0:32:33.08,0:32:34.51,Default,,0000,0000,0000,,等一等\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Wait...
+Dialogue: 0,0:32:39.39,0:32:40.48,Default,,0000,0000,0000,,我这加上外币\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}With all the money I have
+Dialogue: 0,0:32:40.55,0:32:42.35,Default,,0000,0000,0000,,大概有八万多块 全都给您\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}There's about 80 thousand, I'll give it all to you
+Dialogue: 0,0:32:49.83,0:32:51.92,Default,,0000,0000,0000,,您帮帮忙 帮帮忙呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Please do me a favour...
+Dialogue: 0,0:32:56.97,0:32:59.23,Default,,0000,0000,0000,,你们下车 把货搬回去吧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Get down and put the stuff back
+Dialogue: 0,0:33:00.34,0:33:02.60,Default,,0000,0000,0000,,大家伙帮忙把货搬回去\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Help putting the stuff back now.
+Dialogue: 0,0:33:03.64,0:33:04.80,Default,,0000,0000,0000,,他妈抓来了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}His mother is here.
+Dialogue: 0,0:33:05.18,0:33:06.01,Default,,0000,0000,0000,,带她进来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Take her in.
+Dialogue: 0,0:33:06.11,0:33:06.98,Default,,0000,0000,0000,,是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes.
+Dialogue: 0,0:33:09.58,0:33:10.67,Default,,0000,0000,0000,,等一等\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Wait.
+Dialogue: 0,0:33:14.42,0:33:15.72,Default,,0000,0000,0000,,你说大声一点\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Say louder.
+Dialogue: 0,0:33:22.93,0:33:25.09,Default,,0000,0000,0000,,你早点说就不用受苦啦\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You could avoid this torture if you said earlier
+Dialogue: 0,0:33:25.67,0:33:29.36,Default,,0000,0000,0000,,我知道你是老干部 有五十年的党龄\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I know you're experienced guy
+Dialogue: 0,0:33:29.67,0:33:32.66,Default,,0000,0000,0000,,一定会有很多人来救你的 是不是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So lots of people will rescue you
+Dialogue: 0,0:33:33.04,0:33:35.13,Default,,0000,0000,0000,,我不会放虎归山的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I won't ever let you off
+Dialogue: 0,0:33:36.48,0:33:39.14,Default,,0000,0000,0000,,黄临 根据中央的指示\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Wang Lin, I have instruction from Central
+Dialogue: 0,0:33:39.28,0:33:41.25,Default,,0000,0000,0000,,快捕 快审 快决\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Raped arrest, trial and execution
+Dialogue: 0,0:33:41.68,0:33:44.51,Default,,0000,0000,0000,,我判决你这叛徒死刑\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'm declaring death penalty to you
+Dialogue: 0,0:33:50.42,0:33:51.69,Default,,0000,0000,0000,,叫他妈来收尸\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Ask his mother to collect his body.
+Dialogue: 0,0:33:51.82,0:33:52.79,Default,,0000,0000,0000,,是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes
+Dialogue: 0,0:34:22.62,0:34:24.75,Default,,0000,0000,0000,,是 是 我知道…\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes... I know
+Dialogue: 0,0:34:24.96,0:34:26.32,Default,,0000,0000,0000,,袁同志 我知道\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I know, Comrade Yuen
+Dialogue: 0,0:34:26.39,0:34:28.83,Default,,0000,0000,0000,,如果跑掉一个 你就拿你的头来见我\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You must die if any of them runs away.
+Dialogue: 0,0:34:28.90,0:34:32.06,Default,,0000,0000,0000,,还有 尽可能抓活的！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And catch them alive.
+Dialogue: 0,0:34:32.23,0:34:33.20,Default,,0000,0000,0000,,是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes,
+Dialogue: 0,0:34:35.03,0:34:39.23,Default,,0000,0000,0000,,原来车上的人是头号通缉犯\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}People on the car are most wanted
+Dialogue: 0,0:34:40.61,0:34:43.14,Default,,0000,0000,0000,,如果抓了他们 他们会把我们供出来的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}If we arrest them They will reveal that we're involved
+Dialogue: 0,0:34:44.03,0:34:46.07,Default,,0000,0000,0000,,一不做二不休 杀人灭口\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So we can only, kill them
+Dialogue: 0,0:35:09.27,0:35:11.03,Default,,0000,0000,0000,,现在立刻封闭关口\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Barricade the border now
+Dialogue: 0,0:35:11.37,0:35:14.81,Default,,0000,0000,0000,,任何人意图过边境 格杀勿论\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Any who tries to get across will be killed
+Dialogue: 0,0:36:59.25,0:37:00.87,Default,,0000,0000,0000,,上呀 你他妈躲这儿干什么？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Go on, why are you hiding here?
+Dialogue: 0,0:37:01.61,0:37:03.10,Default,,0000,0000,0000,,上哪啊？你他妈的！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit you bastard, to ahead.
+Dialogue: 0,0:37:22.00,0:37:24.37,Default,,0000,0000,0000,,兵哥给你 上车！快\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Master Bin, this is for you Get in the car, quick.
+Dialogue: 0,0:37:41.29,0:37:42.38,Default,,0000,0000,0000,,妈的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit...
+Dialogue: 0,0:37:51.86,0:37:53.92,Default,,0000,0000,0000,,袁同志 都走啦\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Yuen, they're gone
+Dialogue: 0,0:37:54.30,0:37:55.77,Default,,0000,0000,0000,,立刻给我追\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Chase them now.
+Dialogue: 0,0:38:00.34,0:38:01.36,Default,,0000,0000,0000,,下车\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Get off the car.
+Dialogue: 0,0:38:52.09,0:38:53.35,Default,,0000,0000,0000,,从这里开始爬山\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}If we start climbing here
+Dialogue: 0,0:38:53.56,0:38:55.82,Default,,0000,0000,0000,,如果马不停蹄 一切顺利的话\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Without pause and if everything is smooth
+Dialogue: 0,0:38:55.96,0:38:57.05,Default,,0000,0000,0000,,只要一天一夜\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It takes 24 hours
+Dialogue: 0,0:38:57.16,0:38:59.22,Default,,0000,0000,0000,,爬过三个山头就能到达三里湾\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And three hills to arrive a bay
+Dialogue: 0,0:38:59.77,0:39:01.10,Default,,0000,0000,0000,,那里有个渔村\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}There is a fishing village
+Dialogue: 0,0:39:01.27,0:39:03.13,Default,,0000,0000,0000,,到了那儿再想办法找渔船\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We'll try to find a boat
+Dialogue: 0,0:39:05.10,0:39:07.66,Default,,0000,0000,0000,,一直开到对面就是香港范围了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It'll be HK side on the opposite
+Dialogue: 0,0:39:19.42,0:39:20.35,Default,,0000,0000,0000,,来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Come on.
+Dialogue: 0,0:39:51.75,0:39:52.81,Default,,0000,0000,0000,,快\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Be quick.
+Dialogue: 0,0:40:53.65,0:40:55.31,Default,,0000,0000,0000,,我这里可以看到香港电视\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I can watch HK TV from here
+Dialogue: 0,0:40:56.08,0:40:57.14,Default,,0000,0000,0000,,我认得这位姐姐\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I recognize this sister
+Dialogue: 0,0:40:57.28,0:40:58.55,Default,,0000,0000,0000,,她是北高联的领袖\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}She's leader of the students
+Dialogue: 0,0:40:58.88,0:40:59.78,Default,,0000,0000,0000,,聪明\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Smart!
+Dialogue: 0,0:41:00.19,0:41:02.68,Default,,0000,0000,0000,,你知不知道这里 有哪位叔叔是跑私货的？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Do you know any smuggler here?
+Dialogue: 0,0:41:03.16,0:41:03.92,Default,,0000,0000,0000,,知道\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes!
+Dialogue: 0,0:41:03.96,0:41:04.82,Default,,0000,0000,0000,,谁呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Who?
+Dialogue: 0,0:41:05.29,0:41:06.28,Default,,0000,0000,0000,,我爸\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}My father.
+Dialogue: 0,0:41:06.89,0:41:08.86,Default,,0000,0000,0000,,他没有船怎么走私呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How can he smuggle without a boat?
+Dialogue: 0,0:41:08.99,0:41:11.52,Default,,0000,0000,0000,,有呀！他的快艇 像飞机一样快\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes. He has a supper speedboat.
+Dialogue: 0,0:41:11.76,0:41:12.89,Default,,0000,0000,0000,,那么快呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Supper?
+Dialogue: 0,0:41:13.23,0:41:15.00,Default,,0000,0000,0000,,可不可以借我们跑一趟？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Can you lend it to us for a run?
+Dialogue: 0,0:41:15.20,0:41:16.40,Default,,0000,0000,0000,,行 没问题！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sure, no problem.
+Dialogue: 0,0:41:16.54,0:41:18.30,Default,,0000,0000,0000,,你现在马上带我去看看快艇\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Please take us to the boat now
+Dialogue: 0,0:41:18.37,0:41:20.10,Default,,0000,0000,0000,,是不是真的像你说的那么快？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We want to see if it's super as you said
+Dialogue: 0,0:41:20.31,0:41:21.36,Default,,0000,0000,0000,,好 现在去\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sure, we shall go now.
+Dialogue: 0,0:41:23.58,0:41:25.60,Default,,0000,0000,0000,,李先生 外面现在这种情况\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Mr. Li, now the situation is so severe
+Dialogue: 0,0:41:25.88,0:41:27.57,Default,,0000,0000,0000,,对小孩子来说会不会太危险了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Will it be dangerous for the kid?
+Dialogue: 0,0:41:28.01,0:41:29.95,Default,,0000,0000,0000,,真是妇人之见 坏事\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Lousy idea, this will make us suffer.
+Dialogue: 0,0:41:30.42,0:41:31.38,Default,,0000,0000,0000,,二零三\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}203!
+Dialogue: 0,0:41:31.68,0:41:33.31,Default,,0000,0000,0000,,对不起 我悔过\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sorry, I apologize.
+Dialogue: 0,0:41:34.09,0:41:36.08,Default,,0000,0000,0000,,姐姐 不用怕 我会潜水\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sister, don't panic, I can dive.
+Dialogue: 0,0:41:36.76,0:41:38.12,Default,,0000,0000,0000,,你有几个兄弟姐妹？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You have any brothers or sisters?
+Dialogue: 0,0:41:38.22,0:41:39.69,Default,,0000,0000,0000,,我妈只有我一个\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I am the only child.
+Dialogue: 0,0:41:39.96,0:41:42.22,Default,,0000,0000,0000,,我想应该先征求他父母同意\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I think we should first ask for his parent's consent
+Dialogue: 0,0:41:42.66,0:41:43.86,Default,,0000,0000,0000,,我明白你的意思\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I know what you mean
+Dialogue: 0,0:41:44.13,0:41:45.65,Default,,0000,0000,0000,,可是我怕时间来不及呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But we're running short of time
+Dialogue: 0,0:41:46.00,0:41:49.83,Default,,0000,0000,0000,,狗子 去吧！我不会反对的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Go ahead, I won't object the least.
+Dialogue: 0,0:41:50.17,0:41:51.40,Default,,0000,0000,0000,,这是我妈\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is my mother
+Dialogue: 0,0:41:55.77,0:41:56.87,Default,,0000,0000,0000,,谢谢你\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Thank you
+Dialogue: 0,0:42:27.27,0:42:28.00,Default,,0000,0000,0000,,老头子\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Old man.
+Dialogue: 0,0:42:28.27,0:42:29.00,Default,,0000,0000,0000,,什么事呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What is it?
+Dialogue: 0,0:42:30.98,0:42:31.87,Default,,0000,0000,0000,,不要出声\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Don't make a noise.
+Dialogue: 0,0:42:45.36,0:42:47.02,Default,,0000,0000,0000,,往哪儿跑呀你\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Where are you want to go?
+Dialogue: 0,0:43:42.48,0:43:43.91,Default,,0000,0000,0000,,什么人？出来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Who is it? Come out.
+Dialogue: 0,0:43:46.59,0:43:47.71,Default,,0000,0000,0000,,给我开枪\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Start fire.
+Dialogue: 0,0:43:57.60,0:44:00.86,Default,,0000,0000,0000,,不要开枪 我是来捡海胆的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Don't fire, I come to fish.
+Dialogue: 0,0:44:02.17,0:44:03.36,Default,,0000,0000,0000,,在这里干什么？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why are you here?
+Dialogue: 0,0:44:03.57,0:44:04.40,Default,,0000,0000,0000,,过来…\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Come here.
+Dialogue: 0,0:44:05.34,0:44:06.33,Default,,0000,0000,0000,,走\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Go.
+Dialogue: 0,0:45:08.20,0:45:09.26,Default,,0000,0000,0000,,在前面\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}They're ahead.
+Dialogue: 0,0:45:11.97,0:45:14.40,Default,,0000,0000,0000,,大兵哥 这边 快点\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Master Bin, this way, be quick.
+Dialogue: 0,0:45:32.52,0:45:33.79,Default,,0000,0000,0000,,快点过去救他\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Go and rescue him now.
+Dialogue: 0,0:45:35.46,0:45:37.86,Default,,0000,0000,0000,,快点 快过来！快点\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Be quick, faster...
+Dialogue: 0,0:46:00.92,0:46:02.18,Default,,0000,0000,0000,,他妈的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit!
+Dialogue: 0,0:46:04.62,0:46:07.11,Default,,0000,0000,0000,,姐姐 我好冷呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sister, I'm very cold.
+Dialogue: 0,0:46:17.20,0:46:19.60,Default,,0000,0000,0000,,胖子 胖子\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Fatty...
+Dialogue: 0,0:46:21.14,0:46:24.74,Default,,0000,0000,0000,,醒醒 醒醒啊 胖子\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}wake up... Fatty.
+Dialogue: 0,0:47:12.83,0:47:16.32,Default,,0000,0000,0000,,大嫂 这些钱是我们弟兄给你们的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is the money we give you
+Dialogue: 0,0:47:16.93,0:47:18.16,Default,,0000,0000,0000,,你收下吧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Please take it.
+Dialogue: 0,0:48:09.15,0:48:12.28,Default,,0000,0000,0000,,为了救我们牺牲了这么多人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So many people sacrifice just for helping us
+Dialogue: 0,0:48:13.25,0:48:17.25,Default,,0000,0000,0000,,我这一辈子…都不会原谅我自己\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}For the rest of my wife... I won't forgive myself
+Dialogue: 0,0:48:17.69,0:48:19.18,Default,,0000,0000,0000,,你用不着内咎的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You needn't blame yourself
+Dialogue: 0,0:48:19.66,0:48:22.46,Default,,0000,0000,0000,,要革命 就一定要有牺牲\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}There must be sacrifice in revolution
+Dialogue: 0,0:48:23.06,0:48:24.86,Default,,0000,0000,0000,,当年打越战的时候\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}During the Vietnamese War
+Dialogue: 0,0:48:25.06,0:48:28.43,Default,,0000,0000,0000,,我也看着我多年的战友一个个倒下\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I saw my colleagues dying one by one
+Dialogue: 0,0:48:29.57,0:48:32.50,Default,,0000,0000,0000,,可是当我想到只要国家有希望\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But when I think of the hope of my country
+Dialogue: 0,0:48:32.97,0:48:35.30,Default,,0000,0000,0000,,我们这么做也是值得的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is all worthwhile.
+Dialogue: 0,0:48:49.82,0:48:50.85,Default,,0000,0000,0000,,对不起\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sorry?
+Dialogue: 0,0:48:51.36,0:48:52.38,Default,,0000,0000,0000,,没关系\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's OK.
+Dialogue: 0,0:49:01.83,0:49:03.86,Default,,0000,0000,0000,,活生生的美人领袖投入你的怀里\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}A beautiful leader fell into you
+Dialogue: 0,0:49:03.97,0:49:05.37,Default,,0000,0000,0000,,这下你可逮着了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You run in good luck now!
+Dialogue: 0,0:49:06.10,0:49:08.20,Default,,0000,0000,0000,,大兵哥呀 刚才你说的正气凛然\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Master Bin, you said just rightly
+Dialogue: 0,0:49:08.87,0:49:11.04,Default,,0000,0000,0000,,像模像样的 跟他妈真的似的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You said as if you meant it
+Dialogue: 0,0:49:11.14,0:49:13.34,Default,,0000,0000,0000,,不过呢 我觉得很肉麻\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But for me, this is just lousy
+Dialogue: 0,0:49:16.32,0:49:18.68,Default,,0000,0000,0000,,说正经的 泡妞归泡妞\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But wooing girls is wooing
+Dialogue: 0,0:49:18.85,0:49:20.28,Default,,0000,0000,0000,,在美丽的谎言之后呢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}After these beautiful lies
+Dialogue: 0,0:49:20.35,0:49:23.41,Default,,0000,0000,0000,,还是快点把剩下来的钱 收回来的好啊\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You'd better get all the balance of the money back
+Dialogue: 0,0:49:25.66,0:49:27.99,Default,,0000,0000,0000,,对不起 我悔过\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sorry, I apologize.
+Dialogue: 0,0:49:55.02,0:49:56.85,Default,,0000,0000,0000,,你是不是北京派来的？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Did the Peking Government sent you?
+Dialogue: 0,0:49:56.96,0:49:58.75,Default,,0000,0000,0000,,不是 我是本地人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}No, I'm local people.
+Dialogue: 0,0:50:10.90,0:50:12.20,Default,,0000,0000,0000,,我是欧阳卓\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Au Yiang Chek speaking.
+Dialogue: 0,0:50:12.70,0:50:15.10,Default,,0000,0000,0000,,欧阳校长 你到底做了些什么事？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal, what do you mean by this?
+Dialogue: 0,0:50:15.71,0:50:17.87,Default,,0000,0000,0000,,我们千辛万苦把小慧他们带出来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We tried hard to take them out here
+Dialogue: 0,0:50:18.31,0:50:21.07,Default,,0000,0000,0000,,你的手提电话我们怎么打都打不通\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But your portable is no way to get through?
+Dialogue: 0,0:50:21.41,0:50:22.54,Default,,0000,0000,0000,,你是不是耍我们？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Are you fooling us?
+Dialogue: 0,0:50:22.81,0:50:24.94,Default,,0000,0000,0000,,兵哥 你不要误会\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Master Bin, you mustn't misunderstand
+Dialogue: 0,0:50:25.35,0:50:27.25,Default,,0000,0000,0000,,因为邓小平露面之后\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}As soon as Tang Siao Pin showed up
+Dialogue: 0,0:50:27.52,0:50:29.89,Default,,0000,0000,0000,,形势就变了 人心也变了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}People have changed their mind
+Dialogue: 0,0:50:30.02,0:50:32.01,Default,,0000,0000,0000,,我们这一趟的代价非常之大\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We paid too much for this mission
+Dialogue: 0,0:50:32.76,0:50:35.92,Default,,0000,0000,0000,,跟我一起出生入死十几年的 胖子也被打死了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}One of our men, Fatty, died too!
+Dialogue: 0,0:50:36.50,0:50:38.55,Default,,0000,0000,0000,,现在我最需要的就是钱\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I need money badly now
+Dialogue: 0,0:50:39.20,0:50:41.17,Default,,0000,0000,0000,,你到底什么时候付钱接人呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}When are you paying us and taking them away?
+Dialogue: 0,0:50:41.30,0:50:43.16,Default,,0000,0000,0000,,现在形势非常的紧张\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's very moment now
+Dialogue: 0,0:50:43.30,0:50:45.17,Default,,0000,0000,0000,,我出出进进都有人跟着我\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I get followed day and night
+Dialogue: 0,0:50:45.37,0:50:47.10,Default,,0000,0000,0000,,手提电话也有人偷听\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}They even eavesdrop my portable phone
+Dialogue: 0,0:50:47.24,0:50:49.37,Default,,0000,0000,0000,,我根本找不到一个安全的地方\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I can't find even a save place
+Dialogue: 0,0:50:49.51,0:50:51.10,Default,,0000,0000,0000,,来安置她们几个人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}to settle them down
+Dialogue: 0,0:50:51.98,0:50:54.38,Default,,0000,0000,0000,,我求求你 再多给我一点时间\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I beg you to give me a bit more time
+Dialogue: 0,0:50:54.65,0:50:57.64,Default,,0000,0000,0000,,不可能 多拖一天 就多一分危险\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Impossible, the longer time the more danger will be
+Dialogue: 0,0:50:57.75,0:51:00.05,Default,,0000,0000,0000,,我以人格担保 多给我一个星期\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I assure you, give me one more week
+Dialogue: 0,0:51:00.42,0:51:02.39,Default,,0000,0000,0000,,一人让一步 五天\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Let's compromise, five days
+Dialogue: 0,0:51:13.27,0:51:16.26,Default,,0000,0000,0000,,我相信欧阳校长是一个讲信用的人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I believe we can trust Principal
+Dialogue: 0,0:51:16.70,0:51:19.10,Default,,0000,0000,0000,,这次的事情 一可以赚点钱\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You can not only make money
+Dialogue: 0,0:51:19.57,0:51:22.20,Default,,0000,0000,0000,,二可以为中国人做点好事\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But do something for Chinese people
+Dialogue: 0,0:51:22.37,0:51:23.60,Default,,0000,0000,0000,,做好事？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Do something?
+Dialogue: 0,0:51:23.81,0:51:26.33,Default,,0000,0000,0000,,十几年前 我们为国家去越南打仗\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We went to Vietnamese War years ago...
+Dialogue: 0,0:51:26.41,0:51:28.68,Default,,0000,0000,0000,,那真是枪林弹雨 死里逃生\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We all nearly got killed
+Dialogue: 0,0:51:28.91,0:51:29.88,Default,,0000,0000,0000,,结果又怎么样？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And the result?
+Dialogue: 0,0:51:30.02,0:51:31.24,Default,,0000,0000,0000,,还不是回乡下去种地\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Going back home and become farmers!
+Dialogue: 0,0:51:31.38,0:51:32.71,Default,,0000,0000,0000,,现在又是枪林弹雨\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We nearly got killed this time too
+Dialogue: 0,0:51:32.82,0:51:35.22,Default,,0000,0000,0000,,操他妈的 居然会被 香港的书呆子骗了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit, we were cheated by people of HK
+Dialogue: 0,0:51:35.32,0:51:37.12,Default,,0000,0000,0000,,有时候毛主席说得也他妈对\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sometimes Chairman Mao said just right
+Dialogue: 0,0:51:37.26,0:51:40.12,Default,,0000,0000,0000,,这知识份子就是臭老九 靠不住\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Educated people are evil and unreliable
+Dialogue: 0,0:51:40.69,0:51:41.62,Default,,0000,0000,0000,,还有呢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Moreover...
+Dialogue: 0,0:51:42.09,0:51:44.79,Default,,0000,0000,0000,,咱们哥几个呢 可只收了他十五万订金\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We've only takedn$150000 as deposit
+Dialogue: 0,0:51:45.20,0:51:49.63,Default,,0000,0000,0000,,连我们以前抢回来的钱 可全都送给胖子他老婆了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But we gave it to fatty's wife with the money we robbed
+Dialogue: 0,0:51:50.80,0:51:51.96,Default,,0000,0000,0000,,我可实话实说\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Frankly saying
+Dialogue: 0,0:51:52.17,0:51:53.83,Default,,0000,0000,0000,,爱不爱国不关我的事\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Patriotism is nothing concerned with me
+Dialogue: 0,0:51:54.07,0:51:55.87,Default,,0000,0000,0000,,我他妈的只知道爱钱\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I only care for money
+Dialogue: 0,0:51:56.11,0:51:57.63,Default,,0000,0000,0000,,谁管他是什么…校长\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I don't care what Principal he is
+Dialogue: 0,0:51:57.84,0:51:59.24,Default,,0000,0000,0000,,用他妈什么…借口\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Or whatever excuse he has
+Dialogue: 0,0:51:59.38,0:52:00.71,Default,,0000,0000,0000,,反正欠我的钱就不行\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I just won't let anyone owe me money!
+Dialogue: 0,0:52:00.81,0:52:02.18,Default,,0000,0000,0000,,谁理他是什么声援会\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Whatever Aiding Group he belongs
+Dialogue: 0,0:52:02.28,0:52:03.58,Default,,0000,0000,0000,,又什么互助会的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Or whatever damn thing that is
+Dialogue: 0,0:52:03.78,0:52:05.77,Default,,0000,0000,0000,,不给钱就把他打成大头会\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I will surely teach him something.
+Dialogue: 0,0:52:06.02,0:52:07.04,Default,,0000,0000,0000,,说得对\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Right
+Dialogue: 0,0:52:08.99,0:52:10.68,Default,,0000,0000,0000,,大兵哥 有困难呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Master Bin, is there trouble?
+Dialogue: 0,0:52:10.86,0:52:12.76,Default,,0000,0000,0000,,没有 我们兄弟之间的私事\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}No, it's only our own affairs.
+Dialogue: 0,0:52:14.29,0:52:15.73,Default,,0000,0000,0000,,联络上欧阳校长了没有？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Have you contacted Principal?
+Dialogue: 0,0:52:15.79,0:52:18.19,Default,,0000,0000,0000,,刚刚通过电话 他还叫我问候你\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I just talked to him on the phone
+Dialogue: 0,0:52:18.56,0:52:19.89,Default,,0000,0000,0000,,你就放心好了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Don't worry a bit!
+Dialogue: 0,0:52:20.33,0:52:22.23,Default,,0000,0000,0000,,他已经安排好让你们离开香港\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He's arranged for you to leave HK
+Dialogue: 0,0:52:22.57,0:52:24.69,Default,,0000,0000,0000,,只是正在研究让你们坐船走呢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He's thinking whether you should take a ship
+Dialogue: 0,0:52:25.00,0:52:26.06,Default,,0000,0000,0000,,还是搭飞机\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}or by plane.
+Dialogue: 0,0:52:30.74,0:52:32.27,Default,,0000,0000,0000,,这些标语是游行用的啊？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Is this for the demonstration?
+Dialogue: 0,0:52:32.41,0:52:36.57,Default,,0000,0000,0000,,是呀 是我跟兄弟们参加游行用的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes, they are for it.
+Dialogue: 0,0:52:36.85,0:52:38.08,Default,,0000,0000,0000,,我们还喊口号呢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We even shout slogans
+Dialogue: 0,0:52:38.35,0:52:40.01,Default,,0000,0000,0000,,这些字呢？谁写的？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But who wrote it?
+Dialogue: 0,0:52:40.59,0:52:41.57,Default,,0000,0000,0000,,怎么啦？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why?
+Dialogue: 0,0:52:41.79,0:52:43.01,Default,,0000,0000,0000,,写的好漂亮\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}They are pretty.
+Dialogue: 0,0:52:43.89,0:52:46.65,Default,,0000,0000,0000,,我随便乱涂乱画的 谢谢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I just wrote them casually, thanks.
+Dialogue: 0,0:52:48.69,0:52:51.22,Default,,0000,0000,0000,,你看看 这是俺写的 怎么样\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Look, I wrote this, how do you think?
+Dialogue: 0,0:52:55.20,0:52:57.10,Default,,0000,0000,0000,,字如其人 很有力\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Just like you, very strong
+Dialogue: 0,0:52:57.37,0:52:59.10,Default,,0000,0000,0000,,从字里行间就可以看得出来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I can tell by the way they're written
+Dialogue: 0,0:52:59.14,0:53:01.30,Default,,0000,0000,0000,,你的爱国程度已经达到了热情奔放\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You are indeed very patriotic!
+Dialogue: 0,0:53:01.84,0:53:02.90,Default,,0000,0000,0000,,真的？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Really?
+Dialogue: 0,0:53:05.68,0:53:06.65,Default,,0000,0000,0000,,哥 她说啥呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Brother, what did she say?
+Dialogue: 0,0:53:06.65,0:53:08.20,Default,,0000,0000,0000,,字如其人啊 小弟！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}The words like him, brother.
+Dialogue: 0,0:53:40.25,0:53:43.08,Default,,0000,0000,0000,,陈同志 追捕民运份子\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Chen, in order to arrest pro-democrats
+Dialogue: 0,0:53:43.08,0:53:46.58,Default,,0000,0000,0000,,政治保卫局 决定派袁树同志负责\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Political Defense Bureau is sending Comrade Yuen for
+Dialogue: 0,0:53:47.75,0:53:49.95,Default,,0000,0000,0000,,袁将于明天去香港\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He's going to HK tomorrow
+Dialogue: 0,0:53:50.09,0:53:53.35,Default,,0000,0000,0000,,必须全力协助 京九号\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You must assist him.
+Dialogue: 0,0:53:57.46,0:53:59.45,Default,,0000,0000,0000,,袁主任 非常欢迎您\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Chief Yuen, welcome
+Dialogue: 0,0:53:59.76,0:54:01.39,Default,,0000,0000,0000,,由您领导真是太好了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's too good with you as leader
+Dialogue: 0,0:54:01.53,0:54:02.73,Default,,0000,0000,0000,,那里\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's nothing...
+Dialogue: 0,0:54:34.03,0:54:35.73,Default,,0000,0000,0000,,开车 快\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Go, hurry
+Dialogue: 0,0:54:38.34,0:54:39.46,Default,,0000,0000,0000,,王Sir电话\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Officer Wang, your call
+Dialogue: 0,0:54:40.37,0:54:41.34,Default,,0000,0000,0000,,喂\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Hello!
+Dialogue: 0,0:54:46.14,0:54:47.27,Default,,0000,0000,0000,,好的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sure
+Dialogue: 0,0:54:49.11,0:54:50.64,Default,,0000,0000,0000,,打电话给交通总部\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Call Traffic Department
+Dialogue: 0,0:54:50.95,0:54:54.28,Default,,0000,0000,0000,,叫他们立刻去找一部 蓝色的万事发小型货车\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Ask them to look for a blue Mazda van
+Dialogue: 0,0:54:54.92,0:54:57.68,Default,,0000,0000,0000,,车牌好像是BE1389 找到了先跟踪他们\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}The plate number is BE1389 Just follow it if they find it
+Dialogue: 0,0:54:57.96,0:54:59.29,Default,,0000,0000,0000,,千万不要打草惊蛇\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And don't alert them.
+Dialogue: 0,0:54:59.49,0:55:00.25,Default,,0000,0000,0000,,是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes, sit.
+Dialogue: 0,0:55:00.39,0:55:01.76,Default,,0000,0000,0000,,阿斌 立刻找飞虎队\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Bun, call Swat now.
+Dialogue: 0,0:55:01.93,0:55:02.82,Default,,0000,0000,0000,,是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes, sir.
+Dialogue: 0,0:55:06.56,0:55:09.09,Default,,0000,0000,0000,,努力的想想 你一定会想到的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Just think hard and you will recall
+Dialogue: 0,0:55:11.70,0:55:13.57,Default,,0000,0000,0000,,不要啊…\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}No...
+Dialogue: 0,0:55:17.01,0:55:18.72,Default,,0000,0000,0000,,我求求你\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Please...
+Dialogue: 0,0:55:18.81,0:55:20.40,Default,,0000,0000,0000,,孩子哭得你伤心了吧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You're hurt by your son's crying, right?
+Dialogue: 0,0:55:20.95,0:55:24.54,Default,,0000,0000,0000,,臭小子！不许哭 不许哭 臭小子\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Bastard, don't cry...
+Dialogue: 0,0:55:28.39,0:55:33.92,Default,,0000,0000,0000,,不要 我想…我努力的想\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}No...
+Dialogue: 0,0:55:34.33,0:55:37.12,Default,,0000,0000,0000,,你轻一点呀 娃儿好像被掐死了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Wake up, is my son killed?
+Dialogue: 0,0:55:38.40,0:55:39.56,Default,,0000,0000,0000,,儿子！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}No...
+Dialogue: 0,0:55:44.57,0:55:47.20,Default,,0000,0000,0000,,胡说八道 吓晕了嘛\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit, he's only fainted.
+Dialogue: 0,0:56:06.22,0:56:08.82,Default,,0000,0000,0000,,妈的 你个老乌龟\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit, you old bastard!
+Dialogue: 0,0:56:08.99,0:56:11.62,Default,,0000,0000,0000,,一天拖一天 今天要是收不到钱\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You drag day by day, if I don't get money today
+Dialogue: 0,0:56:12.40,0:56:14.26,Default,,0000,0000,0000,,我一枪打烂你的头\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I must blow up your head.
+Dialogue: 0,0:56:15.13,0:56:18.66,Default,,0000,0000,0000,,喂 欧阳太太 你就是呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Hello, Mrs. Au Yiang? You are?
+Dialogue: 0,0:56:19.57,0:56:21.66,Default,,0000,0000,0000,,你现在给我老老实实听清楚\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You must listen to me carefully
+Dialogue: 0,0:56:22.11,0:56:23.97,Default,,0000,0000,0000,,你老公欠我六十五万\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You husband owes me $650000
+Dialogue: 0,0:56:24.81,0:56:26.67,Default,,0000,0000,0000,,我现在正在招待他呢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So I'm teaching him something
+Dialogue: 0,0:56:26.78,0:56:28.75,Default,,0000,0000,0000,,你马上拿钱来赎他回去\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You must take money at once if you want him back
+Dialogue: 0,0:56:29.71,0:56:32.08,Default,,0000,0000,0000,,你说什么？没钱？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What? No money?
+Dialogue: 0,0:56:32.58,0:56:34.21,Default,,0000,0000,0000,,你别他妈装蒜了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You mustn't pretend you are poor
+Dialogue: 0,0:56:34.42,0:56:35.91,Default,,0000,0000,0000,,没个几千万的家当\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}If you don't have millions of dollars
+Dialogue: 0,0:56:35.99,0:56:38.35,Default,,0000,0000,0000,,当他妈那门子声援会的主席啊？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How can he be chairman of ASG?
+Dialogue: 0,0:56:42.89,0:56:45.33,Default,,0000,0000,0000,,你等等！跟你老婆交待后事吧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Wait! You may tell your wife your will!
+Dialogue: 0,0:56:51.47,0:56:53.49,Default,,0000,0000,0000,,兵哥 我们说好限期五天\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Master Bin, we fixed a period of 5 days
+Dialogue: 0,0:56:53.61,0:56:55.10,Default,,0000,0000,0000,,今天已经是第七天了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And it's the seventh day now
+Dialogue: 0,0:56:55.71,0:56:58.01,Default,,0000,0000,0000,,以前我们一向听你的指挥\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We used to take you as our leader
+Dialogue: 0,0:56:58.34,0:57:00.54,Default,,0000,0000,0000,,这一次我想应该由我来作主\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But I want to make a decision this time
+Dialogue: 0,0:57:00.71,0:57:02.04,Default,,0000,0000,0000,,因为大伙推荐我出来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}As they selected me out
+Dialogue: 0,0:57:02.15,0:57:04.17,Default,,0000,0000,0000,,也是为了大家的前途着想\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Just for the good future of ours!
+Dialogue: 0,0:57:04.68,0:57:07.01,Default,,0000,0000,0000,,兵哥 我是因为没安排好船\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Master Bin, as I haven't arranged for the ship
+Dialogue: 0,0:57:07.09,0:57:08.71,Default,,0000,0000,0000,,所以才拖延了几天\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So I delayed paying you two days
+Dialogue: 0,0:57:08.82,0:57:10.85,Default,,0000,0000,0000,,我不是故意不给你们钱的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I didn't mean to do this
+Dialogue: 0,0:57:12.79,0:57:15.35,Default,,0000,0000,0000,,校长的出发点也是为了爱国\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal means good anyway
+Dialogue: 0,0:57:16.33,0:57:17.56,Default,,0000,0000,0000,,现在出现了问题\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Now that problems arouse
+Dialogue: 0,0:57:17.83,0:57:19.76,Default,,0000,0000,0000,,为什么不能多给他几天时间呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why don't we give him a few days more?
+Dialogue: 0,0:57:19.96,0:57:21.23,Default,,0000,0000,0000,,你没经过我的同意\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Without my consent you people made your own decision
+Dialogue: 0,0:57:21.47,0:57:22.73,Default,,0000,0000,0000,,擅自采取行动\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And even take action
+Dialogue: 0,0:57:22.93,0:57:24.09,Default,,0000,0000,0000,,把我当什么啦？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What do you think I am?
+Dialogue: 0,0:57:24.67,0:57:26.69,Default,,0000,0000,0000,,你们几个还把我当你们大哥吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Do you still take me as your boss?
+Dialogue: 0,0:57:27.71,0:57:29.40,Default,,0000,0000,0000,,四肢发达头脑简单你们\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why are you so simple-minded?
+Dialogue: 0,0:57:31.84,0:57:32.81,Default,,0000,0000,0000,,不能解开\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You mustn't untie him
+Dialogue: 0,0:57:32.98,0:57:33.91,Default,,0000,0000,0000,,你如果解开他\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}If you should until him
+Dialogue: 0,0:57:33.98,0:57:35.24,Default,,0000,0000,0000,,我们兄弟关系到此为止\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Our relation breaks up!
+Dialogue: 0,0:57:35.61,0:57:36.84,Default,,0000,0000,0000,,我知道你心里在想什么\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I know what you are thinking
+Dialogue: 0,0:57:37.02,0:57:38.85,Default,,0000,0000,0000,,你他妈也得看看实际情况呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But you should still look into the situation
+Dialogue: 0,0:57:39.15,0:57:41.38,Default,,0000,0000,0000,,假爱国 我都想吐了我\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You pretend patriotic, you make me sick.
+Dialogue: 0,0:57:41.72,0:57:43.71,Default,,0000,0000,0000,,你自己才公私不分呢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You are doing this to your own interest
+Dialogue: 0,0:57:43.82,0:57:45.85,Default,,0000,0000,0000,,你不过是因为喜欢小慧才这样做的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}As you love Siu Wai
+Dialogue: 0,0:57:45.96,0:57:48.39,Default,,0000,0000,0000,,可是再怎么说 你也不应该拿我们玩命的血汗钱\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You shouldn't take the hard money we made
+Dialogue: 0,0:57:48.53,0:57:49.65,Default,,0000,0000,0000,,去做人情啊？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}to do favour for your love!
+Dialogue: 0,0:57:49.76,0:57:50.99,Default,,0000,0000,0000,,泡什么大学生嘛\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You want to woo university student?
+Dialogue: 0,0:57:51.10,0:57:52.72,Default,,0000,0000,0000,,你当你自己是什么东西呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What do you think you are?
+Dialogue: 0,0:57:53.23,0:57:54.26,Default,,0000,0000,0000,,有钱的大少爷？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You think you are master?
+Dialogue: 0,0:57:54.40,0:57:56.42,Default,,0000,0000,0000,,说句不好听的 你不过是个强盗\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}To say frankly you are a bandit!
+Dialogue: 0,0:57:56.57,0:57:57.93,Default,,0000,0000,0000,,做什么春秋大梦？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You are day-dreaming, you know?
+Dialogue: 0,0:57:58.20,0:57:59.57,Default,,0000,0000,0000,,你还是等分了钱之后\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You'd better divide our money
+Dialogue: 0,0:57:59.67,0:58:02.16,Default,,0000,0000,0000,,自己去大富豪找个正点的 玩玩更他妈实际\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And get a better one in Volvo Club!
+Dialogue: 0,0:58:02.77,0:58:04.90,Default,,0000,0000,0000,,有没有学问 上了床都一个德性\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Girls are the same when they're on bed.
+Dialogue: 0,0:58:10.11,0:58:11.51,Default,,0000,0000,0000,,我跟了你十八年\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I've been with you 18 years
+Dialogue: 0,0:58:11.72,0:58:14.38,Default,,0000,0000,0000,,一起打仗 一起抢劫 出生入死\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}W used to fight, rob together
+Dialogue: 0,0:58:14.92,0:58:17.58,Default,,0000,0000,0000,,没想到你会为了一个女人打我？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But you beat me for a woman!
+Dialogue: 0,0:58:18.12,0:58:19.56,Default,,0000,0000,0000,,你不配当我大哥！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You're not up to be my boss.
+Dialogue: 0,0:58:19.76,0:58:20.92,Default,,0000,0000,0000,,哥 你说呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Brother, shat do you say?
+Dialogue: 0,0:58:20.99,0:58:22.86,Default,,0000,0000,0000,,说啥？你吃大便长大的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What to say? Can you think yourself?
+Dialogue: 0,0:58:23.06,0:58:24.12,Default,,0000,0000,0000,,啥都问俺\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why must you ask me?
+Dialogue: 0,0:58:37.01,0:58:38.81,Default,,0000,0000,0000,,当我第一次看到你们的时候\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}When I first met you people
+Dialogue: 0,0:58:39.31,0:58:41.44,Default,,0000,0000,0000,,我对你们几个产生一种无比的敬意\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I was so respectful to you
+Dialogue: 0,0:58:42.58,0:58:44.48,Default,,0000,0000,0000,,在自由世界生活的香港人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}As people living in the free HK
+Dialogue: 0,0:58:44.92,0:58:46.47,Default,,0000,0000,0000,,居然可以舍生忘死\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Could went through all trouble
+Dialogue: 0,0:58:47.12,0:58:49.61,Default,,0000,0000,0000,,把我们从白色的恐怖中救出来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}To save us from White Terror!
+Dialogue: 0,0:58:50.09,0:58:52.96,Default,,0000,0000,0000,,我觉得我们的血并没有白流\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I felt we did so right even when we're injured
+Dialogue: 0,0:58:53.42,0:58:55.48,Default,,0000,0000,0000,,我死去的同胞也可以安息了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And the people who died may rest in peace
+Dialogue: 0,0:58:56.46,0:58:58.66,Default,,0000,0000,0000,,可是没想到你们是打家劫舍的强盗\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But I can't imagine you are robbers and bandits
+Dialogue: 0,0:58:59.03,0:59:00.46,Default,,0000,0000,0000,,见利忘义的流氓\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}People who do anything for money
+Dialogue: 0,0:59:03.57,0:59:05.47,Default,,0000,0000,0000,,你们又何必这样虐待校长呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why must you do this torture to Principal?
+Dialogue: 0,0:59:06.00,0:59:07.73,Default,,0000,0000,0000,,不就是要钱吗你们？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You just want money?
+Dialogue: 0,0:59:08.27,0:59:10.83,Default,,0000,0000,0000,,我相信我在中共的眼里面 还值一点钱\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'm sure I am worth something for Chinese Government
+Dialogue: 0,0:59:11.24,0:59:13.77,Default,,0000,0000,0000,,既然你这么爱钱的话 把我交给中共\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Since you like money, take me to Chinese Government
+Dialogue: 0,0:59:13.91,0:59:15.64,Default,,0000,0000,0000,,去拿你们应得的酬劳啊\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And get the reward, shy don't you?
+Dialogue: 0,0:59:17.48,0:59:20.01,Default,,0000,0000,0000,,抓我吧！抓我呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Just tie me up...
+Dialogue: 0,0:59:21.02,0:59:22.38,Default,,0000,0000,0000,,为什么不敢抓我？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why don't you tie me up?
+Dialogue: 0,0:59:24.62,0:59:26.49,Default,,0000,0000,0000,,好 如果你不抓我的话\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Ok, if you don't tie me up
+Dialogue: 0,0:59:26.96,0:59:28.19,Default,,0000,0000,0000,,我就带欧阳校长走\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'll take Principal away.
+Dialogue: 0,0:59:28.59,0:59:29.36,Default,,0000,0000,0000,,不能解开\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You mustn't untie him.
+Dialogue: 0,0:59:29.49,0:59:30.29,Default,,0000,0000,0000,,你想干什么？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What do you want?
+Dialogue: 0,0:59:30.36,0:59:31.29,Default,,0000,0000,0000,,除非你答应不走\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Unless you promise not to run away
+Dialogue: 0,0:59:31.66,0:59:32.36,Default,,0000,0000,0000,,为什么？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why?
+Dialogue: 0,0:59:32.50,0:59:33.66,Default,,0000,0000,0000,,就凭这几个书呆子\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Just about these people
+Dialogue: 0,0:59:33.83,0:59:34.96,Default,,0000,0000,0000,,他们自身都难保了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}They can't protect themselves
+Dialogue: 0,0:59:35.13,0:59:36.33,Default,,0000,0000,0000,,怎么去保护你们？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How can they protect you students?
+Dialogue: 0,0:59:36.80,0:59:39.17,Default,,0000,0000,0000,,我也不可能跟你们这些 人面兽心的人在一起啊\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I will absolutely not stay with bandits like you!
+Dialogue: 0,0:59:41.01,0:59:42.37,Default,,0000,0000,0000,,把他们也绑起来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Tie them up too.
+Dialogue: 0,0:59:43.54,0:59:45.57,Default,,0000,0000,0000,,你到底想干什么？想绑架啊？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What do you want? You want to kidnap us?
+Dialogue: 0,0:59:48.48,0:59:49.88,Default,,0000,0000,0000,,随便你怎么想 我就绑架\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}As you like, just take it as kidnap if you want
+Dialogue: 0,0:59:50.38,0:59:52.65,Default,,0000,0000,0000,,不错 我们还有钱没收齐呢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Right, we haven't received our money
+Dialogue: 0,0:59:52.88,0:59:55.35,Default,,0000,0000,0000,,我们是强盗 这样行了吧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And we are bandits, right?
+Dialogue: 0,0:59:59.79,1:00:00.62,Default,,0000,0000,0000,,喂\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Hello!
+Dialogue: 0,1:00:01.15,1:00:04.05,Default,,0000,0000,0000,,大兵哥 我对不起你\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Master Bin, I am so sorry...
+Dialogue: 0,1:00:04.41,1:00:06.00,Default,,0000,0000,0000,,大嫂 发生什么事了？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What has happened?
+Dialogue: 0,1:00:07.97,1:00:10.03,Default,,0000,0000,0000,,那些特务抓了我们母子\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Some agents came to me
+Dialogue: 0,1:00:10.44,1:00:13.87,Default,,0000,0000,0000,,我对不起你 我把你们出卖了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'm so sorry to have betrayed you
+Dialogue: 0,1:00:14.04,1:00:15.70,Default,,0000,0000,0000,,大嫂 你现在在哪里？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Where are you now?
+Dialogue: 0,1:00:15.84,1:00:17.27,Default,,0000,0000,0000,,在你家外面\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Outside your place
+Dialogue: 0,1:00:32.72,1:00:35.96,Default,,0000,0000,0000,,王兵 我是政治保卫局的袁树\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Wang Bin, I'm Yuen Su of Political Defence Bureau
+Dialogue: 0,1:00:36.63,1:00:38.46,Default,,0000,0000,0000,,我现在命令你把三个通缉犯\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I order you to hand out the three wanted convicts
+Dialogue: 0,1:00:38.76,1:00:42.86,Default,,0000,0000,0000,,王小慧 洪韵音 陈英 立刻交出来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Wang Siu Wae, Hung Yuen Yin, Chen Yin
+Dialogue: 0,1:00:43.30,1:00:44.73,Default,,0000,0000,0000,,我以国家的信誉保证\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I assure you with the honor of the country
+Dialogue: 0,1:00:44.80,1:00:46.00,Default,,0000,0000,0000,,放你一条生路\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}To let you go off!
+Dialogue: 0,1:00:46.24,1:00:48.33,Default,,0000,0000,0000,,否则五分钟之后 我们就攻进来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Otherwise we'll rush in 5 minutes
+Dialogue: 0,1:00:48.44,1:00:49.74,Default,,0000,0000,0000,,把你们全部消灭\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And terminate you all!
+Dialogue: 0,1:00:51.38,1:00:53.24,Default,,0000,0000,0000,,狗公 现在谁是大哥？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Doggy, who's the boss now?
+Dialogue: 0,1:00:53.54,1:00:55.71,Default,,0000,0000,0000,,在这种危险情形之下 当然你做大哥啦\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Of course you are in such situation
+Dialogue: 0,1:00:56.41,1:00:58.01,Default,,0000,0000,0000,,兵哥 你就是大哥\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Brother Bin, you're the boss.
+Dialogue: 0,1:00:58.12,1:00:59.91,Default,,0000,0000,0000,,各就各位 拿家伙\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Get ready for your weapons.
+Dialogue: 0,1:00:59.95,1:01:01.32,Default,,0000,0000,0000,,好 快\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sure, be quick.
+Dialogue: 0,1:01:09.36,1:01:11.73,Default,,0000,0000,0000,,大石小石 保护校长和女同学\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Brothers Stone, protect Principal and the Students
+Dialogue: 0,1:01:12.04,1:01:13.11,Default,,0000,0000,0000,,你把手枪分给他们自卫\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Give them guns for self-defense
+Dialogue: 0,1:01:13.21,1:01:14.38,Default,,0000,0000,0000,,好\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Good!
+Dialogue: 0,1:01:19.80,1:01:20.70,Default,,0000,0000,0000,,拿着\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Take it.
+Dialogue: 0,1:01:22.14,1:01:24.44,Default,,0000,0000,0000,,校长 各位女同学 你们看到啦？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal, students, you see now
+Dialogue: 0,1:01:24.54,1:01:25.91,Default,,0000,0000,0000,,我们也是讲义气的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We are righteous in basic
+Dialogue: 0,1:01:25.94,1:01:28.10,Default,,0000,0000,0000,,阿火 都什么时候了还那么多废话\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Fire, why are you murmuring in this minute?
+Dialogue: 0,1:01:28.21,1:01:29.47,Default,,0000,0000,0000,,-准备作战！  -是！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}- Ready for fight! - Yes.
+Dialogue: 0,1:01:30.78,1:01:32.94,Default,,0000,0000,0000,,校长 我能活着回来再继续说\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal, I'll talk again if I survive
+Dialogue: 0,1:01:35.15,1:01:36.71,Default,,0000,0000,0000,,校长 你用不着担心\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal, don't worry.
+Dialogue: 0,1:02:11.62,1:02:14.22,Default,,0000,0000,0000,,快点 快\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Be quick...
+Dialogue: 0,1:02:21.87,1:02:23.20,Default,,0000,0000,0000,,这边 快\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This way, fast.
+Dialogue: 0,1:02:31.91,1:02:33.31,Default,,0000,0000,0000,,袁同志 你要来真的啊？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Yuen, you mean it?
+Dialogue: 0,1:02:33.51,1:02:35.48,Default,,0000,0000,0000,,搞出人命 我可负不了这个责任\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I can't take responsible if anything happens
+Dialogue: 0,1:02:35.68,1:02:37.41,Default,,0000,0000,0000,,妈的 你想不想升官啊？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit, don't you want promotion?
+Dialogue: 0,1:02:37.62,1:02:38.98,Default,,0000,0000,0000,,越乱升的机会越大\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You'll get promotion if there's chaos
+Dialogue: 0,1:02:39.12,1:02:40.35,Default,,0000,0000,0000,,抓到机会就要拼嘛\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So make use of this opportunity.
+Dialogue: 0,1:02:40.52,1:02:42.65,Default,,0000,0000,0000,,我看先跟上头请示一下怎么样\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'd better report to the seniors.
+Dialogue: 0,1:02:42.82,1:02:45.35,Default,,0000,0000,0000,,妈的！香港这么小 人口这么多\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit, HK is over-populated
+Dialogue: 0,1:02:45.56,1:02:46.89,Default,,0000,0000,0000,,死了几个有什么关系？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's nothing just some of them die!
+Dialogue: 0,1:02:56.53,1:02:57.93,Default,,0000,0000,0000,,他们的位置在这里\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}They are here.
+Dialogue: 0,1:02:58.54,1:02:59.83,Default,,0000,0000,0000,,行动！是！快！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Action, Yes, sir.
+Dialogue: 0,1:03:06.84,1:03:07.87,Default,,0000,0000,0000,,快\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Hurry
+Dialogue: 0,1:03:30.50,1:03:32.30,Default,,0000,0000,0000,,妈的 派一队人到后面支援\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit, send someone to the back
+Dialogue: 0,1:03:32.44,1:03:33.33,Default,,0000,0000,0000,,是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes, sir.
+Dialogue: 0,1:04:16.08,1:04:17.55,Default,,0000,0000,0000,,那些大圈那里找来这么多人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why are so many Chinese gangsters?
+Dialogue: 0,1:04:17.78,1:04:19.11,Default,,0000,0000,0000,,简直像打仗一样\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's a war indeed.
+Dialogue: 0,1:04:19.18,1:04:20.78,Default,,0000,0000,0000,,立刻叫飞虎队到前面包围\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Send SWAT to the front.
+Dialogue: 0,1:04:20.85,1:04:21.61,Default,,0000,0000,0000,,是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes, sir.
+Dialogue: 0,1:04:21.76,1:04:23.77,Default,,0000,0000,0000,,还有 叫飞虎队多派点人来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And send some more SWAT here
+Dialogue: 0,1:04:24.16,1:04:25.61,Default,,0000,0000,0000,,-叫陆海空三军准备  -是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}- Armies, Air Force must stand by too - Yes, sir
+Dialogue: 0,1:04:26.22,1:04:27.85,Default,,0000,0000,0000,,其他人向目标进攻\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Others proceed to the target
+Dialogue: 0,1:04:50.15,1:04:52.31,Default,,0000,0000,0000,,那些民运份子呢都跑哪儿去了？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Where are all the pro-democrats?
+Dialogue: 0,1:04:52.52,1:04:53.74,Default,,0000,0000,0000,,报告 下面有地道\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Report, there's tunnel.
+Dialogue: 0,1:04:54.39,1:04:55.51,Default,,0000,0000,0000,,给我搜\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Search!
+Dialogue: 0,1:04:56.52,1:04:57.99,Default,,0000,0000,0000,,报告 发现有隧道\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Report, a tunnel is found
+Dialogue: 0,1:04:58.06,1:04:58.82,Default,,0000,0000,0000,,带我去！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Take me there
+Dialogue: 0,1:04:58.86,1:04:59.69,Default,,0000,0000,0000,,是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes.
+Dialogue: 0,1:05:00.32,1:05:01.62,Default,,0000,0000,0000,,他妈的 给我下去\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit, get down.
+Dialogue: 0,1:05:01.83,1:05:02.76,Default,,0000,0000,0000,,是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes.
+Dialogue: 0,1:05:07.27,1:05:08.43,Default,,0000,0000,0000,,妈的 搜\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit, get down
+Dialogue: 0,1:05:08.50,1:05:09.26,Default,,0000,0000,0000,,是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes.
+Dialogue: 0,1:05:44.44,1:05:46.53,Default,,0000,0000,0000,,上车 来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Get in the car come on
+Dialogue: 0,1:06:11.93,1:06:13.99,Default,,0000,0000,0000,,陈同志 我们到底是跟谁在打啊？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Chen, who is our opponent?
+Dialogue: 0,1:06:14.53,1:06:16.33,Default,,0000,0000,0000,,我好像看到的是飞虎队\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I think they are SWAT
+Dialogue: 0,1:06:16.50,1:06:17.83,Default,,0000,0000,0000,,香港皇家警察\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}People of Royal HK Police Force
+Dialogue: 0,1:06:17.87,1:06:20.23,Default,,0000,0000,0000,,我们怎么跟香港的公安人员 打起来了呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How come we are fighting with HK Policemen?
+Dialogue: 0,1:06:20.37,1:06:22.93,Default,,0000,0000,0000,,这…这个我需要去调查调查\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I must... I must investigate.
+Dialogue: 0,1:06:23.04,1:06:24.67,Default,,0000,0000,0000,,调查…调你妈个头啊\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit, investigate?
+Dialogue: 0,1:06:33.02,1:06:34.51,Default,,0000,0000,0000,,拍什么？还拍？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why are you still taking pictures?
+Dialogue: 0,1:06:34.59,1:06:36.68,Default,,0000,0000,0000,,袁同志 我们快要全军覆没了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Yuen, our people are nearly all injured
+Dialogue: 0,1:06:37.02,1:06:39.18,Default,,0000,0000,0000,,投降吧 由你去谈判\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We shall surrender, you'll negotiate
+Dialogue: 0,1:06:39.42,1:06:40.65,Default,,0000,0000,0000,,记住要保持尊严\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Remember to remain respectable
+Dialogue: 0,1:06:40.83,1:06:43.95,Default,,0000,0000,0000,,不能对英方让步 要强硬 强硬 强硬\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You mustn't compromise to the British, be hard...
+Dialogue: 0,1:06:47.10,1:06:48.36,Default,,0000,0000,0000,,停火\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Hold your fire.
+Dialogue: 0,1:06:59.21,1:07:01.20,Default,,0000,0000,0000,,谁是你们的最高负责人啊？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Who is in charge in here?
+Dialogue: 0,1:07:01.41,1:07:03.21,Default,,0000,0000,0000,,叫他出来见我\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Ask him to see me.
+Dialogue: 0,1:07:14.03,1:07:15.19,Default,,0000,0000,0000,,你们想干什么？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What do you want?
+Dialogue: 0,1:07:15.36,1:07:17.69,Default,,0000,0000,0000,,我们准备动手术帮他把子弹拿出来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We're going to get the bullet out.
+Dialogue: 0,1:07:18.46,1:07:19.95,Default,,0000,0000,0000,,难道你们是外科医生吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Are you surgeons?
+Dialogue: 0,1:07:20.16,1:07:21.83,Default,,0000,0000,0000,,不是 不过打仗的时候\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}No, but during the wars
+Dialogue: 0,1:07:22.03,1:07:23.36,Default,,0000,0000,0000,,我看过军医怎么救人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I saw surgeons do it.
+Dialogue: 0,1:07:23.60,1:07:24.97,Default,,0000,0000,0000,,那不是拿他的生命开玩笑\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You're joking with his life!
+Dialogue: 0,1:07:25.17,1:07:26.53,Default,,0000,0000,0000,,不行 马上送他去医院\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}No, you must take him to hospital at once.
+Dialogue: 0,1:07:26.67,1:07:28.83,Default,,0000,0000,0000,,香港的医院是要看身份证的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But hospitals here request ID card
+Dialogue: 0,1:07:29.11,1:07:30.27,Default,,0000,0000,0000,,我们是通缉犯\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And we are 3wanted convicts
+Dialogue: 0,1:07:30.41,1:07:32.10,Default,,0000,0000,0000,,不是等于送他去坐牢吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We're in fact sending him to jail
+Dialogue: 0,1:07:32.81,1:07:34.54,Default,,0000,0000,0000,,也比被你们这样活生生整死好\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But it's still better to be killed by you.
+Dialogue: 0,1:07:35.25,1:07:37.18,Default,,0000,0000,0000,,如果这样就会暴露我们的行踪\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}If our location is revealed
+Dialogue: 0,1:07:37.55,1:07:39.61,Default,,0000,0000,0000,,所有的人都会有危险\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We will all be in danger
+Dialogue: 0,1:07:40.38,1:07:42.15,Default,,0000,0000,0000,,我们总不能够为了自己的安全\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But we can't just care about our safety
+Dialogue: 0,1:07:42.29,1:07:43.27,Default,,0000,0000,0000,,而牺牲他的生命呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And let him die like that
+Dialogue: 0,1:07:43.36,1:07:45.65,Default,,0000,0000,0000,,你闭嘴 都是你这个小狐狸精害的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shut up! This happens because of you
+Dialogue: 0,1:07:45.82,1:07:47.35,Default,,0000,0000,0000,,一到香港就该把你们干掉\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We should have deserted you once we came back to HK
+Dialogue: 0,1:07:47.46,1:07:49.29,Default,,0000,0000,0000,,是大兵哥不准咱们这么做的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But brother Bin stopped us doing that.
+Dialogue: 0,1:07:49.46,1:07:50.52,Default,,0000,0000,0000,,你胡说些什么啊？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Don't bullshit!
+Dialogue: 0,1:07:50.83,1:07:52.76,Default,,0000,0000,0000,,大兵 你现在被女鬼迷住啦\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Bin, you're being selected now.
+Dialogue: 0,1:07:52.93,1:07:54.40,Default,,0000,0000,0000,,在你的英勇领导之下\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Under you command
+Dialogue: 0,1:07:54.57,1:07:56.12,Default,,0000,0000,0000,,胖子已经回老家了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Fatty died already
+Dialogue: 0,1:07:56.65,1:07:58.96,Default,,0000,0000,0000,,现在阿火呢 眼看着也快要断气了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And Fire is dying at this moment
+Dialogue: 0,1:07:59.36,1:08:01.24,Default,,0000,0000,0000,,我知道 我知道你现在想什么\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I know, I know what you want
+Dialogue: 0,1:08:01.65,1:08:03.24,Default,,0000,0000,0000,,最好我们这些兄弟都死光了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We'd better all die
+Dialogue: 0,1:08:03.61,1:08:04.81,Default,,0000,0000,0000,,那些钱就全部归你了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And you'll get all the money
+Dialogue: 0,1:08:04.84,1:08:06.97,Default,,0000,0000,0000,,然后你就跟这个小狐狸精去美国\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And you'll go to US with this woman
+Dialogue: 0,1:08:07.14,1:08:08.63,Default,,0000,0000,0000,,双宿双栖 对不对？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And spend the rest of your life there
+Dialogue: 0,1:08:12.32,1:08:13.44,Default,,0000,0000,0000,,哥 你说呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Brother, what do you say?
+Dialogue: 0,1:08:14.85,1:08:16.15,Default,,0000,0000,0000,,我说…阿火说得对 俺也这么想\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I say... Fire is right. I think so too.
+Dialogue: 0,1:08:17.66,1:08:18.68,Default,,0000,0000,0000,,你都听到了吧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So you hear?
+Dialogue: 0,1:08:18.96,1:08:20.69,Default,,0000,0000,0000,,我跟大石小石打算分了钱之后\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Stone Brothers and I have decided after we get the money
+Dialogue: 0,1:08:20.76,1:08:21.85,Default,,0000,0000,0000,,我们就各走各的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We shall split up.
+Dialogue: 0,1:08:23.96,1:08:27.73,Default,,0000,0000,0000,,我快断气了 你们还吵个什么劲呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'm nearly dying and you deep arguing?
+Dialogue: 0,1:08:37.37,1:08:39.14,Default,,0000,0000,0000,,我念医科的 也许帮得上忙\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'm a medical student, maybe I can help.
+Dialogue: 0,1:08:39.31,1:08:40.14,Default,,0000,0000,0000,,好吧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}OK.
+Dialogue: 0,1:08:57.26,1:08:58.89,Default,,0000,0000,0000,,这位是李副杜长\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is Sub-Chief Li
+Dialogue: 0,1:09:00.06,1:09:03.63,Default,,0000,0000,0000,,真正的身份是港澳地区 地下党委书记\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He's real title is Underground Secretary of HK region
+Dialogue: 0,1:09:03.73,1:09:05.93,Default,,0000,0000,0000,,这位是袁树同志\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is Comrade Yuen
+Dialogue: 0,1:09:06.37,1:09:08.80,Default,,0000,0000,0000,,他是政治保卫局的特派员\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He's agent of Political Defence Bureau
+Dialogue: 0,1:09:11.74,1:09:16.48,Default,,0000,0000,0000,,他妈的 陈兴 你还记得我是党委书记吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Chen Shin, you still remember I'm Secretary?
+Dialogue: 0,1:09:17.92,1:09:21.25,Default,,0000,0000,0000,,你们政治保卫局 太目中无人了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You people from PDB are too proud
+Dialogue: 0,1:09:22.42,1:09:26.19,Default,,0000,0000,0000,,我们组织的纪律是 一切要归党委领导\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Rule by Party Secretary is our tradition
+Dialogue: 0,1:09:27.26,1:09:29.66,Default,,0000,0000,0000,,你到香港来 没有人知会我呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But no one informed me you'd come to HK
+Dialogue: 0,1:09:30.33,1:09:33.63,Default,,0000,0000,0000,,好啦！阁下现在闯祸啦\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Ok, now that you've made a mess
+Dialogue: 0,1:09:34.17,1:09:36.40,Default,,0000,0000,0000,,就连你大便往我头上扣\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And make me stand up to it!
+Dialogue: 0,1:09:36.63,1:09:38.43,Default,,0000,0000,0000,,你妈妈的不开花\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You damn shit!
+Dialogue: 0,1:09:38.67,1:09:41.30,Default,,0000,0000,0000,,李同志 我们绝对没有 不尊重你的意思\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Li, we do respect you
+Dialogue: 0,1:09:41.37,1:09:42.70,Default,,0000,0000,0000,,你尊重我个屁啊！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Respect me shit!
+Dialogue: 0,1:09:44.58,1:09:47.48,Default,,0000,0000,0000,,几个月了 你也不向我汇报你的工作情况\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You haven't reported your duty for months
+Dialogue: 0,1:09:48.18,1:09:51.08,Default,,0000,0000,0000,,就会在我背后搞什么阴谋诡计\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You know only make plots behind me.
+Dialogue: 0,1:09:51.25,1:09:53.65,Default,,0000,0000,0000,,李同志 责任我们以后再说\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Li, let's talk about that later
+Dialogue: 0,1:09:54.08,1:09:55.85,Default,,0000,0000,0000,,现在先解决目前的问题\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We must solve the present problems
+Dialogue: 0,1:09:56.05,1:09:57.95,Default,,0000,0000,0000,,你还好意思讲\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Dare you say?
+Dialogue: 0,1:09:59.22,1:10:02.02,Default,,0000,0000,0000,,谁批准你在这里大开杀戒的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Who let you do all the killing here?
+Dialogue: 0,1:10:02.59,1:10:06.69,Default,,0000,0000,0000,,现在是一塌糊涂 双方共有八死三十六伤\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Eight people died and 36 casualties!
+Dialogue: 0,1:10:06.80,1:10:08.26,Default,,0000,0000,0000,,这个消息要是传了出去\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}If this news is revealed
+Dialogue: 0,1:10:08.43,1:10:11.03,Default,,0000,0000,0000,,会严重破坏香港的安定繁荣\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It'll spoil the stability of HK
+Dialogue: 0,1:10:11.54,1:10:13.47,Default,,0000,0000,0000,,你叫我怎么干下去呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How can I work on?
+Dialogue: 0,1:10:13.67,1:10:16.47,Default,,0000,0000,0000,,我要在总书记面前告你这王八蛋\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I must report this to the Chief Secretary
+Dialogue: 0,1:10:16.64,1:10:18.61,Default,,0000,0000,0000,,李同志 你说话客气一点啊\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Li, care about what you say
+Dialogue: 0,1:10:19.04,1:10:20.34,Default,,0000,0000,0000,,这次我这样做\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}The reason I do all this
+Dialogue: 0,1:10:20.74,1:10:23.77,Default,,0000,0000,0000,,完全是因为你在这里的工作 搞得一塌糊涂\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Is because you made a mess work in here
+Dialogue: 0,1:10:24.11,1:10:26.67,Default,,0000,0000,0000,,好啦 舆论基地被人家抢走了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Now our newspapers are taken away
+Dialogue: 0,1:10:26.95,1:10:29.32,Default,,0000,0000,0000,,中资机构的员工上街游行\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Our employees went to demonstrate!
+Dialogue: 0,1:10:29.72,1:10:31.65,Default,,0000,0000,0000,,你这个党委书记是怎么当的？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What kind of Secretary are you?
+Dialogue: 0,1:10:31.92,1:10:34.55,Default,,0000,0000,0000,,我怎么知道你身边会有多少 同情民运的份子\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How can I know if there're pro-democrats around you?
+Dialogue: 0,1:10:34.83,1:10:36.16,Default,,0000,0000,0000,,要我知会你？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why must I inform you?
+Dialogue: 0,1:10:36.26,1:10:37.82,Default,,0000,0000,0000,,泄露了秘密谁负责？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Who'll take responsibility if secrets are revealed?
+Dialogue: 0,1:10:39.90,1:10:43.36,Default,,0000,0000,0000,,袁同志 你怎么可以这样说话？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Yuen, how can you say such things?
+Dialogue: 0,1:10:43.50,1:10:44.59,Default,,0000,0000,0000,,还有你呀！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And you!
+Dialogue: 0,1:10:44.80,1:10:47.83,Default,,0000,0000,0000,,你一直都敷衍我 你没有全力协助我工作\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You've been working vaguely and never helped me up
+Dialogue: 0,1:10:48.07,1:10:50.37,Default,,0000,0000,0000,,我怀疑你是资产阶级自由化份子\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I suspect you're our betrayer!
+Dialogue: 0,1:10:50.77,1:10:51.83,Default,,0000,0000,0000,,你来香港才五年\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You've been in HK for 5 years
+Dialogue: 0,1:10:52.01,1:10:53.37,Default,,0000,0000,0000,,你的思想彻底腐化了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You've changed your view
+Dialogue: 0,1:10:53.54,1:10:55.71,Default,,0000,0000,0000,,还有呀！你在外国银行存了很多外币\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And you have much savings abroad!
+Dialogue: 0,1:10:56.31,1:10:57.47,Default,,0000,0000,0000,,-你冤枉我！  -我没冤枉你\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}- You're framing me. - I'm not.
+Dialogue: 0,1:10:57.68,1:10:58.81,Default,,0000,0000,0000,,-我哪冤枉你了？  -你为什么冤枉我？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}- You bastard. - Why must you frame me?
+Dialogue: 0,1:10:59.78,1:11:03.48,Default,,0000,0000,0000,,你他妈的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You're Fascist...
+Dialogue: 0,1:11:06.59,1:11:08.85,Default,,0000,0000,0000,,李副社长 十五分钟时间到了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sub-Chief Li, 15 minutes is up
+Dialogue: 0,1:11:09.03,1:11:10.02,Default,,0000,0000,0000,,好\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Ok...
+Dialogue: 0,1:11:12.00,1:11:16.49,Default,,0000,0000,0000,,好 现在我要去向英方交涉\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'm to negotiate with the British
+Dialogue: 0,1:11:16.73,1:11:18.17,Default,,0000,0000,0000,,我们党的政策呢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And our usual policy
+Dialogue: 0,1:11:18.74,1:11:21.53,Default,,0000,0000,0000,,一向是不管内部有多大的矛盾\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Whatever internal clash there is
+Dialogue: 0,1:11:22.14,1:11:26.24,Default,,0000,0000,0000,,我们对外一定要团结怎么样\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We must unite to resist, how's that?
+Dialogue: 0,1:11:28.11,1:11:29.34,Default,,0000,0000,0000,,-对！  -来！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}- Right. - Come on.
+Dialogue: 0,1:11:30.68,1:11:31.84,Default,,0000,0000,0000,,枪口对外！对！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Resist together.
+Dialogue: 0,1:11:32.05,1:11:32.85,Default,,0000,0000,0000,,枪口对外\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Right.
+Dialogue: 0,1:11:33.02,1:11:34.04,Default,,0000,0000,0000,,枪口对外\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Unite to resist!
+Dialogue: 0,1:11:34.22,1:11:35.19,Default,,0000,0000,0000,,走\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Go.
+Dialogue: 0,1:11:48.97,1:11:51.66,Default,,0000,0000,0000,,大卫 我们的人伤亡情况如何？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How are our people?
+Dialogue: 0,1:11:52.10,1:11:54.16,Default,,0000,0000,0000,,三个人死亡 三个垂危\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Three dead, three in critical conditions
+Dialogue: 0,1:11:54.31,1:11:55.93,Default,,0000,0000,0000,,两个脱离危险期\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Two have gone through
+Dialogue: 0,1:11:56.07,1:11:57.80,Default,,0000,0000,0000,,三个情况欠佳\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Three in severe condition
+Dialogue: 0,1:11:58.11,1:11:59.44,Default,,0000,0000,0000,,其余七个要留医\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And seven in hospital.
+Dialogue: 0,1:12:00.24,1:12:02.71,Default,,0000,0000,0000,,你妈的大陆人想干什么？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit you Chinese people, what do you want?
+Dialogue: 0,1:12:03.05,1:12:05.64,Default,,0000,0000,0000,,我可以控告你们这些大陆人谋杀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I can charge you of murder
+Dialogue: 0,1:12:06.12,1:12:07.45,Default,,0000,0000,0000,,全关进牢里\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And lock you all in jail.
+Dialogue: 0,1:12:07.89,1:12:10.85,Default,,0000,0000,0000,,九七以前香港还是归 我们英国人管的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We're still to rule before 1997
+Dialogue: 0,1:12:12.06,1:12:13.89,Default,,0000,0000,0000,,你们太无法无天了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You're too lousy and daring.
+Dialogue: 0,1:12:14.86,1:12:17.49,Default,,0000,0000,0000,,这样做是破坏了中英联合声明\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You're spoilt the joint Declaration
+Dialogue: 0,1:12:17.83,1:12:19.63,Default,,0000,0000,0000,,港督跟首相全傻了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}HK Governor and the Prime Minister must be crazy
+Dialogue: 0,1:12:20.00,1:12:22.16,Default,,0000,0000,0000,,你们这群家伙简直是野蛮人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You're really barbarians!
+Dialogue: 0,1:12:23.37,1:12:25.36,Default,,0000,0000,0000,,妈的 大陆人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit! Chinese people!
+Dialogue: 0,1:12:29.44,1:12:31.81,Default,,0000,0000,0000,,陈同志 你对他讲\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Chen, talk to him.
+Dialogue: 0,1:12:32.24,1:12:34.77,Default,,0000,0000,0000,,李同志 你说话比较有力\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Comrade Li, you're sharp tongue
+Dialogue: 0,1:12:34.91,1:12:37.07,Default,,0000,0000,0000,,还是由你来发言\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So you'd better talk.
+Dialogue: 0,1:12:40.78,1:12:42.48,Default,,0000,0000,0000,,操你妈的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit!
+Dialogue: 0,1:12:43.25,1:12:46.05,Default,,0000,0000,0000,,要不是你们纵容香港声援会那群人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit! If you hadn't let the ASG off
+Dialogue: 0,1:12:46.16,1:12:48.78,Default,,0000,0000,0000,,把香港弄成这个…反革命基地\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And turned HK into a base of anti-revolution
+Dialogue: 0,1:12:49.33,1:12:52.35,Default,,0000,0000,0000,,就不会出现现在这种情况了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This would not have happened
+Dialogue: 0,1:12:53.06,1:12:55.93,Default,,0000,0000,0000,,还有呀 你们不尊重中国的立场\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And moreover, you don't respect the Chinese Government
+Dialogue: 0,1:12:56.60,1:12:58.47,Default,,0000,0000,0000,,干涉中国的内政\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You're interfering with China internal affair
+Dialogue: 0,1:12:58.94,1:13:02.77,Default,,0000,0000,0000,,我警告你 所有的后果 要由你们几个人负责\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I warn you, you must take full responsibility of this
+Dialogue: 0,1:13:02.97,1:13:05.94,Default,,0000,0000,0000,,我告诉你 中国人不是好欺负的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'll tell you, you can't tease Chinese people
+Dialogue: 0,1:13:06.21,1:13:08.04,Default,,0000,0000,0000,,不像你们这些英国人白皮猪\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We're not like you, English pigs
+Dialogue: 0,1:13:08.18,1:13:10.20,Default,,0000,0000,0000,,搞阴谋 搞小动作\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You make all plots and dirty tricks
+Dialogue: 0,1:13:10.41,1:13:13.78,Default,,0000,0000,0000,,你们是坏份子 伪君子 帝国主义者\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You're bandits, hypocrites, nationalists!
+Dialogue: 0,1:13:14.05,1:13:16.88,Default,,0000,0000,0000,,你们是猪 是纸老虎\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You're pig, paper tiger.
+Dialogue: 0,1:13:17.86,1:13:20.98,Default,,0000,0000,0000,,是猪 是纸老虎\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Pig, paper tiger.
+Dialogue: 0,1:13:21.39,1:13:23.19,Default,,0000,0000,0000,,还有什么补充呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Anything to add?
+Dialogue: 0,1:13:23.93,1:13:25.16,Default,,0000,0000,0000,,还有什么补充的？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Anything to add?
+Dialogue: 0,1:13:25.30,1:13:27.63,Default,,0000,0000,0000,,有 英国完蛋去\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes; Fuck off Britain.
+Dialogue: 0,1:13:34.27,1:13:36.14,Default,,0000,0000,0000,,你们这些屠杀平民的刽子手\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You slaughter, murderer who killed people
+Dialogue: 0,1:13:36.31,1:13:38.43,Default,,0000,0000,0000,,懦夫 法西斯\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You coward, Fascists.
+Dialogue: 0,1:13:42.85,1:13:45.54,Default,,0000,0000,0000,,喂 港督先生\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You Excellency.
+Dialogue: 0,1:13:47.68,1:13:50.28,Default,,0000,0000,0000,,是的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes...
+Dialogue: 0,1:13:52.82,1:13:55.59,Default,,0000,0000,0000,,最高层决定为了避免进一步打击\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}The seniors have decided: In order not to strike up
+Dialogue: 0,1:13:55.79,1:13:58.63,Default,,0000,0000,0000,,香港人的信心和社会安定繁荣\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}The confidence of HK people
+Dialogue: 0,1:13:59.23,1:14:00.92,Default,,0000,0000,0000,,决定要掩饰这件事\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This matter is to be kept secret
+Dialogue: 0,1:14:01.47,1:14:04.20,Default,,0000,0000,0000,,至于被捕的中方特务 包括你在内\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And for the agents arrested
+Dialogue: 0,1:14:04.70,1:14:06.36,Default,,0000,0000,0000,,马上驱逐出境\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Are to be expelled at once, including you!
+Dialogue: 0,1:14:07.00,1:14:08.30,Default,,0000,0000,0000,,我跟我的三个手下\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}My three men and I
+Dialogue: 0,1:14:08.51,1:14:11.00,Default,,0000,0000,0000,,是外交部派驻尼加拉瓜的外交人员\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Are diplomat in Nigrara
+Dialogue: 0,1:14:11.31,1:14:12.67,Default,,0000,0000,0000,,有外交豁免权\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We have diplomat exemption
+Dialogue: 0,1:14:12.94,1:14:14.50,Default,,0000,0000,0000,,你们不可以这样对我们\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You can't do this to us.
+Dialogue: 0,1:14:14.85,1:14:17.94,Default,,0000,0000,0000,,我们三个人在一个月之内 会自动离境\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We'll leave HK within one month
+Dialogue: 0,1:14:18.15,1:14:21.45,Default,,0000,0000,0000,,我要你保证在香港这段时间内 不会再闹事\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You must assure you won't make a mess anymore.
+Dialogue: 0,1:14:21.75,1:14:23.45,Default,,0000,0000,0000,,我以国家的信誉保证\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I assure you with the honour of my country
+Dialogue: 0,1:14:23.92,1:14:25.68,Default,,0000,0000,0000,,你们国家还有信誉吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Your country still has honour?
+Dialogue: 0,1:14:26.09,1:14:27.15,Default,,0000,0000,0000,,抗议\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Object!
+Dialogue: 0,1:14:27.86,1:14:30.99,Default,,0000,0000,0000,,你这样说是侮辱我的国家 抗议\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You're insulting our country, object.
+Dialogue: 0,1:14:31.50,1:14:32.33,Default,,0000,0000,0000,,抗议\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Object!
+Dialogue: 0,1:14:32.43,1:14:33.99,Default,,0000,0000,0000,,你们不要再吵了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Stop shouting!
+Dialogue: 0,1:14:34.40,1:14:36.33,Default,,0000,0000,0000,,现在最重要的是向外界交待\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's most important to tell the press
+Dialogue: 0,1:14:36.57,1:14:37.90,Default,,0000,0000,0000,,这个漏子捅得太大了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But this is a serious case
+Dialogue: 0,1:14:37.97,1:14:39.73,Default,,0000,0000,0000,,新闻记者追得很紧哪\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}The pressmen will run hard for it.
+Dialogue: 0,1:14:40.17,1:14:43.11,Default,,0000,0000,0000,,我们可以说是大圈帮自相残杀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We'll tell them it's a fight between Chinese gangsters
+Dialogue: 0,1:14:43.34,1:14:47.24,Default,,0000,0000,0000,,被警方围劝剿才爆发血战\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And a gun battle followed as police arrived!
+Dialogue: 0,1:14:47.54,1:14:48.98,Default,,0000,0000,0000,,我也是这么想\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I do think the same.
+Dialogue: 0,1:14:49.21,1:14:53.27,Default,,0000,0000,0000,,这个就叫做英雄所见全同 是吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So heroes think alike, right?
+Dialogue: 0,1:14:57.92,1:14:59.29,Default,,0000,0000,0000,,你笑什么？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What are you laughing at?
+Dialogue: 0,1:14:59.66,1:15:01.35,Default,,0000,0000,0000,,谁对你们笑啦？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Who is laughing to you?
+Dialogue: 0,1:15:02.39,1:15:03.92,Default,,0000,0000,0000,,什么东西好笑\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What's so funny?
+Dialogue: 0,1:15:11.64,1:15:12.66,Default,,0000,0000,0000,,开车\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Start the car.
+Dialogue: 0,1:15:19.91,1:15:20.88,Default,,0000,0000,0000,,计程车\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Taxi!
+Dialogue: 0,1:15:20.98,1:15:23.41,Default,,0000,0000,0000,,老陈 通知澳门的同志准备出发\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Chen, inform people of Macau to set out any time
+Dialogue: 0,1:15:24.18,1:15:25.11,Default,,0000,0000,0000,,袁同志 你…\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yuen, you...
+Dialogue: 0,1:15:25.22,1:15:26.44,Default,,0000,0000,0000,,这是命令\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is an order!
+Dialogue: 0,1:15:39.43,1:15:42.23,Default,,0000,0000,0000,,好 对 坐马拿马船去美国\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Right, take a ship to US
+Dialogue: 0,1:15:42.70,1:15:44.17,Default,,0000,0000,0000,,后天早上七点正\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}7 o'clock a.m. The day after tomorrow
+Dialogue: 0,1:15:44.77,1:15:46.46,Default,,0000,0000,0000,,青山湾码头会合\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}we shall meet at Castle Peak Pier
+Dialogue: 0,1:15:47.57,1:15:48.94,Default,,0000,0000,0000,,坐游艇出海\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}we'll take a tug out
+Dialogue: 0,1:15:50.17,1:15:51.94,Default,,0000,0000,0000,,船长我已经说好了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I've talked with the Captain
+Dialogue: 0,1:15:52.88,1:15:56.71,Default,,0000,0000,0000,,钱我也准备好了 你相信我就是了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I've prepared the money too, just believe me.
+Dialogue: 0,1:16:09.73,1:16:11.75,Default,,0000,0000,0000,,黄总警司 你笑什么？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Superintendent Wang, what're you laughing?
+Dialogue: 0,1:16:12.60,1:16:13.93,Default,,0000,0000,0000,,大家心里有数\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We all know.
+Dialogue: 0,1:16:16.30,1:16:18.27,Default,,0000,0000,0000,,我是奉了上头的命令\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I am sent to tell you something
+Dialogue: 0,1:16:18.40,1:16:19.99,Default,,0000,0000,0000,,来传达点讯息给你\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Some news to you!
+Dialogue: 0,1:16:20.74,1:16:23.97,Default,,0000,0000,0000,,我听着了 你说吧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'm listening, go ahead.
+Dialogue: 0,1:16:25.38,1:16:28.88,Default,,0000,0000,0000,,站在政府的立场 这件事一定不能够公开\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}On the side of Government this can't be revealed
+Dialogue: 0,1:16:29.55,1:16:31.57,Default,,0000,0000,0000,,我们会睁只眼闭只眼\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So we will take laissez-faire
+Dialogue: 0,1:16:31.95,1:16:34.71,Default,,0000,0000,0000,,不去拘捕这一群非法入境的学生\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And ever arrest these students
+Dialogue: 0,1:16:35.25,1:16:38.59,Default,,0000,0000,0000,,因为如果抓了他们 那他们是一定活不成的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}As they'll surely die if we arrest them
+Dialogue: 0,1:16:39.16,1:16:43.72,Default,,0000,0000,0000,,交给大陆舆论会攻击我们的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But if we hand them back to China, public opinion will attack us
+Dialogue: 0,1:16:44.12,1:16:46.98,Default,,0000,0000,0000,,如果不交给大陆 政治庇护他们\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}If we protect them and not hand them back
+Dialogue: 0,1:16:47.12,1:16:50.52,Default,,0000,0000,0000,,中港关系会非常的紧张\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Relation between HK and China will turn bad
+Dialogue: 0,1:16:50.69,1:16:53.25,Default,,0000,0000,0000,,所以我希望你能够尽快把他们送走\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So I hope you will send them away as soon as possible
+Dialogue: 0,1:16:53.66,1:16:55.54,Default,,0000,0000,0000,,我明白 我会尽快办的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I know, I'll do that fast.
+Dialogue: 0,1:16:55.84,1:16:59.17,Default,,0000,0000,0000,,校长 这件事我帮了你很大的忙\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal, since I've done you a favour
+Dialogue: 0,1:16:59.84,1:17:01.54,Default,,0000,0000,0000,,别忘了你欠我一个人情\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You must help me back
+Dialogue: 0,1:17:01.75,1:17:04.41,Default,,0000,0000,0000,,这帮大圈仔 我早就想抓他们了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I've always wanted to arrest those Chinese Gansters
+Dialogue: 0,1:17:04.75,1:17:05.81,Default,,0000,0000,0000,,你要把他们交出来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So you must hand them to me.
+Dialogue: 0,1:17:06.95,1:17:08.78,Default,,0000,0000,0000,,叫我出卖他们？办不到\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You want me to betray them? Never!
+Dialogue: 0,1:17:09.22,1:17:11.21,Default,,0000,0000,0000,,中国人是不会出卖朋友\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Chinese will never betray others.
+Dialogue: 0,1:17:11.82,1:17:13.29,Default,,0000,0000,0000,,我只有事后抓你了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Then I must arrest you afterwards
+Dialogue: 0,1:17:13.36,1:17:15.79,Default,,0000,0000,0000,,我会告你知情不报 包庇通缉犯\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'll charge you of covering up wanted convicts
+Dialogue: 0,1:17:16.29,1:17:19.23,Default,,0000,0000,0000,,你不要忘了 很多人都希望你死\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Don't forget, many people want you die.
+Dialogue: 0,1:17:36.55,1:17:38.10,Default,,0000,0000,0000,,谢谢你又救了我们一次\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Thanks for saving us once more
+Dialogue: 0,1:17:38.95,1:17:42.35,Default,,0000,0000,0000,,真对不起 那天我说错了话误会了你\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sorry, I misunderstood you the other day.
+Dialogue: 0,1:17:42.99,1:17:44.92,Default,,0000,0000,0000,,我现在郑重的跟你道歉\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I must apologize to you now.
+Dialogue: 0,1:17:46.82,1:17:49.72,Default,,0000,0000,0000,,你仍然把我当你的朋友 我觉得很光荣\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I feel fine as you still take me as friend
+Dialogue: 0,1:17:53.30,1:17:54.73,Default,,0000,0000,0000,,都是你的战友呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}They're all your people.
+Dialogue: 0,1:17:58.37,1:18:00.03,Default,,0000,0000,0000,,跟我一起出来的兄弟\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}The people who came to HK with me
+Dialogue: 0,1:18:00.47,1:18:02.90,Default,,0000,0000,0000,,死的死 失踪的失踪\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Have died and disappeared
+Dialogue: 0,1:18:03.47,1:18:06.03,Default,,0000,0000,0000,,剩下来的都成了通缉犯啦\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}The rest all become wanted convicts
+Dialogue: 0,1:18:06.88,1:18:08.47,Default,,0000,0000,0000,,谢谢你们为了我们的事\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I must thank you, for our affairs
+Dialogue: 0,1:18:08.68,1:18:10.87,Default,,0000,0000,0000,,要让你们兄弟不和 真不好意思\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}That you and your men have dispute!
+Dialogue: 0,1:18:11.38,1:18:12.54,Default,,0000,0000,0000,,这个你不用担心\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Don't care about that
+Dialogue: 0,1:18:12.82,1:18:14.98,Default,,0000,0000,0000,,其实狗公这个人 直肠子一个\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Doggy is indeed very straight
+Dialogue: 0,1:18:15.29,1:18:16.41,Default,,0000,0000,0000,,说完就没事\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He doesn't mean what he says
+Dialogue: 0,1:18:16.99,1:18:17.78,Default,,0000,0000,0000,,真的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Really?
+Dialogue: 0,1:18:17.92,1:18:20.41,Default,,0000,0000,0000,,他傻不拉叽的 狗嘴里吐不出象牙\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He's stupid and don't care about his words
+Dialogue: 0,1:18:20.56,1:18:22.79,Default,,0000,0000,0000,,他居然会说我对你有意思\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He said I loved you!
+Dialogue: 0,1:18:24.46,1:18:27.76,Default,,0000,0000,0000,,真笑死人了 其实我怎么会有那么笨呢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So funny, how will I be so stupid?
+Dialogue: 0,1:18:28.03,1:18:29.83,Default,,0000,0000,0000,,我早就知道你已经有男朋友了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I know long ago you have a boyfriend
+Dialogue: 0,1:18:29.97,1:18:31.52,Default,,0000,0000,0000,,你怎么知道的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Where did you learn this?
+Dialogue: 0,1:18:36.77,1:18:38.26,Default,,0000,0000,0000,,是你同学陈英说的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Your schoolmates Chen Yin told me
+Dialogue: 0,1:18:38.51,1:18:40.24,Default,,0000,0000,0000,,她说你们六四那天晚上\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}She said on the night of June 4th
+Dialogue: 0,1:18:40.48,1:18:42.00,Default,,0000,0000,0000,,不知怎么的分散了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You and him got separated.
+Dialogue: 0,1:18:42.25,1:18:45.61,Default,,0000,0000,0000,,对了 你们是不是真的分散了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Right, are you really separated up?
+Dialogue: 0,1:18:46.85,1:18:49.15,Default,,0000,0000,0000,,就在六月三日晚上十点半\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}At 10:30 on night of June 4th
+Dialogue: 0,1:18:49.89,1:18:51.95,Default,,0000,0000,0000,,木樨地那边传出了枪声\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}There were shots in MuXi area
+Dialogue: 0,1:18:52.56,1:18:55.68,Default,,0000,0000,0000,,他跟我说 今天晚上会死很多人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He told me many would be killed
+Dialogue: 0,1:18:56.46,1:18:58.09,Default,,0000,0000,0000,,我们身为民运领袖的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And being student leaders
+Dialogue: 0,1:18:58.30,1:19:02.49,Default,,0000,0000,0000,,一定要有人带头牺牲 才对得起那些死难同胞\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Someone must take the lead to sacrifice
+Dialogue: 0,1:19:02.63,1:19:04.53,Default,,0000,0000,0000,,才可以激发人民的义愤\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And to muster up courage of people
+Dialogue: 0,1:19:05.20,1:19:09.10,Default,,0000,0000,0000,,他说这件事容易做 让他去做\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He said this was easy and he would do it
+Dialogue: 0,1:19:09.94,1:19:13.03,Default,,0000,0000,0000,,可是同时一定要有人生存下去\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But meanwhile someone must survive
+Dialogue: 0,1:19:14.58,1:19:16.71,Default,,0000,0000,0000,,才可以继续为民运奋斗\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}To go on struggling for democracy
+Dialogue: 0,1:19:17.65,1:19:21.64,Default,,0000,0000,0000,,这件事难做 让我去做\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He let me do it as this is very difficult
+Dialogue: 0,1:19:23.65,1:19:27.02,Default,,0000,0000,0000,,他说完之后就一个人 带头往西长安街\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Then he took some students to Chian An Street West
+Dialogue: 0,1:19:28.19,1:19:30.35,Default,,0000,0000,0000,,去拦截那些坦克车\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}To block those tanks
+Dialogue: 0,1:19:30.76,1:19:34.25,Default,,0000,0000,0000,,一个钟头以后 那些人把他抬回来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}One hour later, his body was brought back
+Dialogue: 0,1:19:37.80,1:19:43.24,Default,,0000,0000,0000,,尸体上…尸体上有四十七个子弹孔\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}On his body... there were 47 bullet holes
+Dialogue: 0,1:19:44.41,1:19:45.64,Default,,0000,0000,0000,,真是了不起\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Great,
+Dialogue: 0,1:19:47.68,1:19:51.04,Default,,0000,0000,0000,,不像我们只知道爱钱\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}but we only care for money
+Dialogue: 0,1:19:53.42,1:19:54.82,Default,,0000,0000,0000,,你说什么？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What did you say?
+Dialogue: 0,1:19:55.95,1:19:57.32,Default,,0000,0000,0000,,我没说什么\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Nothing
+Dialogue: 0,1:19:57.72,1:20:02.02,Default,,0000,0000,0000,,我只是说你以后的日子 一定会很艰苦\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I said you'd lead all hard life in future
+Dialogue: 0,1:20:04.96,1:20:06.26,Default,,0000,0000,0000,,真了不起\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Great man,
+Dialogue: 0,1:20:09.33,1:20:11.10,Default,,0000,0000,0000,,真是太了不起了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}really great!
+Dialogue: 0,1:20:16.04,1:20:17.56,Default,,0000,0000,0000,,喂 谁呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Hello, who's it?
+Dialogue: 0,1:20:20.78,1:20:22.44,Default,,0000,0000,0000,,他准备偷渡到哪里？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Where're they going?
+Dialogue: 0,1:20:23.68,1:20:25.15,Default,,0000,0000,0000,,那船叫什么名字？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}The name of the ship?
+Dialogue: 0,1:20:36.96,1:20:40.23,Default,,0000,0000,0000,,不错 我认为首先应该通知中方\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Right, I think we should inform Chinese Government
+Dialogue: 0,1:20:40.36,1:20:43.09,Default,,0000,0000,0000,,这是一个改善中港关系的好机会\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is a good chance to improve our relation
+Dialogue: 0,1:20:43.43,1:20:45.73,Default,,0000,0000,0000,,出了公海就不关我们的事\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's nothing to do with us in the high seas
+Dialogue: 0,1:20:46.00,1:20:48.70,Default,,0000,0000,0000,,我们也用不着承受舆论的压力\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We won't face pressure of the press too
+Dialogue: 0,1:20:52.34,1:20:54.64,Default,,0000,0000,0000,,领导给我的指示 格杀勿论\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I have instructing, kill them!
+Dialogue: 0,1:20:54.98,1:20:55.95,Default,,0000,0000,0000,,明白了吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Do you understand?
+Dialogue: 0,1:20:55.98,1:20:58.74,Default,,0000,0000,0000,,谢谢袁主任给我们的训示\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Thanks for instructing us, comrade Yuen.
+Dialogue: 0,1:20:59.15,1:21:02.52,Default,,0000,0000,0000,,我们一定遵守 格杀勿论\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We will obey, kill them!
+Dialogue: 0,1:21:04.96,1:21:06.75,Default,,0000,0000,0000,,格杀勿论\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Kill them!
+Dialogue: 0,1:21:37.59,1:21:39.11,Default,,0000,0000,0000,,快\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Faster.
+Dialogue: 0,1:21:50.53,1:21:52.50,Default,,0000,0000,0000,,快点\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Faster...
+Dialogue: 0,1:21:52.70,1:21:53.79,Default,,0000,0000,0000,,到船舱\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Get to the cabin.
+Dialogue: 0,1:21:58.94,1:21:59.87,Default,,0000,0000,0000,,阿火\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Fire!
+Dialogue: 0,1:22:09.15,1:22:10.41,Default,,0000,0000,0000,,这里是六十七万\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This is $670000
+Dialogue: 0,1:22:10.62,1:22:13.52,Default,,0000,0000,0000,,多出来的两万是我自己拿出来的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I tock the extra $20000 out myself
+Dialogue: 0,1:22:14.09,1:22:18.05,Default,,0000,0000,0000,,就算是尽我一点心意 给那位兄弟的抚恤金\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}For the family the Fatty.
+Dialogue: 0,1:22:18.23,1:22:19.16,Default,,0000,0000,0000,,谢谢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Thank you.
+Dialogue: 0,1:22:19.43,1:22:21.62,Default,,0000,0000,0000,,我的助手 他认识那个船长\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}My helper knows the Captain
+Dialogue: 0,1:22:21.93,1:22:24.46,Default,,0000,0000,0000,,待会儿 他会陪你们一起出发\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He will go with you later
+Dialogue: 0,1:22:24.73,1:22:26.73,Default,,0000,0000,0000,,还有啊 等你们回来的时候\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And when you come back
+Dialogue: 0,1:22:26.97,1:22:28.34,Default,,0000,0000,0000,,千万不能在这里上岸\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Remember not to come back here
+Dialogue: 0,1:22:28.47,1:22:31.27,Default,,0000,0000,0000,,因为我知道警方查你们查得很紧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}As I know police are looking madly for you
+Dialogue: 0,1:22:31.78,1:22:34.07,Default,,0000,0000,0000,,记住了 保重\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Remember, take care.
+Dialogue: 0,1:22:34.34,1:22:35.33,Default,,0000,0000,0000,,再见\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Goodbye.
+Dialogue: 0,1:22:41.38,1:22:43.55,Default,,0000,0000,0000,,你的行为 我会原谅你的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'll forgive what you've done
+Dialogue: 0,1:22:44.19,1:22:45.59,Default,,0000,0000,0000,,狗哥 保重\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Master Doggy, take care.
+Dialogue: 0,1:22:45.72,1:22:47.02,Default,,0000,0000,0000,,谢谢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Thank you.
+Dialogue: 0,1:22:52.10,1:22:53.03,Default,,0000,0000,0000,,保重\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Take care.
+Dialogue: 0,1:22:53.63,1:22:54.62,Default,,0000,0000,0000,,保重\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Take care.
+Dialogue: 0,1:22:55.97,1:22:57.63,Default,,0000,0000,0000,,保重！\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Take care.
+Dialogue: 0,1:22:57.93,1:22:59.73,Default,,0000,0000,0000,,好好照顾自己\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Take care of yourself.
+Dialogue: 0,1:23:15.15,1:23:16.28,Default,,0000,0000,0000,,麻烦大了校长\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal, it's really bad.
+Dialogue: 0,1:23:16.49,1:23:18.15,Default,,0000,0000,0000,,原来四眼七是个内奸呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Chi is the betrayer.
+Dialogue: 0,1:23:18.82,1:23:19.55,Default,,0000,0000,0000,,四眼七\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Chi?
+Dialogue: 0,1:23:19.69,1:23:21.25,Default,,0000,0000,0000,,是！四眼七？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes Chi?
+Dialogue: 0,1:23:21.49,1:23:22.52,Default,,0000,0000,0000,,证据呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Is there evidence?
+Dialogue: 0,1:23:27.53,1:23:29.00,Default,,0000,0000,0000,,她就是四眼七的女朋友\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}She's girlfriend of Chi
+Dialogue: 0,1:23:29.23,1:23:31.63,Default,,0000,0000,0000,,她无意中听到四眼七 打电话给那个警司\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}She overheard Chi talking on the phone with that Superintendent
+Dialogue: 0,1:23:32.00,1:23:33.90,Default,,0000,0000,0000,,你到底什么时候知道他是个线民的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}When did you learn that he's betrayer?
+Dialogue: 0,1:23:34.24,1:23:35.80,Default,,0000,0000,0000,,昨天晚上偷听到的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I overhead it only last night.
+Dialogue: 0,1:23:35.91,1:23:37.50,Default,,0000,0000,0000,,我心里也很矛盾\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I feel very contradict
+Dialogue: 0,1:23:37.84,1:23:40.31,Default,,0000,0000,0000,,阿七他说…他要跟我结婚的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Chi said he'd marry me soon
+Dialogue: 0,1:23:40.41,1:23:42.04,Default,,0000,0000,0000,,你为什么不立刻打电话给我？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why didn't you call me up at once?
+Dialogue: 0,1:23:42.25,1:23:44.08,Default,,0000,0000,0000,,你的手提电话没有打开呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You turned off your portable phone.
+Dialogue: 0,1:23:44.91,1:23:48.15,Default,,0000,0000,0000,,糟了 为什么那个警司\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's bad, and that Superintendent
+Dialogue: 0,1:23:48.45,1:23:51.01,Default,,0000,0000,0000,,要知道这些偷渡的细节呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why did he want the details of their trip?
+Dialogue: 0,1:23:51.49,1:23:54.12,Default,,0000,0000,0000,,为什么？为什么？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why?
+Dialogue: 0,1:23:55.39,1:23:57.42,Default,,0000,0000,0000,,难道他想通知中方\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He wants to inform Chinese Government?
+Dialogue: 0,1:24:00.90,1:24:06.10,Default,,0000,0000,0000,,完了 那个货船不就是 一个死亡的陷阱\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Finished! That ship is a dead trap for them.
+Dialogue: 0,1:24:07.24,1:24:11.50,Default,,0000,0000,0000,,天呀 天呀 欧阳卓 镇定一点\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Jesus, I...
+Dialogue: 0,1:24:11.61,1:24:13.67,Default,,0000,0000,0000,,欧阳卓 你要镇定一点\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Au Yiang Chek, take it easy...
+Dialogue: 0,1:24:14.88,1:24:16.85,Default,,0000,0000,0000,,天呀 我镇定不下来啊\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I can't keep calm...
+Dialogue: 0,1:24:17.71,1:24:20.44,Default,,0000,0000,0000,,你不要哭了 哭得我烦死了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Don't cry, you make me nervous.
+Dialogue: 0,1:24:20.68,1:24:21.95,Default,,0000,0000,0000,,不用怕！怎么样？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Don't panic. What then?
+Dialogue: 0,1:24:22.02,1:24:22.99,Default,,0000,0000,0000,,那船还没到嘛\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}That tug hasn't come yet.
+Dialogue: 0,1:24:23.45,1:24:25.92,Default,,0000,0000,0000,,船已经开了 人也走啦\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It went away already.
+Dialogue: 0,1:24:26.52,1:24:28.32,Default,,0000,0000,0000,,没关系 船上有电话\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's Ok, there's mobile phone on it.
+Dialogue: 0,1:24:29.36,1:24:31.38,Default,,0000,0000,0000,,幸亏我镇定 临危不乱\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I am so calm to think of that
+Dialogue: 0,1:24:39.04,1:24:40.02,Default,,0000,0000,0000,,我来听\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'll answer.
+Dialogue: 0,1:24:43.94,1:24:44.74,Default,,0000,0000,0000,,喂\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Hello
+Dialogue: 0,1:24:44.77,1:24:47.83,Default,,0000,0000,0000,,喂 校长？我是阿七呀 有什么事吗\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Hello, Principal? Chi speaking, what's it?
+Dialogue: 0,1:24:48.98,1:24:50.50,Default,,0000,0000,0000,,没有 你们顺利吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Nothing, is everything going fine?
+Dialogue: 0,1:24:51.51,1:24:52.23,Default,,0000,0000,0000,,还顺利\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes, it is.
+Dialogue: 0,1:24:53.01,1:24:56.08,Default,,0000,0000,0000,,叫小慧来听电话 我想托她买点东西\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Ask Siu Wai, please, I want her to buy me something
+Dialogue: 0,1:24:58.12,1:24:59.35,Default,,0000,0000,0000,,她上洗手间了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}She's in toilet.
+Dialogue: 0,1:24:59.86,1:25:01.05,Default,,0000,0000,0000,,那叫王兵来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Then ask Bin please.
+Dialogue: 0,1:25:01.56,1:25:03.15,Default,,0000,0000,0000,,好的 你等一会儿\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Ok, please hold on.
+Dialogue: 0,1:25:10.43,1:25:12.77,Default,,0000,0000,0000,,喂 喂\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Hello!
+Dialogue: 0,1:25:13.84,1:25:16.03,Default,,0000,0000,0000,,糟了 这怎么办？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's bad, what shall we do?
+Dialogue: 0,1:25:16.34,1:25:17.90,Default,,0000,0000,0000,,镇定点 镇定点\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Take it easy...
+Dialogue: 0,1:25:18.07,1:25:19.97,Default,,0000,0000,0000,,他们的手提电话呢？试试看嘛\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}What about their portable phone? Let's try
+Dialogue: 0,1:25:20.71,1:25:21.68,Default,,0000,0000,0000,,对啦\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Right!
+Dialogue: 0,1:25:32.86,1:25:35.09,Default,,0000,0000,0000,,这不是见阎王了吗？我操他妈的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}They're in danger, shit!
+Dialogue: 0,1:25:36.69,1:25:37.99,Default,,0000,0000,0000,,我怎么讲脏话了？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why? I spelt?
+Dialogue: 0,1:25:38.19,1:25:40.09,Default,,0000,0000,0000,,校长 你千万不要告诉阿七\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal, you must never tell Chi
+Dialogue: 0,1:25:40.23,1:25:41.70,Default,,0000,0000,0000,,是我跟你说的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}That I told you this
+Dialogue: 0,1:25:42.03,1:25:44.30,Default,,0000,0000,0000,,小姐呀 你不要哭好不好\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Miss, will you stop crying?
+Dialogue: 0,1:25:45.00,1:25:47.87,Default,,0000,0000,0000,,我正在想办法呀 我拜托你别哭\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I'm thinking of a way, please don't cry.
+Dialogue: 0,1:26:00.98,1:26:03.92,Default,,0000,0000,0000,,怎么 想打我呀？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How's it you want to beat me?
+Dialogue: 0,1:26:04.42,1:26:06.32,Default,,0000,0000,0000,,校长 我早跟你说过\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal, I've told you before
+Dialogue: 0,1:26:06.42,1:26:07.98,Default,,0000,0000,0000,,我不会放过那些大圈帮的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}That I'll never let those gangsters off.
+Dialogue: 0,1:26:08.22,1:26:09.19,Default,,0000,0000,0000,,这个我不怪你\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I don't blame you for that
+Dialogue: 0,1:26:09.33,1:26:11.49,Default,,0000,0000,0000,,我只怪你为什么出卖 那些学生领袖\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I just blame you of betraying those students!
+Dialogue: 0,1:26:11.90,1:26:14.52,Default,,0000,0000,0000,,你已经知道了 那最好不过了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So you know that already?
+Dialogue: 0,1:26:16.30,1:26:19.46,Default,,0000,0000,0000,,跟我没有关系 这个是上头的意思\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}It's nothing to do with me, the seniors decided it
+Dialogue: 0,1:26:19.77,1:26:22.26,Default,,0000,0000,0000,,北京威协说要断水断副食品\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}The Chinese Government threatened to cut off water food supply to HK
+Dialogue: 0,1:26:22.57,1:26:24.16,Default,,0000,0000,0000,,上头为了大局着想\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}To safe guard HK
+Dialogue: 0,1:26:24.41,1:26:26.97,Default,,0000,0000,0000,,所以就让那些大陆人到公海去抓人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So we let the Chinese agents to arrest them in high seas
+Dialogue: 0,1:26:27.34,1:26:28.81,Default,,0000,0000,0000,,既可以做个顺水人情\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We can then improve our relation
+Dialogue: 0,1:26:28.85,1:26:30.28,Default,,0000,0000,0000,,我们又不用负责任\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And we don't have to take responsible
+Dialogue: 0,1:26:31.28,1:26:32.48,Default,,0000,0000,0000,,去你妈的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit!
+Dialogue: 0,1:26:36.22,1:26:39.25,Default,,0000,0000,0000,,你知不知道他们被抓回去 会被枪毙的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Do you know they'll be shot when they're arrested?
+Dialogue: 0,1:26:39.42,1:26:41.72,Default,,0000,0000,0000,,你这样做等如是凶手 刽子手\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You're slaughter and murderer as you did that.
+Dialogue: 0,1:26:42.06,1:26:45.29,Default,,0000,0000,0000,,我知道 不过你说这三条人命要紧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I know, but these three students are more important
+Dialogue: 0,1:26:45.36,1:26:48.16,Default,,0000,0000,0000,,还是香港六百万人的 安定繁荣要紧呢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Or the stability of HK is more important?
+Dialogue: 0,1:26:48.40,1:26:50.03,Default,,0000,0000,0000,,如果中港关系破裂了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}If relation between China and HK breaks off
+Dialogue: 0,1:26:50.13,1:26:51.86,Default,,0000,0000,0000,,香港就会变成死港\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}HK will surely die
+Dialogue: 0,1:26:52.44,1:26:54.60,Default,,0000,0000,0000,,六百万人就得投奔怒海\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And all 6 million people must flee
+Dialogue: 0,1:26:55.00,1:26:57.87,Default,,0000,0000,0000,,我们的立场是要对香港市民负责任\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And our duty is to safeguard HK
+Dialogue: 0,1:27:02.65,1:27:03.81,Default,,0000,0000,0000,,校长…\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal...
+Dialogue: 0,1:27:05.68,1:27:07.27,Default,,0000,0000,0000,,叫救护车 送他去医院\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Call for ambulance, send him to hospital.
+Dialogue: 0,1:27:07.38,1:27:08.21,Default,,0000,0000,0000,,是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes. Sir.
+Dialogue: 0,1:27:08.38,1:27:10.18,Default,,0000,0000,0000,,校长\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Principal.
+Dialogue: 0,1:27:18.09,1:27:19.03,Default,,0000,0000,0000,,拜托你了船长\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Captain, I beg you
+Dialogue: 0,1:27:19.10,1:27:20.15,Default,,0000,0000,0000,,麻烦你照顾她们\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}to take good care of them.
+Dialogue: 0,1:27:20.33,1:27:22.56,Default,,0000,0000,0000,,好的 你放心 我会好好照顾她们\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Don't worry, I'll take good care of them.
+Dialogue: 0,1:27:23.73,1:27:25.46,Default,,0000,0000,0000,,谢谢你 再见\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Thanks goodbye.
+Dialogue: 0,1:27:31.17,1:27:32.90,Default,,0000,0000,0000,,大兵哥 保重\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Master Bin, take care.
+Dialogue: 0,1:27:34.34,1:27:36.47,Default,,0000,0000,0000,,妈的 讲…怎么这么噜苏\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit... what are they murmuring about?
+Dialogue: 0,1:27:36.61,1:27:39.14,Default,,0000,0000,0000,,要是再讲 把他们给我拉出去毙了他\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shoot them up if they talk on.
+Dialogue: 0,1:27:39.45,1:27:41.08,Default,,0000,0000,0000,,那些家伙身上有枪\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}They're carrying guns
+Dialogue: 0,1:27:41.25,1:27:42.81,Default,,0000,0000,0000,,为了同志们安全着想\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}For the sake of our people
+Dialogue: 0,1:27:42.92,1:27:45.25,Default,,0000,0000,0000,,无谓的伤亡 是可免则免\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So try to avoid unnecessary casualties
+Dialogue: 0,1:27:45.62,1:27:47.18,Default,,0000,0000,0000,,难道你是这里的总指挥啊？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Are you commander?
+Dialogue: 0,1:27:47.62,1:27:48.49,Default,,0000,0000,0000,,不是呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}No.
+Dialogue: 0,1:27:48.66,1:27:49.82,Default,,0000,0000,0000,,闭上嘴\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Then shut up.
+Dialogue: 0,1:28:08.61,1:28:10.20,Default,,0000,0000,0000,,五分钟之后如果他们再不走 立刻行动\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}If they don't leave in 5 minutes, we'll take action
+Dialogue: 0,1:28:11.21,1:28:12.20,Default,,0000,0000,0000,,是 主任\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes, Chief Yuen
+Dialogue: 0,1:28:12.75,1:28:14.91,Default,,0000,0000,0000,,大兵 不要妨碍人家开船啦\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Bin, don't stop them sail off.
+Dialogue: 0,1:28:17.22,1:28:19.45,Default,,0000,0000,0000,,还有什么话 留着等写信再说吧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You might write to each other if you must.
+Dialogue: 0,1:28:19.49,1:28:20.82,Default,,0000,0000,0000,,我们回去啦\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We must go back now.
+Dialogue: 0,1:28:20.92,1:28:21.36,Default,,0000,0000,0000,,小慧 你好好保重\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Siu Wai, take care.
+Dialogue: 0,1:28:21.39,1:28:22.32,Default,,0000,0000,0000,,拜拜\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Bye.
+Dialogue: 0,1:28:24.66,1:28:27.82,Default,,0000,0000,0000,,大兵 送君千里 终需一别 走吧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Bin, we must leave, so go away.
+Dialogue: 0,1:28:51.52,1:28:52.42,Default,,0000,0000,0000,,过来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Come on
+Dialogue: 0,1:29:02.27,1:29:03.99,Default,,0000,0000,0000,,大兵船上有解放军\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Bin, there're Liberation Army on board
+Dialogue: 0,1:29:21.98,1:29:24.25,Default,,0000,0000,0000,,刚才你在船上为什么 不早一点暗示我呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why didn't you imply to me on board?
+Dialogue: 0,1:29:25.29,1:29:26.38,Default,,0000,0000,0000,,我怎么暗示你啊\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}How could I?
+Dialogue: 0,1:29:26.59,1:29:28.92,Default,,0000,0000,0000,,我估计船上最少有 一百多支枪对着我们\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I guess there were over hundred guns pointing at us
+Dialogue: 0,1:29:29.13,1:29:31.03,Default,,0000,0000,0000,,我们一动手就会变蜜蜂窝\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We'd be shot over if we moved.
+Dialogue: 0,1:29:32.50,1:29:35.83,Default,,0000,0000,0000,,四眼七 叫游艇全速掉头 去追那艘货船\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Chi, ask the tug to turn back to the ship
+Dialogue: 0,1:29:39.00,1:29:41.03,Default,,0000,0000,0000,,大家准备家伙 全面备战\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Get ready for a battle
+Dialogue: 0,1:29:41.30,1:29:44.57,Default,,0000,0000,0000,,大兵 回去一定完蛋 根本就无战可备\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Bin, there's no battle, we'll all die if we go back
+Dialogue: 0,1:29:44.91,1:29:46.27,Default,,0000,0000,0000,,你不要再为了这一个女人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You mustn't do all that for the woman
+Dialogue: 0,1:29:46.44,1:29:48.14,Default,,0000,0000,0000,,要我们大家陪你去送死 好不好\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And make us die for her too
+Dialogue: 0,1:29:48.44,1:29:50.88,Default,,0000,0000,0000,,大兵 你清醒一点 别再糊涂下去了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Bin, wake up and don't fool around.
+Dialogue: 0,1:29:51.48,1:29:52.71,Default,,0000,0000,0000,,哥 你说呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Brother, what do you say?
+Dialogue: 0,1:29:53.08,1:29:56.05,Default,,0000,0000,0000,,我说…我说也没什么好说的了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I say... I have nothing to say.
+Dialogue: 0,1:29:56.52,1:30:00.48,Default,,0000,0000,0000,,兵哥 是不是应该冷静一点 把钱先分了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Brother Bin, should we be calm and divide the money?
+Dialogue: 0,1:30:01.72,1:30:03.21,Default,,0000,0000,0000,,阿火 你说呢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Fire, what do you say?
+Dialogue: 0,1:30:05.06,1:30:07.15,Default,,0000,0000,0000,,以卵击石是不智的行为\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Though this is a real risk for us
+Dialogue: 0,1:30:07.40,1:30:10.42,Default,,0000,0000,0000,,不是所谓拿人钱财 替人消灾\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}But we got paid to do that
+Dialogue: 0,1:30:11.00,1:30:13.06,Default,,0000,0000,0000,,如果这一次不去 就是不够义气\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}If we don't go, we're evil
+Dialogue: 0,1:30:13.60,1:30:15.70,Default,,0000,0000,0000,,因为这次的事情不是一般性的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}As this is no normal case
+Dialogue: 0,1:30:16.14,1:30:19.34,Default,,0000,0000,0000,,你别那么多废话 你用最简单 最直接的方法告诉我\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Don't bullshit, just answer me directly
+Dialogue: 0,1:30:19.79,1:30:21.23,Default,,0000,0000,0000,,-去还是不去？  -不去\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}- Yes or no? - No!
+Dialogue: 0,1:30:24.68,1:30:27.81,Default,,0000,0000,0000,,大兵哥 不行呀 船长不肯调头呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Master Bin, the captain refused to turn back
+Dialogue: 0,1:30:48.67,1:30:49.87,Default,,0000,0000,0000,,哥 你说呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Brother, what do you say?
+Dialogue: 0,1:30:50.71,1:30:54.73,Default,,0000,0000,0000,,我说…我想到了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I say... I think of it now
+Dialogue: 0,1:30:55.28,1:30:58.30,Default,,0000,0000,0000,,兵哥这一次的做法 其实不是为了个女人\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Brother Bin does this not for the woman
+Dialogue: 0,1:30:58.61,1:30:59.84,Default,,0000,0000,0000,,他是为了民运\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He does it for democracy
+Dialogue: 0,1:31:00.28,1:31:01.84,Default,,0000,0000,0000,,我们要讲一点义气\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We must be righteous
+Dialogue: 0,1:31:02.35,1:31:05.29,Default,,0000,0000,0000,,死 有轻于鸡毛 有重于大山\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Dying counts on worthy or not
+Dialogue: 0,1:31:05.46,1:31:07.55,Default,,0000,0000,0000,,我们兄弟俩是大山\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}We will die if it is worthwhile
+Dialogue: 0,1:31:08.83,1:31:10.12,Default,,0000,0000,0000,,俺也这么想\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I think that too.
+Dialogue: 0,1:31:12.63,1:31:13.93,Default,,0000,0000,0000,,狗公 你说呢\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Doggy, what do you say?
+Dialogue: 0,1:31:15.06,1:31:15.83,Default,,0000,0000,0000,,我说\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I say...
+Dialogue: 0,1:31:15.93,1:31:18.40,Default,,0000,0000,0000,,我说狗公 死就死 还说个屁\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I say, doggy, just die but don't say.
+Dialogue: 0,1:31:25.94,1:31:26.91,Default,,0000,0000,0000,,开枪\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Open fire.
+Dialogue: 0,1:32:10.12,1:32:11.45,Default,,0000,0000,0000,,快 快点走\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Faster, run fast.
+Dialogue: 0,1:33:59.30,1:34:00.85,Default,,0000,0000,0000,,快点 走\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Run fast.
+Dialogue: 0,1:34:02.73,1:34:03.70,Default,,0000,0000,0000,,快点\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Run fast.
+Dialogue: 0,1:34:27.59,1:34:29.35,Default,,0000,0000,0000,,哥…\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Brother.
+Dialogue: 0,1:34:38.10,1:34:39.50,Default,,0000,0000,0000,,哥 你说呢？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Brother, what do you say?
+Dialogue: 0,1:34:40.97,1:34:42.34,Default,,0000,0000,0000,,我说\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I...
+Dialogue: 0,1:34:43.27,1:34:44.53,Default,,0000,0000,0000,,我…\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I...
+Dialogue: 0,1:34:46.94,1:34:52.54,Default,,0000,0000,0000,,我说不出来了以后你要自己说\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I can say no more, you must say yourself from now on
+Dialogue: 0,1:34:53.15,1:34:56.88,Default,,0000,0000,0000,,哥…\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Brother.
+Dialogue: 0,1:35:50.34,1:35:51.93,Default,,0000,0000,0000,,小石\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Be careful.
+Dialogue: 0,1:35:57.71,1:36:01.38,Default,,0000,0000,0000,,立刻去枪毙那三个反革命份子 绝对不可以让他们逃跑\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shoot those 3 anti-revolutionists, don't let them run off!
+Dialogue: 0,1:37:08.42,1:37:10.08,Default,,0000,0000,0000,,为什么不杀他们 为什么？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why don't you kill them? Why?
+Dialogue: 0,1:37:10.22,1:37:11.78,Default,,0000,0000,0000,,我…我下不了手啊\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I can't do that.
+Dialogue: 0,1:37:11.89,1:37:12.98,Default,,0000,0000,0000,,你他妈的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You bastard.
+Dialogue: 0,1:37:20.73,1:37:21.79,Default,,0000,0000,0000,,过来\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Come over.
+Dialogue: 0,1:37:22.83,1:37:24.99,Default,,0000,0000,0000,,别开枪 不然的话我打死她\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Don't shoot or I'll kill her.
+Dialogue: 0,1:37:25.40,1:37:27.93,Default,,0000,0000,0000,,把枪放下 放下\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Put down your guns, put down.
+Dialogue: 0,1:37:32.51,1:37:33.67,Default,,0000,0000,0000,,小慧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Siu Wai.
+Dialogue: 0,1:37:52.83,1:37:53.73,Default,,0000,0000,0000,,小慧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Siu Wai.
+Dialogue: 0,1:38:06.28,1:38:07.24,Default,,0000,0000,0000,,狗公\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Doggy!
+Dialogue: 0,1:38:08.08,1:38:09.77,Default,,0000,0000,0000,,我们…我们胜利了吗？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Have we won?
+Dialogue: 0,1:38:09.91,1:38:11.00,Default,,0000,0000,0000,,胜利了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes, we have.
+Dialogue: 0,1:38:13.18,1:38:15.51,Default,,0000,0000,0000,,胜利了还不分钱？\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Why don't you divide the money then?
+Dialogue: 0,1:38:20.82,1:38:23.82,Default,,0000,0000,0000,,我…我那份\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}I... I will.
+Dialogue: 0,1:38:25.56,1:38:29.66,Default,,0000,0000,0000,,捐 捐给…\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Donate... to...
+Dialogue: 0,1:38:31.47,1:38:32.49,Default,,0000,0000,0000,,狗公\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Doggy!
+Dialogue: 0,1:38:52.99,1:38:56.45,Default,,0000,0000,0000,,对不起 对不起呀\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Sorry...
+Dialogue: 0,1:38:57.06,1:39:01.33,Default,,0000,0000,0000,,要建立一个民主的中国 是不需要说对不起的\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You needn't say sorry as we must build up a democratic China
+Dialogue: 0,1:39:02.90,1:39:06.93,Default,,0000,0000,0000,,这一次我们兄弟的死 完全是为了民运\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Our men died for democratic campaign
+Dialogue: 0,1:39:08.54,1:39:10.33,Default,,0000,0000,0000,,绝对不是为了金钱\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}And absolutely not for money
+Dialogue: 0,1:39:11.67,1:39:15.37,Default,,0000,0000,0000,,我们决定把这些钱全部都捐给民运\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}So we've decided to donate all this money for it.
+Dialogue: 0,1:39:35.16,1:39:39.69,Default,,0000,0000,0000,,我这个表坏了 你修好了之后 拿到美国给我\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}My watch's broken down, take it to US for me after you have it fixed.
+Dialogue: 0,1:40:17.67,1:40:19.33,Default,,0000,0000,0000,,妈的 统统上车\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Shit! All get in the car.
+Dialogue: 0,1:40:19.38,1:40:20.31,Default,,0000,0000,0000,,是\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Yes.
+Dialogue: 0,1:40:29.69,1:40:33.28,Default,,0000,0000,0000,,喂 我已经把你的情报报告上头了\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}Hello, I've reported it to the seniors
+Dialogue: 0,1:40:33.92,1:40:36.86,Default,,0000,0000,0000,,为了不想有任何线索落在中方手上\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}In order not to let Chinese Government get any clues
+Dialogue: 0,1:40:37.53,1:40:42.05,Default,,0000,0000,0000,,你不需要把那两个大圈抓回来 把他们就地解决吧\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}You needn't arrest the Chinese gangsters, just solve them on spot
+Dialogue: 0,1:40:42.83,1:40:45.27,Default,,0000,0000,0000,,这个任务还包括了你那个线民\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}This mission includes your informer
+Dialogue: 0,1:40:46.10,1:40:48.83,Default,,0000,0000,0000,,那个王八蛋是死有余辜\N{\fnTahoma}{\fs16}{\c&H00FFFF&}{\3c&H000000&}He deserves to be killed!

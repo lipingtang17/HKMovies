@@ -1,0 +1,1250 @@
+[Script Info]
+;NORM TEAM  压制：鑫世界  QQ群：24313311
+NORM致力于分享港台双语片、译制多语片等多音轨多字幕HALFCD作品
+诚邀有志之士加入我们的分享行列
+
+NORM TEAM发行
+http://www.normteam.com/
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 272
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,simhei,18,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,2,5,5,5,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:06.00,Default,,0000,0000,0000,,{\fad(500,500)}{\fs18}{\c&HFFFFFF&}{\fs18}{\fnsimhei}{\bord0}本作品由 {\fs18}{\fnsimhei}{\fe0}{\c&H26F4FF&}NORM TEAM{\fscy100}{\fe134}{\fnsimhei}{\c&HFFFFFF&}{\fs18} 荣誉出品\N{\fs18}下载后仅供学习交流,严禁用于商业途径\N{\fsp0}{\fs18}{\c&HFFFFFF&}更多精彩 尽在 {\c&H32CD99&}{\fnsimhei}www.normteam.com
+Dialogue: 0,0:00:07.00,0:00:11.00,Default,,0000,0000,0000,,{\fnsimhei}{\fs22}    压制:鑫世界        字幕:鑫世界\N{\fnTahoma}{\fs18}{\c&H00FFFF&}{\3c&H000000&} compression: Xworld             Subtitles: Xworld
+Dialogue: 0,0:01:09.83,0:01:12.03,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}为什么今天这么多人死呢？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why are there so many people died today?
+Dialogue: 0,0:02:29.68,0:02:31.87,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}(Luk: The 8319th night)
+Dialogue: 0,0:02:52.23,0:02:53.86,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}陆仔，吃饭啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Luk, dinner is ready
+Dialogue: 0,0:02:56.37,0:02:57.07,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}来啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Coming
+Dialogue: 0,0:02:58.57,0:02:59.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}趁热呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hurry
+Dialogue: 0,0:02:59.67,0:03:01.57,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}画完这一点点\N{\fnTahoma}{\fs12}{\c&H00FFFF&}AImost done
+Dialogue: 0,0:03:02.21,0:03:03.20,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}一分钟\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Give me a minute
+Dialogue: 0,0:03:04.08,0:03:04.87,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}一分钟\N{\fnTahoma}{\fs12}{\c&H00FFFF&}One minute
+Dialogue: 0,0:03:23.53,0:03:24.40,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello?
+Dialogue: 0,0:03:26.57,0:03:27.09,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yes
+Dialogue: 0,0:03:27.17,0:03:28.73,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是…我是…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yes… Speaking…
+Dialogue: 0,0:03:29.57,0:03:30.77,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}明天下午？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Tomorrow afternoon?
+Dialogue: 0,0:03:31.31,0:03:34.80,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是，行…没问题…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yes, okay… no problem…
+Dialogue: 0,0:03:35.68,0:03:37.74,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是，明白…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yes, I got it…
+Dialogue: 0,0:03:37.85,0:03:42.08,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那我明天…带所有作品上漫画社\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Then I'll bring all my works  to your comic books company
+Dialogue: 0,0:03:42.35,0:03:44.98,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}请问你们的地址是哪里？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}May I have your address please?
+Dialogue: 0,0:03:46.99,0:03:48.72,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是，IFC(国际金融中心)\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yes, IFC. (International Finance Centre)
+Dialogue: 0,0:03:48.79,0:03:50.12,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是…知道…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yes, I got it…
+Dialogue: 0,0:03:51.39,0:03:52.86,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}观塘IFC？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}IFC in Kwun Tong?
+Dialogue: 0,0:03:53.76,0:03:55.75,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}也知道…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Okay…
+Dialogue: 0,0:03:58.13,0:04:02.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}1804室…至1808室\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Room 1804 to Room 1808
+Dialogue: 0,0:04:03.14,0:04:08.73,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是，就用1806…那道门，好\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yes, use the door at 1806, okay
+Dialogue: 0,0:04:09.71,0:04:12.65,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是，清楚，完全…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I totally got it…
+Dialogue: 0,0:04:13.25,0:04:14.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}谢谢…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thanks…
+Dialogue: 0,0:04:20.96,0:04:23.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}(Dinner is ready.)
+Dialogue: 0,0:04:32.27,0:04:35.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}(Give me a minute.)
+Dialogue: 0,0:05:05.27,0:05:06.32,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}朱莉亚\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Julia
+Dialogue: 0,0:05:12.31,0:05:13.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}朱莉亚\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Julia
+Dialogue: 0,0:05:41.54,0:05:42.63,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}糟啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Shit!
+Dialogue: 0,0:05:49.41,0:05:50.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}麻烦了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Damn!
+Dialogue: 0,0:05:52.35,0:05:53.51,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}真是麻烦了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I've a problem
+Dialogue: 0,0:05:54.85,0:05:56.34,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂，朱莉亚\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hi, Julia?
+Dialogue: 0,0:05:56.72,0:06:00.31,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}就是嘛，我见抽屉里\N{\fnTahoma}{\fs12}{\c&H00FFFF&}只剩下一对胸罩内裤\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Well, there's only one set of  lingerie left in the dresser
+Dialogue: 0,0:06:00.39,0:06:02.55,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不知道是不是昨晚有个变态的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Wonder if there's a sex maniac
+Dialogue: 0,0:06:02.62,0:06:04.82,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}趁我们睡着摸进来偷走…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}broke in last night and stole them…
+Dialogue: 0,0:06:04.89,0:06:06.29,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}偷剩一对呢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}except for this set?
+Dialogue: 0,0:06:06.36,0:06:08.33,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还是我喜欢的那对\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Fortunately, this is the set I like most
+Dialogue: 0,0:06:08.76,0:06:11.39,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不行，朱莉亚不喜欢我这么轻佻\N{\fnTahoma}{\fs12}{\c&H00FFFF&}No way, Julia doesn't  like me being frivolous
+Dialogue: 0,0:06:11.60,0:06:15.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}朱莉亚，耽误你几分钟行吗？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Julia, could you spare me a few minutes?
+Dialogue: 0,0:06:16.14,0:06:18.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是呀，很抱歉\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I sincerely apologize to you
+Dialogue: 0,0:06:18.34,0:06:21.74,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}昨天晚上我错过了我们的大日子\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yesterday I missed our big day
+Dialogue: 0,0:06:21.81,0:06:25.37,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}可是今天是我非常重要的日子嘛\N{\fnTahoma}{\fs12}{\c&H00FFFF&}because today is so important to me
+Dialogue: 0,0:06:26.11,0:06:29.02,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}今天这个日子会改变我的事业\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Today will bring change to my career…
+Dialogue: 0,0:06:29.08,0:06:30.52,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}改变我的命运\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Today will bring change to my fate
+Dialogue: 0,0:06:33.25,0:06:34.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}行呀，就这样\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sounds good, that's it
+Dialogue: 0,0:06:43.53,0:06:44.36,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello?
+Dialogue: 0,0:06:45.77,0:06:47.23,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}朱…朱莉亚\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Ju… Julia
+Dialogue: 0,0:06:48.04,0:06:49.83,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}对不起\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sorry
+Dialogue: 0,0:06:49.90,0:06:52.34,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我在搬家，搬好了打电话给你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm moving, I'll call you once settled
+Dialogue: 0,0:06:53.01,0:06:55.03,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你也该准备好去见出版社\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You better get ready  to go to the publisher
+Dialogue: 0,0:06:56.31,0:06:58.47,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你怎知道我要去见出版社？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}How do you know that?
+Dialogue: 0,0:06:58.58,0:07:00.74,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}听到些，猜到些\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I overheard a little and I guessed so
+Dialogue: 0,0:07:03.12,0:07:05.42,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你老是这样子，憋着胃气\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You stilI have stomach gas
+Dialogue: 0,0:07:05.49,0:07:07.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}记得要吃东西，才好见人\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You better eat before you go
+Dialogue: 0,0:07:07.56,0:07:09.68,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}胃气向上冲，你就打噎\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Stomach gas goes up, you burp
+Dialogue: 0,0:07:09.76,0:07:13.59,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}向下挤就…两样都不好\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Stomach gas goes down, you fart.  Both are not nice
+Dialogue: 0,0:07:13.66,0:07:16.32,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这里信号很差，迟些打给你，再见\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The reception here is bad.  I'll call you later, bye
+Dialogue: 0,0:07:37.89,0:07:39.65,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}棉花鸡\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Spongy Chicken
+Dialogue: 0,0:07:39.99,0:07:40.95,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}来一笼…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}One please…
+Dialogue: 0,0:07:41.02,0:07:43.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好…请等一下\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Okay, just a sec
+Dialogue: 0,0:07:43.52,0:07:45.99,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}小心烫…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Be careful… it's hot
+Dialogue: 0,0:07:46.16,0:07:47.49,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}谢谢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thanks
+Dialogue: 0,0:07:48.40,0:07:49.89,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂，这是我的     不好意思\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hey, that's mine!       Sorry
+Dialogue: 0,0:07:49.96,0:07:52.13,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这张才是我的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}好…谢谢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}That one is mine.       Okay… thanks
+Dialogue: 0,0:07:52.20,0:07:53.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}棉花鸡挺不错呢     是呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The spongy chicken is good.       Yes
+Dialogue: 0,0:07:53.77,0:07:54.53,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}大婶，来一碟\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Waiter, one please
+Dialogue: 0,0:07:54.60,0:07:56.16,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}来…小心烫\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Okay… be careful, it's really hot
+Dialogue: 0,0:07:56.24,0:07:57.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}麻烦给我单子\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Bill please
+Dialogue: 0,0:07:59.51,0:08:00.84,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}谢谢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thanks
+Dialogue: 0,0:08:05.21,0:08:06.54,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那鱼肚挺好吃\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The fish maw is delicious
+Dialogue: 0,0:08:06.61,0:08:09.71,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}所以说你，整天游手好闲\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You've been fooling around
+Dialogue: 0,0:08:09.78,0:08:11.51,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}平时又不多读几本书\N{\fnTahoma}{\fs12}{\c&H00FFFF&}putting no effort in educating yourself
+Dialogue: 0,0:08:11.59,0:08:14.05,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这儿哪有鱼肚给你吃，那么珍贵？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Fish maws are so expensive,  how could they serve them here?
+Dialogue: 0,0:08:14.12,0:08:15.78,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那是猪皮来的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}That's just pig's skin
+Dialogue: 0,0:08:15.99,0:08:17.51,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}猪皮来的？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Pig's skin?
+Dialogue: 0,0:08:18.29,0:08:21.99,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}吃棉花鸡是为了那块火腿\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I order Spongy Chicken for the ham
+Dialogue: 0,0:08:22.23,0:08:23.36,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}吃火腿？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Ham?
+Dialogue: 0,0:08:23.43,0:08:26.53,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你不如去隔壁茶餐厅吃个火腿扒吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Then why don't you go to a steak house  and order ham steak instead?
+Dialogue: 0,0:08:26.63,0:08:28.47,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}来茶楼，点一碟棉花鸡\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You've come to a tea house  to order spongy chicken
+Dialogue: 0,0:08:28.54,0:08:30.27,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}就为了吃块火腿？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}just for the ham?
+Dialogue: 0,0:08:30.34,0:08:31.81,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我叫你不吃别的吗？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Did I tell you not to eat the side dish?
+Dialogue: 0,0:08:31.87,0:08:33.86,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我是叫你先吃火腿\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm just telling you to eat the ham first
+Dialogue: 0,0:08:33.94,0:08:35.93,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}说这么久，都不领会我的意思\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You stilI don't get it
+Dialogue: 0,0:08:36.14,0:08:39.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那棉花鸡的馅，很明显是昨夜剩菜\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The stuffing of spongy chicken  is leftovers from yesterday
+Dialogue: 0,0:08:39.68,0:08:41.44,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}鱼肚是猪皮\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The maw is just pig's skin
+Dialogue: 0,0:08:41.88,0:08:44.08,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}吃火腿最实在了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The ham is the most precious ingredient
+Dialogue: 0,0:08:44.59,0:08:46.42,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是不是，小子？     是的…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Is that right, kid?       Yes…
+Dialogue: 0,0:08:46.49,0:08:47.95,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你错啦！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You're wrong!
+Dialogue: 0,0:08:48.12,0:08:50.35,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}棉花鸡的精粹就是这块鱼肚\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The best part of Spongy Chicken  is the fish maw
+Dialogue: 0,0:08:50.42,0:08:52.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}鱼肚是海棉体\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Maw is spongy tissue
+Dialogue: 0,0:08:52.76,0:08:55.75,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}吸满火腿和鸡汁的精华\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It absorbs all the essence  and juice from chicken and ham
+Dialogue: 0,0:08:55.83,0:08:57.35,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}要不然，怎么叫棉花鸡？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}That's why it's called Spongy Chicken
+Dialogue: 0,0:08:57.43,0:08:58.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}小子，你说我讲得有没有道理？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Am I right, kid?
+Dialogue: 0,0:08:58.83,0:09:00.23,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I agree…
+Dialogue: 0,0:09:00.30,0:09:02.06,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}都说了不是鱼肚，是猪皮！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I've told you it's not fish maw,  it's just pig's skin
+Dialogue: 0,0:09:02.14,0:09:04.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}小子，你说是猪皮还是鱼肚？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Kid, do you think it's  fish maw or pig's skin?
+Dialogue: 0,0:09:04.34,0:09:05.33,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}说！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Answer me!
+Dialogue: 0,0:09:05.41,0:09:07.31,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}总之…是海棉体啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}In a word… it's spongy tissue
+Dialogue: 0,0:09:07.38,0:09:08.24,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}皆大欢喜嘛\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Everybody's happy now
+Dialogue: 0,0:09:08.31,0:09:09.87,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你无非想吸点汁\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You'd better put a sponge in it
+Dialogue: 0,0:09:09.94,0:09:12.07,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不如放块海棉下去，吸…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}to absorb the juice…
+Dialogue: 0,0:09:12.15,0:09:14.34,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}吸饱了，再吃海棉吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}then you can just eat the sponge
+Dialogue: 0,0:09:14.42,0:09:16.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不想跟你扯谈下去\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I don't want to carry on this  nonsense argument with you
+Dialogue: 0,0:09:16.42,0:09:17.94,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}吃你的海棉体吧！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Go eat your spongy tissue!
+Dialogue: 0,0:09:18.79,0:09:20.08,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}火腿呀，猪兜！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's your ham, pig!
+Dialogue: 0,0:09:20.15,0:09:21.64,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}吃你的海棉体吧！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Here's your spongy tissue!
+Dialogue: 0,0:09:21.72,0:09:23.12,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我严重警告你…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}干嘛？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm warning you…       What?
+Dialogue: 0,0:09:23.19,0:09:25.39,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你别糟蹋我的海棉体\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Don't ruin my spongy tissue
+Dialogue: 0,0:09:25.46,0:09:26.62,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}给我捡起来！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Pick it up!
+Dialogue: 0,0:09:26.93,0:09:29.19,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是你先糟蹋我的火腿\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You ruin my ham in the first place
+Dialogue: 0,0:09:29.26,0:09:30.32,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}给我吃下去！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Eat it!
+Dialogue: 0,0:09:30.40,0:09:32.23,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还有，不准拉出来！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}And don't shit it out!
+Dialogue: 0,0:09:32.30,0:09:33.29,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}棉花鸡！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Spongy Chicken!
+Dialogue: 0,0:09:33.37,0:09:34.96,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}去你的棉花鸡！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Spongy Chicken! Go to hell!
+Dialogue: 0,0:09:35.50,0:09:37.33,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}混蛋，居然打爆我的头\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Damn you, you dare break my head!
+Dialogue: 0,0:09:47.05,0:09:48.95,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}无所谓，我们一起吧，你去哪？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Let's share the taxi, where are you going?
+Dialogue: 0,0:09:49.02,0:09:50.98,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}上班，九龙殡仪馆\N{\fnTahoma}{\fs12}{\c&H00FFFF&}My workplace, Kowloon Funeral Parlor
+Dialogue: 0,0:09:51.65,0:09:52.68,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不吉利？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Think it's bad luck?
+Dialogue: 0,0:09:53.35,0:09:55.79,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不…我很尊敬你的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Not at all… I do respect you
+Dialogue: 0,0:09:55.86,0:09:58.35,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你不但为人民服务，还为鬼魂服务\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You serve the people and the spirits too
+Dialogue: 0,0:09:58.43,0:09:59.89,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}先去九龙殡仪馆\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Kowloon Funeral Parlor, please
+Dialogue: 0,0:10:35.46,0:10:37.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你好，我找陈总编\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hi, I'm looking for  the Chief Editor, Mr. Chan
+Dialogue: 0,0:10:38.17,0:10:39.13,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}跟我进来\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Follow me, please
+Dialogue: 0,0:11:00.22,0:11:03.71,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你就是陆仔？     是\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Are you Luk?       Yes
+Dialogue: 0,0:11:04.06,0:11:06.42,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你是…陈总编？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Chief Editor, Mr. Chan… I presume?
+Dialogue: 0,0:11:16.14,0:11:17.33,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你好\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello
+Dialogue: 0,0:11:18.14,0:11:20.20,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}总“骗”辑？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Cheat Editor?
+Dialogue: 0,0:11:23.64,0:11:25.84,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这儿有我的漫画作品\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Here're all my works
+Dialogue: 0,0:11:27.88,0:11:31.98,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}当然少不了…一份故事大纲\N{\fnTahoma}{\fs12}{\c&H00FFFF&}We must have all these synopsises
+Dialogue: 0,0:11:32.45,0:11:34.79,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我准备了中文繁体版\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I've the traditional Chinese version
+Dialogue: 0,0:11:34.86,0:11:36.35,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}中文简体版\N{\fnTahoma}{\fs12}{\c&H00FFFF&}simplified Chinese version
+Dialogue: 0,0:11:36.42,0:11:38.45,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}当然也照顾了亚洲朋友的需要\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I've also considered the Asian markets
+Dialogue: 0,0:11:38.53,0:11:40.19,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有日文版\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The Japanese version
+Dialogue: 0,0:11:40.66,0:11:41.89,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}韩文版\N{\fnTahoma}{\fs12}{\c&H00FFFF&}the Korean version
+Dialogue: 0,0:11:41.96,0:11:43.83,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还有，英文版\N{\fnTahoma}{\fs12}{\c&H00FFFF&}and English version, too
+Dialogue: 0,0:11:44.17,0:11:46.93,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}预备我们将来进军好莱坞之用\N{\fnTahoma}{\fs12}{\c&H00FFFF&}So we can send it to Pixar  or Dreamworks in the near future
+Dialogue: 0,0:11:47.00,0:11:48.49,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我看得很慢的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But I read really slow
+Dialogue: 0,0:11:48.57,0:11:50.73,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}没关系，我说得很快\N{\fnTahoma}{\fs12}{\c&H00FFFF&}No problem, I talk fast
+Dialogue: 0,0:11:50.81,0:11:52.10,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那你说吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Then you tell me the story
+Dialogue: 0,0:11:57.91,0:12:00.04,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我说了     说吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm going to tell the story.  Go ahead
+Dialogue: 0,0:12:03.05,0:12:04.24,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这是一个…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}This is a story…
+Dialogue: 0,0:12:06.92,0:12:09.05,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这是一个开头亮闪闪\N{\fnTahoma}{\fs12}{\c&H00FFFF&}with a bright and shiny beginning…
+Dialogue: 0,0:12:09.12,0:12:11.28,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}后来黑压压的故事\N{\fnTahoma}{\fs12}{\c&H00FFFF&}but with a dark and eerie ending
+Dialogue: 0,0:12:17.57,0:12:18.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}说吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Go on
+Dialogue: 0,0:12:21.10,0:12:23.20,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这是一个开头亮闪闪\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's a story with a  bright and shiny beginning…
+Dialogue: 0,0:12:23.27,0:12:25.53,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}后来黑压压的故事…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}but with a dark and eerie ending…
+Dialogue: 0,0:12:27.01,0:12:29.74,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是一个关于人生无常的故事\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's a story about  the impermanence of life
+Dialogue: 0,0:12:31.31,0:12:34.51,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}所以人真的要买保险\N{\fnTahoma}{\fs12}{\c&H00FFFF&}That's why everybody should buy insurance
+Dialogue: 0,0:12:58.41,0:13:03.40,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}何太太，你先生很不幸…去世了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Mrs. Ho, unfortunately  your husband has passed away
+Dialogue: 0,0:13:03.91,0:13:07.85,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不过很幸运\N{\fnTahoma}{\fs12}{\c&H00FFFF&}他买了我们公司的人寿保险\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But fortunately he did buy  insurance from our company
+Dialogue: 0,0:13:09.38,0:13:12.38,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}但是…又很不幸…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}However…unfortunately…
+Dialogue: 0,0:13:12.69,0:13:15.42,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}跟单的那位同事，就是关先生\N{\fnTahoma}{\fs12}{\c&H00FFFF&}his agent, Mr. Kwan
+Dialogue: 0,0:13:15.49,0:13:19.36,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}他上星期也…去世了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}has also passed away last week
+Dialogue: 0,0:13:19.63,0:13:22.19,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不过，现在有我负责跟进\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But fortunately, I'm the one  responsible for your case now
+Dialogue: 0,0:13:22.26,0:13:23.42,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你可以好放心啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}So you don't have to  worry about anything anymore
+Dialogue: 0,0:13:37.21,0:13:40.44,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}何太太，你先生的身故赔偿出来了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Mrs. Ho, the death benefit of  your husband has been issued
+Dialogue: 0,0:13:45.42,0:13:48.82,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}妈，是一百万呀！     是啊\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Mom, it's one million.       Yes
+Dialogue: 0,0:13:48.89,0:13:52.42,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是的，一个有计划的丈夫\N{\fnTahoma}{\fs12}{\c&H00FFFF&}即使已经去世\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Exactly. A well-planned husband,  even though he is dead
+Dialogue: 0,0:13:52.49,0:13:55.12,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}也可以高度显示出人寿保险的好处\N{\fnTahoma}{\fs12}{\c&H00FFFF&}can still show the benefits  of buying a life insurance plan
+Dialogue: 0,0:13:55.20,0:13:57.99,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}令一件不幸的事没那么不幸\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It makes a misfortunate event  less misfortunate
+Dialogue: 0,0:13:59.13,0:14:03.23,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我老公一向不理会保险经纪\N{\fnTahoma}{\fs12}{\c&H00FFFF&}My husband disliked  all the insurance agents
+Dialogue: 0,0:14:03.64,0:14:05.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}除了关先生\N{\fnTahoma}{\fs12}{\c&H00FFFF&}except Mr. Kwan
+Dialogue: 0,0:14:06.21,0:14:09.14,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}关先生真的帮了我们大忙\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Mr. Kwan has really helped us a lot
+Dialogue: 0,0:14:11.78,0:14:15.01,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}对了，关先生怎么死的？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}How did Mr. Kwan die?
+Dialogue: 0,0:14:16.58,0:14:19.64,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}他是被一棵病死的树压死的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}He was crushed by a collapsed sick tree
+Dialogue: 0,0:14:20.79,0:14:24.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}(Sick tree collapsed, crushed a man.)
+Dialogue: 0,0:14:25.23,0:14:28.59,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}所以说，人生多么无常\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You see, life is so impermanent
+Dialogue: 0,0:14:28.66,0:14:31.19,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}唯一“有常”的是“人难免一死”\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But there's one thing for sure,  we'll all die eventually
+Dialogue: 0,0:14:31.57,0:14:34.56,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}买了人寿保险就一定会赢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Buy insurance, you'll sure win
+Dialogue: 0,0:14:36.20,0:14:39.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}关先生帮我们赢了很多\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Mr. Kwan really helped us a lot
+Dialogue: 0,0:14:42.24,0:14:45.54,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好人真是死得早啊\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Good men die young
+Dialogue: 0,0:14:46.28,0:14:49.44,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}像我老公，他没有朋友\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Like my husband, he got no friends
+Dialogue: 0,0:14:50.05,0:14:53.14,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}每年生日只有关先生记得\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Mr. Kwan was the only one  who remembered his birthday
+Dialogue: 0,0:14:53.22,0:14:56.99,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}关先生一定会寄张生日卡给我老公\N{\fnTahoma}{\fs12}{\c&H00FFFF&}and sent him birthday card every year
+Dialogue: 0,0:14:57.32,0:14:59.12,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}真的很有心…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}He's so sincere…
+Dialogue: 0,0:14:59.76,0:15:02.23,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}其实关先生可以做得更好\N{\fnTahoma}{\fs12}{\c&H00FFFF&}In fact, Mr. Kwan could have  done better than this
+Dialogue: 0,0:15:02.30,0:15:04.56,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}如果他叫你先生买保额更大的保险\N{\fnTahoma}{\fs12}{\c&H00FFFF&}If he had asked your husband to buy  a plan with bigger death benefit
+Dialogue: 0,0:15:04.63,0:15:06.62,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那你老公就死得更有价值\N{\fnTahoma}{\fs12}{\c&H00FFFF&}and make your husband's  death more worthwhile
+Dialogue: 0,0:15:06.70,0:15:09.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}以后我们俩就要相依为命了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The two of us have to rely on  each other from now on
+Dialogue: 0,0:15:09.34,0:15:12.46,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}母子相依为命，就更要依靠保险\N{\fnTahoma}{\fs12}{\c&H00FFFF&}That's the reason you have to  rely on insurance plan
+Dialogue: 0,0:15:17.48,0:15:18.95,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你叫我买保险？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Are you asking me to buy insurance?
+Dialogue: 0,0:15:19.61,0:15:21.88,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我是叫你们俩都要买保险\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I am asking both of you to buy insurance
+Dialogue: 0,0:15:21.95,0:15:25.39,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}万一你有事，你儿子还有个依靠\N{\fnTahoma}{\fs12}{\c&H00FFFF&}In case there's anything happen to you,  your son can rely on that
+Dialogue: 0,0:15:25.45,0:15:28.62,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}万一他有事，你还有一张支票\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Or the other way round,  you'll stilI get a cheque
+Dialogue: 0,0:15:32.53,0:15:35.59,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}所以你一定要考虑小朋友的意外人寿\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Please consider the accident  and life insurance for children
+Dialogue: 0,0:15:35.96,0:15:40.49,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}现在打开报纸\N{\fnTahoma}{\fs12}{\c&H00FFFF&}多少意外都跟小朋友有关\N{\fnTahoma}{\fs12}{\c&H00FFFF&}When you read the news, you'll find  so many accidents invoIving kids
+Dialogue: 0,0:15:40.57,0:15:44.50,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}什么喝错镪水、洗发水、三聚氰铵奶\N{\fnTahoma}{\fs12}{\c&H00FFFF&}such as mistakenly drinking acid,  shampoo, melamine-contaminated milk…
+Dialogue: 0,0:15:44.94,0:15:46.87,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}打电玩打到猝死\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sudden death when playing videogames…
+Dialogue: 0,0:15:46.94,0:15:49.41,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}被门夹断手指     妈！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Losing their fingers by door…       Mom!
+Dialogue: 0,0:15:50.24,0:15:51.77,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}被摺叠卓夹爆头\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Head got stuck in portable desk…
+Dialogue: 0,0:15:51.85,0:15:53.71,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}被铅笔尖刺瞎眼睛\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Eye got pierced by pencil…
+Dialogue: 0,0:15:53.78,0:15:55.15,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还有啊…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}And…
+Dialogue: 0,0:15:55.28,0:15:57.91,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}被窗帘绳子勒死\N{\fnTahoma}{\fs12}{\c&H00FFFF&}strangled by windows blinds strings
+Dialogue: 0,0:15:57.99,0:16:01.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}所以说，人生多么无常\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You see, life is so impermanent
+Dialogue: 0,0:16:03.96,0:16:06.98,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你看，那个男人掉了张一千块钞票\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Look, there's a guy  dropped his $1 ,000 note
+Dialogue: 0,0:16:07.06,0:16:08.39,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}多倒楣\N{\fnTahoma}{\fs12}{\c&H00FFFF&}How unlucky!
+Dialogue: 0,0:16:08.46,0:16:10.56,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那个就走运啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}That other guy is lucky
+Dialogue: 0,0:16:10.63,0:16:12.62,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}他有钱捡\N{\fnTahoma}{\fs12}{\c&H00FFFF&}There's a bank note  waiting for him to pick up
+Dialogue: 0,0:16:22.91,0:16:25.57,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你看，他连命都不要\N{\fnTahoma}{\fs12}{\c&H00FFFF&}See how he jeopardize his life just to
+Dialogue: 0,0:16:25.65,0:16:27.20,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}扑出去捡那张钞票\N{\fnTahoma}{\fs12}{\c&H00FFFF&}pick up the bank note
+Dialogue: 0,0:16:39.09,0:16:42.03,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不过今天我们的重点是“人生无常”\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But the main point today is  “Life is impermanent”
+Dialogue: 0,0:16:42.10,0:16:46.50,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}何太太，大难不死，必有开支\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Mrs. Ho, there're always  expenses after a misfortune
+Dialogue: 0,0:16:47.87,0:16:48.89,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不好意思\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Excuse me
+Dialogue: 0,0:16:49.64,0:16:50.30,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello?
+Dialogue: 0,0:16:50.37,0:16:53.64,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}姐，今晚来我家吃团年饭吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sis, come over to my place for  New Year's Eve dinner tonight
+Dialogue: 0,0:16:53.91,0:16:56.10,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好啊…不过我现在很忙\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Okay… I am having a meeting now
+Dialogue: 0,0:16:56.18,0:16:57.94,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂…听我说完这句\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hold on… just one word
+Dialogue: 0,0:16:58.01,0:16:59.64,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你今天有没有看？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Have you read the latest issue  of the “Super Tabloid”?
+Dialogue: 0,0:16:59.71,0:17:01.24,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}封面那个港男，我认识的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I know that macho guy on the cover page
+Dialogue: 0,0:17:01.32,0:17:02.75,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这些等下再说吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}We'll talk about this later
+Dialogue: 0,0:17:04.49,0:17:06.25,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你又换车？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You bought another car again?
+Dialogue: 0,0:17:06.32,0:17:09.12,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我考虑得很清楚才买的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I bought this after contemplation
+Dialogue: 0,0:17:09.19,0:17:12.82,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}臭氧层现在都穿了个大洞了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}There's a hole in the ozone layer
+Dialogue: 0,0:17:12.89,0:17:14.36,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是吗？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Really?
+Dialogue: 0,0:17:14.43,0:17:16.62,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这辆车很环保的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}This is an environmental friendly car
+Dialogue: 0,0:17:16.70,0:17:19.33,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那你的旧车呢？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}拿去拆了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Where's your old car?  I took it to a scrap yard
+Dialogue: 0,0:17:19.40,0:17:23.36,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那么新的车拿去拆，你还说很环保\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You took a mint condition car to scrap yard?  And you say that's environmental friendly?
+Dialogue: 0,0:17:23.44,0:17:26.17,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}张太太也是开这种车的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Mrs. Cheung drives the same car
+Dialogue: 0,0:17:26.51,0:17:28.24,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}哪个张太太？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Which Mrs. Cheung?
+Dialogue: 0,0:17:28.31,0:17:30.40,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}学友的太太呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The wife of Jackie Cheung  (famous HK singer)
+Dialogue: 0,0:17:30.48,0:17:32.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}车行经纪告诉我的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The salesman told me so
+Dialogue: 0,0:17:33.75,0:17:35.01,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是吗？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Really?
+Dialogue: 0,0:17:37.95,0:17:39.01,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello?
+Dialogue: 0,0:17:39.09,0:17:41.65,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你没收到我的短信吗？干嘛不回覆？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Didn't you get my text message?  Why didn't you reply?
+Dialogue: 0,0:17:42.22,0:17:43.55,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我今晚有约会啊\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I have an appointment tonight
+Dialogue: 0,0:17:43.62,0:17:46.02,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}约会？去哪里？干什么？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Appointment? Where? For what? With whom?
+Dialogue: 0,0:17:46.09,0:17:48.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}今晚吃团年饭\N{\fnTahoma}{\fs12}{\c&H00FFFF&}有什么比吃团年饭更重要？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}New Year's Eve dinner is tonight,  what's more important than family reunion?
+Dialogue: 0,0:17:48.83,0:17:49.92,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好啦…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Okay…
+Dialogue: 0,0:17:50.00,0:17:51.59,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你等下传你妹妹的地址给我\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Send me your sister's address
+Dialogue: 0,0:17:51.67,0:17:53.93,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}边吃边等，记住，边吃边等\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Start the dinner without me.  Don't wait with empty stomach
+Dialogue: 0,0:17:54.00,0:17:55.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}再见\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Bye
+Dialogue: 0,0:17:58.67,0:18:00.33,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这车很静啊\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The car engine is quiet
+Dialogue: 0,0:18:00.41,0:18:02.71,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}连姐夫的声音也听到\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I can even hear my brother-in-law's  voice from your phone
+Dialogue: 0,0:18:04.98,0:18:07.04,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}对了，我拿了红封包给你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Right, I've brought you  some red packets envelopes
+Dialogue: 0,0:18:07.21,0:18:08.77,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你公司的？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Gift from your insurance company?
+Dialogue: 0,0:18:08.85,0:18:11.82,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是呀，你现在是人家的老婆啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Now you're somebody's wife
+Dialogue: 0,0:18:11.89,0:18:14.25,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有些事要自动自觉，做足点\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You've got to initiate  and prepare everything yourself
+Dialogue: 0,0:18:14.32,0:18:17.88,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}别像以前未嫁时候\N{\fnTahoma}{\fs12}{\c&H00FFFF&}什么都要人照顾周到\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Don't act if you are still single  and needed to be taken care of
+Dialogue: 0,0:18:21.76,0:18:24.42,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我觉得…不太合适\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I think… not too suitable
+Dialogue: 0,0:18:24.60,0:18:26.57,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}为什么？你不派红包吗？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why? You're not going  to give out red packet?
+Dialogue: 0,0:18:26.93,0:18:29.93,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我想用有我老公的姓氏的红包\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'd like to use those with  my husband's last name printed on it
+Dialogue: 0,0:18:30.00,0:18:33.20,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你知道，我难得嫁个好老公\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's my luck to have such a good husband
+Dialogue: 0,0:18:33.27,0:18:36.77,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}跟了他的姓，他是个牙医\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I have adopted his last name.  He's a dentist
+Dialogue: 0,0:18:36.84,0:18:40.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有钱，又长得帅\N{\fnTahoma}{\fs12}{\c&H00FFFF&}He's rich and handsome
+Dialogue: 0,0:18:40.28,0:18:44.27,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我不用工作，真是几生修来啊\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I don't have to work at all,  feel like the luckiest woman in the world
+Dialogue: 0,0:18:45.82,0:18:47.51,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我真要感谢上天\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I really have to thank God
+Dialogue: 0,0:18:47.59,0:18:49.56,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}给我一个那么有钱的老公\N{\fnTahoma}{\fs12}{\c&H00FFFF&}for giving me such a rich husband
+Dialogue: 0,0:18:49.62,0:18:52.32,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不要拉倒，还给我\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Well, give them back to me then
+Dialogue: 0,0:18:52.59,0:18:54.65,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我要，干嘛不要？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I want them, what makes you think I don't?
+Dialogue: 0,0:18:54.73,0:18:57.99,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我用你的来包一百块以下的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'll use yours to pack  those under a hundred dollars
+Dialogue: 0,0:18:58.07,0:18:59.62,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}多过一百块的…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}For those over a hundred
+Dialogue: 0,0:18:59.70,0:19:01.50,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}就用我老公姓氏的红包\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'll use those with  my husband's last name printed on it
+Dialogue: 0,0:19:01.57,0:19:04.33,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那人家也一样知道我是派大面额的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}People will stilI know  I'm giving out big red packets
+Dialogue: 0,0:19:05.11,0:19:06.16,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是吧！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Right!
+Dialogue: 0,0:19:20.89,0:19:22.36,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不是说去你家吗？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Aren't we going to your place?
+Dialogue: 0,0:19:22.82,0:19:25.85,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这就是我家呀，我刚刚搬来的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}This is my place, I've just moved in
+Dialogue: 0,0:19:33.97,0:19:35.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}惊喜吧！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Surprise!
+Dialogue: 0,0:19:35.34,0:19:36.86,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}怎么样？还行吧？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}How do you like it? Is this okay?
+Dialogue: 0,0:19:40.61,0:19:42.70,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}行啊！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's okay!
+Dialogue: 0,0:19:42.78,0:19:44.68,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好得很啊！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Very good indeed!
+Dialogue: 0,0:19:54.62,0:19:57.15,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}等等，你买了家居保险没有？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Wait, have you bought home insurance yet?
+Dialogue: 0,0:19:57.46,0:19:59.08,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这当然要留着光顾你啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Of course I'll buy it from you
+Dialogue: 0,0:19:59.16,0:20:00.99,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我要孝顺姐姐嘛\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's sisterhood
+Dialogue: 0,0:20:01.06,0:20:03.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}要不是你供我读书\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Without your support
+Dialogue: 0,0:20:03.33,0:20:07.16,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我怎会在大学认识这个做牙医的老公\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I wouldn't have met my dentist  husband in the university
+Dialogue: 0,0:20:07.47,0:20:11.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}其实我们一家人在这么大的房子吃饭\N{\fnTahoma}{\fs12}{\c&H00FFFF&}If our family can have  a big feast in such a big house
+Dialogue: 0,0:20:11.67,0:20:12.90,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}多开心\N{\fnTahoma}{\fs12}{\c&H00FFFF&}it'll be great
+Dialogue: 0,0:20:13.14,0:20:14.90,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是爸爸妈妈想不通\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But Mom and Dad are too stubborn
+Dialogue: 0,0:20:14.98,0:20:17.24,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}总是拿我老公跟你老公比\N{\fnTahoma}{\fs12}{\c&H00FFFF&}They like to compare  my husband with yours
+Dialogue: 0,0:20:57.62,0:20:59.55,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老公     老婆\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Honey!       Honey!
+Dialogue: 0,0:21:00.95,0:21:02.11,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}姐\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sis!
+Dialogue: 0,0:21:03.29,0:21:05.78,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我老公今天好帅呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}My husband is so handsome today
+Dialogue: 0,0:21:16.17,0:21:18.19,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老婆，说了生的要放下面\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Honey, I've told you to put  raw food on the lower shelf
+Dialogue: 0,0:21:18.27,0:21:19.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}熟的放上面\N{\fnTahoma}{\fs12}{\c&H00FFFF&}and cooked food on the upper shelf
+Dialogue: 0,0:21:19.67,0:21:21.80,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那你帮我放好吧，拜托\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Will you fix it for me, please
+Dialogue: 0,0:21:25.58,0:21:28.34,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老婆，东西弄好了，随时可以吃了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Honey, the dinner is ready,  we can start any time
+Dialogue: 0,0:21:28.42,0:21:31.65,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}等等姐夫吧     好\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Let's wait for bro-in-law.       Sure
+Dialogue: 0,0:21:40.13,0:21:41.82,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}舒不舒服，老婆？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Comfy, honey?
+Dialogue: 0,0:21:42.70,0:21:45.06,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}低一点\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Ah, harder
+Dialogue: 0,0:21:46.07,0:21:47.86,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}对了…就这儿\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yes… right there
+Dialogue: 0,0:21:54.94,0:21:56.88,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你们俩搞什么？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What are you guys doing?
+Dialogue: 0,0:22:00.51,0:22:03.68,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有长辈在，别做这个\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Stop it, my elder sister is here
+Dialogue: 0,0:22:05.55,0:22:07.04,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}对了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Right
+Dialogue: 0,0:22:07.12,0:22:10.56,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我们家的家居保险，记得给姐姐办\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Remember to buy home insurance  from my sister
+Dialogue: 0,0:22:12.69,0:22:14.42,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我今天给了病人去办\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But I just bought it from my patient
+Dialogue: 0,0:22:16.80,0:22:18.59,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好…再做一份…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Okay… I'll buy an extra one…
+Dialogue: 0,0:22:18.67,0:22:20.06,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我现在没空接电话\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm too busy to take your call now
+Dialogue: 0,0:22:20.13,0:22:22.47,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}如果不用覆机，请不要留言\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Please don't leave any message  if no reply is needed
+Dialogue: 0,0:22:33.38,0:22:35.01,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是爸爸妈妈想不通\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Mom and Dad are too stubborn
+Dialogue: 0,0:22:35.08,0:22:37.11,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}总是拿我老公跟你老公比\N{\fnTahoma}{\fs12}{\c&H00FFFF&}They like to compare  my husband with yours
+Dialogue: 0,0:23:08.15,0:23:10.17,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你姐怎么这么久？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why is your sister taking so long?
+Dialogue: 0,0:23:10.25,0:23:11.77,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我去看看\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'll check it out
+Dialogue: 0,0:23:13.52,0:23:15.15,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}姐，你没事吧？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sis, are you okay?
+Dialogue: 0,0:23:20.86,0:23:22.09,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}快要出来啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm almost done
+Dialogue: 0,0:23:23.13,0:23:24.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你姐没事吧？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Is your sister okay?
+Dialogue: 0,0:23:24.66,0:23:26.63,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我姐不开心呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}She is a bit upset
+Dialogue: 0,0:23:26.80,0:23:30.46,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你等下出去买瓶酱油，让我跟她谈谈\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You go and buy soy sauce,  let me talk to her
+Dialogue: 0,0:24:20.72,0:24:23.45,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还说没事，这么久啊\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You've been taking so long,  is there anything wrong?
+Dialogue: 0,0:24:26.33,0:24:28.82,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老婆，酱油刚刚用完\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Honey, we run out of soy sauce
+Dialogue: 0,0:24:29.13,0:24:31.22,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你还不快去买？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why don't you dash off to buy some?
+Dialogue: 0,0:24:31.30,0:24:33.13,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}遵命，老婆大人\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Order taken, my wife commander
+Dialogue: 0,0:24:34.17,0:24:36.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我去买吧，反正我也要买点东西\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Let me go buy it,  I need to shop something anyway
+Dialogue: 0,0:24:41.01,0:24:43.13,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我告诉你，记着看住我姐姐\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm telling you, watch over my sister
+Dialogue: 0,0:24:43.21,0:24:45.01,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我就只有一个姐姐\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I only have one sister
+Dialogue: 0,0:24:48.01,0:24:49.57,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}姐，跟我过来\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sis, come with me
+Dialogue: 0,0:24:52.09,0:24:55.61,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}一辈子姐妹俩，我借我的命根子给你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}We are sisters,  I'll let you use my favorite
+Dialogue: 0,0:24:55.69,0:24:57.45,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你试拿着它出去转个圈\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Try taking it with you  walking down the street
+Dialogue: 0,0:24:57.52,0:24:59.12,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}看有多少人看着你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}See how many people  can't take their eyes off you
+Dialogue: 0,0:24:59.19,0:25:01.16,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}届时你的自信心肯定都回来\N{\fnTahoma}{\fs12}{\c&H00FFFF&}By then, you shall regain your confidence
+Dialogue: 0,0:25:01.23,0:25:03.96,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不用了，我的东西都在我手袋里\N{\fnTahoma}{\fs12}{\c&H00FFFF&}No need. My stuff is in my own bag
+Dialogue: 0,0:25:04.03,0:25:05.73,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你把东西放过来不就行了？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Just put them over here?
+Dialogue: 0,0:25:05.80,0:25:07.32,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我都说不用了！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I said NO!
+Dialogue: 0,0:25:14.21,0:25:16.97,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}整个袋子放进去就行了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'll put my whole bag into yours
+Dialogue: 0,0:25:23.95,0:25:25.28,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}可以了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm ready to go
+Dialogue: 0,0:25:30.02,0:25:31.82,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}看住我姐姐呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Take care of my sister
+Dialogue: 0,0:25:38.77,0:25:40.20,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是不是这个？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}This one?
+Dialogue: 0,0:25:43.24,0:25:45.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}请让一让     对不起\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Excuse me.       Sorry
+Dialogue: 0,0:25:57.98,0:26:00.01,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那女的挺漂亮吧？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}That girI is pretty?
+Dialogue: 0,0:26:00.09,0:26:02.05,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这是你妹妹用的那种\N{\fnTahoma}{\fs12}{\c&H00FFFF&}This is the one that your sister uses
+Dialogue: 0,0:26:02.39,0:26:04.15,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我不是说刚才那个\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Not the one we just saw
+Dialogue: 0,0:26:04.22,0:26:08.02,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我是说那天在中环看见\N{\fnTahoma}{\fs12}{\c&H00FFFF&}跟你吃午饭的那个\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I mean the one that you  had lunch with in Central District
+Dialogue: 0,0:26:11.93,0:26:14.23,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不过，我不会告诉我妹妹\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But I won't tell my sister
+Dialogue: 0,0:26:14.77,0:26:17.57,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}她觉得自己活在一个美梦里\N{\fnTahoma}{\fs12}{\c&H00FFFF&}She's living in her dream
+Dialogue: 0,0:26:19.64,0:26:22.16,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}姐，你真是一个好姐姐\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sis, you're really a good sister
+Dialogue: 0,0:26:22.44,0:26:24.03,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你也想让她继续做梦，对吧？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You wish her to keep on dreaming, right?
+Dialogue: 0,0:26:24.31,0:26:25.84,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}最要紧是别让她知道\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Please don't let her know
+Dialogue: 0,0:26:26.41,0:26:28.81,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我就不能活在美梦里了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I don't have a dream to live in
+Dialogue: 0,0:26:29.05,0:26:32.35,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不过我也很想坐在环保豪华房车里\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But I do want to sit in a luxurious  environmental friendly car
+Dialogue: 0,0:26:35.89,0:26:37.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我哪有那么多闲钱呀！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I don't have that money
+Dialogue: 0,0:26:37.56,0:26:40.89,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你帮人多剥几只牙，不就有闲钱了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You can pull more teeth from  your patients' mouths to get that money
+Dialogue: 0,0:26:55.78,0:26:57.27,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你去把车开过来\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Drive your car over there
+Dialogue: 0,0:26:57.44,0:26:59.44,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我在前面垃圾桶等你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'll wait for you  by the garbage bin ahead
+Dialogue: 0,0:27:03.45,0:27:05.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}抢东西呀…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thief…
+Dialogue: 0,0:27:05.25,0:27:06.51,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还不追\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why don't you catch him?
+Dialogue: 0,0:27:16.63,0:27:17.62,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}神经病呀你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You're nuts
+Dialogue: 0,0:27:17.70,0:27:19.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}快帮我捡回手袋\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Get my bag for me
+Dialogue: 0,0:27:20.83,0:27:24.17,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我不行，我好怕，你自己去拿吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I can't. I'm so scared.  You go get it yourself
+Dialogue: 0,0:27:24.24,0:27:25.57,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那手袋是你老婆的！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}That's your wife's bag!
+Dialogue: 0,0:27:25.64,0:27:26.61,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你没事吧？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hey, are you hurt?
+Dialogue: 0,0:27:26.67,0:27:28.30,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你的手袋也在里面呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Your bag is inside her bag
+Dialogue: 0,0:27:32.88,0:27:35.04,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我现在在港湾径…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm at the Harbour Drive…
+Dialogue: 0,0:27:36.28,0:27:38.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}小姐…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Miss…
+Dialogue: 0,0:27:39.22,0:27:40.52,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}手袋是我的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The bag is mine
+Dialogue: 0,0:27:40.59,0:27:44.02,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}他…抢…手袋是我的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}He… he snatched my bag
+Dialogue: 0,0:27:44.32,0:27:45.45,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是，我在…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yes, I…
+Dialogue: 0,0:27:48.80,0:27:51.70,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不如…你们快喝点东西定定神\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Maybe you'd have a drink to calm down
+Dialogue: 0,0:27:52.47,0:27:53.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}谢谢老婆\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thanks, honey
+Dialogue: 0,0:28:02.24,0:28:03.27,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}姐姐\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sis
+Dialogue: 0,0:28:04.84,0:28:06.24,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}谢谢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thanks
+Dialogue: 0,0:28:09.88,0:28:11.85,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}姐夫来啦     让我来…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Bro-in-law is here!       Let me…
+Dialogue: 0,0:28:16.12,0:28:18.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello…
+Dialogue: 0,0:28:18.26,0:28:19.73,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}很久没见啦     你好…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Long time no see.       How are you?
+Dialogue: 0,0:28:19.79,0:28:22.13,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}新年快乐…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Happy New Year…
+Dialogue: 0,0:28:30.97,0:28:32.37,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}要不要住这么大的房子呀？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Do you need such a big house?
+Dialogue: 0,0:28:32.44,0:28:34.53,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}要的…      要吧？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's necessary…        Necessary?
+Dialogue: 0,0:28:34.77,0:28:35.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}要不要脱鞋子？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Do I need to take off my shoes?
+Dialogue: 0,0:28:35.68,0:28:37.30,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}无所谓，随你喜欢吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Never mind
+Dialogue: 0,0:28:37.38,0:28:39.14,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}过来坐…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Have a seat…
+Dialogue: 0,0:28:39.21,0:28:40.30,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}胖子\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Fatty
+Dialogue: 0,0:28:41.08,0:28:42.17,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}怎样，姐夫？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What's up, bro-in-law?
+Dialogue: 0,0:28:44.05,0:28:45.31,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这部很贵呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}That's expensive
+Dialogue: 0,0:28:45.69,0:28:48.38,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}姐夫识货，这套东西是挺贵的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You are knowledgeable,  it's quite an expensive one
+Dialogue: 0,0:28:48.82,0:28:50.72,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有没有夏韶声、蔡琴的唱片？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Do you have Danny Summer's  and Cai Qin's CDs?
+Dialogue: 0,0:28:50.79,0:28:51.88,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}菜就有得吃\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Dinner Winter and Cuisine  are available now
+Dialogue: 0,0:28:51.96,0:28:53.39,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}来呀，过来吃饭吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Come on, dinner is ready
+Dialogue: 0,0:28:53.46,0:28:56.45,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}咬文嚼字，好样的…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You sure know how to do wordplay, bravo…
+Dialogue: 0,0:28:57.80,0:29:00.10,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}妹妹，好久不见了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sis, long time no see
+Dialogue: 0,0:29:00.63,0:29:02.66,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}瞧你的头，至少要弄三小时\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Look at your hairdo, you have taken  at least 3 hours to set it
+Dialogue: 0,0:29:02.74,0:29:04.36,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}像个贵妇一样\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Just like a noble lady
+Dialogue: 0,0:29:06.97,0:29:08.67,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}贵妇呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Noble lady
+Dialogue: 0,0:29:10.64,0:29:11.97,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老婆\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Honey
+Dialogue: 0,0:29:12.05,0:29:13.88,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}打了好几次\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I phoned you a couple of times
+Dialogue: 0,0:29:14.01,0:29:15.91,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不接电话，去哪呀你？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You didn't answer your phone,  where have you been?
+Dialogue: 0,0:29:19.35,0:29:20.22,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}亲一下\N{\fnTahoma}{\fs12}{\c&H00FFFF&}A little kiss
+Dialogue: 0,0:29:20.49,0:29:22.85,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}浑身酒气，又去跳舞？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You drank at the nightclub again?
+Dialogue: 0,0:29:24.12,0:29:25.75,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}姐夫，坐吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Bro-in-law, have a seat
+Dialogue: 0,0:29:25.83,0:29:27.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}难得我们一家人\N{\fnTahoma}{\fs12}{\c&H00FFFF&}We don't have family reunion everyday
+Dialogue: 0,0:29:27.83,0:29:30.46,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}在我老公买的这个大房子里…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}In such a big house of my husband…
+Dialogue: 0,0:29:30.53,0:29:33.33,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}当然要开开心心吃团年饭嘛\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Let's enjoy our New Year Eve's dinner
+Dialogue: 0,0:29:33.40,0:29:35.70,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}对了，姐夫，先混酱吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Bro-in-law, mix the sauce first
+Dialogue: 0,0:29:36.44,0:29:37.84,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好啊\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Okay
+Dialogue: 0,0:29:40.77,0:29:42.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老婆，我帮你混\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Honey, let me do that for you
+Dialogue: 0,0:29:42.41,0:29:44.17,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我最知道你喜欢啥，不喜欢啥\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I know what you do like  and what you don't
+Dialogue: 0,0:29:44.24,0:29:46.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你明知我不喜欢，还去跳舞？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You know I don't like you going  to nightclub, why you go there?
+Dialogue: 0,0:29:48.95,0:29:53.94,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}姐，我帮你烫你最喜欢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}吃的芝士肠和芝士丸\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sis, let me cook some cheese sausages  and cheese balls for you
+Dialogue: 0,0:29:55.12,0:29:58.32,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}芝士肠好肥呀，芝士丸也很肥的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Cheese sausages are fatty,  and so are cheese balls
+Dialogue: 0,0:29:58.59,0:29:59.99,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老婆，你也很胖呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Honey, you're fat
+Dialogue: 0,0:30:06.47,0:30:08.87,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老婆，有的人胖就好看点\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Honey, some people look nicer  with some extra pounds
+Dialogue: 0,0:30:08.94,0:30:11.17,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有的人瘦好看，我就觉得你胖好看\N{\fnTahoma}{\fs12}{\c&H00FFFF&}while some people look nicer when slim.  I think you look nice when you're fat
+Dialogue: 0,0:30:11.24,0:30:13.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}所以多吃点，尽量吃，相信我别怕\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Just eat as much as you can,  don't worry. Trust me
+Dialogue: 0,0:30:13.27,0:30:14.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}姐夫！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Bro-in-law!
+Dialogue: 0,0:30:14.67,0:30:17.30,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不如我烫点肥牛肉给你吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Let me cook some fatty beef for you
+Dialogue: 0,0:30:18.34,0:30:20.14,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老婆，又肥又老呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Honey, so fat and so old
+Dialogue: 0,0:30:20.21,0:30:21.87,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你闭嘴！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Shut up!
+Dialogue: 0,0:30:21.95,0:30:23.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不用理他，我们吃\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Never mind him, let's eat
+Dialogue: 0,0:30:26.95,0:30:28.28,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我们吃吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Let's eat
+Dialogue: 0,0:30:40.27,0:30:42.20,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我到这儿不是来吃你耳光的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I don't come here to be slapped
+Dialogue: 0,0:30:42.97,0:30:46.10,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你们夫妻俩耍花枪，别放在心上\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You guys are just flirting,  don't take it too hard
+Dialogue: 0,0:30:46.17,0:30:47.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不放在心上，放哪里？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Can I pretend I haven't been slapped?
+Dialogue: 0,0:30:47.51,0:30:49.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}放芝士丸里面好吗？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Or I have been hit by a cheese ball?
+Dialogue: 0,0:30:49.88,0:30:51.81,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}其实我已经饿极了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Actually I'm starving
+Dialogue: 0,0:30:51.88,0:30:53.31,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不如大家先吃吧，好不好？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Shall we start dinner?
+Dialogue: 0,0:30:53.38,0:30:55.24,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}一句话，如果她不向我道歉\N{\fnTahoma}{\fs12}{\c&H00FFFF&}If she doesn't apologize
+Dialogue: 0,0:30:55.32,0:30:56.37,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我现在立刻走！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I will leave
+Dialogue: 0,0:30:58.85,0:30:59.84,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我立刻就走！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I am leaving now
+Dialogue: 0,0:30:59.92,0:31:01.68,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}为什么我要向你道歉？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why should I apologize to you?
+Dialogue: 0,0:31:01.75,0:31:05.42,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我刚才跟一帮少女\N{\fnTahoma}{\fs12}{\c&H00FFFF&}喝酒跳舞，开心得很\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I sacrifice the fun of  hanging out with pretty chicks
+Dialogue: 0,0:31:05.49,0:31:07.46,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}现在跟你们这帮老东西在这磨时间\N{\fnTahoma}{\fs12}{\c&H00FFFF&}just come here to be with you old guys…
+Dialogue: 0,0:31:07.53,0:31:09.09,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我都不计较了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}That's fine with me
+Dialogue: 0,0:31:09.16,0:31:11.13,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}没错，我喝酒跳舞是不对\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Right, I did drink and dance
+Dialogue: 0,0:31:11.20,0:31:13.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你也不用在你妹妹\N{\fnTahoma}{\fs12}{\c&H00FFFF&}和妹夫面前落我面子\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But you don't have to disgrace me  in front of your family
+Dialogue: 0,0:31:13.67,0:31:16.19,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我最讨厌就是你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}明知我不喜欢，还去跳舞\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Despite you know how I hate  those nightclubs, you still patronize them
+Dialogue: 0,0:31:16.27,0:31:17.74,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你也明知我不喜欢跟你家人一起吃饭\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Despite you know how I hate  dining with your family
+Dialogue: 0,0:31:17.80,0:31:18.40,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}可我还是来了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm still here
+Dialogue: 0,0:31:18.47,0:31:19.77,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我家人有什么问题？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What's wrong with my family?
+Dialogue: 0,0:31:19.84,0:31:22.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是你自己跟我说你妹妹和妹夫…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's you who told me  your sis and her husband…
+Dialogue: 0,0:31:28.11,0:31:29.91,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你搞什么呀…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What's wrong with you…
+Dialogue: 0,0:31:31.89,0:31:33.44,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你打我姐！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You hit my sis?
+Dialogue: 0,0:31:33.52,0:31:35.04,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}姐，你怎样？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}打女人不是男人所为\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sis, are you okay?  Shame on you for hitting a woman
+Dialogue: 0,0:31:35.12,0:31:38.02,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}痛吗？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}那我就打男人，站住\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Does it hurt?  Then I'll hit a man. Stand still!
+Dialogue: 0,0:31:39.83,0:31:41.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老公，你怎样？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Honey, are you okay?
+Dialogue: 0,0:31:42.46,0:31:44.56,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你打我老公！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You hit my husband?
+Dialogue: 0,0:31:44.63,0:31:45.93,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不好意思，我…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sorry, I…
+Dialogue: 0,0:31:46.13,0:31:47.50,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}够啦！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}That's enough!
+Dialogue: 0,0:31:49.50,0:31:51.53,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我还手啦…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I am gonna fight back…
+Dialogue: 0,0:31:51.60,0:31:54.16,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你看你，搞得人家不得安宁，混蛋！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Look at you, you just  messed that all up, bastard
+Dialogue: 0,0:31:54.24,0:31:55.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}最坏是你这个臭婆娘！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You are the one to be blamed on
+Dialogue: 0,0:31:55.84,0:31:57.07,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}混蛋！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Bastard!
+Dialogue: 0,0:31:57.14,0:32:01.05,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你把东西扔向我？你吃错菜啦！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What the hell! Are you nuts?
+Dialogue: 0,0:32:01.11,0:32:03.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你欺负我姐姐…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Dare you bully my sis…
+Dialogue: 0,0:32:03.28,0:32:05.58,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不知好歹的东西！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You shameless punk!
+Dialogue: 0,0:32:07.85,0:32:10.15,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你别过来…我捅死你！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Don't come over… I'll stab you
+Dialogue: 0,0:32:10.22,0:32:11.78,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}怕了吧…我掐死你呀！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Scared?… I'll strangle you to death!
+Dialogue: 0,0:32:11.86,0:32:13.85,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我最恨人用芝士肠扔我的头！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I hate being hit in the head by sausages
+Dialogue: 0,0:32:13.93,0:32:15.12,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我掐死你…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'll strangle you to death…
+Dialogue: 0,0:32:15.80,0:32:17.29,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你住手！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Stop that!
+Dialogue: 0,0:32:23.14,0:32:25.13,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还不帮忙\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Aren't you gonna help?
+Dialogue: 0,0:32:25.81,0:32:27.10,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你干嘛插我腋窝？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why did you stab my armpit?
+Dialogue: 0,0:32:27.17,0:32:29.61,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}打我姐姐…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You hit my sis…
+Dialogue: 0,0:32:29.81,0:32:31.00,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你滚开呀…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You get lost…
+Dialogue: 0,0:32:31.08,0:32:33.51,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你干嘛插我腋窝？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why did you stab my armpit?
+Dialogue: 0,0:32:37.35,0:32:39.38,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}够啦…你干嘛…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Stop that…
+Dialogue: 0,0:32:39.45,0:32:41.08,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}勒索我？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Blackmail me!
+Dialogue: 0,0:32:42.42,0:32:43.89,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}环保车！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Environmental friendly car!
+Dialogue: 0,0:32:47.66,0:32:50.06,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老婆！     干什么？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Honey!       What is it?
+Dialogue: 0,0:32:50.90,0:32:52.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你没事吧？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Are you okay?
+Dialogue: 0,0:32:55.07,0:32:56.40,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你想泼我？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You wanna attack me with hot water?
+Dialogue: 0,0:32:56.47,0:32:57.99,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你心知肚明\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You'd know what you have done
+Dialogue: 0,0:32:58.07,0:32:59.77,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你干嘛要泼我姐？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why did you attack my sis?
+Dialogue: 0,0:32:59.84,0:33:01.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是她先勒索我\N{\fnTahoma}{\fs12}{\c&H00FFFF&}She blackmailed me first
+Dialogue: 0,0:33:01.51,0:33:03.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你干嘛勒索我老公？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why did you blackmail my husband?
+Dialogue: 0,0:33:03.81,0:33:06.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}他在外面有女人呀，你还蒙在鼓里\N{\fnTahoma}{\fs12}{\c&H00FFFF&}He has other woman, he cheated on you
+Dialogue: 0,0:33:06.25,0:33:08.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你在外面干嘛有女人呀？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why did you do that?
+Dialogue: 0,0:33:10.82,0:33:12.65,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是不是我不够好？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Am I not good enough?
+Dialogue: 0,0:33:12.72,0:33:15.35,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你疼音响多过疼我\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You loved your Hi-Fi better than me
+Dialogue: 0,0:33:15.79,0:33:17.88,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你不是人！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You are scum!
+Dialogue: 0,0:33:25.40,0:33:27.39,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你才不是人！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You are scum too!
+Dialogue: 0,0:33:27.47,0:33:29.44,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}搞我老婆…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Dare you hurt my wife…
+Dialogue: 0,0:33:32.71,0:33:34.20,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我老实告诉你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Let me tell you
+Dialogue: 0,0:33:34.34,0:33:36.37,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我平时已经在人家面前做足戏\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I used to play a good husband  in front of your family
+Dialogue: 0,0:33:36.44,0:33:38.07,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}给足你面子了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}to give you honour
+Dialogue: 0,0:33:38.44,0:33:41.78,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我今天还在你姐、你姐夫…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I even pretended to enjoy
+Dialogue: 0,0:33:41.85,0:33:45.01,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}在这种跑龙套的闲人面前做足戏\N{\fnTahoma}{\fs12}{\c&H00FFFF&}the companion of your sis and her husband
+Dialogue: 0,0:33:45.39,0:33:46.98,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你还想我怎样？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What else do you want from me?
+Dialogue: 0,0:33:51.16,0:33:52.75,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你说什么？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What did you say?
+Dialogue: 0,0:33:52.83,0:33:54.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你知不知道自己在说什么？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Do you know what you are talking about?
+Dialogue: 0,0:33:55.66,0:33:57.22,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我当然知道我说什么\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Of course I do
+Dialogue: 0,0:33:57.30,0:33:59.79,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我倒过来再说一次也行呀，臭婆娘！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I can say that again,  even in reverse, bitch
+Dialogue: 0,0:33:59.87,0:34:03.53,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你骂我臭婆娘，那你还娶我？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You called me a bitch,  why did you marry me then?
+Dialogue: 0,0:34:04.97,0:34:07.13,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是你骗我娶你的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You cheated me and made me marry you
+Dialogue: 0,0:34:08.78,0:34:13.37,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}结婚前，你说自己多么贤淑\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Before we got married, you told me  how virtuous you would be
+Dialogue: 0,0:34:14.01,0:34:17.57,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}结婚后，我才知道你挥霍无度\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Afterwards, all you do  is spending extravagantly
+Dialogue: 0,0:34:17.65,0:34:19.95,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}一天都晚就是买车买车\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You just keen on buying cars
+Dialogue: 0,0:34:20.12,0:34:23.28,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}为了你，我少买了多少套喇叭！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Do you know how many Hi-Fi speakers  I have given up because of you?
+Dialogue: 0,0:34:23.36,0:34:26.22,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}结婚时，你爸爸妈妈谋我\N{\fnTahoma}{\fs12}{\c&H00FFFF&}When we get married,  your parents wanted my money
+Dialogue: 0,0:34:26.86,0:34:30.39,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}结了婚…你谋我\N{\fnTahoma}{\fs12}{\c&H00FFFF&}After that, you want my money
+Dialogue: 0,0:34:31.13,0:34:35.19,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}现在我想离婚，连你姐也来谋我\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Now I want a divorce,  your sister wants my money
+Dialogue: 0,0:34:36.00,0:34:39.03,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}全家都是贼，都是贼…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You are all thieves…
+Dialogue: 0,0:34:39.54,0:34:41.20,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}都是贼！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thieves!
+Dialogue: 0,0:34:41.27,0:34:42.30,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}贼！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thieves!
+Dialogue: 0,0:34:45.71,0:34:47.58,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}臭嘴巴…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What a nasty mouth…
+Dialogue: 0,0:34:48.38,0:34:49.81,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}吃死你呀！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You eat now!
+Dialogue: 0,0:34:49.88,0:34:51.28,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}骂我爸爸！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Dare you call my dad a thief?
+Dialogue: 0,0:34:51.35,0:34:52.78,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}骂我妈妈！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Dare you call my mom a thief?
+Dialogue: 0,0:34:52.85,0:34:54.55,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}骂…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Damn…
+Dialogue: 0,0:34:54.62,0:34:56.68,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}看你还骂…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Dare you say that…
+Dialogue: 0,0:34:57.46,0:35:01.05,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}都是贼…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thieves…
+Dialogue: 0,0:35:02.20,0:35:05.10,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老婆，我再不去医院…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Honey, I'll be gone…
+Dialogue: 0,0:35:05.16,0:35:07.03,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我真的会完蛋了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}if I don't go to the hospital in time
+Dialogue: 0,0:35:07.60,0:35:10.09,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好痛…      对不起，老公\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It hurts so much…       Sorry, honey
+Dialogue: 0,0:35:11.04,0:35:12.73,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好痛啊     马上去医院\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It hurts.       Go to hospital now
+Dialogue: 0,0:35:12.81,0:35:15.40,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}别动筷子…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Don't touch the chopsticks…
+Dialogue: 0,0:35:15.61,0:35:18.37,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}等我，姐姐！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sis, wait for me
+Dialogue: 0,0:35:26.62,0:35:29.78,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}赢了一场架，输掉一个家\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Won the fight but lost the family
+Dialogue: 0,0:35:30.39,0:35:34.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}妹夫悔不当初，一个人在房子坐\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Bro-in-law sat alone  in the house with remorse
+Dialogue: 0,0:35:35.06,0:35:37.33,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这故事…可不可以有人死？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Could someone die in this story?
+Dialogue: 0,0:35:37.53,0:35:40.02,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}行…你想要谁死？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Okay… which one you want dead?
+Dialogue: 0,0:35:40.27,0:35:43.13,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}总之找个人死，商业点嘛\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Whoever, just trying to be commercial
+Dialogue: 0,0:35:44.94,0:35:46.27,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这个嘛…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Well…
+Dialogue: 0,0:35:47.01,0:35:47.94,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不如…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}How about…
+Dialogue: 0,0:36:00.89,0:36:03.98,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}(Fighting at the year end dinner)  (in a disharmony family.)
+Dialogue: 0,0:36:08.13,0:36:10.39,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这个结局是不是较商业化呢？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}This sounds more commercial?
+Dialogue: 0,0:36:10.46,0:36:13.30,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}总之，越多人死就越商业化\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Higher the death toll,  the more commercial
+Dialogue: 0,0:36:13.37,0:36:15.56,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}行…要我死也行\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sure… I could die too if you want
+Dialogue: 0,0:36:17.14,0:36:19.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我跟大老板谈谈，再通知你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'll talk to my boss, I'll let you know
+Dialogue: 0,0:36:20.54,0:36:21.23,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}谢谢…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thanks…
+Dialogue: 0,0:36:37.59,0:36:38.92,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}什么来的？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What is it?
+Dialogue: 0,0:36:52.07,0:36:53.37,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}999报案中心\N{\fnTahoma}{\fs12}{\c&H00FFFF&}999 emergency report center
+Dialogue: 0,0:36:53.44,0:36:55.34,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}员警，救命…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Police, help…
+Dialogue: 0,0:36:55.64,0:36:58.13,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}很高…有人扔东西下来…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Someone threw bottles of  liquid… from above…
+Dialogue: 0,0:36:58.21,0:37:01.31,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是腐蚀性液体…溅中好多人\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's corrosive liquid…  many people got hurt…
+Dialogue: 0,0:37:01.38,0:37:03.25,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}一滩滩…满地一滩滩…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It splashed all over, it's everywhere…
+Dialogue: 0,0:37:03.45,0:37:05.47,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}先生，请问你现在位置哪里？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Where's you location?
+Dialogue: 0,0:37:05.55,0:37:06.92,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}IFC\N{\fnTahoma}{\fs12}{\c&H00FFFF&}IFC in Kwun Tong?
+Dialogue: 0,0:37:07.19,0:37:09.12,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不是中环，是观塘\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Not in Central, in Kwun Tong
+Dialogue: 0,0:37:10.49,0:37:11.92,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}观塘IFC？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Kwun Tong IFC?
+Dialogue: 0,0:37:12.06,0:37:15.32,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}先生，知不知道打电话\N{\fnTahoma}{\fs12}{\c&H00FFFF&}来报案中心开玩笑\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Do you know you'll be charged
+Dialogue: 0,0:37:15.39,0:37:17.16,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你会被控报假案的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}for making false reporting
+Dialogue: 0,0:37:17.23,0:37:19.56,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还有，999报案中心的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}电话是用来救命\N{\fnTahoma}{\fs12}{\c&H00FFFF&}999 report center is for  people who are badly in need
+Dialogue: 0,0:37:19.63,0:37:20.96,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不是用来玩的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's not for prank call
+Dialogue: 0,0:37:21.10,0:37:22.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我不是开玩笑\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm not kidding
+Dialogue: 0,0:37:22.90,0:37:26.67,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我是见义勇为，我是良好市民呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm just trying to be a good citizen
+Dialogue: 0,0:37:26.74,0:37:28.64,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我六岁就加入“少年警讯”啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I've joined Junior Police since I was six
+Dialogue: 0,0:37:28.71,0:37:31.61,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我把每集都录下来\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I recorded every episode of  “Junior Police” (TV program)
+Dialogue: 0,0:37:31.68,0:37:33.61,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你现在诬蔑我报假案？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Now you're trying to  defame me for false reporting?
+Dialogue: 0,0:37:33.91,0:37:37.04,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}又不是我受伤，也不是我家人受伤\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Neither me nor my family got hurt
+Dialogue: 0,0:37:37.12,0:37:39.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我肯抽时间来报警…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I still take time to report this…
+Dialogue: 0,0:37:48.29,0:37:50.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}妹妹，借个电话\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Miss, can I borrow your phone?
+Dialogue: 0,0:37:51.83,0:37:53.06,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那边不就有电话了？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Isn't there a phone?
+Dialogue: 0,0:37:54.53,0:37:56.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}先生…借个电话我报警\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sir, can I borrow your phone  to call the police?
+Dialogue: 0,0:37:56.50,0:37:58.70,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我正在跟报案中心说话呢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm now talking to them right now
+Dialogue: 0,0:37:59.51,0:38:02.57,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我现在让伤者直接跟你说\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I will let the victim  talk to you directly
+Dialogue: 0,0:38:04.54,0:38:06.77,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂，是不是员警？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello? Is it the police?
+Dialogue: 0,0:38:30.60,0:38:32.47,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}先生，谢谢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thanks, sir
+Dialogue: 0,0:38:32.54,0:38:33.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}谢谢你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thanks
+Dialogue: 0,0:38:34.71,0:38:35.70,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}救护车快到了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The ambulance will be here soon
+Dialogue: 0,0:38:35.78,0:38:36.94,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不用客气…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You're welcome…
+Dialogue: 0,0:38:38.08,0:38:39.20,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}再见\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Bye
+Dialogue: 0,0:38:40.41,0:38:41.54,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你不陪我等员警呀？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Aren't you staying with me  till the police arrive?
+Dialogue: 0,0:38:41.61,0:38:43.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你是男人，不用陪了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You're a big man,  no need for companionship
+Dialogue: 0,0:38:43.28,0:38:44.61,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那你也要录口供呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You have to give your testimony too
+Dialogue: 0,0:38:44.78,0:38:46.08,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这么麻烦？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}So troublesome?
+Dialogue: 0,0:38:46.15,0:38:48.64,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}用你的电话报警，一查就知道了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I used your phone, they can trace back
+Dialogue: 0,0:38:49.86,0:38:50.72,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}别走啊！     我不知道…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Don't go!       Don't ask me…
+Dialogue: 0,0:38:50.79,0:38:52.45,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我什么都不知道呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I know nothing about this
+Dialogue: 0,0:39:17.68,0:39:20.38,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂     麻烦你陆仔\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello?       Is it Luk?
+Dialogue: 0,0:39:20.45,0:39:22.55,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你是谁？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Who is it?
+Dialogue: 0,0:39:22.62,0:39:24.65,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我是玲玲，小学同学\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's Ling Ling,  Luk's primary schooI classmate
+Dialogue: 0,0:39:25.83,0:39:28.42,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}玲玲，你真幸运\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's you, Ling Ling! You're so lucky
+Dialogue: 0,0:39:28.49,0:39:30.55,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你迟十秒打来，我就接不到你的电话\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I won't be able to answer your call  if you call me 10 sec later
+Dialogue: 0,0:39:30.63,0:39:33.33,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你没事吧？     没事…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Are you okay?       Okay…
+Dialogue: 0,0:39:33.40,0:39:35.09,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那就记得今晚来喝喜酒\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Then come to my wedding banquet tonight
+Dialogue: 0,0:39:35.17,0:39:38.50,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}多年没见，我结婚，你没藉口不来吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}We haven't met for years,  you have no excuse for not coming
+Dialogue: 0,0:39:38.57,0:39:40.54,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你来看我有没有嫁错老公嘛\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Please come to check out my Mr. Right
+Dialogue: 0,0:39:40.61,0:39:42.20,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}行…一定来\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Okay… I will come
+Dialogue: 0,0:39:42.31,0:39:43.97,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我现在化妆，不跟你说了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I need to dress-up now, I got to go
+Dialogue: 0,0:39:44.04,0:39:46.53,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}今晚见     好，今晚见\N{\fnTahoma}{\fs12}{\c&H00FFFF&}See you tonight.       Ok, see you tonight
+Dialogue: 0,0:39:49.62,0:39:51.71,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}立即注销这个电话号码\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Cancel this phone number
+Dialogue: 0,0:39:51.78,0:39:54.08,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}在单子上写明\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Write this down…
+Dialogue: 0,0:39:54.15,0:39:56.68,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我的电话已经丢失\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I've already lost my phone
+Dialogue: 0,0:39:58.26,0:40:01.82,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}搞定了，这部是新电话\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's done. This is the new phone
+Dialogue: 0,0:40:01.89,0:40:03.62,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}电话卡在里面了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The sim card is inside
+Dialogue: 0,0:40:03.86,0:40:06.49,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你新的电话号码…记住了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}This is your new phone number… remember
+Dialogue: 0,0:40:06.57,0:40:08.86,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}64897123
+Dialogue: 0,0:40:09.10,0:40:10.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}一小时后可以用了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The service will commence after one hour
+Dialogue: 0,0:40:11.60,0:40:12.83,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}要一个小时？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}An hour later?
+Dialogue: 0,0:40:14.07,0:40:16.63,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}能不能借个电话？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Can I borrow your phone?
+Dialogue: 0,0:40:21.55,0:40:25.42,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有新电话当然要先通知女朋友\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I should tell my girIfriend  about the new number
+Dialogue: 0,0:40:28.32,0:40:29.75,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我有女朋友了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I already have a girIfriend
+Dialogue: 0,0:40:30.76,0:40:33.73,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我现在没空，方便的话请留言\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm not available at the moment,  please leave your message
+Dialogue: 0,0:40:34.63,0:40:37.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂，朱…朱莉亚\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello? Ju… Julia?
+Dialogue: 0,0:40:38.23,0:40:41.22,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}没什么，刚换了一部新电话\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Nothing special, I just got a new phone
+Dialogue: 0,0:40:41.30,0:40:42.03,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}打算跟你…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I want to tell you…
+Dialogue: 0,0:40:42.10,0:40:43.97,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}留言信箱已满\N{\fnTahoma}{\fs12}{\c&H00FFFF&}This voice mail box is full
+Dialogue: 0,0:40:55.92,0:40:57.01,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}谢谢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thanks
+Dialogue: 0,0:40:59.22,0:41:00.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}单据\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Here's your receipt
+Dialogue: 0,0:41:12.97,0:41:16.23,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}师傅劳驾，九龙城鸳鸯酒楼\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Excuse me, please go to Kowloon City,  Yin Yang restaurant
+Dialogue: 0,0:41:22.17,0:41:25.80,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂，陈总编辑\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello? Mr. Chan
+Dialogue: 0,0:41:25.88,0:41:27.44,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是，我是陆仔呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yes, I'm Luk
+Dialogue: 0,0:41:28.31,0:41:30.54,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}对，我还在等你的消息\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yeah, I'm still waiting for your call
+Dialogue: 0,0:41:30.92,0:41:34.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}想跟你说一声，我丢了电话\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I just want to let you know  that I've lost my phone
+Dialogue: 0,0:41:34.55,0:41:42.02,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}现在新电话号码是\N{\fnTahoma}{\fs12}{\c&H00FFFF&}6489…7123\N{\fnTahoma}{\fs12}{\c&H00FFFF&}My new phone number is 6489…7123
+Dialogue: 0,0:41:42.09,0:41:43.49,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}对…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yes…
+Dialogue: 0,0:41:43.56,0:41:45.89,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}等会儿我再用短讯发一次给你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'll text you my new phone number
+Dialogue: 0,0:41:45.97,0:41:47.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}麻烦了，谢谢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thank you
+Dialogue: 0,0:41:49.37,0:41:52.00,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}今天下午四时左右，在观塘区\N{\fnTahoma}{\fs12}{\c&H00FFFF&}This afternoon around  4 o'clock in Kwun Tong
+Dialogue: 0,0:41:52.07,0:41:54.40,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有人从高空掷下腐蚀性液体\N{\fnTahoma}{\fs12}{\c&H00FFFF&}someone threw corrosive liquid  from a building
+Dialogue: 0,0:41:54.47,0:41:56.84,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}在场有二十多名路人被溅中\N{\fnTahoma}{\fs12}{\c&H00FFFF&}More than 20 people were injured
+Dialogue: 0,0:41:56.91,0:42:00.85,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}警方现正在现场一带大厦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}进行逐家逐户调查\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The police is now investigating  the buildings in the area
+Dialogue: 0,0:42:00.91,0:42:02.78,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}暂时未拘捕任可人\N{\fnTahoma}{\fs12}{\c&H00FFFF&}No suspect has been arrested yet
+Dialogue: 0,0:42:02.85,0:42:07.31,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}警方呼吁知情市民\N{\fnTahoma}{\fs12}{\c&H00FFFF&}打举报热线87654321\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The police is now calling on witnesses  to phone the hotline 87654321
+Dialogue: 0,0:42:07.39,0:42:09.58,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}此外，在这宗案件当中…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Besides, in this case…
+Dialogue: 0,0:42:09.66,0:42:11.99,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}一名被硬物击中头部的男伤者\N{\fnTahoma}{\fs12}{\c&H00FFFF&}there's a victim who  was hit by a hard object
+Dialogue: 0,0:42:12.06,0:42:14.55,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不幸被赶至现场的救护车撞倒\N{\fnTahoma}{\fs12}{\c&H00FFFF&}unfortunately got run over  by an ambulance
+Dialogue: 0,0:42:14.63,0:42:16.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}卷入车底，当场死亡\N{\fnTahoma}{\fs12}{\c&H00FFFF&}He's pronounced dead at the scene
+Dialogue: 0,0:42:23.57,0:42:26.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}今晨，九龙城一家茶楼发生凶杀案\N{\fnTahoma}{\fs12}{\c&H00FFFF&}There's a homicide case  in Kowloon City this morning
+Dialogue: 0,0:42:26.67,0:42:29.80,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}两名男子因为一碟棉花鸡引起争执\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Two men's quarrel over Spongy Chicken  led to a fatal fight
+Dialogue: 0,0:42:29.88,0:42:33.14,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}其中一名男子被人\N{\fnTahoma}{\fs12}{\c&H00FFFF&}用硬物重击头部至死\N{\fnTahoma}{\fs12}{\c&H00FFFF&}One of them got killed by a hard object
+Dialogue: 0,0:42:33.21,0:42:35.70,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}警方现正扣留一名男子协助调查\N{\fnTahoma}{\fs12}{\c&H00FFFF&}A suspect has been detained by the police  for further investigation
+Dialogue: 0,0:42:35.71,0:42:38.68,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}(Argument over a dish of Spongy Chicken)  (turned into a fight!)
+Dialogue: 0,0:42:38.95,0:42:40.98,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不是吧，这样也行？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What the hell! Is that true?
+Dialogue: 0,0:42:56.44,0:42:58.49,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}师傅，我在这儿下车吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Excuse me, I'm getting off here
+Dialogue: 0,0:42:58.57,0:42:59.70,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Okay
+Dialogue: 0,0:43:01.37,0:43:02.53,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}谢谢五十八元\N{\fnTahoma}{\fs12}{\c&H00FFFF&}$58, thanks
+Dialogue: 0,0:43:03.01,0:43:04.20,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}六十元，不用找\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Here's $60, keep the change
+Dialogue: 0,0:43:04.28,0:43:05.47,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}谢谢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thanks
+Dialogue: 0,0:43:16.32,0:43:17.98,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}按什么喇叭，赶着去死呀？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Come on, what are you rushing for?
+Dialogue: 0,0:43:24.80,0:43:25.59,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}干嘛拍我的车？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why did you slam on my car?
+Dialogue: 0,0:43:25.66,0:43:26.86,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我问你是不是赶着去死！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm asking you if you are rushing to hell!
+Dialogue: 0,0:43:26.93,0:43:28.19,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是不是赶着去死呀！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Are you rushing to hell?
+Dialogue: 0,0:43:59.20,0:44:02.57,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}(Two drivers fought over cutting in line.)
+Dialogue: 0,0:44:18.38,0:44:20.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}小朋友\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hey, kid
+Dialogue: 0,0:44:20.25,0:44:23.35,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你抽烟就算了，当街看色情书也算了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}If you want to smoke and watch  pornography, that's fine with me
+Dialogue: 0,0:44:23.42,0:44:25.08,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}拜托先脱下校服吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}but please don't wear your schooI uniform
+Dialogue: 0,0:44:25.16,0:44:26.32,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}关你屁事\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's none of your business
+Dialogue: 0,0:44:27.96,0:44:30.16,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老公！     喂\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Honey!       Hi!
+Dialogue: 0,0:44:36.44,0:44:38.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hey…
+Dialogue: 0,0:44:38.50,0:44:40.13,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你们打呗儿就算了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You guys want to kiss in public place,  that's fine with me
+Dialogue: 0,0:44:40.21,0:44:43.66,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}可别当众摸她胸部嘛，大哥\N{\fnTahoma}{\fs12}{\c&H00FFFF&}but come on, please don't hold her breast
+Dialogue: 0,0:44:43.74,0:44:44.80,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这是街上呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Here is a public area
+Dialogue: 0,0:44:44.88,0:44:46.61,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}关你屁事\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's none of your business
+Dialogue: 0,0:44:51.45,0:00:00.00,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}Hello? Okay… come right away  623   -->   So heavy!
+Dialogue: 0,0:44:51.45,0:44:53.68,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂，行…我现在上来
+Dialogue: 0,0:45:02.59,0:45:03.72,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}很重啊
+Dialogue: 0,0:45:05.20,0:45:08.13,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}请大家再靠近一点，对，谢谢…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Everybody get closer, right, thanks…
+Dialogue: 0,0:45:08.20,0:45:09.50,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不好意思，这两位\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Excuse me, you two
+Dialogue: 0,0:45:09.57,0:45:11.83,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}刚好挡住，麻烦你们站出来\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You just blocked them, please stand out
+Dialogue: 0,0:45:11.90,0:45:13.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不…站进去\N{\fnTahoma}{\fs12}{\c&H00FFFF&}No… go inside
+Dialogue: 0,0:45:13.51,0:45:14.84,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}录影来的，要有动感\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's a video, give me some motion
+Dialogue: 0,0:45:14.91,0:45:16.74,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喊开拍时你们才走出来，好不好？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}As I say “action”,  then you guys walk out, okay?
+Dialogue: 0,0:45:18.78,0:45:20.68,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}麻烦你，站这儿\N{\fnTahoma}{\fs12}{\c&H00FFFF&}我不跟他站一起\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You, stand here.  I'm not standing with him
+Dialogue: 0,0:45:21.11,0:45:22.71,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}小姐，你不跟他站一起是吗？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Miss, you're not standing with him?  That's fine
+Dialogue: 0,0:45:22.78,0:45:23.84,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喊开拍你才走\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Just walk away from him  when I say “action”
+Dialogue: 0,0:45:23.92,0:45:25.47,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}前面那排可以先站起来\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The front roll could stand up first
+Dialogue: 0,0:45:25.55,0:45:28.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}对，一二三开机大家才坐下\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Right, sit down after I count to three
+Dialogue: 0,0:45:29.62,0:45:30.95,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}开拍\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Action!
+Dialogue: 0,0:45:31.02,0:45:32.15,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}走吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Motion
+Dialogue: 0,0:45:33.36,0:45:35.99,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}摆什么酒，劳民伤财\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Wedding banquet, my ass
+Dialogue: 0,0:45:36.06,0:45:39.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}新郎说，来宾要蟹柳杯面就可以任点\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The bridegroom said,  only cup noodle could be ordered
+Dialogue: 0,0:45:39.50,0:45:41.59,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}要蟹肉伊面就说卖光了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But not for crabmeat noodle
+Dialogue: 0,0:45:41.67,0:45:44.36,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}没钱就别结婚\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Shit! Shouldn't hold any  wedding banquet if you are broke
+Dialogue: 0,0:45:44.44,0:45:48.07,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有空上东莞，搂搂北妹，喝喝啤酒\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Go to Dongguan hanging out with chicks
+Dialogue: 0,0:45:48.14,0:45:50.44,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}天天娶老婆，你说多开心呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}would be happier
+Dialogue: 0,0:45:54.78,0:45:56.51,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}没关系…再来一次\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It doesn't matter… Take Two
+Dialogue: 0,0:45:56.58,0:45:57.71,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}再斟一杯\N{\fnTahoma}{\fs12}{\c&H00FFFF&}One more
+Dialogue: 0,0:45:59.89,0:46:01.55,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你说他们能好多久？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You guess how long they will last?
+Dialogue: 0,0:46:06.09,0:46:07.96,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我找高人算过了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I've found a prophet to predict that
+Dialogue: 0,0:46:08.03,0:46:10.49,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}他们不出七七四十九天就会离婚\N{\fnTahoma}{\fs12}{\c&H00FFFF&}They will divorce in 49 days
+Dialogue: 0,0:46:11.73,0:46:14.32,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}哪位高人？     姓高，名仁\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Which prophet?       Mr. Profit
+Dialogue: 0,0:46:23.64,0:46:25.74,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}(Chan & Lee's Wedding)
+Dialogue: 0,0:46:35.79,0:46:38.55,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这个又不跟那个坐，怎么办？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}They don't want to sit at the same table,  how could I arrange then?
+Dialogue: 0,0:46:38.62,0:46:40.39,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不如叫他们坐主家席吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Just tell them go sit at the head table
+Dialogue: 0,0:46:40.46,0:46:42.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有人来，欢迎     欢迎\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Here comes a guest. Welcome!       Welcome!
+Dialogue: 0,0:46:43.43,0:46:46.12,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我是新娘的小学同学\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I was the classmate of the bride
+Dialogue: 0,0:46:46.20,0:46:47.46,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}请签名…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Please autograph…
+Dialogue: 0,0:46:57.28,0:46:59.04,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}小学同学，九号卓\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Table 9 for primary schooI  classmate, please
+Dialogue: 0,0:47:00.71,0:47:03.68,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}一点心意，给这对新人\N{\fnTahoma}{\fs12}{\c&H00FFFF&}This is for the bride and groom
+Dialogue: 0,0:47:03.75,0:47:04.87,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}停…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Cut…
+Dialogue: 0,0:47:04.95,0:47:06.54,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不好意思，大哥，刚才来不及开机\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sorry, the camera was not rolling
+Dialogue: 0,0:47:06.62,0:47:07.88,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}请你再来一次，谢谢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Please do it again
+Dialogue: 0,0:47:11.86,0:47:12.95,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}开拍\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Action!
+Dialogue: 0,0:47:14.66,0:47:17.92,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}一点心意，给这对新人\N{\fnTahoma}{\fs12}{\c&H00FFFF&}This is for the bride and groom
+Dialogue: 0,0:47:20.00,0:47:21.97,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}请说几句恭贺话\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Please say something nice  to the newly-weds
+Dialogue: 0,0:47:24.07,0:47:25.66,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}祝你们…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Wish you guys…
+Dialogue: 0,0:47:25.74,0:47:27.47,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}年年有今日\N{\fnTahoma}{\fs12}{\c&H00FFFF&}happily ever after
+Dialogue: 0,0:47:30.84,0:47:32.10,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}岁岁有今朝\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Till death do you guys apart
+Dialogue: 0,0:47:39.32,0:47:42.98,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}臭小子！刚才只顾着玩\N{\fnTahoma}{\fs12}{\c&H00FFFF&}叫你尿也不尿\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Brat! You just care to play  and won't go to washroom
+Dialogue: 0,0:47:43.55,0:47:46.92,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不憋到最后一刻，你都不作声\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You hold your pee till the last minute,  then you give me the ultimatum
+Dialogue: 0,0:47:47.89,0:47:49.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不如像上次那样\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Son, do it like last time
+Dialogue: 0,0:47:49.83,0:47:52.42,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我不尿在洗手盘里\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I don't want to pee in the sink
+Dialogue: 0,0:47:54.50,0:47:56.30,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}为什么…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why…
+Dialogue: 0,0:47:56.37,0:47:58.30,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}为什么不是我！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why it's not me?
+Dialogue: 0,0:47:58.94,0:48:01.27,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}恭喜…      谢谢…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Congratulations…        Thanks
+Dialogue: 0,0:48:01.34,0:48:04.57,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我是你老婆的小学同学陆仔\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm your wife's primary schooI classmate,  my name is Luk
+Dialogue: 0,0:48:05.58,0:48:08.17,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}谢谢赏面…要多喝点\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thanks for coming
+Dialogue: 0,0:48:08.98,0:48:11.38,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}继续说，当我不存在，自然点\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Keep talking as if  I am not here, be natural
+Dialogue: 0,0:48:13.05,0:48:14.88,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你真行呀，真是…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You are great…
+Dialogue: 0,0:48:17.86,0:48:22.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我以前想请你老婆喝维他奶\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I did have a crush on your wife  when we were little
+Dialogue: 0,0:48:24.30,0:48:26.23,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我想了六年都没行动\N{\fnTahoma}{\fs12}{\c&H00FFFF&}but I didn't have a chance
+Dialogue: 0,0:48:26.30,0:48:28.96,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这么惨啊？     你真行\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What a pity!       You are the winner
+Dialogue: 0,0:48:29.03,0:48:31.19,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}对了，你老婆呢？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Right, where's your wife?
+Dialogue: 0,0:48:31.27,0:48:32.53,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}她说累了…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}She said she's tired…
+Dialogue: 0,0:48:32.60,0:48:34.09,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}要换衣服，还要换妆\N{\fnTahoma}{\fs12}{\c&H00FFFF&}and she's got to change and make-up
+Dialogue: 0,0:48:34.17,0:48:35.23,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}欢迎…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Welcome…
+Dialogue: 0,0:48:35.31,0:48:37.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}男家还是女家？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Bride's side or bridegroom's side?
+Dialogue: 0,0:48:37.51,0:48:40.50,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我是新郎的前度女友\N{\fnTahoma}{\fs12}{\c&H00FFFF&}算男家还是女家？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm the bridegroom's ex-girIfriend,  so what do you think?
+Dialogue: 0,0:48:43.48,0:48:45.28,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}新郎哥！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The bridegroom!
+Dialogue: 0,0:48:53.09,0:48:54.52,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}真要恭喜你呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Congratulations
+Dialogue: 0,0:48:57.06,0:48:59.79,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}麻烦你先拍我妈妈那边…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Please shoot my mother first…
+Dialogue: 0,0:48:59.86,0:49:01.13,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}谢谢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thanks
+Dialogue: 0,0:49:02.87,0:49:05.86,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你说不来，怎么会在这儿？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I thought you won't come,  why are you here now?
+Dialogue: 0,0:49:05.94,0:49:07.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是不是很惊喜？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}So are you surprised?
+Dialogue: 0,0:49:10.94,0:49:14.50,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你忘了？你说过要娶我的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Did you forget that  you promised to marry me
+Dialogue: 0,0:49:17.72,0:49:20.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不如…先打几圈麻将吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}How about playing mahjong
+Dialogue: 0,0:49:21.09,0:49:22.31,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我知道我少了什么\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I know what I'm short of
+Dialogue: 0,0:49:33.70,0:49:36.53,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}小姐，请问穿几号尺码？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Miss, what's your size?
+Dialogue: 0,0:49:36.60,0:49:37.57,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}36D\N{\fnTahoma}{\fs12}{\c&H00FFFF&}P0
+Dialogue: 0,0:49:38.47,0:49:42.17,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你是说D…还是C？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Did you say D or C?
+Dialogue: 0,0:49:42.24,0:49:44.61,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你快去拿G号给这位小姐\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Get a G cup for this lady
+Dialogue: 0,0:49:44.68,0:49:45.97,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}G？     对\N{\fnTahoma}{\fs12}{\c&H00FFFF&}G?       Right
+Dialogue: 0,0:49:46.04,0:49:49.07,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}其实戴G号，加些配套就更好\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But G-cup has to go with some accessories
+Dialogue: 0,0:49:49.15,0:49:50.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你看这边\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Look at these
+Dialogue: 0,0:49:52.85,0:49:55.79,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}海棉砵仔糕，价钱便宜一点\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Spongy bra pad, it's economical
+Dialogue: 0,0:49:55.85,0:49:58.05,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}夏天来说，我觉得会比较热\N{\fnTahoma}{\fs12}{\c&H00FFFF&}but they're too thick  for the sweaty summer
+Dialogue: 0,0:49:58.12,0:50:00.72,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}所以有些客人会多花点钱\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Some customers would prefer these
+Dialogue: 0,0:50:00.79,0:50:02.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不怕贵的，买这个\N{\fnTahoma}{\fs12}{\c&H00FFFF&}regardless of the price
+Dialogue: 0,0:50:02.33,0:50:04.49,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}矽胶     是什么呀？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Silicon gel.       What are those?
+Dialogue: 0,0:50:04.56,0:50:07.03,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}矽袋，用来隆胸的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Silicon gel, same material  for breast implants
+Dialogue: 0,0:50:07.10,0:50:08.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你摸摸\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Touch it
+Dialogue: 0,0:50:09.00,0:50:10.40,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}真的很有手感\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It feels so genuine
+Dialogue: 0,0:50:10.47,0:50:12.37,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是啊，穿汗衫、衬衫的话\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yeah, if you wear T-shirt or blouse
+Dialogue: 0,0:50:12.44,0:50:13.99,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}可以用这个，满月型\N{\fnTahoma}{\fs12}{\c&H00FFFF&}you can use the “full moon” pads
+Dialogue: 0,0:50:14.07,0:50:15.54,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}如果是开领的话\N{\fnTahoma}{\fs12}{\c&H00FFFF&}If you wear strapless
+Dialogue: 0,0:50:15.61,0:50:18.13,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}可以用这个，半月型\N{\fnTahoma}{\fs12}{\c&H00FFFF&}you can use the “half moon” pads
+Dialogue: 0,0:50:18.21,0:50:21.24,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}如果是低V，可以用这个新月型\N{\fnTahoma}{\fs12}{\c&H00FFFF&}If you wear deep-V,  you can use the “new moon” pads
+Dialogue: 0,0:50:21.31,0:50:22.61,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}现在做宣传推广\N{\fnTahoma}{\fs12}{\c&H00FFFF&}During the promotion period
+Dialogue: 0,0:50:22.68,0:50:24.91,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}如果你买一盒，三种款式全有了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}you can buy the combo,  all 3 types of pads in one box set
+Dialogue: 0,0:50:25.18,0:50:27.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}适合你任何场所、任何日子\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You can wear them in any occasions
+Dialogue: 0,0:50:27.55,0:50:29.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}以及任何人的评头品足\N{\fnTahoma}{\fs12}{\c&H00FFFF&}to meet the challenge of being  judged by any kind of people
+Dialogue: 0,0:50:29.25,0:50:31.15,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}保证所有自信心全回来\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Satisfaction guarantee.  Regain your confidence
+Dialogue: 0,0:50:31.62,0:50:33.35,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}打个八八折给你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Give you a 12% off discount
+Dialogue: 0,0:50:33.42,0:50:34.45,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}全都包起来！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'll take the combo
+Dialogue: 0,0:50:35.43,0:50:38.16,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你有没有觉得，我今天有什么不同？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Do I look different today?
+Dialogue: 0,0:50:42.47,0:50:44.37,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}妆很浓\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You're heavy make-up
+Dialogue: 0,0:50:44.44,0:50:45.99,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}再往下看\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Look downward
+Dialogue: 0,0:50:50.98,0:50:52.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}介绍我朋友给你认识\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Let me introduce my friend to you
+Dialogue: 0,0:50:53.81,0:50:55.01,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}陆仔\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Luk
+Dialogue: 0,0:50:56.18,0:50:57.34,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}玛丽艾塔\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Marietta
+Dialogue: 0,0:50:59.02,0:51:02.68,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}一场相识…两人打麻将吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You two should play mahjong
+Dialogue: 0,0:51:02.75,0:51:05.05,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}两人怎么打麻将呀？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Mahjong can't be played  byjust two persons
+Dialogue: 0,0:51:05.12,0:51:06.65,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}兄弟…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Buddy…
+Dialogue: 0,0:51:07.09,0:51:08.15,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}一个人没得玩呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You can't play alone
+Dialogue: 0,0:51:08.23,0:51:10.09,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我找了两个牌脚给你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I've found someone  to play mahjong with you
+Dialogue: 0,0:51:10.16,0:51:11.96,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我马上给你找一个\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'lI get one more for you
+Dialogue: 0,0:51:12.03,0:51:13.86,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不用了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}No need
+Dialogue: 0,0:51:13.93,0:51:15.90,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}可乐，还不过来跟我打？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Rocky, will you accept my challenge?
+Dialogue: 0,0:51:18.54,0:51:19.90,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}怕再输给我呀？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Worry about losing to me again?
+Dialogue: 0,0:51:21.94,0:51:24.07,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}说什么呀六宝？怕你？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What did you say, Luk Po?  You think I'm afraid of you?
+Dialogue: 0,0:51:30.18,0:51:32.78,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}对了，各位从事哪个行业？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}By the way, what business are you guys in?
+Dialogue: 0,0:51:32.85,0:51:34.94,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}跟打麻将有什么关系？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why? Is it related to mahjong?
+Dialogue: 0,0:51:35.02,0:51:36.75,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}小弟是搞艺术的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm in contemporary art
+Dialogue: 0,0:51:36.82,0:51:40.85,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}也挺喜欢跟各路英雄打打交道\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I like to meet with people  from alI walks of life
+Dialogue: 0,0:51:41.79,0:51:43.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我做导游\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm a tourist guide
+Dialogue: 0,0:51:43.33,0:51:45.89,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}香港九龙…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hong Kong Kowloon…
+Dialogue: 0,0:51:45.96,0:51:48.63,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我们喜欢香港…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}We loved Hong Kong…
+Dialogue: 0,0:51:50.43,0:51:51.73,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我教跳舞\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm a dance teacher
+Dialogue: 0,0:51:53.87,0:51:56.36,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}乖脚趾…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Good toes…
+Dialogue: 0,0:51:56.44,0:51:59.53,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}坏脚趾…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Naughty toes…
+Dialogue: 0,0:51:59.61,0:52:02.34,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}摘这花…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Pluck this flower…
+Dialogue: 0,0:52:02.41,0:52:05.25,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}采那星…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Pick that star…
+Dialogue: 0,0:52:05.82,0:52:08.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我是护士，在整容诊所工作\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm a nurse in a plastic surgery clinic
+Dialogue: 0,0:52:09.19,0:52:10.62,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我好害怕\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm so scared
+Dialogue: 0,0:52:10.69,0:52:14.12,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不用怕，这种肉毒杆菌针很多人打过\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Don't be scared, many people  have tried “botox” before
+Dialogue: 0,0:52:14.19,0:52:16.22,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不是，我是怕外面的狗仔队\N{\fnTahoma}{\fs12}{\c&H00FFFF&}No, I'm scared of  those paparazzi waiting outside
+Dialogue: 0,0:52:16.29,0:52:17.99,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}等会儿我怎么出去？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}How could I leave here?
+Dialogue: 0,0:52:18.06,0:52:20.50,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}张太太，你放心，我有办法\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Mrs. Cheung, don't be afraid.  I have an idea
+Dialogue: 0,0:52:20.56,0:52:22.12,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}先躺下，打支针\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Just lie down, get the shot
+Dialogue: 0,0:52:24.54,0:52:25.59,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}真的认不出来？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Are you sure they can't recognize me?
+Dialogue: 0,0:52:25.67,0:52:28.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你戴上这假发就认不出来了，我帮你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}As long as you put on this wig,  let me help you
+Dialogue: 0,0:52:30.74,0:52:31.87,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}保证认不出来\N{\fnTahoma}{\fs12}{\c&H00FFFF&}No one could recognize you
+Dialogue: 0,0:52:31.94,0:52:33.67,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我带你走后门\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'll take you out from the back door
+Dialogue: 0,0:52:34.38,0:52:37.07,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你的工作挺偏的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yourjob is kind of unique
+Dialogue: 0,0:52:37.52,0:52:40.01,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是不是看到很多人性弱点？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}So you have seen the  weakness of human nature?
+Dialogue: 0,0:52:40.08,0:52:41.68,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这是我的名片\N{\fnTahoma}{\fs12}{\c&H00FFFF&}This is my name card
+Dialogue: 0,0:52:42.65,0:52:44.28,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我换了电话\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I've just changed my phone number
+Dialogue: 0,0:52:45.12,0:52:47.35,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这是新电话\N{\fnTahoma}{\fs12}{\c&H00FFFF&}This is the new number
+Dialogue: 0,0:52:47.43,0:52:49.72,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有空出来喝喝茶\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Let's meet some other time
+Dialogue: 0,0:52:49.79,0:52:53.39,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}刺激一下我的创作灵感也好呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}So you can tell me  some inspirational stories
+Dialogue: 0,0:52:53.46,0:52:55.59,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}谁打骰子？     我\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Who's gonna throw the dice?       Me
+Dialogue: 0,0:53:05.38,0:53:06.67,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}到你摸牌\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Your turn
+Dialogue: 0,0:53:06.74,0:53:08.87,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}干嘛？找朋友？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What's the matter? Looking for friends?
+Dialogue: 0,0:53:08.95,0:53:12.31,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不…新娘换衣服很久了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}No… the bride has taken  so long to get changed
+Dialogue: 0,0:53:12.38,0:53:14.65,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}都没看见我的小学同学\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I haven't seen any of  my primary schooI's classmates
+Dialogue: 0,0:53:14.72,0:53:17.85,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}小学同学？都已经变样啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Primary schooI's classmates?  They might have changed so much
+Dialogue: 0,0:53:17.92,0:53:19.25,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不会那么容易认啊\N{\fnTahoma}{\fs12}{\c&H00FFFF&}How could you recognize them?
+Dialogue: 0,0:53:21.43,0:53:23.36,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}自摸双辣！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Win on “self-draw”, it is “one suit”
+Dialogue: 0,0:53:24.20,0:53:26.79,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这么快自摸？说不定是骗子出千\N{\fnTahoma}{\fs12}{\c&H00FFFF&}So soon? Are you cheating?
+Dialogue: 0,0:53:26.86,0:53:27.83,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你说什么？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What did you say?
+Dialogue: 0,0:53:27.90,0:53:30.66,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}什么！就是你一向用的阴招\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What? You used to play sly trick
+Dialogue: 0,0:53:30.74,0:53:33.23,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}安吉莉娜宝贝就是这样被你撬走的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}That's how you stole  Angelina Baby from me
+Dialogue: 0,0:53:33.30,0:53:35.70,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你说，你亲我的时候是不是想着她？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Tell me, are you thinking of her  when you kiss me?
+Dialogue: 0,0:53:36.94,0:53:38.27,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}哪个她呀？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Who's “her”?
+Dialogue: 0,0:53:41.11,0:53:42.34,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你干嘛？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What's wrong?
+Dialogue: 0,0:53:46.15,0:53:48.55,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}六宝说，你整天躲在厕所看她\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Luk Po said you enjoy watching her  photo-collection in the washroom
+Dialogue: 0,0:53:50.89,0:53:52.95,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这本书不是我的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}This book's not mine
+Dialogue: 0,0:53:53.02,0:53:54.25,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}安吉莉娜宝贝！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Angelina Baby!
+Dialogue: 0,0:53:58.50,0:53:59.55,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}六宝！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Luk Po!
+Dialogue: 0,0:54:05.20,0:54:06.57,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}多嘴问一下\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'd like to ask…
+Dialogue: 0,0:54:06.67,0:54:09.07,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}谁是安吉莉娜宝贝？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Who's Angelina Baby?
+Dialogue: 0,0:54:09.14,0:54:11.30,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}就是撬走我新郎哥的那个！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The one that took away my bridegroom
+Dialogue: 0,0:54:11.71,0:54:13.20,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}彼得\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Peter
+Dialogue: 0,0:54:14.31,0:54:15.97,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你是不是娶我？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Will you marry me?
+Dialogue: 0,0:54:20.22,0:54:21.45,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有样东西给你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I have something for you
+Dialogue: 0,0:54:28.69,0:54:30.66,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你连喜帖都印好啦？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You even got our  wedding invitation card ready?
+Dialogue: 0,0:54:31.00,0:54:32.22,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}亲亲\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Kiss
+Dialogue: 0,0:54:38.30,0:54:40.79,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}安吉莉娜与彼得？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Angelina and Peter?
+Dialogue: 0,0:54:40.87,0:54:42.93,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你跟那个婆娘结婚？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You're gonna marry that bitch?
+Dialogue: 0,0:54:43.01,0:54:44.67,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}怎么会这样？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why?
+Dialogue: 0,0:54:45.31,0:54:47.90,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}没办法，她…有了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I've no choice, she's pregnant
+Dialogue: 0,0:54:50.38,0:54:52.85,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你不是说她打掉了吗？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Didn't you say she has  gone through an abortion?
+Dialogue: 0,0:54:52.92,0:54:54.32,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是，但是…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yes, but…
+Dialogue: 0,0:54:54.39,0:54:56.25,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}又有了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}She's pregnant again
+Dialogue: 0,0:54:56.32,0:54:59.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}怎么会这样？你个混蛋！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}How could it be possible? You bastard!
+Dialogue: 0,0:55:02.63,0:55:05.93,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你们的关系真是错综复杂\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You guys have such a  complicated and messy relationship
+Dialogue: 0,0:55:06.00,0:55:08.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不是虚线，就是实线\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Just like entangling lines  in a relationship chart
+Dialogue: 0,0:55:13.24,0:55:16.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}小姐，这是表面上假好心\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Miss, that's pretentious
+Dialogue: 0,0:55:16.51,0:55:18.63,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}实情是害你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}In fact they're trying to harm you
+Dialogue: 0,0:55:18.71,0:55:19.68,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你说什么？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What did you say?
+Dialogue: 0,0:55:19.74,0:55:21.84,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}打牌搭人家肩膀呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Tapping on someone's shoulder  when playing mahjong is bad luck
+Dialogue: 0,0:55:21.91,0:55:23.88,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}东西可以乱拍，话可不能乱讲\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You should watch your mouth
+Dialogue: 0,0:55:27.12,0:55:30.55,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}虽然你我素昧平生\N{\fnTahoma}{\fs12}{\c&H00FFFF&}AIthough it's the first time we meet
+Dialogue: 0,0:55:30.62,0:55:33.45,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}但我能够体会你的伤感\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I do understand how sorrowful you are
+Dialogue: 0,0:55:33.92,0:55:37.66,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}因为小弟今早也被女朋友抛弃了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}My girIfriend has dumped me this morning
+Dialogue: 0,0:55:40.36,0:55:43.80,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这里有包纸巾，希望能帮你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Here's tissue paper, hope it'll help
+Dialogue: 0,0:55:46.64,0:55:50.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}带纸巾外出的男生真的很体贴\N{\fnTahoma}{\fs12}{\c&H00FFFF&}A guy that brings tissue paper along  must be tender-loving-care
+Dialogue: 0,0:55:50.67,0:55:52.40,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你女朋友不识货\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's your girIfriend's loss
+Dialogue: 0,0:55:53.94,0:55:55.47,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你女朋友错失良机\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Your girIfriend missed a Mr. Right
+Dialogue: 0,0:56:02.25,0:56:02.88,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello?
+Dialogue: 0,0:56:02.95,0:56:04.72,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你那边踩场踩成怎样？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}How are you doing in the wedding banquet?
+Dialogue: 0,0:56:05.06,0:56:07.25,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我还没看见那婆娘\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I haven't seen that bitch yet
+Dialogue: 0,0:56:07.32,0:56:10.12,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}现在踩到麻将卓上了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm now playing mahjong
+Dialogue: 0,0:56:10.19,0:56:11.46,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}说回你那笔…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Regarding you…
+Dialogue: 0,0:56:11.53,0:56:14.66,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我有个很细心的好男生介绍给你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I do have a tender-loving-care  guy for you
+Dialogue: 0,0:56:14.73,0:56:15.79,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你等等\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Wait
+Dialogue: 0,0:56:17.17,0:56:18.33,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不会吧…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}No way…
+Dialogue: 0,0:56:20.14,0:56:21.40,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}他不要，让给我\N{\fnTahoma}{\fs12}{\c&H00FFFF&}He passes, give it to me
+Dialogue: 0,0:56:22.41,0:56:23.74,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}他害羞啊\N{\fnTahoma}{\fs12}{\c&H00FFFF&}He's too shy
+Dialogue: 0,0:56:23.81,0:56:25.90,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我回头传他的电话号码给你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'll text you his phone number later
+Dialogue: 0,0:56:26.11,0:56:27.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}他是个…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}He is…
+Dialogue: 0,0:56:27.55,0:56:31.04,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}带纸巾，够细心，大好青年\N{\fnTahoma}{\fs12}{\c&H00FFFF&}a tender-loving-care young man  who brings along tissue paper
+Dialogue: 0,0:56:31.12,0:56:32.41,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你耍我呀？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Don't try to fooI me!
+Dialogue: 0,0:56:32.48,0:56:35.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不跟你说了，我要打麻将减压\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm hanging up, I need to play mahjong  to relieve my stress
+Dialogue: 0,0:56:35.55,0:56:36.85,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}再见…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Bye…
+Dialogue: 0,0:56:46.63,0:56:50.00,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}(A tender-loving-care young man who brings)  (along tissue paper. Phone number: 64897123.)
+Dialogue: 0,0:57:01.31,0:57:05.08,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}六对半！一双一对，真扎眼\N{\fnTahoma}{\fs12}{\c&H00FFFF&}6 pairs and a half! Suck! All in pairs
+Dialogue: 0,0:57:05.15,0:57:06.67,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那就做对对糊吧？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Go for “all pong hand” then?
+Dialogue: 0,0:57:06.75,0:57:09.72,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你是挪移还是挖苦？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}我偏不做对对糊！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Are you teasing me?  I won't go for“ all pong hand” though
+Dialogue: 0,0:57:10.45,0:57:12.55,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有种你就拆散它们吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Dare you break them up
+Dialogue: 0,0:57:15.26,0:57:16.92,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}拆散你！     碰！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Break you up!       Pong!
+Dialogue: 0,0:57:28.17,0:57:30.73,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}拆散你！     碰！南！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Break you up!       Pong! “South”!
+Dialogue: 0,0:57:30.81,0:57:32.54,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你不是吧？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Are you kidding?
+Dialogue: 0,0:57:32.61,0:57:35.77,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}在我人生最悲伤的时候\N{\fnTahoma}{\fs12}{\c&H00FFFF&}你叫大四喜？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's the saddest time in my life；  you are ready to claim for “big 4 winds”?
+Dialogue: 0,0:57:35.85,0:57:38.47,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你是不是串通他们一起来耍我？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Are you guys trying to set me up?
+Dialogue: 0,0:57:38.55,0:57:41.02,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}没这种事…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Of course not…
+Dialogue: 0,0:57:41.09,0:57:43.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}塘边鹤，他是不是做大四喜？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Bystander, is he claiming  for “big 4 winds”?
+Dialogue: 0,0:57:43.29,0:57:44.81,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是不是？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Isn't it?
+Dialogue: 0,0:57:44.89,0:57:47.62,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你们问我已经很不对了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's not right for you to ask me
+Dialogue: 0,0:57:47.69,0:57:50.02,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我再回答，不就更错？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}And it'll be wrong for me to answer you
+Dialogue: 0,0:57:52.60,0:57:54.46,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这位兄弟，等会儿…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Buddy, wait…
+Dialogue: 0,0:57:54.53,0:57:56.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}如果有人打番子出来，你喊糊的话\N{\fnTahoma}{\fs12}{\c&H00FFFF&}If someone discards an honour tile  and you're claiming for a win
+Dialogue: 0,0:57:56.83,0:57:58.63,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}记得要喊大声点，清楚点\N{\fnTahoma}{\fs12}{\c&H00FFFF&}then you have to  declare it loud and clear
+Dialogue: 0,0:57:58.70,0:58:01.83,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}看这儿，记住要笑\N{\fnTahoma}{\fs12}{\c&H00FFFF&}And, look at the camera,  remember to smile
+Dialogue: 0,0:58:01.91,0:58:03.10,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}笑呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Smile
+Dialogue: 0,0:58:22.26,0:58:25.02,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}别想了，拆了就拆吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Don't think about that,  just break them up
+Dialogue: 0,0:58:25.10,0:58:27.39,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}拆散你！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}你怎么这么多事？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Break you up!       Are you that nosy?
+Dialogue: 0,0:58:38.71,0:58:39.77,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}拆啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Break them up
+Dialogue: 0,0:58:39.84,0:58:42.28,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是你打还是她打？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}请问谁打呢？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Who's playing now?  May I know who is playing now?
+Dialogue: 0,0:58:42.35,0:58:44.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我打！拆散你！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm playing! Break you up!
+Dialogue: 0,0:58:56.59,0:58:57.92,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}再拆吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Again
+Dialogue: 0,0:58:59.13,0:59:00.53,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}拆散你！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Break them up!
+Dialogue: 0,0:59:00.60,0:59:02.90,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}现在是你打还是她打呀？…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Who's playing now? You or she?…
+Dialogue: 0,0:59:15.85,0:59:16.97,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}六筒\N{\fnTahoma}{\fs12}{\c&H00FFFF&}“6 stones”
+Dialogue: 0,0:59:25.39,0:59:26.82,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我不拆啦！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm not gonna break these two up
+Dialogue: 0,0:59:28.26,0:59:30.25,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}七筒     吃！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}“7 stones”!       “Hu”! (Winning)
+Dialogue: 0,0:59:32.40,0:59:34.52,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}吃回七筒这么狡猾？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You're so cunning to have  a “ready hand” for a “7 stones”
+Dialogue: 0,0:59:34.60,0:59:36.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我出冲了？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Huh? I have to pay double?
+Dialogue: 0,0:59:36.83,0:59:39.50,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还好，鸡糊来的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's lucky that it's  just a “chicken hand”
+Dialogue: 0,0:59:39.64,0:59:43.50,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你错啦，这里一台花，加一张正花\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You're wrong, here's a  “all flowers” and a “seat season”
+Dialogue: 0,0:59:43.57,0:59:44.87,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}三番\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Three “fans”. (points)
+Dialogue: 0,0:59:47.41,0:59:48.88,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}又输啦！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Lost again
+Dialogue: 0,0:59:57.19,1:00:00.78,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我的纸巾给你用光了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You used up my tissues
+Dialogue: 0,1:00:00.86,1:00:03.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}或者，要不要离开这个伤心地？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Should you leave such a grieving place?
+Dialogue: 0,1:00:04.63,1:00:06.56,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是啊，你还留在这儿干嘛？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yeah, why should you stay here?
+Dialogue: 0,1:00:06.73,1:00:09.72,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}何必让人在你的伤口上洒盐呢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Shouldn't let people  sow salt on your wound
+Dialogue: 0,1:00:10.13,1:00:11.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我来这里做事的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm here to “work”
+Dialogue: 0,1:00:11.77,1:00:12.93,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}做什么？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What?
+Dialogue: 0,1:00:13.77,1:00:16.93,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你关掉摄影机，我告诉你们\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You switched that off and I'll tell you
+Dialogue: 0,1:00:17.01,1:00:18.03,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好，我不拍\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Okay, already off
+Dialogue: 0,1:00:22.01,1:00:23.54,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}知不知道这瓶是什么？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Do you know what this is?
+Dialogue: 0,1:00:23.61,1:00:25.08,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}什么来的？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What?
+Dialogue: 0,1:00:25.15,1:00:26.98,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}肉毒杆菌\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Botulinus
+Dialogue: 0,1:00:27.05,1:00:28.31,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}名字这么毒？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What an awful name!
+Dialogue: 0,1:00:28.39,1:00:29.78,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}也就是Botox\N{\fnTahoma}{\fs12}{\c&H00FFFF&}That's Botox
+Dialogue: 0,1:00:29.85,1:00:33.85,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是整容诊所帮人瘦面去皱纹用的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's used in plastic surgery clinic  for wrinkle elimination
+Dialogue: 0,1:00:33.92,1:00:35.59,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}就是你打的那种？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You have tried that?
+Dialogue: 0,1:00:35.66,1:00:36.89,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}差不多\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Kind of
+Dialogue: 0,1:00:36.96,1:00:39.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不过，这瓶是经过提炼\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But this one's been refined
+Dialogue: 0,1:00:39.83,1:00:42.09,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}高纯度的肉毒杆菌\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's highly concentrated
+Dialogue: 0,1:00:42.17,1:00:45.47,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}要是吃进肚子里\N{\fnTahoma}{\fs12}{\c&H00FFFF&}绝对可以杀人于无形\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It could kill if taken orally
+Dialogue: 0,1:00:45.54,1:00:49.56,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不过我现在烦恼着\N{\fnTahoma}{\fs12}{\c&H00FFFF&}应该把它放在第几道菜\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm wondering in which dish  I should put this
+Dialogue: 0,1:00:49.64,1:00:51.67,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}才不会伤及小朋友\N{\fnTahoma}{\fs12}{\c&H00FFFF&}so that no children will be hurt
+Dialogue: 0,1:00:52.91,1:00:56.78,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}以我的经验\N{\fnTahoma}{\fs12}{\c&H00FFFF&}小朋友吃完鱼翅就到处跑\N{\fnTahoma}{\fs12}{\c&H00FFFF&}According to my experience, children run  around after having the shark's fins
+Dialogue: 0,1:01:12.13,1:01:13.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你不可以这样做！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You can't do that!
+Dialogue: 0,1:01:13.66,1:01:14.86,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}为什么？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why?
+Dialogue: 0,1:01:17.30,1:01:18.46,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}让我来\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Let me do it
+Dialogue: 0,1:01:19.97,1:01:21.87,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}知不知道这瓶是什么？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Do you know what this is?
+Dialogue: 0,1:01:21.94,1:01:23.84,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}可乐呗     当然不是\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Coke.       Of course not
+Dialogue: 0,1:01:23.91,1:01:26.03,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这瓶可乐昨晚已经被我喝光了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I drank the coke last night
+Dialogue: 0,1:01:26.18,1:01:27.97,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这经典的可乐瓶子里面\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Now, it's highly  concentrated flammable liquid
+Dialogue: 0,1:01:28.05,1:01:30.24,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}装的是高度易燃液体\N{\fnTahoma}{\fs12}{\c&H00FFFF&}inside this classic coke bottle
+Dialogue: 0,1:01:30.31,1:01:32.08,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这么厉害？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}So cooI
+Dialogue: 0,1:01:32.15,1:01:33.08,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有没有学名？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Is there any technical name for that?
+Dialogue: 0,1:01:33.15,1:01:35.62,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你懂个屁！化学你都不及格\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You know shit about that!  You failed your chemistry though
+Dialogue: 0,1:01:35.69,1:01:37.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你只会勾人家的女人！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You just know luring other's girIfriend
+Dialogue: 0,1:01:37.55,1:01:39.15,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}安吉莉娜宝贝呀！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Angelina Baby!
+Dialogue: 0,1:01:41.26,1:01:45.02,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}待会你们找个安全地方躲一躲\N{\fnTahoma}{\fs12}{\c&H00FFFF&}When the time comes, you guys better  find a safe place to hide
+Dialogue: 0,1:01:45.10,1:01:47.62,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你呀，要把我拍得好看点\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You must take good shot of me
+Dialogue: 0,1:01:48.63,1:01:49.86,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我会…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I will…
+Dialogue: 0,1:01:51.90,1:01:54.53,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}谢谢各位来宾赏面出席\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Thanks for coming to our banquet
+Dialogue: 0,1:01:54.61,1:01:55.83,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}大家干杯！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Cheers!
+Dialogue: 0,1:01:56.81,1:02:00.40,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}各位来宾，我的宝贝！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Ladies and gentlemen,  I loved Angelina Baby!
+Dialogue: 0,1:02:09.75,1:02:11.78,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我不是泼你冷水\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm not trying to discourage you
+Dialogue: 0,1:02:11.86,1:02:13.95,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}但我觉得你很蠢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But I think you're so stupid
+Dialogue: 0,1:02:14.02,1:02:16.99,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我把你拍得多帅也没用，你都看不到\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You wouldn't be able to see it  even I've taken good shot of you
+Dialogue: 0,1:02:18.43,1:02:21.06,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}他一直是这样，思想只有幼稚园程度\N{\fnTahoma}{\fs12}{\c&H00FFFF&}He's always like this,  he's just up to kindergarten level
+Dialogue: 0,1:02:22.87,1:02:24.36,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}看看我吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Watch me
+Dialogue: 0,1:02:26.07,1:02:28.47,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}希望大家今晚多喝一杯！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hope you will enjoy the dinner. Cheers!
+Dialogue: 0,1:02:31.78,1:02:33.61,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好，我们祝贺这对新人！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Okay, let's greet on the newlyweds
+Dialogue: 0,1:02:33.68,1:02:35.17,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}恭喜…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Congratulations…
+Dialogue: 0,1:02:35.25,1:02:37.94,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}先生女士们，小朋友和大人\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Ladies and Gentlemen…
+Dialogue: 0,1:02:38.02,1:02:40.61,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我们一起欣赏这对新人的浪漫史\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Let's share the romantic  story of the couple
+Dialogue: 0,1:02:40.68,1:02:41.88,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}放片！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Here it goes!
+Dialogue: 0,1:03:00.44,1:03:02.03,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}怎么不是新郎？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's not the groom?
+Dialogue: 0,1:03:05.48,1:03:07.31,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}宝贝…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Angelina Baby…
+Dialogue: 0,1:03:09.38,1:03:09.87,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}正点\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Great!
+Dialogue: 0,1:03:09.95,1:03:13.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你们俩待会什么都别做\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You two, don't do anything
+Dialogue: 0,1:03:13.72,1:03:17.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我玛丽艾塔要做的事，谁也阻挡不了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}No one can stop what  Marietta is going to do
+Dialogue: 0,1:03:17.25,1:03:20.16,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你这样活活杀光了观众\N{\fnTahoma}{\fs12}{\c&H00FFFF&}If you kill all my audience
+Dialogue: 0,1:03:20.22,1:03:22.25,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}没有人看我殉情了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}no one can see me  being the martyr of loved
+Dialogue: 0,1:03:22.56,1:03:25.05,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你那个光害人，你那个光害自己\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Your way will only harm the others  while yours will only harm yourself
+Dialogue: 0,1:03:25.13,1:03:26.56,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我这个又害人又害己\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Mine will do both
+Dialogue: 0,1:03:26.63,1:03:29.00,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}当然首选我这个杀伤力最强的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}My way is most harmful. Use mine
+Dialogue: 0,1:03:29.13,1:03:32.00,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}大哥，你快说句公道话\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Bro, you should say something
+Dialogue: 0,1:03:34.34,1:03:37.74,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你，搞生化战，涂炭生灵\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You are deploying biochemical lethal stuff,  plunging people into abyss of misery
+Dialogue: 0,1:03:37.81,1:03:40.17,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你傻兮兮，自找苦吃\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You are such a fooI,  kicking yourself against the pricks
+Dialogue: 0,1:03:40.24,1:03:41.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}最坏是你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You are so evil
+Dialogue: 0,1:03:41.24,1:03:44.15,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}非法强迫他人分享你的淫亵影片\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You force others to  share your obscene clip
+Dialogue: 0,1:03:44.21,1:03:46.61,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}缺德老套，天怒人怨！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Wicked, tacky and indignant
+Dialogue: 0,1:03:46.68,1:03:49.15,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}摄影师哥哥，请问…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Bro, I'd like to ask…
+Dialogue: 0,1:03:49.22,1:03:52.99,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你口袋里那支笔怎么会有灯亮着？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why is your pen having a light?
+Dialogue: 0,1:03:53.06,1:03:55.35,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你偷拍？     你偷拍我们？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You…  You are taking sneaky shot on us?
+Dialogue: 0,1:03:55.43,1:03:56.92,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}偷拍？     放手…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Taking sneaky shot?       Let me go…
+Dialogue: 0,1:03:56.99,1:03:58.96,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我有你们三个的犯罪证据\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I got the proof of you guys' crime
+Dialogue: 0,1:03:59.03,1:04:00.93,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你们三个的下场都会一样\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You guys wilI have the same ending
+Dialogue: 0,1:04:01.00,1:04:02.56,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}仆…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Damn…
+Dialogue: 0,1:04:02.63,1:04:04.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你有种再仆一次？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Dare you say that again?
+Dialogue: 0,1:04:04.50,1:04:05.66,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我不仆啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm not
+Dialogue: 0,1:04:05.74,1:04:06.79,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I fxxk you all fxxking bastards
+Dialogue: 0,1:04:06.87,1:04:09.00,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你…      我让你仆！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You…       Damn you!
+Dialogue: 0,1:04:11.51,1:04:12.91,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}太失礼了！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Too shameful!
+Dialogue: 0,1:04:31.50,1:04:33.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}什么事？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What's happening?
+Dialogue: 0,1:04:33.33,1:04:35.59,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}上面是拍电影还是着火了？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Is it on show or on fire up there?
+Dialogue: 0,1:04:35.77,1:04:37.43,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是不是砍人呀？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Is someone got chopped up?
+Dialogue: 0,1:04:37.50,1:04:41.10,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}麻烦让让…      陆仔…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Give way…       Luk…
+Dialogue: 0,1:04:41.17,1:04:42.07,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你是谁？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Who are you?
+Dialogue: 0,1:04:42.14,1:04:44.37,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我是玲玲呀，你怎么从上面下来？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm Ling Ling.  Why are you coming from up there?
+Dialogue: 0,1:04:46.84,1:04:48.71,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}(Chan & Lee's Wedding)
+Dialogue: 0,1:04:49.81,1:04:51.25,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我不知道…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I don't know…
+Dialogue: 0,1:04:51.31,1:04:52.78,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}上面发生什么事？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}恭喜了…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What happened up there?  Congratulations…
+Dialogue: 0,1:04:52.85,1:04:54.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}早生贵子！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hope you'll give birth soon
+Dialogue: 0,1:05:03.39,1:05:07.19,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我现在正忙，请留下口讯\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I am busy right now,  please leave a message
+Dialogue: 0,1:05:07.26,1:05:09.26,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}朱莉亚！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Julia!
+Dialogue: 0,1:05:09.33,1:05:11.32,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}朱莉亚，是我呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Julia, it's me
+Dialogue: 0,1:05:11.40,1:05:15.17,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不知道为何今天这么背\N{\fnTahoma}{\fs12}{\c&H00FFFF&}走到哪都遇上坏事\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I don't know why I'm so pissed today,  all the bad things are coming to me
+Dialogue: 0,1:05:15.24,1:05:17.14,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我可能开始倒楣了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I must be out of luck
+Dialogue: 0,1:05:18.24,1:05:20.40,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}其实你走得真是时候\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You left at good timing
+Dialogue: 0,1:05:21.38,1:05:23.24,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我不想连累你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I don't want you to  get invoIved in my bad luck
+Dialogue: 0,1:05:25.02,1:05:28.47,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}总之，祝你幸福\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Anyway, all the best
+Dialogue: 0,1:05:33.86,1:05:35.59,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}朱莉亚     喂…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Julia?       Hello…
+Dialogue: 0,1:05:35.66,1:05:37.09,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}陈总编\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Oh, Mr. Chan
+Dialogue: 0,1:05:37.16,1:05:39.92,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你马上来“危情夜总会”\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Come to “Against All Odds Club” now
+Dialogue: 0,1:05:40.00,1:05:41.09,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}夜总会？     卡拉OK呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Club?       Karaoke
+Dialogue: 0,1:05:42.83,1:05:45.06,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是卡拉OK还是夜总会呀？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's karaoke or club?
+Dialogue: 0,1:05:45.94,1:05:49.06,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是“危情卡拉OK夜总会”\N{\fnTahoma}{\fs12}{\c&H00FFFF&}行了吗？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's “Against All Odds Karaoke Club”, okay?
+Dialogue: 0,1:05:49.14,1:05:50.54,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老板在等你呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Boss is waiting for you here
+Dialogue: 0,1:05:50.61,1:05:52.37,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}马上来…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Okay, I'll be right there
+Dialogue: 0,1:05:54.78,1:05:58.04,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}(A man was killed in a)  (wedding banquet conflict.)
+Dialogue: 0,1:06:11.06,1:06:14.96,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老板，我最近很失落\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Boss, I've been so down lately
+Dialogue: 0,1:06:15.03,1:06:18.73,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}妈妈病了，妹妹又要交学费\N{\fnTahoma}{\fs12}{\c&H00FFFF&}My mom is sick,  I've to pay for my sis' tuition fee
+Dialogue: 0,1:06:18.80,1:06:22.53,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}昨天，有个老板说要包我三个月\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yesterday, a boss asked me  to be his mistress for 3 months
+Dialogue: 0,1:06:22.61,1:06:25.01,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}但是，我最舍不得是你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But I miss you so much
+Dialogue: 0,1:06:25.08,1:06:27.51,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}所以还在考虑\N{\fnTahoma}{\fs12}{\c&H00FFFF&}So I'm still thinking about that…
+Dialogue: 0,1:06:27.58,1:06:28.84,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}等会儿你就跟你的客人说\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Then you'd tell your other clients  that you've been so down lately
+Dialogue: 0,1:06:28.91,1:06:32.11,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你很失落，妈妈病了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}妹妹没钱交学费\N{\fnTahoma}{\fs12}{\c&H00FFFF&}your mom is sick and you've to  pay for your sis' tuition fee
+Dialogue: 0,1:06:32.18,1:06:34.28,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}昨天有个老板说要包你三个月\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yesterday, a boss asked you  to be his mistress for 3 months
+Dialogue: 0,1:06:34.35,1:06:35.41,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}但你最舍不得他\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But you miss him so much
+Dialogue: 0,1:06:35.49,1:06:37.39,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}所以还在考虑，明白吗？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}And you're still thinking  about that, okay?
+Dialogue: 0,1:06:55.44,1:06:56.77,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好不好听？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}How's that?
+Dialogue: 0,1:06:58.18,1:07:00.44,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}叫大声一点嘛，拍手\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Louder! Clap hands!
+Dialogue: 0,1:07:01.51,1:07:05.54,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}大声一点…老板唱得好！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Louder! Boss, you sing so well
+Dialogue: 0,1:07:06.85,1:07:08.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老板，是这边呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Boss is over there
+Dialogue: 0,1:07:08.25,1:07:09.58,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}怎样，有没有听我唱歌？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What's up? Did you listen to my singing?
+Dialogue: 0,1:07:09.65,1:07:12.45,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}过儿哥，你唱得很好听\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Don Guo, you sang so well
+Dialogue: 0,1:07:19.13,1:07:20.36,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}当然好听     好听啊\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's good though.       It's nice
+Dialogue: 0,1:07:20.43,1:07:21.95,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}闪开…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Piss off…
+Dialogue: 0,1:07:22.03,1:07:25.40,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老板…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Boss…
+Dialogue: 0,1:07:25.47,1:07:28.77,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}怎样？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}他就是那个画画的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What's it?       He's the cartoonist
+Dialogue: 0,1:07:28.84,1:07:30.97,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老板，你好！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hi, boss
+Dialogue: 0,1:07:31.04,1:07:33.31,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你就是画画的？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You are the cartoonist?
+Dialogue: 0,1:07:33.38,1:07:35.31,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}样子长得挺卡通\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Your look is funny though
+Dialogue: 0,1:07:36.35,1:07:37.64,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}今晚想怎样醉？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}How would you like to get drunk tonight?
+Dialogue: 0,1:07:37.71,1:07:39.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}白兰地、红酒、女人、大麻\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Brandy, red wine, women, cannabis…
+Dialogue: 0,1:07:39.55,1:07:41.14,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}什么都有，任君选择\N{\fnTahoma}{\fs12}{\c&H00FFFF&}We've everything here
+Dialogue: 0,1:07:42.25,1:07:44.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老板问你想怎样醉呀\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Boss is asking how  you would like to get drunk
+Dialogue: 0,1:07:47.19,1:07:49.95,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老板…这样…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Boss… well…
+Dialogue: 0,1:07:50.03,1:07:52.89,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}听完故事才醉，行不行？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}May I tell the story before I get drunk?
+Dialogue: 0,1:07:54.56,1:07:56.40,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}行，陈仔\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Okay, Punk
+Dialogue: 0,1:07:56.47,1:07:59.70,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}学着吧，这就叫专业\N{\fnTahoma}{\fs12}{\c&H00FFFF&}you should learn this,  that's what we call professional
+Dialogue: 0,1:07:59.77,1:08:01.57,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}倒杯酒给他\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Give him a drink
+Dialogue: 0,1:08:01.64,1:08:03.97,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还不谢谢老板\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Shouldn't you thank boss?
+Dialogue: 0,1:08:07.24,1:08:09.94,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喝吧！     谢谢…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Drink up.       Thanks…
+Dialogue: 0,1:08:22.99,1:08:25.46,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}老板，不介意的话，我就开始了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Boss, I'd like to start now
+Dialogue: 0,1:08:25.53,1:08:26.39,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}说吧…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Go ahead…
+Dialogue: 0,1:08:26.46,1:08:31.42,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这故事是一个本来不应该死人\N{\fnTahoma}{\fs12}{\c&H00FFFF&}In this story,  there shouldn't be anyone die…
+Dialogue: 0,1:08:31.50,1:08:34.80,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}但最后死了很多人的故事\N{\fnTahoma}{\fs12}{\c&H00FFFF&}but so many people died at the end
+Dialogue: 0,1:08:35.61,1:08:39.04,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这故事，一个开头亮闪闪\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's a story with  a bright and shiny beginning
+Dialogue: 0,1:08:39.11,1:08:42.14,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}后来就黑压压的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}and with a dark and eerie ending
+Dialogue: 0,1:08:43.38,1:08:45.94,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这故事讲述四种人\N{\fnTahoma}{\fs12}{\c&H00FFFF&}This story tells 4 kinds of people
+Dialogue: 0,1:08:46.98,1:08:50.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}第一种，以为自己很幸福\N{\fnTahoma}{\fs12}{\c&H00FFFF&}First kind, those who  think they are being well
+Dialogue: 0,1:08:50.25,1:08:52.22,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}其实是糊里糊涂\N{\fnTahoma}{\fs12}{\c&H00FFFF&}but in fact they are just too befuddled
+Dialogue: 0,1:08:55.99,1:09:00.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}第二种，幸福，因为他糊里糊涂\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Second kind, they are being well  because they are befuddled
+Dialogue: 0,1:09:06.57,1:09:07.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}第三种…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Third kind…
+Dialogue: 0,1:09:08.94,1:09:12.74,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}身在福中…不知福\N{\fnTahoma}{\fs12}{\c&H00FFFF&}they fail to appreciate that  they have been being well
+Dialogue: 0,1:09:16.25,1:09:21.91,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}第四种，他不知道自己\N{\fnTahoma}{\fs12}{\c&H00FFFF&}是幸福还是不幸福\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Lastly, they don't know whether  they are being well or not
+Dialogue: 0,1:09:21.99,1:09:23.28,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}因为他从没去想\N{\fnTahoma}{\fs12}{\c&H00FFFF&}because they've never thought of that
+Dialogue: 0,1:09:30.16,1:09:31.42,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}说完了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The End
+Dialogue: 0,1:09:35.27,1:09:36.49,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好笑吧？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Funny?
+Dialogue: 0,1:09:37.70,1:09:39.33,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好不好笑？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Is it funny?
+Dialogue: 0,1:09:39.40,1:09:40.73,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好笑吧？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Funny?
+Dialogue: 0,1:09:40.80,1:09:41.96,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}行不行？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Is that good?
+Dialogue: 0,1:09:42.04,1:09:43.84,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}行，很好呢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Good, it's very good
+Dialogue: 0,1:09:45.11,1:09:46.97,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好！明天上班！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Okay, get on to work tomorrow
+Dialogue: 0,1:09:47.04,1:09:49.38,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}把你的故事写成漫画\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Make your story into comics
+Dialogue: 0,1:09:49.45,1:09:51.88,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}再拍卡通片都可以，是吧？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Or even cartoon movie will do, right?
+Dialogue: 0,1:09:51.95,1:09:54.92,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还不谢谢老板\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Shouldn't you say thanks to your boss?
+Dialogue: 0,1:09:55.02,1:09:56.58,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喝吧     喝！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Drink it.        Drink up!
+Dialogue: 0,1:09:56.65,1:09:58.55,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}干…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Cheers…
+Dialogue: 0,1:09:59.66,1:10:00.85,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}干！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Cheers!
+Dialogue: 0,1:10:14.07,1:10:15.54,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}看清楚嘛！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Be careful!
+Dialogue: 0,1:10:42.67,1:10:45.57,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂，朱莉亚\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello? Julia
+Dialogue: 0,1:10:48.51,1:10:50.56,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我好开心啊…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm so happy…
+Dialogue: 0,1:10:50.64,1:10:54.41,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是的…我可以出书啦！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yes… I'm gonna have my own comic
+Dialogue: 0,1:10:56.11,1:10:59.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂，你干嘛不说话？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello? Why don't you say something?
+Dialogue: 0,1:11:00.35,1:11:02.11,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}干嘛不…理我？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why don't you care about me?
+Dialogue: 0,1:11:02.19,1:11:03.88,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你不高兴呀？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Are you upset?
+Dialogue: 0,1:11:03.95,1:11:06.92,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}但是我现在兴奋极了…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But I'm so excited now…
+Dialogue: 0,1:11:06.99,1:11:09.46,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}可以出书啦！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm gonna have my own comic
+Dialogue: 0,1:11:09.53,1:11:12.39,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}其实我不是很开心\N{\fnTahoma}{\fs12}{\c&H00FFFF&}In fact I'm so upset
+Dialogue: 0,1:11:12.46,1:11:15.56,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}因为我不可以没有你\N{\fnTahoma}{\fs12}{\c&H00FFFF&}because I can't live without you
+Dialogue: 0,1:11:23.64,1:11:26.30,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}对不起\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Sorry, man
+Dialogue: 0,1:11:27.34,1:11:29.57,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}他刚才坐过儿哥那张台的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}He just sat with Don Guo
+Dialogue: 0,1:11:31.88,1:11:33.25,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}幸会…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Nice meeting you…
+Dialogue: 0,1:12:17.63,1:12:18.99,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}龙女姐…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Donna Dragon…
+Dialogue: 0,1:12:22.57,1:12:24.09,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还不叫龙女姐\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Say hello to Donna Dragon
+Dialogue: 0,1:12:24.17,1:12:25.40,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}龙女姐…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hi, Donna Dragon…
+Dialogue: 0,1:12:25.47,1:12:27.44,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你们也叫声过儿哥\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You guys should say hello to Don Guo too
+Dialogue: 0,1:12:27.50,1:12:28.56,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}过儿哥…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hi, Don Guo…
+Dialogue: 0,1:12:34.48,1:12:36.88,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}闪开     自己找位子坐\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Get lost!       Go, take a seat
+Dialogue: 0,1:12:44.05,1:12:45.92,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}来，喝一杯\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Come on, have a drink
+Dialogue: 0,1:12:50.99,1:12:53.36,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你的？     是\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yours?       Yes
+Dialogue: 0,1:12:58.20,1:12:59.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你的花柳好了吗？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Has your venereal disease healed?
+Dialogue: 0,1:12:59.77,1:13:02.67,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好了…哪有呀！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yes… No, I never had that!
+Dialogue: 0,1:13:02.74,1:13:05.77,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你是想吵架？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Are you asking for a fight?
+Dialogue: 0,1:13:05.84,1:13:09.24,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我现在…还在找你偷的那个汉子\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm… still finding who your Cicisbeo is
+Dialogue: 0,1:13:09.31,1:13:10.47,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}都说没有了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I don't have one
+Dialogue: 0,1:13:10.55,1:13:12.67,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}没有？那当初还赶我出家门口？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}If not? Why did you  kick me out of our home?
+Dialogue: 0,1:13:12.75,1:13:16.08,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}说了一千次，我更年期嘛\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I told you a thousand times,  I was going through menopause
+Dialogue: 0,1:13:16.95,1:13:18.42,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}藉口\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Just an excuse
+Dialogue: 0,1:13:19.99,1:13:23.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这么多年了，都没跟人那个呢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I haven't done that with  anyone for so many years
+Dialogue: 0,1:13:23.86,1:13:26.45,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}今晚我要跟你…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Tonight, I want to do it with you…
+Dialogue: 0,1:13:26.53,1:13:27.79,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}猜几拳！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}to have finger-guessing game!
+Dialogue: 0,1:13:33.40,1:13:34.53,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喝！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Drink!
+Dialogue: 0,1:14:06.17,1:14:07.40,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}嗨\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hi
+Dialogue: 0,1:14:08.30,1:14:09.70,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这烟是你的？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Your cigarettes?
+Dialogue: 0,1:14:10.44,1:14:11.77,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}整包拿去吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Take the whole pack
+Dialogue: 0,1:14:14.04,1:14:18.00,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}刚才…谢谢了     谢什么？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Just now… thanks.       For what?
+Dialogue: 0,1:14:18.08,1:14:20.14,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你夸赞我的故事\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You praised my story
+Dialogue: 0,1:14:21.28,1:14:23.05,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是好的话，我就会说好\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I say it's good because it's good
+Dialogue: 0,1:14:26.66,1:14:30.25,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}以后我的故事会有个角色…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Someday I will name a character
+Dialogue: 0,1:14:30.33,1:14:31.59,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}用你的名字\N{\fnTahoma}{\fs12}{\c&H00FFFF&}after you
+Dialogue: 0,1:14:33.50,1:14:34.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你知道我叫什么名字？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You know my name?
+Dialogue: 0,1:14:58.49,1:15:00.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}方美芳\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Fong May Fong
+Dialogue: 0,1:15:02.29,1:15:04.09,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我有话要跟你说\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I've something to tell you
+Dialogue: 0,1:15:04.16,1:15:06.19,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}能不能找个安静的地方？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Can we find a quiet place for that?
+Dialogue: 0,1:15:14.37,1:15:17.93,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我只是想找个安静的地方谈谈\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I just want to find a quiet place to talk
+Dialogue: 0,1:15:20.51,1:15:22.98,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我真的只想谈谈\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I just want to have a talk
+Dialogue: 0,1:15:27.02,1:15:28.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你想说什么？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What are you trying to say?
+Dialogue: 0,1:15:31.52,1:15:33.96,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}本来是有话想说，但是…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I do have something to say, but…
+Dialogue: 0,1:15:36.19,1:15:38.02,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还没想到重点\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I can't think of the main point
+Dialogue: 0,1:15:39.16,1:15:40.72,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那你怎么写书呀？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}How could you be a writer?
+Dialogue: 0,1:15:42.73,1:15:44.67,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}因为我分了心\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I could if I'm not distracted
+Dialogue: 0,1:15:53.61,1:15:55.04,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}现在我想到啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Now I got it
+Dialogue: 0,1:15:56.55,1:15:58.38,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你吃了什么药，这么可爱？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What drug did you take? You're so cute?
+Dialogue: 0,1:16:01.05,1:16:04.85,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}方美芳，别在这里做\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Fong, don't do it here
+Dialogue: 0,1:16:05.92,1:16:07.45,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那你想在哪里做？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Where do you want then?
+Dialogue: 0,1:16:08.22,1:16:10.25,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不…你误会了…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}No… don't get me wrong…
+Dialogue: 0,1:16:10.33,1:16:13.85,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我意思是叫你别在这儿上班\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I mean, don't work here anymore
+Dialogue: 0,1:16:14.56,1:16:16.00,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那你有没有钱？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Do you have money then?
+Dialogue: 0,1:16:17.43,1:16:18.63,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}没有\N{\fnTahoma}{\fs12}{\c&H00FFFF&}No
+Dialogue: 0,1:16:18.70,1:16:20.50,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你没钱，我不会跟你的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You've no money, I wouldn't be your girI
+Dialogue: 0,1:16:22.44,1:16:24.17,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不如我说个故事给你听\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Then let me tell you a story
+Dialogue: 0,1:16:24.57,1:16:25.84,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}什么故事？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What story?
+Dialogue: 0,1:16:27.38,1:16:31.28,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}从前，有个卖火柴的女孩\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Once upon a time,  there's a little match girI
+Dialogue: 0,1:16:31.35,1:16:34.15,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不是…是一个公主\N{\fnTahoma}{\fs12}{\c&H00FFFF&}No… should be a princess
+Dialogue: 0,1:16:34.22,1:16:37.38,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}但是她不知道自己是公主\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But she doesn't know her true identity
+Dialogue: 0,1:16:37.45,1:16:41.15,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这个公主上学读书\N{\fnTahoma}{\fs12}{\c&H00FFFF&}This princess goes to a bad schooI
+Dialogue: 0,1:16:41.22,1:16:44.35,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}同学全都是来自五湖四海\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Her classmates are from alI walks of life
+Dialogue: 0,1:16:44.43,1:16:46.76,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}三山五岳，没有一个好人\N{\fnTahoma}{\fs12}{\c&H00FFFF&}None of them are good stuff
+Dialogue: 0,1:16:46.83,1:16:49.32,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那些老师…也懒得理\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The teachers there just won't give a damn
+Dialogue: 0,1:16:50.20,1:16:52.93,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}最有勇气的，就是提醒你交学费\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What they care most is not the students,  but the tuition fee
+Dialogue: 0,1:16:54.20,1:16:56.90,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}公主很彷徨\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The princess is so lost and miserable
+Dialogue: 0,1:16:56.97,1:16:59.34,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}很想找人帮助，但没有人帮助她\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hoping someone may help her,  but her hope is in vain
+Dialogue: 0,1:16:59.41,1:17:01.54,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}直到有一天\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Until one day
+Dialogue: 0,1:17:01.61,1:17:03.81,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}她遇到一个王子\N{\fnTahoma}{\fs12}{\c&H00FFFF&}she's met a prince
+Dialogue: 0,1:17:03.88,1:17:08.84,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这王子很好，什么都肯给她\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The prince is so nice  and willing to give her everything
+Dialogue: 0,1:17:08.92,1:17:13.98,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}所以，公主也什么都肯给王子\N{\fnTahoma}{\fs12}{\c&H00FFFF&}So the princess is willing to  give whatever the prince wants
+Dialogue: 0,1:17:15.83,1:17:18.19,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}但是，有一天…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But, one day…
+Dialogue: 0,1:17:19.13,1:17:22.22,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}王子变成了青蛙\N{\fnTahoma}{\fs12}{\c&H00FFFF&}the prince turns into a frog
+Dialogue: 0,1:17:22.30,1:17:26.63,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}而公主就变成…援助交际\N{\fnTahoma}{\fs12}{\c&H00FFFF&}While the princess  turns to compensated-dating
+Dialogue: 0,1:17:29.57,1:17:32.70,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}不好意思，我不是援助交际\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Excuse me, I'm not  into compensated-dating
+Dialogue: 0,1:17:32.78,1:17:34.44,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我是性工作者\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm a sex-worker
+Dialogue: 0,1:17:37.65,1:17:42.58,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那我希望性工作者最后一夜上班\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Then I do wish that…the sex worker
+Dialogue: 0,1:17:42.65,1:17:44.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}明天做回公主\N{\fnTahoma}{\fs12}{\c&H00FFFF&}will turn back into a princess tomorrow
+Dialogue: 0,1:17:51.23,1:17:52.85,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}凭什么要我听你的？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What makes you think I'll listen to you?
+Dialogue: 0,1:17:55.33,1:17:56.96,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我的心\N{\fnTahoma}{\fs12}{\c&H00FFFF&}My heart
+Dialogue: 0,1:18:03.41,1:18:06.90,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我想，这个愿望也不算过分\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I guess, my wish is not that demanding
+Dialogue: 0,1:18:08.18,1:18:09.74,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那你有没有过分的愿望？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Do you have demanding wishes?
+Dialogue: 0,1:18:11.65,1:18:12.81,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Yes
+Dialogue: 0,1:18:23.43,1:18:26.52,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}抽完这包烟，戒掉它吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'd like you to quit smoking  after this pack
+Dialogue: 0,1:18:54.99,1:18:56.55,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你是不是耍花样？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Are you trying to mess with me?
+Dialogue: 0,1:18:58.23,1:18:59.72,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}想干嘛？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What do you want?
+Dialogue: 0,1:18:59.80,1:19:01.66,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}想劈你呀！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I will chop you up!
+Dialogue: 0,1:19:01.73,1:19:04.00,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还有人     你什么态度啊?\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's occupied.  What kind of attitude is this?
+Dialogue: 0,1:19:04.20,1:19:07.10,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还有人…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Someone's still inside…
+Dialogue: 0,1:20:01.06,1:20:02.22,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}总编！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Mr. Chan
+Dialogue: 0,1:20:03.46,1:20:06.19,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你慢慢…我回去开工啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Take your time… I'm going back to work
+Dialogue: 0,1:20:10.07,1:20:12.00,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那你想怎样？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What do you want then?
+Dialogue: 0,1:20:12.07,1:20:13.90,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}什么想怎样？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}What do you mean?
+Dialogue: 0,1:20:13.97,1:20:16.17,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这么多年来，你都没说让我\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's been so many years,  you've never given in to me once
+Dialogue: 0,1:20:16.24,1:20:18.00,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我不让你，你还能站在这？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}If I don't give in,  would you be standing here alive?
+Dialogue: 0,1:20:18.07,1:20:19.67,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}话不要反过来说，反骨仔\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You, traitor,  shouldn't say the other way round
+Dialogue: 0,1:20:19.74,1:20:21.18,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}今天我就跟你算清这笔帐！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm gonna settle this with you
+Dialogue: 0,1:20:21.24,1:20:22.54,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还不知道谁欠谁呢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Don't know who owes who
+Dialogue: 0,1:20:22.61,1:20:24.24,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}进房里算！     走啊！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Let's talk about that inside.  Let's go
+Dialogue: 0,1:20:59.32,1:21:00.71,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}弟兄们\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Buddy!
+Dialogue: 0,1:21:02.39,1:21:06.52,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}今天我过儿哥有事要公告天下\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Don Guo has something to announce
+Dialogue: 0,1:21:10.13,1:21:16.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}多年来，我爱龙女姐爱得好痛苦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I've been loving Donna Dragon  for so many years
+Dialogue: 0,1:21:18.03,1:21:22.66,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}今天龙女姐终于答应我，再嫁给我\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Today, Donna Dragon finally  promised to re-marry me
+Dialogue: 0,1:21:22.74,1:21:25.73,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}明天我和她举行婚礼！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}We wilI have the  wedding ceremony tomorrow
+Dialogue: 0,1:21:25.81,1:21:28.14,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}干嘛要等到明天？今晚吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why tomorrow? Tonight's still young
+Dialogue: 0,1:21:28.81,1:21:30.07,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Okay!
+Dialogue: 0,1:21:32.68,1:21:35.84,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}从今晚开始，你老大就是我老大\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Starting from tonight,  your boss is my boss
+Dialogue: 0,1:21:35.92,1:21:37.39,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我老大就是你老大\N{\fnTahoma}{\fs12}{\c&H00FFFF&}My boss is your boss
+Dialogue: 0,1:21:37.45,1:21:39.58,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}大家就是兄弟姐妹啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}We are brothers and sisters then
+Dialogue: 0,1:21:39.66,1:21:42.45,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我们两位老大水乳交融\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Our bosses are having  a good time together
+Dialogue: 0,1:21:42.53,1:21:45.82,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我们做小的，当然要欢乐今宵！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}We small potatoes should  also enjoy ourselves
+Dialogue: 0,1:21:49.67,1:21:55.04,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}一时失志不免怨叹\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It'd be frustrated
+Dialogue: 0,1:21:55.10,1:22:00.67,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}一时落魄不免胆寒\N{\fnTahoma}{\fs12}{\c&H00FFFF&}during the bad times
+Dialogue: 0,1:22:00.74,1:22:04.47,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那通失去希望\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Losing all the hope
+Dialogue: 0,1:22:04.55,1:22:07.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}每日醉茫茫\N{\fnTahoma}{\fs12}{\c&H00FFFF&}and fooling around
+Dialogue: 0,1:22:07.28,1:22:12.19,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}无魂有体亲像稻草人\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Just like a dead man walking
+Dialogue: 0,1:22:12.25,1:22:17.95,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}人生可比是海上的波浪\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Life is like the waves in the sea
+Dialogue: 0,1:22:18.03,1:22:22.56,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}有时起有时落\N{\fnTahoma}{\fs12}{\c&H00FFFF&}There would be ups and downs
+Dialogue: 0,1:22:24.27,1:22:26.86,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}好运，歹运\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Good luck or bad luck
+Dialogue: 0,1:22:27.27,1:22:30.97,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}总嘛要照起工来行\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You stilI have to live everyday anyway
+Dialogue: 0,1:22:31.24,1:22:34.64,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}三分天注定，七分靠打拼\N{\fnTahoma}{\fs12}{\c&H00FFFF&}30% depends on fate,  70% depends on effort
+Dialogue: 0,1:22:34.71,1:22:38.11,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}爱拼才会赢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You've to fight in order to win
+Dialogue: 0,1:22:39.68,1:22:43.14,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}(A tender-loving-care young man who brings)  (along tissue paper. Phone number: 64897123.)
+Dialogue: 0,1:24:07.04,1:24:09.27,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello…
+Dialogue: 0,1:24:10.64,1:24:13.73,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}朱莉亚，你终于肯打给我啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Julia? You finally called me
+Dialogue: 0,1:24:20.32,1:24:23.51,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello…
+Dialogue: 0,1:24:53.72,1:24:56.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这故事…可不可以有人死呀？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Could someone die in your story?
+Dialogue: 0,1:25:05.06,1:25:07.93,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}所以说，人生多么无常\N{\fnTahoma}{\fs12}{\c&H00FFFF&}That's why we say, life is impermanent
+Dialogue: 0,1:25:16.44,1:25:17.67,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是不是赶着去死！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Are you rushing to hell?
+Dialogue: 0,1:25:22.41,1:25:23.57,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello?
+Dialogue: 0,1:25:23.58,1:25:27.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}(Fireworks in nightclub)  (caused devastating fire.)
+Dialogue: 0,1:25:32.25,1:25:33.19,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}吃饭啦\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The meal is ready
+Dialogue: 0,1:25:34.32,1:25:35.52,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}一分钟\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Give me one minute
+Dialogue: 0,1:25:47.77,1:25:51.30,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}但是我想这个世界美好一点\N{\fnTahoma}{\fs12}{\c&H00FFFF&}But I'd like a better world
+Dialogue: 0,1:25:53.51,1:25:55.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那你自己美个够吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You just go ahead then
+Dialogue: 0,1:25:59.95,1:26:03.82,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我把它留下来\N{\fnTahoma}{\fs12}{\c&H00FFFF&}你交给能拿主意的人看\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'll leave them here,  you take this to someone who have say
+Dialogue: 0,1:26:09.53,1:26:12.52,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}棉花鸡     来一笼…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Spongy Chicken.       One please…
+Dialogue: 0,1:26:19.70,1:26:20.69,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}还是不要了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Well… no thanks
+Dialogue: 0,1:26:20.77,1:26:22.13,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}没有了，就这些\N{\fnTahoma}{\fs12}{\c&H00FFFF&}There's nothing else, just these
+Dialogue: 0,1:26:22.20,1:26:24.30,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}留给别人吧\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Leave that to others
+Dialogue: 0,1:26:26.84,1:26:28.61,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}棉花鸡\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Spongy Chicken
+Dialogue: 0,1:26:34.42,1:26:35.14,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}干嘛敲我的车？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why did you slam on my car?
+Dialogue: 0,1:26:35.22,1:26:36.51,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我问你是不是赶着去死！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I am asking you, are you rushing to hell?
+Dialogue: 0,1:26:36.59,1:26:39.68,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}哥，我老婆生啦！\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Bro, my wife is gonna give birth
+Dialogue: 0,1:26:41.49,1:26:43.65,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}一分钟，我只是在干活\N{\fnTahoma}{\fs12}{\c&H00FFFF&}一分钟马上走\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Give me one minute. We're just earning  our livings. I'll leave in one minute
+Dialogue: 0,1:26:46.83,1:26:48.23,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}恭喜…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Congratulations
+Dialogue: 0,1:26:48.30,1:26:50.60,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}成家了     谢谢赏面，请坐\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm married.  Thanks for coming, have a seat
+Dialogue: 0,1:26:50.67,1:26:54.00,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}婆婆，看这边     陆仔\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Granny, look here.       Luk!
+Dialogue: 0,1:26:59.11,1:27:00.97,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}玲玲\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Ling Ling?
+Dialogue: 0,1:27:01.04,1:27:03.74,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你瘦得…我差点认不出来了\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You are so slim that  I can't recognize you
+Dialogue: 0,1:27:03.81,1:27:05.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}恭喜…      谢谢…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Congratulations…        Thanks…
+Dialogue: 0,1:27:05.28,1:27:07.48,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}新郎呢？     他在楼下那层\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Where's the groom?       He's downstairs
+Dialogue: 0,1:27:08.75,1:27:10.34,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}这里不是“陈李联婚”吗？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Isn't here Chan & Lee's Wedding?
+Dialogue: 0,1:27:10.42,1:27:13.91,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}今天巧得很，三层都是“陈李联婚”\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's such a coincidence, all three floors  are booked by “Chan & Lee's wedding”
+Dialogue: 0,1:27:13.99,1:27:14.89,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}那你…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Then why are you here?
+Dialogue: 0,1:27:14.96,1:27:17.65,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}楼下厕所多人，我只好上来一下\N{\fnTahoma}{\fs12}{\c&H00FFFF&}The washroom downstairs is packed,  so I try this floor
+Dialogue: 0,1:27:17.73,1:27:19.13,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}快走…\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Let's go…
+Dialogue: 0,1:27:37.41,1:27:38.61,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}喂     喂，陆仔\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Hello?       Luk?
+Dialogue: 0,1:27:38.68,1:27:41.44,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我是陈总编，正在跟老板唱卡拉OK\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I'm Mr. Chan, I'm in karaoke with boss
+Dialogue: 0,1:27:41.52,1:27:43.31,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}别说我不给你机会\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Don't say that I won't give you a chance
+Dialogue: 0,1:27:43.39,1:27:45.98,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}再问你一次，你的故事肯不肯死人？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Will someone die in your story?
+Dialogue: 0,1:27:48.92,1:27:50.95,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我还是想这个世界美好一点\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I do want a better world
+Dialogue: 0,1:27:51.03,1:27:52.25,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}方美芳\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Fong May Fong
+Dialogue: 0,1:27:54.80,1:27:56.06,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我认识你吗？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Do I know you?
+Dialogue: 0,1:28:00.54,1:28:02.37,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你掉了学生证\N{\fnTahoma}{\fs12}{\c&H00FFFF&}You dropped your student ID
+Dialogue: 0,1:28:03.31,1:28:06.80,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}是你的     谢谢\N{\fnTahoma}{\fs12}{\c&H00FFFF&}It's yours.       Thanks
+Dialogue: 0,1:28:06.88,1:28:08.71,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}我很喜欢你的校服\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I like your schooI uniform
+Dialogue: 0,1:28:13.55,1:28:16.42,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}别误会，我以前也在这所学校读书\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Don't get me wrong,  I'm an old boy of your schooI
+Dialogue: 0,1:28:16.49,1:28:21.82,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}以前会考，我有两优四良\N{\fnTahoma}{\fs12}{\c&H00FFFF&}I did have 2A's and 4B's in HKCEE
+Dialogue: 0,1:28:24.93,1:28:27.52,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}原来学校的传说是真的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}So the legend is true
+Dialogue: 0,1:28:27.60,1:28:29.36,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}很多事是靠自己的\N{\fnTahoma}{\fs12}{\c&H00FFFF&}One has to be self-reliant
+Dialogue: 0,1:28:30.30,1:28:33.67,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}你也要努力，别荒废了自己\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Try your best, don't waste yourself
+Dialogue: 0,1:28:41.94,1:28:43.21,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}朱莉亚\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Julia?
+Dialogue: 0,1:29:01.43,1:29:03.33,Default,,0000,0000,0000,,{\fnsimhei}{\fs16}怎么今天没有人死？\N{\fnTahoma}{\fs12}{\c&H00FFFF&}Why is there no one died today?

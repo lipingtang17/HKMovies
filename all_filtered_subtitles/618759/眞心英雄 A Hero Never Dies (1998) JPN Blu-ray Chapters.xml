@@ -1,0 +1,238 @@
+﻿<?xml version="1.0"?>
+<!-- <!DOCTYPE Chapters SYSTEM "matroskachapters.dtd"> -->
+<Chapters>
+  <EditionEntry>
+    <EditionUID>3371169360803600046</EditionUID>
+    <ChapterAtom>
+      <ChapterTimeStart>00:00:00.000000000</ChapterTimeStart>
+      <ChapterUID>4290871740016233192</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>本片開始 Main Titles</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>5070495504318482186</ChapterUID>
+      <ChapterTimeStart>00:01:29.592000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>拜訪大仙 Visit to Mr. Fortune Teller</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>00:07:08.846000000</ChapterTimeStart>
+      <ChapterUID>16423612668472458983</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>槍戰火拼 Gunfight on Highway</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>2290075072043190155</ChapterUID>
+      <ChapterTimeStart>00:12:25.454000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>狂言妄語 Wild Talk on the Phone</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>00:14:12.895000000</ChapterTimeStart>
+      <ChapterUID>9212437551092409995</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>飆車對撞 Car Fight</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>00:15:37.604000000</ChapterTimeStart>
+      <ChapterUID>12230094006481541583</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>紅酒遊戲 The Game of Wine</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>406280612851085317</ChapterUID>
+      <ChapterTimeStart>00:19:43.767000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>兩位大嫂 Fiona and Yo Yo</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>00:24:32.806000000</ChapterTimeStart>
+      <ChapterUID>9235342510267556357</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>兄弟嫌隙 Broken Brotherhood</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>00:27:33.111000000</ChapterTimeStart>
+      <ChapterUID>43594981537877674</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>命运詛咒 Curse</ChapterString>
+        <ChapterLanguage>und</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>2234001692224022557</ChapterUID>
+      <ChapterTimeStart>00:30:23.086000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>雨夜血戰 Battle on a Rainy Night</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>3367588368090860340</ChapterUID>
+      <ChapterTimeStart>00:41:59.226000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>昏迷不醒 Coma</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>00:43:12.925000000</ChapterTimeStart>
+      <ChapterUID>7486695942001664751</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>談判和解 Negotiated Settlement</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>00:46:15.440000000</ChapterTimeStart>
+      <ChapterUID>15793191710558863327</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>醫院劫難 The Hospital Killers</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>2325749397877235973</ChapterUID>
+      <ChapterTimeStart>00:49:45.788000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>孤兒寡母 Orphans and Widows</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>00:50:51.967000000</ChapterTimeStart>
+      <ChapterUID>548320281967141657</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>艱難時光 Hard Times</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>00:56:51.075000000</ChapterTimeStart>
+      <ChapterUID>13380134588216291674</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>無情無義 Heartless</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>12092378712820070479</ChapterUID>
+      <ChapterTimeStart>01:04:22.828000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>重振旗鼓 Back in the Saddle</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>14093359427992166704</ChapterUID>
+      <ChapterTimeStart>01:10:02.491000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>遍體鱗傷 Burns</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>01:13:35.913000000</ChapterTimeStart>
+      <ChapterUID>10074714222592869765</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>絕地復仇 Vengeance</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>01:18:41.218000000</ChapterTimeStart>
+      <ChapterUID>16132971931256736595</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>最後一杯 One Last Drink</ChapterString>
+        <ChapterLanguage>und</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>4141144860346916198</ChapterUID>
+      <ChapterTimeStart>01:21:00.106000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>大鬧酒吧 Smashed the Bar</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>01:22:33.324000000</ChapterTimeStart>
+      <ChapterUID>14328960602316990549</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>永恆黃昏 Forever Sunset</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>01:24:17.804000000</ChapterTimeStart>
+      <ChapterUID>4141938465837346837</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>不速之客 The Uninvited Guest</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>01:25:59.822000000</ChapterTimeStart>
+      <ChapterUID>17605856445294211102</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>重返香港 Back to Hong Kong</ChapterString>
+        <ChapterLanguage>und</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>14498469078587809423</ChapterUID>
+      <ChapterTimeStart>01:29:11.430000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>英雄歸來 The Return of the Hero</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterTimeStart>01:36:13.854000000</ChapterTimeStart>
+      <ChapterUID>8902222260308933084</ChapterUID>
+      <ChapterDisplay>
+        <ChapterString>本片劇終 End Titles</ChapterString>
+        <ChapterLanguage>chi</ChapterLanguage>
+        <ChapterCountry>cn</ChapterCountry>
+      </ChapterDisplay>
+    </ChapterAtom>
+  </EditionEntry>
+</Chapters>
