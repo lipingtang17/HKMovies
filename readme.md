@@ -33,8 +33,8 @@ We utilized the first approach in our implementation.
 Details:
 
 The name list for HK Movies (from Wikipedia)：
-+ a whole list regardless of years: [List 1](https://zh.wikipedia.org/zh-hk/%E9%A6%99%E6%B8%AF%E9%9B%BB%E5%BD%B1%E5%88%97%E8%A1%A8), processed list is in original_movie_list/MovieList.xlsx
-+ a list of HK Movies in decades: [List 2](https://zh.wikipedia.org/zh-hk/Category:%E5%90%84%E5%B9%B4%E4%BB%A3%E9%A6%99%E6%B8%AF%E9%9B%BB%E5%BD%B1%E4%BD%9C%E5%93%81), processed list is in original_movie_list/MovieListYearly.xlsx
++ a whole list regardless of years: [List 1](https://zh.wikipedia.org/zh-hk/%E9%A6%99%E6%B8%AF%E9%9B%BB%E5%BD%B1%E5%88%97%E8%A1%A8), the processed list is in original_movie_list/MovieList.xlsx
++ a list of HK Movies in decades: [List 2](https://zh.wikipedia.org/zh-hk/Category:%E5%90%84%E5%B9%B4%E4%BB%A3%E9%A6%99%E6%B8%AF%E9%9B%BB%E5%BD%B1%E4%BD%9C%E5%93%81), the processed list is in original_movie_list/MovieListYearly.xlsx
 + a list of HK Movies in various years: [List 3](https://zh.wikipedia.org/wiki/Category:%E5%90%84%E5%B9%B4%E9%A6%99%E6%B8%AF%E9%9B%BB%E5%BD%B1%E4%BD%9C%E5%93%81%E5%88%97%E8%A1%A88) (not adopted)  
  
 The lists are in the "./original_movie_list" folder.
