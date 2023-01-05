@@ -4,7 +4,7 @@
 
 + "crawling_subtitles.ipynb" contains the codes for crawling and processing movie subtitles.
 + "processed" folder contains all processed subtitles texts.
-+ "all_filtered_subtitles" folder contains the original subtitle files.
++ "all_filtered_subtitles" folder contains the original subtitle files which contain time stamps.
 + "output/id_name_dict.json" is the dictionary mapping the movie id to its movie name.
 + "original_movie_list" folder contains the original movie list downloaded from wikipedia (more details below)
 
